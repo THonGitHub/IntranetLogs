@@ -1,0 +1,29 @@
+2025-07-17 12:56:03 [LOCALTEST] INFO: Application loaded in LOCALTEST environment
+2025-07-17 12:56:03 [LOCALTEST] INFO: DB Connection #1 created
+2025-07-17 12:56:03 [LOCALTEST] INFO: Process Identity: INTL\th3882
+2025-07-17 12:56:03 [LOCALTEST] INFO: Thread Identity: INTL\th3882
+2025-07-17 12:56:03 [LOCALTEST] INFO: Validating user: th3882 in environment: LOCALTEST
+2025-07-17 12:56:03 [LOCALTEST] INFO: DEBUG: Checking group 'ARA Workload Scheduler access' for user th3882
+2025-07-17 12:56:05 [LOCALTEST] INFO: DEBUG: Group 'ARA Workload Scheduler access' found, checking 2 members
+2025-07-17 12:56:06 [LOCALTEST] INFO: DEBUG: 'Checking nested group 'TSI SD UG'
+2025-07-17 12:56:07 [LOCALTEST] INFO: DEBUG: Group 'TSI SD UG' found, checking 10 members
+2025-07-17 12:56:15 [LOCALTEST] INFO: User th3882 found in group 'TSI SD UG'
+2025-07-17 12:56:15 [LOCALTEST] INFO: User th3882 is 'ARA Workload Scheduler access' member, checking database...
+2025-07-17 12:56:17 [LOCALTEST] INFO: User th3882 authenticated successfully
+2025-07-17 12:56:17 [LOCALTEST] INFO: AUTH: Fresh authentication performed
+2025-07-17 12:56:17 [LOCALTEST] INFO: AUTH SUCCESS: User th3882, Rights: 0, Team: ASSET
+2025-07-17 12:56:17 [LOCALTEST] INFO: Auth check: IsAuthorized=True, Rights=0
+2025-07-17 12:56:17 [LOCALTEST] INFO: DB Connection #2 created
+2025-07-17 12:56:18 [LOCALTEST] INFO: GetTeams returned 10 teams
+2025-07-17 12:56:18 [LOCALTEST] INFO: DB Connection #3 created
+2025-07-17 12:56:18 [LOCALTEST] INFO: DB Connection #4 created
+2025-07-17 12:56:18 [LOCALTEST] INFO: GetManpowerData: 0 records in 298ms for date range 2025-07-14 to 2025-07-20
+2025-07-17 12:56:18 [LOCALTEST] INFO: DB Connection #5 created
+2025-07-17 12:56:18 [LOCALTEST] INFO: DB Connection #6 created
+2025-07-17 12:56:18 [LOCALTEST] INFO: DB Connection #7 created
+2025-07-17 12:56:18 [LOCALTEST] INFO: DB Connection #8 created
+2025-07-17 12:56:18 [LOCALTEST] INFO: DB Connection #9 created
+2025-07-17 12:56:18 [LOCALTEST] INFO: DB Connection #10 created
+2025-07-17 12:56:18 [LOCALTEST] INFO: DB Connection #11 created
+2025-07-17 12:56:18 [LOCALTEST] INFO: DB Connection #12 created
+2025-07-17 12:56:18 [LOCALTEST] INFO: DB Connection #13 created
