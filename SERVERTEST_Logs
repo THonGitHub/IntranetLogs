@@ -71,3 +71,149 @@
 2025-07-18 11:56:56 [SERVERTEST] INFO: DB Connection #22 created
 2025-07-18 11:56:57 [SERVERTEST] INFO: DB Connection #23 created
 2025-07-18 11:56:58 [SERVERTEST] INFO: DB Connection #24 created
+2025-07-18 12:09:05 [SERVERTEST] INFO: Validating user: th3882 in environment: SERVERTEST
+2025-07-18 12:09:05 [SERVERTEST] INFO: DEBUG: Checking group 'ARA Workload Scheduler access' for user th3882
+2025-07-18 12:09:06 [SERVERTEST] INFO: DEBUG: Group 'ARA Workload Scheduler access' found, checking 2 members
+2025-07-18 12:09:08 [SERVERTEST] INFO: DEBUG: 'Checking nested group 'TSI SD UG'
+2025-07-18 12:09:09 [SERVERTEST] INFO: DEBUG: Group 'TSI SD UG' found, checking 10 members
+2025-07-18 12:09:23 [SERVERTEST] INFO: User th3882 found in group 'TSI SD UG'
+2025-07-18 12:09:23 [SERVERTEST] INFO: User th3882 is 'ARA Workload Scheduler access' member, checking database...
+2025-07-18 12:09:26 [SERVERTEST] INFO: User th3882 authenticated successfully
+2025-07-18 12:09:26 [SERVERTEST] INFO: AUTH: Fresh authentication performed
+2025-07-18 12:09:26 [SERVERTEST] INFO: AUTH SUCCESS: User th3882, Rights: 0, Team: ASSET
+2025-07-18 12:09:26 [SERVERTEST] INFO: Auth check: IsAuthorized=True, Rights=0
+2025-07-18 12:09:26 [SERVERTEST] INFO: DB Connection #26 created
+2025-07-18 12:09:27 [SERVERTEST] INFO: DB Connection #27 created
+2025-07-18 12:09:27 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-07-14_2025-07-20_Application Localization & Support'
+2025-07-18 12:09:28 [SERVERTEST] INFO: GetManpowerData: 0 records in 1148ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 12:09:28 [SERVERTEST] INFO: DB Connection #28 created
+2025-07-18 12:09:28 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-07-14_2025-07-20_ASSET'
+2025-07-18 12:09:29 [SERVERTEST] INFO: GetManpowerData: 70 records in 1142ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 12:09:29 [SERVERTEST] INFO: DB Connection #29 created
+2025-07-18 12:09:29 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-07-14_2025-07-20_Business Management'
+2025-07-18 12:09:31 [SERVERTEST] INFO: GetManpowerData: 0 records in 1161ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 12:09:31 [SERVERTEST] INFO: DB Connection #30 created
+2025-07-18 12:09:31 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-07-14_2025-07-20_Core Connections'
+2025-07-18 12:09:32 [SERVERTEST] INFO: GetManpowerData: 0 records in 1128ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 12:09:32 [SERVERTEST] INFO: DB Connection #31 created
+2025-07-18 12:09:32 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-07-14_2025-07-20_Core Services'
+2025-07-18 12:09:33 [SERVERTEST] INFO: GetManpowerData: 0 records in 1144ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 12:09:33 [SERVERTEST] INFO: DB Connection #32 created
+2025-07-18 12:09:33 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-07-14_2025-07-20_EUS'
+2025-07-18 12:09:34 [SERVERTEST] INFO: GetManpowerData: 0 records in 1137ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 12:09:34 [SERVERTEST] INFO: DB Connection #33 created
+2025-07-18 12:09:34 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-07-14_2025-07-20_HOTS'
+2025-07-18 12:09:35 [SERVERTEST] INFO: GetManpowerData: 0 records in 1133ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 12:09:35 [SERVERTEST] INFO: DB Connection #34 created
+2025-07-18 12:09:35 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-07-14_2025-07-20_PAID'
+2025-07-18 12:09:36 [SERVERTEST] INFO: GetManpowerData: 0 records in 1138ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 12:09:36 [SERVERTEST] INFO: DB Connection #35 created
+2025-07-18 12:09:36 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-07-14_2025-07-20_Security and Compliance'
+2025-07-18 12:09:37 [SERVERTEST] INFO: GetManpowerData: 0 records in 1135ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 12:09:37 [SERVERTEST] INFO: DB Connection #36 created
+2025-07-18 12:09:37 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-07-14_2025-07-20_Service Delivery'
+2025-07-18 12:09:39 [SERVERTEST] INFO: GetManpowerData: 0 records in 1140ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 12:09:39 [SERVERTEST] INFO: Total teams with percentage: 10
+2025-07-18 12:09:39 [SERVERTEST] INFO: DB Connection #37 created
+2025-07-18 12:09:39 [SERVERTEST] INFO: DB Connection #38 created
+2025-07-18 12:09:39 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-07-14_2025-07-20_'
+2025-07-18 12:09:40 [SERVERTEST] INFO: GetManpowerData: 70 records in 1122ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 12:09:40 [SERVERTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-07-14_2025-07-20_'
+2025-07-18 12:09:47 [SERVERTEST] INFO: DB Connection #39 created
+2025-07-18 12:09:49 [SERVERTEST] INFO: DB Connection #40 created
+2025-07-18 12:09:49 [SERVERTEST] INFO: DB Connection #41 created
+2025-07-18 12:09:50 [SERVERTEST] INFO: DB Connection #42 created
+2025-07-18 12:09:51 [SERVERTEST] INFO: DB Connection #43 created
+2025-07-18 12:10:10 [SERVERTEST] INFO: DB Connection #44 created
+2025-07-18 12:10:14 [SERVERTEST] INFO: DB Connection #46 created
+2025-07-18 12:10:15 [SERVERTEST] INFO: DB Connection #47 created
+2025-07-18 12:10:17 [SERVERTEST] INFO: AddTeamMember START - UserId: ls914q, Team: ASSET, Name: LUKAS SALANCI
+2025-07-18 12:10:18 [SERVERTEST] INFO: Database connection opened successfully
+2025-07-18 12:10:18 [SERVERTEST] INFO: Executing check query: SELECT IsUserDisabled FROM AWSusers WHERE UserId = @userId
+2025-07-18 12:10:18 [SERVERTEST] INFO: Check user result: True
+2025-07-18 12:10:18 [SERVERTEST] INFO: User exists with IsUserDisabled = 1
+2025-07-18 12:10:18 [SERVERTEST] INFO: Reactivating deleted user
+2025-07-18 12:10:18 [SERVERTEST] INFO: Reactivate query: UPDATE AWSusers SET IsUserDisabled = 0, Name = @name, LastName = @lastName, Team = @team, LastUpdate = NOW(), LastChangeMadeBy = 'system' WHERE UserId = @userId
+2025-07-18 12:10:18 [SERVERTEST] INFO: Reactivate rows affected: 1
+2025-07-18 12:10:18 [SERVERTEST] INFO: AddTeamMember END - User reactivated successfully
+2025-07-18 12:10:18 [SERVERTEST] INFO: DB Connection #48 created
+2025-07-18 12:10:19 [SERVERTEST] INFO: DB Connection #49 created
+2025-07-18 12:10:20 [SERVERTEST] INFO: DB Connection #50 created
+2025-07-18 12:10:21 [SERVERTEST] INFO: DB Connection #51 created
+2025-07-18 12:10:22 [SERVERTEST] INFO: GetManpowerData: 70 records in 1145ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 12:10:39 [SERVERTEST] INFO: DB Connection #52 created
+2025-07-18 12:10:41 [SERVERTEST] INFO: DB Connection #53 created
+2025-07-18 12:11:06 [SERVERTEST] INFO: DB Connection #54 created
+2025-07-18 12:11:07 [SERVERTEST] INFO: DB Connection #55 created
+2025-07-18 12:11:09 [SERVERTEST] INFO: DB Connection opened in 1016ms
+2025-07-18 12:11:12 [SERVERTEST] INFO: DB Connection #56 created
+2025-07-18 12:11:13 [SERVERTEST] INFO: DB Connection #57 created
+2025-07-18 12:11:14 [SERVERTEST] INFO: DB Connection #58 created
+2025-07-18 12:11:15 [SERVERTEST] INFO: DB Connection #59 created
+2025-07-18 12:11:16 [SERVERTEST] INFO: GetManpowerData: 70 records in 1123ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 12:11:25 [SERVERTEST] INFO: DB Connection #60 created
+2025-07-18 12:11:26 [SERVERTEST] INFO: DB Connection #61 created
+2025-07-18 12:11:52 [SERVERTEST] INFO: DB Connection #62 created
+2025-07-18 12:11:54 [SERVERTEST] INFO: DB Connection #63 created
+2025-07-18 12:11:56 [SERVERTEST] INFO: DB Connection opened in 1004ms
+2025-07-18 12:12:00 [SERVERTEST] INFO: Calculating manpower for team ASSET from 2025-07-14 to 2025-07-20
+2025-07-18 12:12:00 [SERVERTEST] INFO: Deleted 70 existing manpower records
+2025-07-18 12:12:00 [SERVERTEST] INFO: Bulk inserted 75 manpower records
+2025-07-18 12:12:00 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team ASSET in 1424ms
+2025-07-18 12:12:00 [SERVERTEST] INFO: DB Connection #64 created
+2025-07-18 12:12:01 [SERVERTEST] INFO: DB Connection #65 created
+2025-07-18 12:12:02 [SERVERTEST] INFO: DB Connection #66 created
+2025-07-18 12:12:04 [SERVERTEST] INFO: DB Connection #67 created
+2025-07-18 12:12:05 [SERVERTEST] INFO: GetManpowerData: 75 records in 1127ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 12:12:14 [SERVERTEST] INFO: AUTH: Using cached session result
+2025-07-18 12:12:14 [SERVERTEST] INFO: Auth check: IsAuthorized=True, Rights=0
+2025-07-18 12:12:14 [SERVERTEST] INFO: DB Connection #68 created
+2025-07-18 12:12:15 [SERVERTEST] INFO: DB Connection #69 created
+2025-07-18 12:12:15 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-07-14_2025-07-20_Application Localization & Support'
+2025-07-18 12:12:16 [SERVERTEST] INFO: GetManpowerData: 0 records in 1162ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 12:12:16 [SERVERTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-07-14_2025-07-20_ASSET'
+2025-07-18 12:12:16 [SERVERTEST] INFO: DB Connection #70 created
+2025-07-18 12:12:16 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-07-14_2025-07-20_Business Management'
+2025-07-18 12:12:17 [SERVERTEST] INFO: GetManpowerData: 0 records in 1142ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 12:12:17 [SERVERTEST] INFO: DB Connection #71 created
+2025-07-18 12:12:17 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-07-14_2025-07-20_Core Connections'
+2025-07-18 12:12:18 [SERVERTEST] INFO: GetManpowerData: 0 records in 1133ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 12:12:18 [SERVERTEST] INFO: DB Connection #72 created
+2025-07-18 12:12:18 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-07-14_2025-07-20_Core Services'
+2025-07-18 12:12:20 [SERVERTEST] INFO: GetManpowerData: 0 records in 1156ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 12:12:20 [SERVERTEST] INFO: DB Connection #73 created
+2025-07-18 12:12:20 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-07-14_2025-07-20_EUS'
+2025-07-18 12:12:21 [SERVERTEST] INFO: GetManpowerData: 0 records in 1122ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 12:12:21 [SERVERTEST] INFO: DB Connection #74 created
+2025-07-18 12:12:21 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-07-14_2025-07-20_HOTS'
+2025-07-18 12:12:22 [SERVERTEST] INFO: GetManpowerData: 0 records in 1122ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 12:12:22 [SERVERTEST] INFO: DB Connection #75 created
+2025-07-18 12:12:22 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-07-14_2025-07-20_PAID'
+2025-07-18 12:12:23 [SERVERTEST] INFO: GetManpowerData: 0 records in 1131ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 12:12:23 [SERVERTEST] INFO: DB Connection #76 created
+2025-07-18 12:12:23 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-07-14_2025-07-20_Security and Compliance'
+2025-07-18 12:12:24 [SERVERTEST] INFO: GetManpowerData: 0 records in 1130ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 12:12:24 [SERVERTEST] INFO: DB Connection #77 created
+2025-07-18 12:12:24 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-07-14_2025-07-20_Service Delivery'
+2025-07-18 12:12:25 [SERVERTEST] INFO: GetManpowerData: 0 records in 1123ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 12:12:25 [SERVERTEST] INFO: Total teams with percentage: 10
+2025-07-18 12:12:25 [SERVERTEST] INFO: DB Connection #78 created
+2025-07-18 12:12:25 [SERVERTEST] INFO: DB Connection #79 created
+2025-07-18 12:12:25 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-07-14_2025-07-20_'
+2025-07-18 12:12:26 [SERVERTEST] INFO: GetManpowerData: 75 records in 1156ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 12:12:27 [SERVERTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-07-14_2025-07-20_'
+2025-07-18 12:12:31 [SERVERTEST] INFO: DB Connection #80 created
+2025-07-18 12:12:33 [SERVERTEST] INFO: DB Connection #81 created
+2025-07-18 12:12:33 [SERVERTEST] INFO: DB Connection #82 created
+2025-07-18 12:12:42 [SERVERTEST] INFO: DB Connection #83 created
+2025-07-18 12:12:43 [SERVERTEST] INFO: DB Connection #84 created
+2025-07-18 12:12:48 [SERVERTEST] INFO: Calculating manpower for team ASSET from 2025-07-14 to 2025-07-20
+2025-07-18 12:12:48 [SERVERTEST] INFO: Deleted 75 existing manpower records
+2025-07-18 12:12:48 [SERVERTEST] INFO: Bulk inserted 75 manpower records
+2025-07-18 12:12:48 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team ASSET in 2889ms
+2025-07-18 12:12:48 [SERVERTEST] INFO: Recalculated manpower for team ASSET after user deletion
+2025-07-18 12:12:48 [SERVERTEST] INFO: DB Connection #85 created
+2025-07-18 12:12:49 [SERVERTEST] INFO: DB Connection #86 created
+2025-07-18 12:12:50 [SERVERTEST] INFO: DB Connection #87 created
+2025-07-18 12:12:51 [SERVERTEST] INFO: DB Connection #88 created
+2025-07-18 12:12:52 [SERVERTEST] INFO: GetManpowerData: 75 records in 1140ms for date range 2025-07-14 to 2025-07-20
