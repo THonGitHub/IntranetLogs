@@ -1,49 +1,329 @@
-2025-07-18 07:29:19 [SERVERTEST] INFO: Validating user: th3882 in environment: SERVERTEST
-2025-07-18 07:29:19 [SERVERTEST] INFO: DEBUG: Checking group 'ARA Workload Scheduler access' for user th3882
-2025-07-18 07:29:23 [SERVERTEST] INFO: DEBUG: Group 'ARA Workload Scheduler access' found, checking 2 members
-2025-07-18 07:29:26 [SERVERTEST] INFO: DEBUG: 'Checking nested group 'TSI SD UG'
-2025-07-18 07:29:27 [SERVERTEST] INFO: DEBUG: Group 'TSI SD UG' found, checking 10 members
-2025-07-18 07:29:42 [SERVERTEST] INFO: User th3882 found in group 'TSI SD UG'
-2025-07-18 07:29:42 [SERVERTEST] INFO: User th3882 is 'ARA Workload Scheduler access' member, checking database...
-2025-07-18 07:29:45 [SERVERTEST] INFO: User th3882 authenticated successfully
-2025-07-18 07:29:45 [SERVERTEST] INFO: AUTH: Fresh authentication performed
-2025-07-18 07:29:45 [SERVERTEST] INFO: AUTH SUCCESS: User th3882, Rights: 0, Team: ASSET
-2025-07-18 07:29:45 [SERVERTEST] INFO: Auth check: IsAuthorized=True, Rights=0
-2025-07-18 07:29:45 [SERVERTEST] INFO: DB Connection #2 created
-2025-07-18 07:29:47 [SERVERTEST] INFO: GetTeams returned 10 teams
-2025-07-18 07:29:47 [SERVERTEST] INFO: DB Connection #3 created
-2025-07-18 07:29:48 [SERVERTEST] INFO: GetManpowerData: 0 records in 1215ms for date range 2025-07-14 to 2025-07-20
-2025-07-18 07:29:48 [SERVERTEST] INFO: Team Application Localization & Support: Added with percentage 0%
-2025-07-18 07:29:48 [SERVERTEST] INFO: DB Connection #4 created
-2025-07-18 07:29:49 [SERVERTEST] INFO: GetManpowerData: 85 records in 1244ms for date range 2025-07-14 to 2025-07-20
-2025-07-18 07:29:49 [SERVERTEST] INFO: Team ASSET: Added with percentage 110%
-2025-07-18 07:29:49 [SERVERTEST] INFO: DB Connection #5 created
-2025-07-18 07:29:50 [SERVERTEST] INFO: GetManpowerData: 0 records in 1228ms for date range 2025-07-14 to 2025-07-20
-2025-07-18 07:29:50 [SERVERTEST] INFO: Team Business Management: Added with percentage 0%
-2025-07-18 07:29:50 [SERVERTEST] INFO: DB Connection #6 created
-2025-07-18 07:29:52 [SERVERTEST] INFO: GetManpowerData: 0 records in 1228ms for date range 2025-07-14 to 2025-07-20
-2025-07-18 07:29:52 [SERVERTEST] INFO: Team Core Connections: Added with percentage 0%
-2025-07-18 07:29:52 [SERVERTEST] INFO: DB Connection #7 created
-2025-07-18 07:29:53 [SERVERTEST] INFO: GetManpowerData: 0 records in 1218ms for date range 2025-07-14 to 2025-07-20
-2025-07-18 07:29:53 [SERVERTEST] INFO: Team Core Services: Added with percentage 0%
-2025-07-18 07:29:53 [SERVERTEST] INFO: DB Connection #8 created
-2025-07-18 07:29:54 [SERVERTEST] INFO: GetManpowerData: 0 records in 1213ms for date range 2025-07-14 to 2025-07-20
-2025-07-18 07:29:54 [SERVERTEST] INFO: Team EUS: Added with percentage 0%
-2025-07-18 07:29:54 [SERVERTEST] INFO: DB Connection #9 created
-2025-07-18 07:29:55 [SERVERTEST] INFO: GetManpowerData: 0 records in 1246ms for date range 2025-07-14 to 2025-07-20
-2025-07-18 07:29:55 [SERVERTEST] INFO: Team HOTS: Added with percentage 0%
-2025-07-18 07:29:55 [SERVERTEST] INFO: DB Connection #10 created
-2025-07-18 07:29:56 [SERVERTEST] INFO: GetManpowerData: 0 records in 1247ms for date range 2025-07-14 to 2025-07-20
-2025-07-18 07:29:56 [SERVERTEST] INFO: Team PAID: Added with percentage 0%
-2025-07-18 07:29:56 [SERVERTEST] INFO: DB Connection #11 created
-2025-07-18 07:29:58 [SERVERTEST] INFO: GetManpowerData: 0 records in 1252ms for date range 2025-07-14 to 2025-07-20
-2025-07-18 07:29:58 [SERVERTEST] INFO: Team Security and Compliance: Added with percentage 0%
-2025-07-18 07:29:58 [SERVERTEST] INFO: DB Connection #12 created
-2025-07-18 07:29:59 [SERVERTEST] INFO: GetManpowerData: 0 records in 1227ms for date range 2025-07-14 to 2025-07-20
-2025-07-18 07:29:59 [SERVERTEST] INFO: Team Service Delivery: Added with percentage 0%
-2025-07-18 07:29:59 [SERVERTEST] INFO: Total teams with percentage: 10
-2025-07-18 07:29:59 [SERVERTEST] INFO: DB Connection #13 created
-2025-07-18 07:29:59 [SERVERTEST] INFO: DB Connection #14 created
-2025-07-18 07:30:00 [SERVERTEST] INFO: GetManpowerData: 85 records in 1217ms for date range 2025-07-14 to 2025-07-20
-2025-07-18 07:30:01 [SERVERTEST] INFO: Starting member count calculation...
-2025-07-18 07:30:01 [SERVERTEST] INFO: Total member count across all teams: 14
+2025-07-18 10:58:49 [SERVERTEST] INFO: Validating user: th3882 in environment: SERVERTEST
+2025-07-18 10:58:49 [SERVERTEST] INFO: DEBUG: Checking group 'ARA Workload Scheduler access' for user th3882
+2025-07-18 10:58:53 [SERVERTEST] INFO: DEBUG: Group 'ARA Workload Scheduler access' found, checking 2 members
+2025-07-18 10:58:56 [SERVERTEST] INFO: DEBUG: 'Checking nested group 'TSI SD UG'
+2025-07-18 10:58:57 [SERVERTEST] INFO: DEBUG: Group 'TSI SD UG' found, checking 10 members
+2025-07-18 10:59:11 [SERVERTEST] INFO: User th3882 found in group 'TSI SD UG'
+2025-07-18 10:59:11 [SERVERTEST] INFO: User th3882 is 'ARA Workload Scheduler access' member, checking database...
+2025-07-18 10:59:15 [SERVERTEST] INFO: User th3882 authenticated successfully
+2025-07-18 10:59:15 [SERVERTEST] INFO: AUTH: Fresh authentication performed
+2025-07-18 10:59:15 [SERVERTEST] INFO: AUTH SUCCESS: User th3882, Rights: 0, Team: ASSET
+2025-07-18 10:59:15 [SERVERTEST] INFO: Auth check: IsAuthorized=True, Rights=0
+2025-07-18 10:59:15 [SERVERTEST] INFO: DB Connection #2 created
+2025-07-18 10:59:16 [SERVERTEST] INFO: DB Connection #3 created
+2025-07-18 10:59:17 [SERVERTEST] INFO: GetManpowerData: 0 records in 1137ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 10:59:17 [SERVERTEST] INFO: DB Connection #4 created
+2025-07-18 10:59:18 [SERVERTEST] INFO: GetManpowerData: 0 records in 1152ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 10:59:18 [SERVERTEST] INFO: DB Connection #5 created
+2025-07-18 10:59:19 [SERVERTEST] INFO: GetManpowerData: 0 records in 1140ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 10:59:19 [SERVERTEST] INFO: DB Connection #6 created
+2025-07-18 10:59:20 [SERVERTEST] INFO: GetManpowerData: 0 records in 1134ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 10:59:20 [SERVERTEST] INFO: DB Connection #7 created
+2025-07-18 10:59:22 [SERVERTEST] INFO: GetManpowerData: 0 records in 1153ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 10:59:22 [SERVERTEST] INFO: DB Connection #8 created
+2025-07-18 10:59:23 [SERVERTEST] INFO: GetManpowerData: 0 records in 1129ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 10:59:23 [SERVERTEST] INFO: DB Connection #9 created
+2025-07-18 10:59:24 [SERVERTEST] INFO: GetManpowerData: 0 records in 1125ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 10:59:24 [SERVERTEST] INFO: DB Connection #10 created
+2025-07-18 10:59:25 [SERVERTEST] INFO: GetManpowerData: 0 records in 1168ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 10:59:25 [SERVERTEST] INFO: DB Connection #11 created
+2025-07-18 10:59:26 [SERVERTEST] INFO: GetManpowerData: 0 records in 1149ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 10:59:26 [SERVERTEST] INFO: DB Connection #12 created
+2025-07-18 10:59:27 [SERVERTEST] INFO: GetManpowerData: 0 records in 1164ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 10:59:27 [SERVERTEST] INFO: Total teams with percentage: 10
+2025-07-18 10:59:27 [SERVERTEST] INFO: DB Connection #13 created
+2025-07-18 10:59:27 [SERVERTEST] INFO: DB Connection #14 created
+2025-07-18 10:59:28 [SERVERTEST] INFO: GetManpowerData: 0 records in 1132ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 10:59:28 [SERVERTEST] INFO: DB Connection #15 created
+2025-07-18 10:59:28 [SERVERTEST] INFO: DB Connection #16 created
+2025-07-18 10:59:28 [SERVERTEST] INFO: DB Connection #17 created
+2025-07-18 10:59:28 [SERVERTEST] INFO: DB Connection #18 created
+2025-07-18 10:59:28 [SERVERTEST] INFO: DB Connection #19 created
+2025-07-18 10:59:28 [SERVERTEST] INFO: DB Connection #20 created
+2025-07-18 10:59:28 [SERVERTEST] INFO: DB Connection #21 created
+2025-07-18 10:59:28 [SERVERTEST] INFO: DB Connection #22 created
+2025-07-18 10:59:28 [SERVERTEST] INFO: DB Connection #23 created
+2025-07-18 11:01:41 [SERVERTEST] INFO: DB Connection #24 created
+2025-07-18 11:01:42 [SERVERTEST] INFO: DB Connection #25 created
+2025-07-18 11:01:43 [SERVERTEST] INFO: GetManpowerData: 0 records in 1140ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:01:43 [SERVERTEST] INFO: DB Connection #26 created
+2025-07-18 11:01:45 [SERVERTEST] INFO: GetManpowerData: 0 records in 1144ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:01:45 [SERVERTEST] INFO: DB Connection #27 created
+2025-07-18 11:01:46 [SERVERTEST] INFO: GetManpowerData: 0 records in 1144ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:01:46 [SERVERTEST] INFO: DB Connection #28 created
+2025-07-18 11:01:47 [SERVERTEST] INFO: GetManpowerData: 0 records in 1149ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:01:47 [SERVERTEST] INFO: DB Connection #29 created
+2025-07-18 11:01:48 [SERVERTEST] INFO: GetManpowerData: 0 records in 1138ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:01:48 [SERVERTEST] INFO: DB Connection #30 created
+2025-07-18 11:01:49 [SERVERTEST] INFO: GetManpowerData: 0 records in 1149ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:01:49 [SERVERTEST] INFO: DB Connection #31 created
+2025-07-18 11:01:50 [SERVERTEST] INFO: GetManpowerData: 0 records in 1130ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:01:50 [SERVERTEST] INFO: DB Connection #32 created
+2025-07-18 11:01:52 [SERVERTEST] INFO: GetManpowerData: 0 records in 1510ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:01:52 [SERVERTEST] INFO: DB Connection #33 created
+2025-07-18 11:01:53 [SERVERTEST] INFO: GetManpowerData: 0 records in 1137ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:01:53 [SERVERTEST] INFO: DB Connection #34 created
+2025-07-18 11:01:54 [SERVERTEST] INFO: GetManpowerData: 0 records in 1130ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:01:54 [SERVERTEST] INFO: DB Connection #35 created
+2025-07-18 11:01:54 [SERVERTEST] INFO: DB Connection #36 created
+2025-07-18 11:01:55 [SERVERTEST] INFO: GetManpowerData: 0 records in 1156ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:01:55 [SERVERTEST] INFO: DB Connection #37 created
+2025-07-18 11:01:55 [SERVERTEST] INFO: DB Connection #38 created
+2025-07-18 11:01:55 [SERVERTEST] INFO: DB Connection #39 created
+2025-07-18 11:01:55 [SERVERTEST] INFO: DB Connection #40 created
+2025-07-18 11:01:55 [SERVERTEST] INFO: DB Connection #41 created
+2025-07-18 11:01:55 [SERVERTEST] INFO: DB Connection #42 created
+2025-07-18 11:01:55 [SERVERTEST] INFO: DB Connection #43 created
+2025-07-18 11:01:55 [SERVERTEST] INFO: DB Connection #44 created
+2025-07-18 11:01:55 [SERVERTEST] INFO: DB Connection #45 created
+2025-07-18 11:01:55 [SERVERTEST] INFO: DB Connection #46 created
+2025-07-18 11:01:56 [SERVERTEST] INFO: DB Connection #47 created
+2025-07-18 11:01:58 [SERVERTEST] INFO: DB Connection #48 created
+2025-07-18 11:02:53 [SERVERTEST] INFO: DB Connection #49 created
+2025-07-18 11:02:55 [SERVERTEST] INFO: DB Connection #50 created
+2025-07-18 11:02:56 [SERVERTEST] INFO: GetManpowerData: 0 records in 1138ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:02:56 [SERVERTEST] INFO: DB Connection #51 created
+2025-07-18 11:03:18 [SERVERTEST] INFO: DB Connection #52 created
+2025-07-18 11:03:20 [SERVERTEST] INFO: DB Connection #53 created
+2025-07-18 11:03:21 [SERVERTEST] INFO: GetManpowerData: 0 records in 1146ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:03:21 [SERVERTEST] INFO: DB Connection #54 created
+2025-07-18 11:03:25 [SERVERTEST] INFO: Calculating manpower for team ASSET from 2025-07-14 to 2025-07-20
+2025-07-18 11:03:25 [SERVERTEST] INFO: Deleted 0 existing manpower records
+2025-07-18 11:03:25 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team ASSET in 2725ms
+2025-07-18 11:03:25 [SERVERTEST] INFO: Recalculated manpower for team ASSET after user deletion
+2025-07-18 11:03:25 [SERVERTEST] INFO: DB Connection #55 created
+2025-07-18 11:03:26 [SERVERTEST] INFO: DB Connection #56 created
+2025-07-18 11:03:27 [SERVERTEST] INFO: DB Connection #57 created
+2025-07-18 11:03:47 [SERVERTEST] INFO: DB Connection #58 created
+2025-07-18 11:03:48 [SERVERTEST] INFO: DB Connection #59 created
+2025-07-18 11:03:49 [SERVERTEST] INFO: GetManpowerData: 0 records in 1155ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:03:49 [SERVERTEST] INFO: DB Connection #60 created
+2025-07-18 11:04:17 [SERVERTEST] INFO: Validating user: th3882 in environment: SERVERTEST
+2025-07-18 11:04:17 [SERVERTEST] INFO: DEBUG: Checking group 'ARA Workload Scheduler access' for user th3882
+2025-07-18 11:04:18 [SERVERTEST] INFO: DEBUG: Group 'ARA Workload Scheduler access' found, checking 2 members
+2025-07-18 11:04:20 [SERVERTEST] INFO: DEBUG: 'Checking nested group 'TSI SD UG'
+2025-07-18 11:04:21 [SERVERTEST] INFO: DEBUG: Group 'TSI SD UG' found, checking 10 members
+2025-07-18 11:04:35 [SERVERTEST] INFO: User th3882 found in group 'TSI SD UG'
+2025-07-18 11:04:35 [SERVERTEST] INFO: User th3882 is 'ARA Workload Scheduler access' member, checking database...
+2025-07-18 11:04:37 [SERVERTEST] INFO: User th3882 authenticated successfully
+2025-07-18 11:04:37 [SERVERTEST] INFO: AUTH: Fresh authentication performed
+2025-07-18 11:04:37 [SERVERTEST] INFO: AUTH SUCCESS: User th3882, Rights: 0, Team: ASSET
+2025-07-18 11:04:37 [SERVERTEST] INFO: Auth check: IsAuthorized=True, Rights=0
+2025-07-18 11:04:37 [SERVERTEST] INFO: DB Connection #62 created
+2025-07-18 11:04:38 [SERVERTEST] INFO: DB Connection #63 created
+2025-07-18 11:04:39 [SERVERTEST] INFO: GetManpowerData: 0 records in 1150ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:04:39 [SERVERTEST] INFO: DB Connection #64 created
+2025-07-18 11:04:40 [SERVERTEST] INFO: GetManpowerData: 0 records in 1152ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:04:40 [SERVERTEST] INFO: DB Connection #65 created
+2025-07-18 11:04:41 [SERVERTEST] INFO: GetManpowerData: 0 records in 1149ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:04:41 [SERVERTEST] INFO: DB Connection #66 created
+2025-07-18 11:04:42 [SERVERTEST] INFO: GetManpowerData: 0 records in 1129ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:04:42 [SERVERTEST] INFO: DB Connection #67 created
+2025-07-18 11:04:43 [SERVERTEST] INFO: GetManpowerData: 0 records in 1137ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:04:43 [SERVERTEST] INFO: DB Connection #68 created
+2025-07-18 11:04:45 [SERVERTEST] INFO: GetManpowerData: 0 records in 1151ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:04:45 [SERVERTEST] INFO: DB Connection #69 created
+2025-07-18 11:04:46 [SERVERTEST] INFO: GetManpowerData: 0 records in 1493ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:04:46 [SERVERTEST] INFO: DB Connection #70 created
+2025-07-18 11:04:47 [SERVERTEST] INFO: GetManpowerData: 0 records in 1125ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:04:47 [SERVERTEST] INFO: DB Connection #71 created
+2025-07-18 11:04:48 [SERVERTEST] INFO: GetManpowerData: 0 records in 1145ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:04:48 [SERVERTEST] INFO: DB Connection #72 created
+2025-07-18 11:04:49 [SERVERTEST] INFO: GetManpowerData: 0 records in 1135ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:04:49 [SERVERTEST] INFO: Total teams with percentage: 10
+2025-07-18 11:04:49 [SERVERTEST] INFO: DB Connection #73 created
+2025-07-18 11:04:49 [SERVERTEST] INFO: DB Connection #74 created
+2025-07-18 11:04:51 [SERVERTEST] INFO: GetManpowerData: 0 records in 1148ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:04:51 [SERVERTEST] INFO: DB Connection #75 created
+2025-07-18 11:04:51 [SERVERTEST] INFO: DB Connection #76 created
+2025-07-18 11:04:51 [SERVERTEST] INFO: DB Connection #77 created
+2025-07-18 11:04:51 [SERVERTEST] INFO: DB Connection #78 created
+2025-07-18 11:04:51 [SERVERTEST] INFO: DB Connection #79 created
+2025-07-18 11:04:51 [SERVERTEST] INFO: DB Connection #80 created
+2025-07-18 11:04:51 [SERVERTEST] INFO: DB Connection #81 created
+2025-07-18 11:04:51 [SERVERTEST] INFO: DB Connection #82 created
+2025-07-18 11:04:51 [SERVERTEST] INFO: DB Connection #83 created
+2025-07-18 11:05:04 [SERVERTEST] INFO: DB Connection #84 created
+2025-07-18 11:05:05 [SERVERTEST] INFO: DB Connection #85 created
+2025-07-18 11:05:06 [SERVERTEST] INFO: GetManpowerData: 0 records in 1155ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:05:06 [SERVERTEST] INFO: DB Connection #86 created
+2025-07-18 11:05:07 [SERVERTEST] INFO: GetManpowerData: 0 records in 1164ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:05:07 [SERVERTEST] INFO: DB Connection #87 created
+2025-07-18 11:05:09 [SERVERTEST] INFO: GetManpowerData: 0 records in 1164ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:05:09 [SERVERTEST] INFO: DB Connection #88 created
+2025-07-18 11:05:10 [SERVERTEST] INFO: GetManpowerData: 0 records in 1162ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:05:10 [SERVERTEST] INFO: DB Connection #89 created
+2025-07-18 11:05:11 [SERVERTEST] INFO: GetManpowerData: 0 records in 1150ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:05:11 [SERVERTEST] INFO: DB Connection #90 created
+2025-07-18 11:05:12 [SERVERTEST] INFO: GetManpowerData: 0 records in 1148ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:05:12 [SERVERTEST] INFO: DB Connection #91 created
+2025-07-18 11:05:13 [SERVERTEST] INFO: GetManpowerData: 0 records in 1163ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:05:13 [SERVERTEST] INFO: DB Connection #92 created
+2025-07-18 11:05:14 [SERVERTEST] INFO: GetManpowerData: 0 records in 1125ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:05:14 [SERVERTEST] INFO: DB Connection #93 created
+2025-07-18 11:05:15 [SERVERTEST] INFO: GetManpowerData: 0 records in 1147ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:05:15 [SERVERTEST] INFO: DB Connection #94 created
+2025-07-18 11:05:17 [SERVERTEST] INFO: GetManpowerData: 0 records in 1151ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:05:17 [SERVERTEST] INFO: DB Connection #95 created
+2025-07-18 11:05:17 [SERVERTEST] INFO: DB Connection #96 created
+2025-07-18 11:05:18 [SERVERTEST] INFO: GetManpowerData: 0 records in 1150ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:05:18 [SERVERTEST] INFO: DB Connection #97 created
+2025-07-18 11:05:18 [SERVERTEST] INFO: DB Connection #98 created
+2025-07-18 11:05:18 [SERVERTEST] INFO: DB Connection #99 created
+2025-07-18 11:05:18 [SERVERTEST] INFO: DB Connection #100 created
+2025-07-18 11:05:18 [SERVERTEST] INFO: DB Connection #101 created
+2025-07-18 11:05:18 [SERVERTEST] INFO: DB Connection #102 created
+2025-07-18 11:05:18 [SERVERTEST] INFO: DB Connection #103 created
+2025-07-18 11:05:18 [SERVERTEST] INFO: DB Connection #104 created
+2025-07-18 11:05:18 [SERVERTEST] INFO: DB Connection #105 created
+2025-07-18 11:05:18 [SERVERTEST] INFO: DB Connection #106 created
+2025-07-18 11:05:19 [SERVERTEST] INFO: DB Connection #107 created
+2025-07-18 11:05:20 [SERVERTEST] INFO: DB Connection #108 created
+2025-07-18 11:05:28 [SERVERTEST] INFO: DB Connection #109 created
+2025-07-18 11:05:29 [SERVERTEST] INFO: DB Connection #110 created
+2025-07-18 11:05:30 [SERVERTEST] INFO: GetManpowerData: 0 records in 1137ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:05:30 [SERVERTEST] INFO: DB Connection #111 created
+2025-07-18 11:05:55 [SERVERTEST] INFO: DB Connection #112 created
+2025-07-18 11:05:56 [SERVERTEST] INFO: DB Connection #113 created
+2025-07-18 11:05:57 [SERVERTEST] INFO: GetManpowerData: 0 records in 1151ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:05:57 [SERVERTEST] INFO: DB Connection #114 created
+2025-07-18 11:05:59 [SERVERTEST] INFO: DB Connection opened in 1007ms
+2025-07-18 11:06:03 [SERVERTEST] INFO: Calculating manpower for team ASSET from 2025-07-14 to 2025-07-20
+2025-07-18 11:06:04 [SERVERTEST] INFO: Deleted 0 existing manpower records
+2025-07-18 11:06:04 [SERVERTEST] INFO: Bulk inserted 40 manpower records
+2025-07-18 11:06:04 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team ASSET in 1393ms
+2025-07-18 11:06:04 [SERVERTEST] INFO: DB Connection #115 created
+2025-07-18 11:06:05 [SERVERTEST] INFO: DB Connection #116 created
+2025-07-18 11:06:06 [SERVERTEST] INFO: DB Connection #117 created
+2025-07-18 11:06:07 [SERVERTEST] INFO: DB Connection #118 created
+2025-07-18 11:06:08 [SERVERTEST] INFO: GetManpowerData: 40 records in 1146ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:06:16 [SERVERTEST] INFO: DB Connection #119 created
+2025-07-18 11:06:18 [SERVERTEST] INFO: DB Connection #120 created
+2025-07-18 11:06:19 [SERVERTEST] INFO: GetManpowerData: 40 records in 1134ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:06:19 [SERVERTEST] INFO: DB Connection #121 created
+2025-07-18 11:06:41 [SERVERTEST] INFO: DB Connection #122 created
+2025-07-18 11:06:42 [SERVERTEST] INFO: DB Connection #123 created
+2025-07-18 11:06:43 [SERVERTEST] INFO: GetManpowerData: 40 records in 1147ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:06:43 [SERVERTEST] INFO: DB Connection #124 created
+2025-07-18 11:06:46 [SERVERTEST] INFO: DB Connection opened in 1026ms
+2025-07-18 11:06:50 [SERVERTEST] INFO: Calculating manpower for team ASSET from 2025-07-14 to 2025-07-20
+2025-07-18 11:06:50 [SERVERTEST] INFO: Deleted 40 existing manpower records
+2025-07-18 11:06:50 [SERVERTEST] INFO: Bulk inserted 50 manpower records
+2025-07-18 11:06:50 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team ASSET in 1412ms
+2025-07-18 11:06:50 [SERVERTEST] INFO: DB Connection #125 created
+2025-07-18 11:06:51 [SERVERTEST] INFO: DB Connection #126 created
+2025-07-18 11:06:52 [SERVERTEST] INFO: DB Connection #127 created
+2025-07-18 11:06:53 [SERVERTEST] INFO: DB Connection #128 created
+2025-07-18 11:06:54 [SERVERTEST] INFO: GetManpowerData: 50 records in 1151ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:07:59 [SERVERTEST] INFO: DB Connection #129 created
+2025-07-18 11:08:01 [SERVERTEST] INFO: DB Connection #130 created
+2025-07-18 11:08:02 [SERVERTEST] INFO: GetManpowerData: 50 records in 1148ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:08:02 [SERVERTEST] INFO: DB Connection #131 created
+2025-07-18 11:08:20 [SERVERTEST] INFO: DB Connection #132 created
+2025-07-18 11:08:21 [SERVERTEST] INFO: DB Connection #133 created
+2025-07-18 11:08:22 [SERVERTEST] INFO: GetManpowerData: 50 records in 1166ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:08:22 [SERVERTEST] INFO: DB Connection #134 created
+2025-07-18 11:08:25 [SERVERTEST] INFO: DB Connection opened in 1030ms
+2025-07-18 11:08:29 [SERVERTEST] INFO: Calculating manpower for team ASSET from 2025-07-14 to 2025-07-20
+2025-07-18 11:08:29 [SERVERTEST] INFO: Deleted 50 existing manpower records
+2025-07-18 11:08:29 [SERVERTEST] INFO: Bulk inserted 60 manpower records
+2025-07-18 11:08:29 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team ASSET in 1658ms
+2025-07-18 11:08:29 [SERVERTEST] INFO: DB Connection #135 created
+2025-07-18 11:08:30 [SERVERTEST] INFO: DB Connection #136 created
+2025-07-18 11:08:31 [SERVERTEST] INFO: DB Connection #137 created
+2025-07-18 11:08:33 [SERVERTEST] INFO: DB Connection #138 created
+2025-07-18 11:08:34 [SERVERTEST] INFO: GetManpowerData: 60 records in 1151ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:08:44 [SERVERTEST] INFO: DB Connection #139 created
+2025-07-18 11:08:45 [SERVERTEST] INFO: DB Connection #140 created
+2025-07-18 11:08:46 [SERVERTEST] INFO: GetManpowerData: 60 records in 1133ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:08:46 [SERVERTEST] INFO: DB Connection #141 created
+2025-07-18 11:09:12 [SERVERTEST] INFO: DB Connection #142 created
+2025-07-18 11:09:13 [SERVERTEST] INFO: DB Connection #143 created
+2025-07-18 11:09:15 [SERVERTEST] INFO: GetManpowerData: 60 records in 1141ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:09:15 [SERVERTEST] INFO: DB Connection #144 created
+2025-07-18 11:09:17 [SERVERTEST] INFO: DB Connection opened in 1005ms
+2025-07-18 11:09:21 [SERVERTEST] INFO: Calculating manpower for team ASSET from 2025-07-14 to 2025-07-20
+2025-07-18 11:09:21 [SERVERTEST] INFO: Deleted 60 existing manpower records
+2025-07-18 11:09:21 [SERVERTEST] INFO: Bulk inserted 70 manpower records
+2025-07-18 11:09:21 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team ASSET in 1433ms
+2025-07-18 11:09:21 [SERVERTEST] INFO: DB Connection #145 created
+2025-07-18 11:09:22 [SERVERTEST] INFO: DB Connection #146 created
+2025-07-18 11:09:23 [SERVERTEST] INFO: DB Connection #147 created
+2025-07-18 11:09:25 [SERVERTEST] INFO: DB Connection #148 created
+2025-07-18 11:09:26 [SERVERTEST] INFO: GetManpowerData: 70 records in 1149ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:10:52 [SERVERTEST] INFO: DB Connection #149 created
+2025-07-18 11:10:53 [SERVERTEST] INFO: DB Connection #150 created
+2025-07-18 11:10:54 [SERVERTEST] INFO: GetManpowerData: 70 records in 1154ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:10:58 [SERVERTEST] INFO: DB Connection #152 created
+2025-07-18 11:10:59 [SERVERTEST] INFO: DB Connection #153 created
+2025-07-18 11:11:00 [SERVERTEST] INFO: GetManpowerData: 70 records in 1135ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:11:00 [SERVERTEST] INFO: DB Connection #154 created
+2025-07-18 11:11:01 [SERVERTEST] INFO: AddTeamMember START - UserId: ls914q, Team: ASSET, Name: LUKAS SALANCI
+2025-07-18 11:11:02 [SERVERTEST] INFO: Database connection opened successfully
+2025-07-18 11:11:02 [SERVERTEST] INFO: Executing check query: SELECT IsUserDisabled FROM AWSusers WHERE UserId = @userId
+2025-07-18 11:11:02 [SERVERTEST] INFO: Check user result: True
+2025-07-18 11:11:02 [SERVERTEST] INFO: User exists with IsUserDisabled = 1
+2025-07-18 11:11:02 [SERVERTEST] INFO: Reactivating deleted user
+2025-07-18 11:11:02 [SERVERTEST] INFO: Reactivate query: UPDATE AWSusers SET IsUserDisabled = 0, Name = @name, LastName = @lastName, Team = @team, LastUpdate = NOW(), LastChangeMadeBy = 'system' WHERE UserId = @userId
+2025-07-18 11:11:03 [SERVERTEST] INFO: Reactivate rows affected: 1
+2025-07-18 11:11:03 [SERVERTEST] INFO: AddTeamMember END - User reactivated successfully
+2025-07-18 11:11:03 [SERVERTEST] INFO: DB Connection #155 created
+2025-07-18 11:11:04 [SERVERTEST] INFO: DB Connection #156 created
+2025-07-18 11:11:05 [SERVERTEST] INFO: DB Connection #157 created
+2025-07-18 11:11:17 [SERVERTEST] INFO: DB Connection #158 created
+2025-07-18 11:11:19 [SERVERTEST] INFO: DB Connection #159 created
+2025-07-18 11:11:20 [SERVERTEST] INFO: GetManpowerData: 70 records in 1154ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:11:20 [SERVERTEST] INFO: DB Connection #160 created
+2025-07-18 11:11:39 [SERVERTEST] INFO: DB Connection #161 created
+2025-07-18 11:11:40 [SERVERTEST] INFO: DB Connection #162 created
+2025-07-18 11:11:41 [SERVERTEST] INFO: GetManpowerData: 70 records in 1147ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:11:41 [SERVERTEST] INFO: DB Connection #163 created
+2025-07-18 11:11:43 [SERVERTEST] INFO: DB Connection opened in 1003ms
+2025-07-18 11:11:47 [SERVERTEST] INFO: Calculating manpower for team ASSET from 2025-07-14 to 2025-07-20
+2025-07-18 11:11:47 [SERVERTEST] INFO: Deleted 70 existing manpower records
+2025-07-18 11:11:47 [SERVERTEST] INFO: Bulk inserted 80 manpower records
+2025-07-18 11:11:47 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team ASSET in 1428ms
+2025-07-18 11:11:47 [SERVERTEST] INFO: DB Connection #164 created
+2025-07-18 11:11:48 [SERVERTEST] INFO: DB Connection #165 created
+2025-07-18 11:11:50 [SERVERTEST] INFO: DB Connection #166 created
+2025-07-18 11:11:51 [SERVERTEST] INFO: DB Connection #167 created
+2025-07-18 11:11:52 [SERVERTEST] INFO: GetManpowerData: 80 records in 1134ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:12:23 [SERVERTEST] INFO: DB Connection #168 created
+2025-07-18 11:12:24 [SERVERTEST] INFO: DB Connection #169 created
+2025-07-18 11:12:25 [SERVERTEST] INFO: GetManpowerData: 80 records in 1144ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:12:25 [SERVERTEST] INFO: DB Connection #170 created
+2025-07-18 11:12:30 [SERVERTEST] INFO: Calculating manpower for team ASSET from 2025-07-14 to 2025-07-20
+2025-07-18 11:12:30 [SERVERTEST] INFO: Deleted 80 existing manpower records
+2025-07-18 11:12:30 [SERVERTEST] INFO: Bulk inserted 70 manpower records
+2025-07-18 11:12:30 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team ASSET in 2944ms
+2025-07-18 11:12:30 [SERVERTEST] INFO: Recalculated manpower for team ASSET after user deletion
+2025-07-18 11:12:30 [SERVERTEST] INFO: DB Connection #171 created
+2025-07-18 11:12:31 [SERVERTEST] INFO: DB Connection #172 created
+2025-07-18 11:12:32 [SERVERTEST] INFO: DB Connection #173 created
+2025-07-18 11:12:46 [SERVERTEST] INFO: AUTH: Using cached session result
+2025-07-18 11:12:46 [SERVERTEST] INFO: Auth check: IsAuthorized=True, Rights=0
+2025-07-18 11:12:46 [SERVERTEST] INFO: DB Connection #174 created
+2025-07-18 11:12:47 [SERVERTEST] INFO: DB Connection #175 created
+2025-07-18 11:12:48 [SERVERTEST] INFO: GetManpowerData: 0 records in 1135ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:12:48 [SERVERTEST] INFO: DB Connection #176 created
+2025-07-18 11:12:49 [SERVERTEST] INFO: GetManpowerData: 70 records in 1132ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:12:49 [SERVERTEST] INFO: DB Connection #177 created
+2025-07-18 11:12:51 [SERVERTEST] INFO: GetManpowerData: 0 records in 1151ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:12:51 [SERVERTEST] INFO: DB Connection #178 created
+2025-07-18 11:12:52 [SERVERTEST] INFO: GetManpowerData: 0 records in 1129ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:12:52 [SERVERTEST] INFO: DB Connection #179 created
+2025-07-18 11:12:53 [SERVERTEST] INFO: GetManpowerData: 0 records in 1146ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:12:53 [SERVERTEST] INFO: DB Connection #180 created
+2025-07-18 11:12:54 [SERVERTEST] INFO: GetManpowerData: 0 records in 1145ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:12:54 [SERVERTEST] INFO: DB Connection #181 created
+2025-07-18 11:12:55 [SERVERTEST] INFO: GetManpowerData: 0 records in 1146ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:12:55 [SERVERTEST] INFO: DB Connection #182 created
+2025-07-18 11:12:56 [SERVERTEST] INFO: GetManpowerData: 0 records in 1156ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:12:56 [SERVERTEST] INFO: DB Connection #183 created
+2025-07-18 11:12:57 [SERVERTEST] INFO: GetManpowerData: 0 records in 1169ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:12:57 [SERVERTEST] INFO: DB Connection #184 created
+2025-07-18 11:12:59 [SERVERTEST] INFO: GetManpowerData: 0 records in 1152ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 11:12:59 [SERVERTEST] INFO: Total teams with percentage: 10
+2025-07-18 11:12:59 [SERVERTEST] INFO: DB Connection #185 created
+2025-07-18 11:12:59 [SERVERTEST] INFO: DB Connection #186 created
+2025-07-18 11:13:00 [SERVERTEST] INFO: GetManpowerData: 70 records in 1152ms for date range 2025-07-14 to 2025-07-20
