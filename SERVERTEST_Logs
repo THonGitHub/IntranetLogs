@@ -1,47 +1,49 @@
-2025-07-18 06:39:55 [SERVERTEST] INFO: Validating user: th3882 in environment: SERVERTEST
-2025-07-18 06:39:55 [SERVERTEST] INFO: DEBUG: Checking group 'ARA Workload Scheduler access' for user th3882
-2025-07-18 06:39:59 [SERVERTEST] INFO: DEBUG: Group 'ARA Workload Scheduler access' found, checking 2 members
-2025-07-18 06:40:02 [SERVERTEST] INFO: DEBUG: 'Checking nested group 'TSI SD UG'
-2025-07-18 06:40:03 [SERVERTEST] INFO: DEBUG: Group 'TSI SD UG' found, checking 10 members
-2025-07-18 06:40:17 [SERVERTEST] INFO: User th3882 found in group 'TSI SD UG'
-2025-07-18 06:40:17 [SERVERTEST] INFO: User th3882 is 'ARA Workload Scheduler access' member, checking database...
-2025-07-18 06:40:21 [SERVERTEST] INFO: User th3882 authenticated successfully
-2025-07-18 06:40:21 [SERVERTEST] INFO: AUTH: Fresh authentication performed
-2025-07-18 06:40:21 [SERVERTEST] INFO: AUTH SUCCESS: User th3882, Rights: 0, Team: ASSET
-2025-07-18 06:40:21 [SERVERTEST] INFO: Auth check: IsAuthorized=True, Rights=0
-2025-07-18 06:40:21 [SERVERTEST] INFO: DB Connection #2 created
-2025-07-18 06:40:22 [SERVERTEST] INFO: GetTeams returned 10 teams
-2025-07-18 06:40:22 [SERVERTEST] INFO: DB Connection #3 created
-2025-07-18 06:40:23 [SERVERTEST] INFO: GetManpowerData: 0 records in 1157ms for date range 2025-07-14 to 2025-07-20
-2025-07-18 06:40:23 [SERVERTEST] INFO: Team Application Localization & Support: Added with percentage 0%
-2025-07-18 06:40:23 [SERVERTEST] INFO: DB Connection #4 created
-2025-07-18 06:40:24 [SERVERTEST] INFO: GetManpowerData: 85 records in 1171ms for date range 2025-07-14 to 2025-07-20
-2025-07-18 06:40:24 [SERVERTEST] INFO: Team ASSET: Added with percentage 110%
-2025-07-18 06:40:24 [SERVERTEST] INFO: DB Connection #5 created
-2025-07-18 06:40:25 [SERVERTEST] INFO: GetManpowerData: 0 records in 1156ms for date range 2025-07-14 to 2025-07-20
-2025-07-18 06:40:25 [SERVERTEST] INFO: Team Business Management: Added with percentage 0%
-2025-07-18 06:40:25 [SERVERTEST] INFO: DB Connection #6 created
-2025-07-18 06:40:27 [SERVERTEST] INFO: GetManpowerData: 0 records in 1164ms for date range 2025-07-14 to 2025-07-20
-2025-07-18 06:40:27 [SERVERTEST] INFO: Team Core Connections: Added with percentage 0%
-2025-07-18 06:40:27 [SERVERTEST] INFO: DB Connection #7 created
-2025-07-18 06:40:28 [SERVERTEST] INFO: GetManpowerData: 0 records in 1152ms for date range 2025-07-14 to 2025-07-20
-2025-07-18 06:40:28 [SERVERTEST] INFO: Team Core Services: Added with percentage 0%
-2025-07-18 06:40:28 [SERVERTEST] INFO: DB Connection #8 created
-2025-07-18 06:40:29 [SERVERTEST] INFO: GetManpowerData: 0 records in 1161ms for date range 2025-07-14 to 2025-07-20
-2025-07-18 06:40:29 [SERVERTEST] INFO: Team EUS: Added with percentage 0%
-2025-07-18 06:40:29 [SERVERTEST] INFO: DB Connection #9 created
-2025-07-18 06:40:30 [SERVERTEST] INFO: GetManpowerData: 0 records in 1167ms for date range 2025-07-14 to 2025-07-20
-2025-07-18 06:40:30 [SERVERTEST] INFO: Team HOTS: Added with percentage 0%
-2025-07-18 06:40:30 [SERVERTEST] INFO: DB Connection #10 created
-2025-07-18 06:40:31 [SERVERTEST] INFO: GetManpowerData: 0 records in 1163ms for date range 2025-07-14 to 2025-07-20
-2025-07-18 06:40:31 [SERVERTEST] INFO: Team PAID: Added with percentage 0%
-2025-07-18 06:40:31 [SERVERTEST] INFO: DB Connection #11 created
-2025-07-18 06:40:32 [SERVERTEST] INFO: GetManpowerData: 0 records in 1143ms for date range 2025-07-14 to 2025-07-20
-2025-07-18 06:40:32 [SERVERTEST] INFO: Team Security and Compliance: Added with percentage 0%
-2025-07-18 06:40:32 [SERVERTEST] INFO: DB Connection #12 created
-2025-07-18 06:40:33 [SERVERTEST] INFO: GetManpowerData: 0 records in 1143ms for date range 2025-07-14 to 2025-07-20
-2025-07-18 06:40:33 [SERVERTEST] INFO: Team Service Delivery: Added with percentage 0%
-2025-07-18 06:40:33 [SERVERTEST] INFO: Total teams with percentage: 10
-2025-07-18 06:40:34 [SERVERTEST] INFO: DB Connection #13 created
-2025-07-18 06:40:34 [SERVERTEST] INFO: DB Connection #14 created
-2025-07-18 06:40:35 [SERVERTEST] INFO: GetManpowerData: 85 records in 1147ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 07:29:19 [SERVERTEST] INFO: Validating user: th3882 in environment: SERVERTEST
+2025-07-18 07:29:19 [SERVERTEST] INFO: DEBUG: Checking group 'ARA Workload Scheduler access' for user th3882
+2025-07-18 07:29:23 [SERVERTEST] INFO: DEBUG: Group 'ARA Workload Scheduler access' found, checking 2 members
+2025-07-18 07:29:26 [SERVERTEST] INFO: DEBUG: 'Checking nested group 'TSI SD UG'
+2025-07-18 07:29:27 [SERVERTEST] INFO: DEBUG: Group 'TSI SD UG' found, checking 10 members
+2025-07-18 07:29:42 [SERVERTEST] INFO: User th3882 found in group 'TSI SD UG'
+2025-07-18 07:29:42 [SERVERTEST] INFO: User th3882 is 'ARA Workload Scheduler access' member, checking database...
+2025-07-18 07:29:45 [SERVERTEST] INFO: User th3882 authenticated successfully
+2025-07-18 07:29:45 [SERVERTEST] INFO: AUTH: Fresh authentication performed
+2025-07-18 07:29:45 [SERVERTEST] INFO: AUTH SUCCESS: User th3882, Rights: 0, Team: ASSET
+2025-07-18 07:29:45 [SERVERTEST] INFO: Auth check: IsAuthorized=True, Rights=0
+2025-07-18 07:29:45 [SERVERTEST] INFO: DB Connection #2 created
+2025-07-18 07:29:47 [SERVERTEST] INFO: GetTeams returned 10 teams
+2025-07-18 07:29:47 [SERVERTEST] INFO: DB Connection #3 created
+2025-07-18 07:29:48 [SERVERTEST] INFO: GetManpowerData: 0 records in 1215ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 07:29:48 [SERVERTEST] INFO: Team Application Localization & Support: Added with percentage 0%
+2025-07-18 07:29:48 [SERVERTEST] INFO: DB Connection #4 created
+2025-07-18 07:29:49 [SERVERTEST] INFO: GetManpowerData: 85 records in 1244ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 07:29:49 [SERVERTEST] INFO: Team ASSET: Added with percentage 110%
+2025-07-18 07:29:49 [SERVERTEST] INFO: DB Connection #5 created
+2025-07-18 07:29:50 [SERVERTEST] INFO: GetManpowerData: 0 records in 1228ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 07:29:50 [SERVERTEST] INFO: Team Business Management: Added with percentage 0%
+2025-07-18 07:29:50 [SERVERTEST] INFO: DB Connection #6 created
+2025-07-18 07:29:52 [SERVERTEST] INFO: GetManpowerData: 0 records in 1228ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 07:29:52 [SERVERTEST] INFO: Team Core Connections: Added with percentage 0%
+2025-07-18 07:29:52 [SERVERTEST] INFO: DB Connection #7 created
+2025-07-18 07:29:53 [SERVERTEST] INFO: GetManpowerData: 0 records in 1218ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 07:29:53 [SERVERTEST] INFO: Team Core Services: Added with percentage 0%
+2025-07-18 07:29:53 [SERVERTEST] INFO: DB Connection #8 created
+2025-07-18 07:29:54 [SERVERTEST] INFO: GetManpowerData: 0 records in 1213ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 07:29:54 [SERVERTEST] INFO: Team EUS: Added with percentage 0%
+2025-07-18 07:29:54 [SERVERTEST] INFO: DB Connection #9 created
+2025-07-18 07:29:55 [SERVERTEST] INFO: GetManpowerData: 0 records in 1246ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 07:29:55 [SERVERTEST] INFO: Team HOTS: Added with percentage 0%
+2025-07-18 07:29:55 [SERVERTEST] INFO: DB Connection #10 created
+2025-07-18 07:29:56 [SERVERTEST] INFO: GetManpowerData: 0 records in 1247ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 07:29:56 [SERVERTEST] INFO: Team PAID: Added with percentage 0%
+2025-07-18 07:29:56 [SERVERTEST] INFO: DB Connection #11 created
+2025-07-18 07:29:58 [SERVERTEST] INFO: GetManpowerData: 0 records in 1252ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 07:29:58 [SERVERTEST] INFO: Team Security and Compliance: Added with percentage 0%
+2025-07-18 07:29:58 [SERVERTEST] INFO: DB Connection #12 created
+2025-07-18 07:29:59 [SERVERTEST] INFO: GetManpowerData: 0 records in 1227ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 07:29:59 [SERVERTEST] INFO: Team Service Delivery: Added with percentage 0%
+2025-07-18 07:29:59 [SERVERTEST] INFO: Total teams with percentage: 10
+2025-07-18 07:29:59 [SERVERTEST] INFO: DB Connection #13 created
+2025-07-18 07:29:59 [SERVERTEST] INFO: DB Connection #14 created
+2025-07-18 07:30:00 [SERVERTEST] INFO: GetManpowerData: 85 records in 1217ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 07:30:01 [SERVERTEST] INFO: Starting member count calculation...
+2025-07-18 07:30:01 [SERVERTEST] INFO: Total member count across all teams: 14
