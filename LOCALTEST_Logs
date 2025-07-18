@@ -1,29 +1,52 @@
-2025-07-17 20:03:03 [LOCALTEST] INFO: Application loaded in LOCALTEST environment
-2025-07-17 20:03:03 [LOCALTEST] INFO: DB Connection #1 created
-2025-07-17 20:03:03 [LOCALTEST] INFO: Process Identity: INTL\th3882
-2025-07-17 20:03:03 [LOCALTEST] INFO: Thread Identity: INTL\th3882
-2025-07-17 20:03:03 [LOCALTEST] INFO: Validating user: th3882 in environment: LOCALTEST
-2025-07-17 20:03:03 [LOCALTEST] INFO: DEBUG: Checking group 'ARA Workload Scheduler access' for user th3882
-2025-07-17 20:03:04 [LOCALTEST] INFO: DEBUG: Group 'ARA Workload Scheduler access' found, checking 2 members
-2025-07-17 20:03:06 [LOCALTEST] INFO: DEBUG: 'Checking nested group 'TSI SD UG'
-2025-07-17 20:03:06 [LOCALTEST] INFO: DEBUG: Group 'TSI SD UG' found, checking 10 members
-2025-07-17 20:03:15 [LOCALTEST] INFO: User th3882 found in group 'TSI SD UG'
-2025-07-17 20:03:15 [LOCALTEST] INFO: User th3882 is 'ARA Workload Scheduler access' member, checking database...
-2025-07-17 20:03:17 [LOCALTEST] INFO: User th3882 authenticated successfully
-2025-07-17 20:03:17 [LOCALTEST] INFO: AUTH: Fresh authentication performed
-2025-07-17 20:03:17 [LOCALTEST] INFO: AUTH SUCCESS: User th3882, Rights: 0, Team: ASSET
-2025-07-17 20:03:17 [LOCALTEST] INFO: Auth check: IsAuthorized=True, Rights=0
-2025-07-17 20:03:17 [LOCALTEST] INFO: DB Connection #2 created
-2025-07-17 20:03:17 [LOCALTEST] INFO: GetTeams returned 10 teams
-2025-07-17 20:03:17 [LOCALTEST] INFO: DB Connection #3 created
-2025-07-17 20:03:17 [LOCALTEST] INFO: DB Connection #4 created
-2025-07-17 20:03:17 [LOCALTEST] INFO: GetManpowerData: 0 records in 275ms for date range 2025-07-14 to 2025-07-20
-2025-07-17 20:03:17 [LOCALTEST] INFO: DB Connection #5 created
-2025-07-17 20:03:17 [LOCALTEST] INFO: DB Connection #6 created
-2025-07-17 20:03:17 [LOCALTEST] INFO: DB Connection #7 created
-2025-07-17 20:03:17 [LOCALTEST] INFO: DB Connection #8 created
-2025-07-17 20:03:17 [LOCALTEST] INFO: DB Connection #9 created
-2025-07-17 20:03:17 [LOCALTEST] INFO: DB Connection #10 created
-2025-07-17 20:03:17 [LOCALTEST] INFO: DB Connection #11 created
-2025-07-17 20:03:17 [LOCALTEST] INFO: DB Connection #12 created
-2025-07-17 20:03:17 [LOCALTEST] INFO: DB Connection #13 created
+2025-07-18 15:39:59 [LOCALTEST] INFO: Application loaded in LOCALTEST environment
+2025-07-18 15:39:59 [LOCALTEST] INFO: DB Connection #1 created
+2025-07-18 15:39:59 [LOCALTEST] INFO: Process Identity: INTL\th3882
+2025-07-18 15:39:59 [LOCALTEST] INFO: Thread Identity: INTL\th3882
+2025-07-18 15:39:59 [LOCALTEST] INFO: Validating user: th3882 in environment: LOCALTEST
+2025-07-18 15:39:59 [LOCALTEST] INFO: DEBUG: Checking group 'ARA Workload Scheduler access' for user th3882
+2025-07-18 15:40:01 [LOCALTEST] INFO: DEBUG: Group 'ARA Workload Scheduler access' found, checking 2 members
+2025-07-18 15:40:02 [LOCALTEST] INFO: DEBUG: 'Checking nested group 'TSI SD UG'
+2025-07-18 15:40:03 [LOCALTEST] INFO: DEBUG: Group 'TSI SD UG' found, checking 10 members
+2025-07-18 15:40:11 [LOCALTEST] INFO: User th3882 found in group 'TSI SD UG'
+2025-07-18 15:40:11 [LOCALTEST] INFO: User th3882 is 'ARA Workload Scheduler access' member, checking database...
+2025-07-18 15:40:13 [LOCALTEST] INFO: User th3882 authenticated successfully
+2025-07-18 15:40:13 [LOCALTEST] INFO: AUTH: Fresh authentication performed
+2025-07-18 15:40:13 [LOCALTEST] INFO: AUTH SUCCESS: User th3882, Rights: 0, Team: ASSET
+2025-07-18 15:40:13 [LOCALTEST] INFO: Auth check: IsAuthorized=True, Rights=0
+2025-07-18 15:40:13 [LOCALTEST] INFO: DB Connection #2 created
+2025-07-18 15:40:13 [LOCALTEST] INFO: GetTeams returned 10 teams
+2025-07-18 15:40:13 [LOCALTEST] INFO: DB Connection #3 created
+2025-07-18 15:40:14 [LOCALTEST] INFO: GetManpowerData: 0 records in 298ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 15:40:14 [LOCALTEST] INFO: Team Application Localization & Support: Added with percentage 0%
+2025-07-18 15:40:14 [LOCALTEST] INFO: DB Connection #4 created
+2025-07-18 15:40:14 [LOCALTEST] INFO: GetManpowerData: 85 records in 289ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 15:40:14 [LOCALTEST] INFO: Team ASSET: Added with percentage 110%
+2025-07-18 15:40:14 [LOCALTEST] INFO: DB Connection #5 created
+2025-07-18 15:40:14 [LOCALTEST] INFO: GetManpowerData: 0 records in 291ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 15:40:14 [LOCALTEST] INFO: Team Business Management: Added with percentage 0%
+2025-07-18 15:40:14 [LOCALTEST] INFO: DB Connection #6 created
+2025-07-18 15:40:15 [LOCALTEST] INFO: GetManpowerData: 0 records in 284ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 15:40:15 [LOCALTEST] INFO: Team Core Connections: Added with percentage 0%
+2025-07-18 15:40:15 [LOCALTEST] INFO: DB Connection #7 created
+2025-07-18 15:40:15 [LOCALTEST] INFO: GetManpowerData: 0 records in 274ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 15:40:15 [LOCALTEST] INFO: Team Core Services: Added with percentage 0%
+2025-07-18 15:40:15 [LOCALTEST] INFO: DB Connection #8 created
+2025-07-18 15:40:15 [LOCALTEST] INFO: GetManpowerData: 0 records in 314ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 15:40:15 [LOCALTEST] INFO: Team EUS: Added with percentage 0%
+2025-07-18 15:40:15 [LOCALTEST] INFO: DB Connection #9 created
+2025-07-18 15:40:15 [LOCALTEST] INFO: GetManpowerData: 0 records in 287ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 15:40:15 [LOCALTEST] INFO: Team HOTS: Added with percentage 0%
+2025-07-18 15:40:15 [LOCALTEST] INFO: DB Connection #10 created
+2025-07-18 15:40:16 [LOCALTEST] INFO: GetManpowerData: 0 records in 269ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 15:40:16 [LOCALTEST] INFO: Team PAID: Added with percentage 0%
+2025-07-18 15:40:16 [LOCALTEST] INFO: DB Connection #11 created
+2025-07-18 15:40:16 [LOCALTEST] INFO: GetManpowerData: 0 records in 278ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 15:40:16 [LOCALTEST] INFO: Team Security and Compliance: Added with percentage 0%
+2025-07-18 15:40:16 [LOCALTEST] INFO: DB Connection #12 created
+2025-07-18 15:40:16 [LOCALTEST] INFO: GetManpowerData: 0 records in 295ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 15:40:16 [LOCALTEST] INFO: Team Service Delivery: Added with percentage 0%
+2025-07-18 15:40:16 [LOCALTEST] INFO: Total teams with percentage: 10
+2025-07-18 15:40:16 [LOCALTEST] INFO: DB Connection #13 created
+2025-07-18 15:40:16 [LOCALTEST] INFO: DB Connection #14 created
+2025-07-18 15:40:17 [LOCALTEST] INFO: GetManpowerData: 85 records in 312ms for date range 2025-07-14 to 2025-07-20
+2025-07-18 15:40:17 [LOCALTEST] INFO: Total member count across all teams: 14
