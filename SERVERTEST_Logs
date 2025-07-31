@@ -1,56 +1,60 @@
-2025-07-31 14:29:26 [SERVERTEST] INFO: DB Connection #2 created in 0ms
-2025-07-31 14:29:27 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 1184ms
-2025-07-31 14:29:27 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-07-28_2025-08-03_AP service delivery'
-2025-07-31 14:29:28 [SERVERTEST] INFO: GetManpowerData: 0 records in 1160ms for date range 2025-07-28 to 2025-08-03
-2025-07-31 14:29:28 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-07-28_2025-08-03_Application Localization & Support'
-2025-07-31 14:29:29 [SERVERTEST] INFO: GetManpowerData: 0 records in 1164ms for date range 2025-07-28 to 2025-08-03
-2025-07-31 14:29:29 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-07-28_2025-08-03_ASSET'
-2025-07-31 14:29:30 [SERVERTEST] INFO: GetManpowerData: 43 records in 1216ms for date range 2025-07-28 to 2025-08-03
-2025-07-31 14:29:30 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-07-28_2025-08-03_Business Management'
-2025-07-31 14:29:31 [SERVERTEST] INFO: GetManpowerData: 0 records in 1185ms for date range 2025-07-28 to 2025-08-03
-2025-07-31 14:29:31 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-07-28_2025-08-03_CALA service delivery'
-2025-07-31 14:29:33 [SERVERTEST] INFO: GetManpowerData: 0 records in 1168ms for date range 2025-07-28 to 2025-08-03
-2025-07-31 14:29:33 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-07-28_2025-08-03_Core Connections'
-2025-07-31 14:29:34 [SERVERTEST] INFO: GetManpowerData: 0 records in 1161ms for date range 2025-07-28 to 2025-08-03
-2025-07-31 14:29:34 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-07-28_2025-08-03_Core Services'
-2025-07-31 14:29:35 [SERVERTEST] INFO: GetManpowerData: 0 records in 1163ms for date range 2025-07-28 to 2025-08-03
-2025-07-31 14:29:35 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-07-28_2025-08-03_EMEA service delivery'
-2025-07-31 14:29:36 [SERVERTEST] INFO: GetManpowerData: 0 records in 1184ms for date range 2025-07-28 to 2025-08-03
-2025-07-31 14:29:36 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-07-28_2025-08-03_EUS'
-2025-07-31 14:29:37 [SERVERTEST] INFO: GetManpowerData: 0 records in 1177ms for date range 2025-07-28 to 2025-08-03
-2025-07-31 14:29:37 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-07-28_2025-08-03_HOTS'
-2025-07-31 14:29:39 [SERVERTEST] INFO: GetManpowerData: 0 records in 1165ms for date range 2025-07-28 to 2025-08-03
-2025-07-31 14:29:39 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-07-28_2025-08-03_MX service delivery'
-2025-07-31 14:29:40 [SERVERTEST] INFO: GetManpowerData: 0 records in 1161ms for date range 2025-07-28 to 2025-08-03
-2025-07-31 14:29:40 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-07-28_2025-08-03_PAID'
-2025-07-31 14:29:41 [SERVERTEST] INFO: GetManpowerData: 0 records in 1192ms for date range 2025-07-28 to 2025-08-03
-2025-07-31 14:29:41 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-07-28_2025-08-03_Security and Compliance'
-2025-07-31 14:29:42 [SERVERTEST] INFO: GetManpowerData: 0 records in 1175ms for date range 2025-07-28 to 2025-08-03
-2025-07-31 14:29:42 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-07-28_2025-08-03_SK/CZ service delivery new'
-2025-07-31 14:29:43 [SERVERTEST] INFO: GetManpowerData: 0 records in 1180ms for date range 2025-07-28 to 2025-08-03
-2025-07-31 14:29:43 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-07-28_2025-08-03_'
-2025-07-31 14:29:44 [SERVERTEST] INFO: GetManpowerData: 43 records in 1181ms for date range 2025-07-28 to 2025-08-03
-2025-07-31 14:29:45 [SERVERTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-07-28_2025-08-03_'
-2025-07-31 14:29:45 [SERVERTEST] INFO: PAGE LOAD COMPLETE: 45292.3578ms
-2025-07-31 14:29:57 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 1185ms
-2025-07-31 14:30:02 [SERVERTEST] INFO: GetTeamMembers: 8 members for team 'ASSET' in 1194ms
-2025-07-31 14:30:03 [SERVERTEST] INFO: GetShiftHours: 20 records in 1177ms
-2025-07-31 14:30:06 [SERVERTEST] INFO: GetManpowerData: 44 records in 1162ms for date range 2025-07-27 to 2025-08-04
-2025-07-31 14:30:18 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 1177ms
-2025-07-31 14:30:18 [SERVERTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-07-28_2025-08-03_AP service delivery'
-2025-07-31 14:30:18 [SERVERTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-07-28_2025-08-03_Application Localization & Support'
-2025-07-31 14:30:18 [SERVERTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-07-28_2025-08-03_ASSET'
-2025-07-31 14:30:18 [SERVERTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-07-28_2025-08-03_Business Management'
-2025-07-31 14:30:18 [SERVERTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-07-28_2025-08-03_CALA service delivery'
-2025-07-31 14:30:18 [SERVERTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-07-28_2025-08-03_Core Connections'
-2025-07-31 14:30:18 [SERVERTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-07-28_2025-08-03_Core Services'
-2025-07-31 14:30:18 [SERVERTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-07-28_2025-08-03_EMEA service delivery'
-2025-07-31 14:30:18 [SERVERTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-07-28_2025-08-03_EUS'
-2025-07-31 14:30:18 [SERVERTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-07-28_2025-08-03_HOTS'
-2025-07-31 14:30:18 [SERVERTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-07-28_2025-08-03_MX service delivery'
-2025-07-31 14:30:18 [SERVERTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-07-28_2025-08-03_PAID'
-2025-07-31 14:30:18 [SERVERTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-07-28_2025-08-03_Security and Compliance'
-2025-07-31 14:30:18 [SERVERTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-07-28_2025-08-03_SK/CZ service delivery new'
-2025-07-31 14:30:18 [SERVERTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-07-28_2025-08-03_'
-2025-07-31 14:30:18 [SERVERTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-07-28_2025-08-03_'
-2025-07-31 14:30:18 [SERVERTEST] INFO: PAGE LOAD COMPLETE: 1546.9594ms
+2025-07-31 14:44:31 [SERVERTEST] INFO: DB Connection #2 created in 0ms
+2025-07-31 14:44:32 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 1173ms
+2025-07-31 14:44:32 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-07-28_2025-08-03_AP service delivery'
+2025-07-31 14:44:33 [SERVERTEST] INFO: GetManpowerData: 0 records in 1172ms for date range 2025-07-28 to 2025-08-03
+2025-07-31 14:44:33 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-07-28_2025-08-03_Application Localization & Support'
+2025-07-31 14:44:34 [SERVERTEST] INFO: GetManpowerData: 0 records in 1166ms for date range 2025-07-28 to 2025-08-03
+2025-07-31 14:44:34 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-07-28_2025-08-03_ASSET'
+2025-07-31 14:44:35 [SERVERTEST] INFO: GetManpowerData: 43 records in 1195ms for date range 2025-07-28 to 2025-08-03
+2025-07-31 14:44:35 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-07-28_2025-08-03_Business Management'
+2025-07-31 14:44:37 [SERVERTEST] INFO: GetManpowerData: 0 records in 1188ms for date range 2025-07-28 to 2025-08-03
+2025-07-31 14:44:37 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-07-28_2025-08-03_CALA service delivery'
+2025-07-31 14:44:38 [SERVERTEST] INFO: GetManpowerData: 0 records in 1206ms for date range 2025-07-28 to 2025-08-03
+2025-07-31 14:44:38 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-07-28_2025-08-03_Core Connections'
+2025-07-31 14:44:39 [SERVERTEST] INFO: GetManpowerData: 0 records in 1175ms for date range 2025-07-28 to 2025-08-03
+2025-07-31 14:44:39 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-07-28_2025-08-03_Core Services'
+2025-07-31 14:44:40 [SERVERTEST] INFO: GetManpowerData: 0 records in 1186ms for date range 2025-07-28 to 2025-08-03
+2025-07-31 14:44:40 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-07-28_2025-08-03_EMEA service delivery'
+2025-07-31 14:44:41 [SERVERTEST] INFO: GetManpowerData: 0 records in 1177ms for date range 2025-07-28 to 2025-08-03
+2025-07-31 14:44:41 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-07-28_2025-08-03_EUS'
+2025-07-31 14:44:43 [SERVERTEST] INFO: GetManpowerData: 0 records in 1188ms for date range 2025-07-28 to 2025-08-03
+2025-07-31 14:44:43 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-07-28_2025-08-03_HOTS'
+2025-07-31 14:44:44 [SERVERTEST] INFO: GetManpowerData: 0 records in 1174ms for date range 2025-07-28 to 2025-08-03
+2025-07-31 14:44:44 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-07-28_2025-08-03_MX service delivery'
+2025-07-31 14:44:45 [SERVERTEST] INFO: GetManpowerData: 0 records in 1186ms for date range 2025-07-28 to 2025-08-03
+2025-07-31 14:44:45 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-07-28_2025-08-03_PAID'
+2025-07-31 14:44:46 [SERVERTEST] INFO: GetManpowerData: 0 records in 1170ms for date range 2025-07-28 to 2025-08-03
+2025-07-31 14:44:46 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-07-28_2025-08-03_Security and Compliance'
+2025-07-31 14:44:47 [SERVERTEST] INFO: GetManpowerData: 0 records in 1183ms for date range 2025-07-28 to 2025-08-03
+2025-07-31 14:44:47 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-07-28_2025-08-03_SK/CZ service delivery new'
+2025-07-31 14:44:48 [SERVERTEST] INFO: GetManpowerData: 0 records in 1171ms for date range 2025-07-28 to 2025-08-03
+2025-07-31 14:44:48 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-07-28_2025-08-03_'
+2025-07-31 14:44:50 [SERVERTEST] INFO: GetManpowerData: 43 records in 1169ms for date range 2025-07-28 to 2025-08-03
+2025-07-31 14:44:50 [SERVERTEST] INFO: PAGE LOAD COMPLETE: 41353.3464ms
+2025-07-31 14:46:38 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 1207ms
+2025-07-31 14:46:43 [SERVERTEST] INFO: GetTeamMembers: 8 members for team 'ASSET' in 1190ms
+2025-07-31 14:46:44 [SERVERTEST] INFO: GetShiftHours: 20 records in 1187ms
+2025-07-31 14:46:46 [SERVERTEST] INFO: GetManpowerData: 44 records in 1175ms for date range 2025-07-27 to 2025-08-04
+2025-07-31 14:46:54 [SERVERTEST] INFO: GetTeamMembers: 8 members for team 'ASSET' in 1178ms
+2025-07-31 14:46:54 [SERVERTEST] INFO: DB Connection #3 created in 0ms
+2025-07-31 14:46:55 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team ASSET in 1480ms
+2025-07-31 14:46:57 [SERVERTEST] INFO: GetTeamMembers: 8 members for team 'ASSET' in 1172ms
+2025-07-31 14:46:58 [SERVERTEST] INFO: GetShiftHours: 20 records in 1189ms
+2025-07-31 14:47:00 [SERVERTEST] INFO: GetManpowerData: 67 records in 1178ms for date range 2025-07-20 to 2025-07-28
+2025-07-31 14:47:04 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 1201ms
+2025-07-31 14:47:04 [SERVERTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-07-28_2025-08-03_AP service delivery'
+2025-07-31 14:47:04 [SERVERTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-07-28_2025-08-03_Application Localization & Support'
+2025-07-31 14:47:04 [SERVERTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-07-28_2025-08-03_ASSET'
+2025-07-31 14:47:04 [SERVERTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-07-28_2025-08-03_Business Management'
+2025-07-31 14:47:04 [SERVERTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-07-28_2025-08-03_CALA service delivery'
+2025-07-31 14:47:04 [SERVERTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-07-28_2025-08-03_Core Connections'
+2025-07-31 14:47:04 [SERVERTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-07-28_2025-08-03_Core Services'
+2025-07-31 14:47:04 [SERVERTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-07-28_2025-08-03_EMEA service delivery'
+2025-07-31 14:47:04 [SERVERTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-07-28_2025-08-03_EUS'
+2025-07-31 14:47:04 [SERVERTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-07-28_2025-08-03_HOTS'
+2025-07-31 14:47:04 [SERVERTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-07-28_2025-08-03_MX service delivery'
+2025-07-31 14:47:04 [SERVERTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-07-28_2025-08-03_PAID'
+2025-07-31 14:47:04 [SERVERTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-07-28_2025-08-03_Security and Compliance'
+2025-07-31 14:47:04 [SERVERTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-07-28_2025-08-03_SK/CZ service delivery new'
+2025-07-31 14:47:04 [SERVERTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-07-28_2025-08-03_'
+2025-07-31 14:47:04 [SERVERTEST] INFO: PAGE LOAD COMPLETE: 1515.8086ms
