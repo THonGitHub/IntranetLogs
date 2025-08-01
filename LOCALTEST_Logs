@@ -1,18 +1,11 @@
-2025-07-31 22:28:08 [LOCALTEST] INFO: DB Connection #2 created in 0ms
-2025-07-31 22:28:09 [LOCALTEST] INFO: GetTeams: 14 teams loaded in 307ms
-2025-07-31 22:28:09 [LOCALTEST] INFO: GetManpowerData: 0 records in 303ms for date range 2025-07-28 to 2025-08-03
-2025-07-31 22:28:09 [LOCALTEST] INFO: GetManpowerData: 0 records in 299ms for date range 2025-07-28 to 2025-08-03
-2025-07-31 22:28:10 [LOCALTEST] INFO: GetManpowerData: 0 records in 296ms for date range 2025-07-28 to 2025-08-03
-2025-07-31 22:28:10 [LOCALTEST] INFO: GetManpowerData: 0 records in 381ms for date range 2025-07-28 to 2025-08-03
-2025-07-31 22:28:11 [LOCALTEST] INFO: GetManpowerData: 0 records in 466ms for date range 2025-07-28 to 2025-08-03
-2025-07-31 22:28:11 [LOCALTEST] INFO: GetManpowerData: 0 records in 682ms for date range 2025-07-28 to 2025-08-03
-2025-07-31 22:28:12 [LOCALTEST] INFO: GetManpowerData: 0 records in 284ms for date range 2025-07-28 to 2025-08-03
-2025-07-31 22:28:12 [LOCALTEST] INFO: GetManpowerData: 0 records in 329ms for date range 2025-07-28 to 2025-08-03
-2025-07-31 22:28:12 [LOCALTEST] INFO: GetManpowerData: 0 records in 340ms for date range 2025-07-28 to 2025-08-03
-2025-07-31 22:28:12 [LOCALTEST] INFO: GetManpowerData: 0 records in 293ms for date range 2025-07-28 to 2025-08-03
-2025-07-31 22:28:13 [LOCALTEST] INFO: GetManpowerData: 0 records in 375ms for date range 2025-07-28 to 2025-08-03
-2025-07-31 22:28:13 [LOCALTEST] INFO: GetManpowerData: 0 records in 309ms for date range 2025-07-28 to 2025-08-03
-2025-07-31 22:28:13 [LOCALTEST] INFO: GetManpowerData: 0 records in 300ms for date range 2025-07-28 to 2025-08-03
-2025-07-31 22:28:14 [LOCALTEST] INFO: GetManpowerData: 0 records in 313ms for date range 2025-07-28 to 2025-08-03
-2025-07-31 22:28:14 [LOCALTEST] INFO: GetManpowerData: 0 records in 293ms for date range 2025-07-28 to 2025-08-03
-2025-07-31 22:28:14 [LOCALTEST] INFO: PAGE LOAD COMPLETE: 27618,3834ms
+2025-08-01 15:36:12 [LOCALTEST] INFO: DB Connection #1 created in 8,9099ms - ConnectionString length: 129
+2025-08-01 15:36:27 [LOCALTEST] INFO: DB Connection #2 created in 0ms - ConnectionString length: 129
+2025-08-01 15:36:27 [LOCALTEST] INFO: GetTeams: 14 teams loaded in 332ms
+2025-08-01 15:36:27 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-07-28_2025-08-03_'
+2025-08-01 15:36:28 [LOCALTEST] INFO: GetManpowerData: 43 records in 311ms for date range 2025-07-28 to 2025-08-03
+2025-08-01 15:36:28 [LOCALTEST] INFO: PAGE LOAD COMPLETE: 16526,4875ms
+2025-08-01 20:25:49 [LOCALTEST] INFO: DB Connection #3 created in 0ms - ConnectionString length: 129
+2025-08-01 20:25:50 [LOCALTEST] INFO: GetTeams: 14 teams loaded in 727ms
+2025-08-01 20:25:50 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-07-28_2025-08-03_'
+2025-08-01 20:25:50 [LOCALTEST] INFO: GetManpowerData: 43 records in 303ms for date range 2025-07-28 to 2025-08-03
+2025-08-01 20:25:51 [LOCALTEST] INFO: PAGE LOAD COMPLETE: 1630,935ms
