@@ -1,23 +1,21 @@
-2025-08-03 11:54:18 [SERVERTEST] INFO: DB Connection #2 created in 0ms - ConnectionString length: 196
-2025-08-03 11:54:19 [SERVERTEST] INFO: Opened persistent connection in 1046.205ms
-2025-08-03 11:54:19 [SERVERTEST] INFO: GetTeams: Query execution took 124.9948ms
-2025-08-03 11:54:19 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 1176ms
-2025-08-03 11:54:19 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-07-28_2025-08-03_'
-2025-08-03 11:54:20 [SERVERTEST] INFO: GetManpowerData: 44 records in 1149ms for date range 2025-07-28 to 2025-08-03
-2025-08-03 11:54:21 [SERVERTEST] INFO: PAGE LOAD COMPLETE: 30741.0629ms
-2025-08-03 11:55:00 [SERVERTEST] INFO: Opened persistent connection in 1031.7539ms
-2025-08-03 11:55:00 [SERVERTEST] INFO: GetTeams: Query execution took 124.8834ms
-2025-08-03 11:55:00 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 1163ms
-2025-08-03 11:55:06 [SERVERTEST] INFO: GetTeamMembers: 8 members for team 'ASSET' in 1156ms
-2025-08-03 11:55:07 [SERVERTEST] INFO: GetShiftHours: 21 records in 1169ms
-2025-08-03 11:55:09 [SERVERTEST] INFO: GetManpowerData: 55 records in 1153ms for date range 2025-07-27 to 2025-08-04
-2025-08-03 11:55:16 [SERVERTEST] INFO: GetTeamMembers: 8 members for team 'ASSET' in 1144ms
-2025-08-03 11:55:18 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team ASSET in 1439ms
-2025-08-03 11:55:19 [SERVERTEST] INFO: GetTeamMembers: 8 members for team 'ASSET' in 1158ms
-2025-08-03 11:55:20 [SERVERTEST] INFO: GetShiftHours: 17 records in 1146ms
-2025-08-03 11:55:22 [SERVERTEST] INFO: GetManpowerData: 61 records in 1149ms for date range 2025-08-03 to 2025-08-11
-2025-08-03 11:55:26 [SERVERTEST] INFO: Opened persistent connection in 1031.2585ms
-2025-08-03 11:55:26 [SERVERTEST] INFO: GetTeams: Query execution took 124.9498ms
-2025-08-03 11:55:26 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 1160ms
-2025-08-03 11:55:26 [SERVERTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-07-28_2025-08-03_'
-2025-08-03 11:55:27 [SERVERTEST] INFO: PAGE LOAD COMPLETE: 1624.8985ms
+2025-08-03 12:09:10 [SERVERTEST] INFO: DB Connection #2 created in 0ms - ConnectionString length: 196
+2025-08-03 12:09:11 [SERVERTEST] INFO: Opened persistent connection in 1015.7457ms
+2025-08-03 12:09:11 [SERVERTEST] INFO: GetTeams: Query execution took 124.9075ms
+2025-08-03 12:09:11 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 1146ms
+2025-08-03 12:09:11 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-07-28_2025-08-03_'
+2025-08-03 12:09:13 [SERVERTEST] INFO: GetManpowerData: 44 records in 2074ms for date range 2025-07-28 to 2025-08-03
+2025-08-03 12:09:13 [SERVERTEST] INFO: PAGE LOAD COMPLETE: 29353.1083ms
+2025-08-03 12:09:24 [SERVERTEST] INFO: GetTeams: Query execution took 125.1299ms
+2025-08-03 12:09:24 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 124ms
+2025-08-03 12:09:30 [SERVERTEST] INFO: GetTeamMembers: 8 members for team 'ASSET' in 1149ms
+2025-08-03 12:09:31 [SERVERTEST] INFO: GetShiftHours: 21 records in 1153ms
+2025-08-03 12:09:33 [SERVERTEST] INFO: GetManpowerData: 55 records in 1166ms for date range 2025-07-27 to 2025-08-04
+2025-08-03 12:09:39 [SERVERTEST] INFO: GetTeamMembers: 8 members for team 'ASSET' in 1161ms
+2025-08-03 12:09:41 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team ASSET in 1447ms
+2025-08-03 12:09:42 [SERVERTEST] INFO: GetTeamMembers: 8 members for team 'ASSET' in 1176ms
+2025-08-03 12:09:43 [SERVERTEST] INFO: GetShiftHours: 17 records in 1482ms
+2025-08-03 12:09:46 [SERVERTEST] INFO: GetManpowerData: 61 records in 1155ms for date range 2025-08-03 to 2025-08-11
+2025-08-03 12:09:56 [SERVERTEST] INFO: GetTeams: Query execution took 125.074ms
+2025-08-03 12:09:56 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 122ms
+2025-08-03 12:09:56 [SERVERTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-07-28_2025-08-03_'
+2025-08-03 12:09:56 [SERVERTEST] INFO: PAGE LOAD COMPLETE: 468.7563ms
