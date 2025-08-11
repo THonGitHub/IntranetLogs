@@ -1,28 +1,109 @@
-2025-08-03 12:39:01 [SERVERTEST] INFO: DB Connection #2 created in 0ms - ConnectionString length: 196
-2025-08-03 12:39:02 [SERVERTEST] INFO: Opened persistent connection in 1019.9226ms
-2025-08-03 12:39:02 [SERVERTEST] INFO: GetTeams: Query execution took 125.0643ms
-2025-08-03 12:39:02 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 1146ms
-2025-08-03 12:39:02 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-07-28_2025-08-03_'
-2025-08-03 12:39:03 [SERVERTEST] INFO: GetManpowerData: 44 records in 140ms for date range 2025-07-28 to 2025-08-03
-2025-08-03 12:39:03 [SERVERTEST] INFO: PAGE LOAD COMPLETE: 26395.3809ms
-2025-08-03 12:40:20 [SERVERTEST] INFO: GetTeams: Query execution took 125.0663ms
-2025-08-03 12:40:20 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 126ms
-2025-08-03 12:40:25 [SERVERTEST] INFO: GetTeamMembers: 8 members for team 'ASSET' in 125ms
-2025-08-03 12:40:26 [SERVERTEST] INFO: GetShiftHours: 21 records in 125ms
-2025-08-03 12:40:28 [SERVERTEST] INFO: GetManpowerData: 55 records in 125ms for date range 2025-07-27 to 2025-08-04
-2025-08-03 12:40:35 [SERVERTEST] INFO: GetTeamMembers: 8 members for team 'ASSET' in 124ms
-2025-08-03 12:40:37 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team ASSET in 1423ms
-2025-08-03 12:40:37 [SERVERTEST] INFO: GetTeamMembers: 8 members for team 'ASSET' in 124ms
-2025-08-03 12:40:37 [SERVERTEST] INFO: GetShiftHours: 17 records in 125ms
-2025-08-03 12:40:39 [SERVERTEST] INFO: GetManpowerData: 61 records in 127ms for date range 2025-08-03 to 2025-08-11
-2025-08-03 12:40:45 [SERVERTEST] INFO: GetTeams: Query execution took 124.9992ms
-2025-08-03 12:40:45 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 125ms
-2025-08-03 12:40:45 [SERVERTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-07-28_2025-08-03_'
-2025-08-03 12:40:45 [SERVERTEST] INFO: PAGE LOAD COMPLETE: 531.2485ms
-2025-08-03 12:40:49 [SERVERTEST] INFO: GetTeams: Query execution took 110.926ms
-2025-08-03 12:40:49 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 126ms
-2025-08-03 12:40:54 [SERVERTEST] INFO: GetTeamMembers: 8 members for team 'ASSET' in 124ms
-2025-08-03 12:41:00 [SERVERTEST] INFO: GetTeams: Query execution took 125.0077ms
-2025-08-03 12:41:00 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 124ms
-2025-08-03 12:41:00 [SERVERTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-07-28_2025-08-03_'
-2025-08-03 12:41:01 [SERVERTEST] INFO: PAGE LOAD COMPLETE: 500.0051ms
+2025-08-11 06:06:29 [SERVERTEST] INFO: DB Connection #2 created in 0ms - ConnectionString length: 196
+2025-08-11 06:06:30 [SERVERTEST] INFO: Opened persistent connection in 1047.0084ms
+2025-08-11 06:06:30 [SERVERTEST] INFO: GetTeams: Query execution took 140.51ms
+2025-08-11 06:06:30 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 1179ms
+2025-08-11 06:06:30 [SERVERTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_AP service delivery'
+2025-08-11 06:06:30 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_AP service delivery'
+2025-08-11 06:06:30 [SERVERTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_Application Localization & Support'
+2025-08-11 06:06:30 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_Application Localization & Support'
+2025-08-11 06:06:30 [SERVERTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_ASSET'
+2025-08-11 06:06:30 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_ASSET'
+2025-08-11 06:06:30 [SERVERTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_Business Management'
+2025-08-11 06:06:30 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_Business Management'
+2025-08-11 06:06:31 [SERVERTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_CALA service delivery'
+2025-08-11 06:06:31 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_CALA service delivery'
+2025-08-11 06:06:31 [SERVERTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_Core Connections'
+2025-08-11 06:06:31 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_Core Connections'
+2025-08-11 06:06:31 [SERVERTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_Core Services'
+2025-08-11 06:06:31 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_Core Services'
+2025-08-11 06:06:31 [SERVERTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_EMEA service delivery'
+2025-08-11 06:06:31 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_EMEA service delivery'
+2025-08-11 06:06:31 [SERVERTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_EUS'
+2025-08-11 06:06:31 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_EUS'
+2025-08-11 06:06:31 [SERVERTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_HOTS'
+2025-08-11 06:06:31 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_HOTS'
+2025-08-11 06:06:31 [SERVERTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_MX service delivery'
+2025-08-11 06:06:31 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_MX service delivery'
+2025-08-11 06:06:32 [SERVERTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_PAID'
+2025-08-11 06:06:32 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_PAID'
+2025-08-11 06:06:32 [SERVERTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_Security and Compliance'
+2025-08-11 06:06:32 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_Security and Compliance'
+2025-08-11 06:06:32 [SERVERTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_SK/CZ service delivery new'
+2025-08-11 06:06:32 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_SK/CZ service delivery new'
+2025-08-11 06:06:32 [SERVERTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_'
+2025-08-11 06:06:32 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_'
+2025-08-11 06:06:32 [SERVERTEST] INFO: === PAGE LOAD PHASES: PostBack=False, CurrentTeam=, EventTarget=
+2025-08-11 06:06:32 [SERVERTEST] INFO: PAGE LOAD COMPLETE: 34084.5265ms
+2025-08-11 06:11:39 [SERVERTEST] INFO: GetTeams: Query execution took 125.0082ms
+2025-08-11 06:11:39 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 126ms
+2025-08-11 06:11:39 [SERVERTEST] INFO: GetTeams: Query execution took 125.0961ms
+2025-08-11 06:11:39 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 126ms
+2025-08-11 06:11:41 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team AP service delivery in 2123ms
+2025-08-11 06:11:42 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team Application Localization & Support in 1280ms
+2025-08-11 06:11:44 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team ASSET in 1464ms
+2025-08-11 06:11:45 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team Business Management in 1286ms
+2025-08-11 06:11:46 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team CALA service delivery in 1271ms
+2025-08-11 06:11:48 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team Core Connections in 1289ms
+2025-08-11 06:11:49 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team Core Services in 1251ms
+2025-08-11 06:11:50 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team EMEA service delivery in 1294ms
+2025-08-11 06:11:51 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team EUS in 1328ms
+2025-08-11 06:11:53 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team HOTS in 1288ms
+2025-08-11 06:11:54 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team MX service delivery in 1291ms
+2025-08-11 06:11:55 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team PAID in 1296ms
+2025-08-11 06:11:57 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team Security and Compliance in 1271ms
+2025-08-11 06:11:58 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team SK/CZ service delivery new in 1514ms
+2025-08-11 06:11:58 [SERVERTEST] INFO: GetTeams: Query execution took 125.0696ms
+2025-08-11 06:11:58 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 127ms
+2025-08-11 06:12:12 [SERVERTEST] INFO: GetTeams: Query execution took 125.1134ms
+2025-08-11 06:12:12 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 128ms
+2025-08-11 06:12:17 [SERVERTEST] INFO: GetTeamMembers: 10 members for team 'ASSET' in 126ms
+2025-08-11 06:12:54 [SERVERTEST] INFO: GetTeamMembers: 10 members for team 'ASSET' in 126ms
+2025-08-11 06:12:54 [SERVERTEST] INFO: GetTeamMembers: 10 members for team 'ASSET' in 128ms
+2025-08-11 06:13:07 [SERVERTEST] INFO: GetTeamMembers: 10 members for team 'ASSET' in 125ms
+2025-08-11 06:13:15 [SERVERTEST] INFO: GetTeamMembers: 10 members for team 'ASSET' in 126ms
+2025-08-11 06:13:25 [SERVERTEST] INFO: GetTeamMembers: 10 members for team 'ASSET' in 126ms
+2025-08-11 06:13:25 [SERVERTEST] INFO: GetTeamMembers: 10 members for team 'ASSET' in 126ms
+2025-08-11 06:13:35 [SERVERTEST] INFO: GetTeamMembers: 10 members for team 'ASSET' in 126ms
+2025-08-11 06:13:49 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team ASSET in 1423ms
+2025-08-11 06:13:49 [SERVERTEST] INFO: GetTeamMembers: 10 members for team 'ASSET' in 126ms
+2025-08-11 06:14:17 [SERVERTEST] INFO: GetTeamMembers: 10 members for team 'ASSET' in 126ms
+2025-08-11 06:14:19 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team ASSET in 1389ms
+2025-08-11 06:14:19 [SERVERTEST] INFO: GetTeamMembers: 10 members for team 'ASSET' in 126ms
+2025-08-11 06:14:46 [SERVERTEST] INFO: GetTeamMembers: 10 members for team 'ASSET' in 126ms
+2025-08-11 06:14:46 [SERVERTEST] INFO: GetTeamMembers: 10 members for team 'ASSET' in 127ms
+2025-08-11 06:15:00 [SERVERTEST] INFO: GetTeamMembers: 10 members for team 'ASSET' in 126ms
+2025-08-11 06:15:08 [SERVERTEST] INFO: GetTeamMembers: 10 members for team 'ASSET' in 126ms
+2025-08-11 06:15:21 [SERVERTEST] INFO: GetTeamMembers: 10 members for team 'ASSET' in 126ms
+2025-08-11 06:15:21 [SERVERTEST] INFO: GetTeamMembers: 10 members for team 'ASSET' in 126ms
+2025-08-11 06:15:36 [SERVERTEST] INFO: GetTeamMembers: 10 members for team 'ASSET' in 126ms
+2025-08-11 06:15:51 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team ASSET in 1437ms
+2025-08-11 06:15:51 [SERVERTEST] INFO: GetTeamMembers: 10 members for team 'ASSET' in 126ms
+2025-08-11 06:17:30 [SERVERTEST] INFO: GetTeamMembers: 10 members for team 'ASSET' in 127ms
+2025-08-11 06:17:34 [SERVERTEST] INFO: GetTeamMembers: 10 members for team 'ASSET' in 126ms
+2025-08-11 06:17:40 [SERVERTEST] ERROR: Failed to add user sr044r to LDAP group: Access is denied.
+
+2025-08-11 06:17:40 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 128ms
+2025-08-11 06:18:00 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 126ms
+2025-08-11 06:18:04 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team ASSET in 2331ms
+2025-08-11 06:18:04 [SERVERTEST] INFO: GetTeamMembers: 10 members for team 'ASSET' in 126ms
+2025-08-11 06:18:30 [SERVERTEST] INFO: GetTeams: Query execution took 125.0213ms
+2025-08-11 06:18:30 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 126ms
+2025-08-11 06:18:30 [SERVERTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_AP service delivery'
+2025-08-11 06:18:30 [SERVERTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_Application Localization & Support'
+2025-08-11 06:18:30 [SERVERTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_ASSET'
+2025-08-11 06:18:30 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_ASSET'
+2025-08-11 06:18:30 [SERVERTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_Business Management'
+2025-08-11 06:18:30 [SERVERTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_CALA service delivery'
+2025-08-11 06:18:30 [SERVERTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_Core Connections'
+2025-08-11 06:18:30 [SERVERTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_Core Services'
+2025-08-11 06:18:30 [SERVERTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_EMEA service delivery'
+2025-08-11 06:18:30 [SERVERTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_EUS'
+2025-08-11 06:18:30 [SERVERTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_HOTS'
+2025-08-11 06:18:30 [SERVERTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_MX service delivery'
+2025-08-11 06:18:30 [SERVERTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_PAID'
+2025-08-11 06:18:30 [SERVERTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_Security and Compliance'
+2025-08-11 06:18:30 [SERVERTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_SK/CZ service delivery new'
+2025-08-11 06:18:30 [SERVERTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_'
+2025-08-11 06:18:30 [SERVERTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_'
+2025-08-11 06:18:31 [SERVERTEST] INFO: === PAGE LOAD PHASES: PostBack=False, CurrentTeam=, EventTarget=
+2025-08-11 06:18:31 [SERVERTEST] INFO: PAGE LOAD COMPLETE: 859.4168ms
