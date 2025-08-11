@@ -1,89 +1,92 @@
-2025-08-11 13:03:11 [SERVERTEST] INFO: GetTeams returned 14 teams
-2025-08-11 13:03:11 [SERVERTEST] INFO: PARALLEL CALC START: 14 teams from 2025-08-11 to 2025-08-17
-2025-08-11 13:03:13 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team Business Management in 2671ms
-2025-08-11 13:03:13 [SERVERTEST] INFO: PARALLEL SUCCESS: Team 'Business Management' completed in 2685.0214ms
-2025-08-11 13:03:13 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team AP service delivery in 2681ms
-2025-08-11 13:03:13 [SERVERTEST] INFO: PARALLEL SUCCESS: Team 'AP service delivery' completed in 2685.0214ms
-2025-08-11 13:03:13 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 15ms: Unable to connect to any of the specified MySQL hosts
-2025-08-11 13:03:13 [SERVERTEST] ERROR: PARALLEL ERROR: Team 'CALA service delivery' failed after 15.6063ms
-2025-08-11 13:03:13 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
-2025-08-11 13:03:13 [SERVERTEST] ERROR: PARALLEL ERROR: Team 'Core Connections' failed after 0ms
-2025-08-11 13:03:13 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
-2025-08-11 13:03:13 [SERVERTEST] ERROR: PARALLEL ERROR: Team 'EMEA service delivery' failed after 0ms
-2025-08-11 13:03:13 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
-2025-08-11 13:03:13 [SERVERTEST] ERROR: PARALLEL ERROR: Team 'EUS' failed after 0ms
-2025-08-11 13:03:13 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
-2025-08-11 13:03:13 [SERVERTEST] ERROR: PARALLEL ERROR: Team 'MX service delivery' failed after 0ms
-2025-08-11 13:03:13 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
-2025-08-11 13:03:13 [SERVERTEST] ERROR: PARALLEL ERROR: Team 'PAID' failed after 0ms
-2025-08-11 13:03:13 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
-2025-08-11 13:03:13 [SERVERTEST] ERROR: PARALLEL ERROR: Team 'Security and Compliance' failed after 0ms
-2025-08-11 13:03:13 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
-2025-08-11 13:03:13 [SERVERTEST] ERROR: PARALLEL ERROR: Team 'SK/CZ service delivery new' failed after 0ms
-2025-08-11 13:03:13 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team Core Services in 2698ms
-2025-08-11 13:03:13 [SERVERTEST] INFO: PARALLEL SUCCESS: Team 'Core Services' completed in 2700.6277ms
-2025-08-11 13:03:14 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team HOTS in 3110ms
-2025-08-11 13:03:14 [SERVERTEST] INFO: PARALLEL SUCCESS: Team 'HOTS' completed in 3107.0041ms
-2025-08-11 13:03:15 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team Application Localization & Support in 1285ms
-2025-08-11 13:03:15 [SERVERTEST] INFO: PARALLEL SUCCESS: Team 'Application Localization & Support' completed in 1281.2619ms
-2025-08-11 13:03:16 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team ASSET in 1518ms
-2025-08-11 13:03:16 [SERVERTEST] INFO: PARALLEL SUCCESS: Team 'ASSET' completed in 1531.2958ms
-2025-08-11 13:03:16 [SERVERTEST] INFO: PARALLEL CALC COMPLETE: 6 success, 8 errors in 5500ms
-2025-08-11 13:03:16 [SERVERTEST] INFO: Parallel manpower calculation result: False
-2025-08-11 13:03:18 [SERVERTEST] INFO: Total teams with percentage: 14
-2025-08-11 13:03:19 [SERVERTEST] INFO: Total member count across all teams: 28
-2025-08-11 13:03:19 [SERVERTEST] INFO: === PAGE LOAD PHASES: PostBack=False, CurrentTeam=, EventTarget=
-2025-08-11 13:03:19 [SERVERTEST] INFO: PAGE LOAD COMPLETE: 38858.474ms
-2025-08-11 13:03:55 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
-2025-08-11 13:03:55 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
-2025-08-11 13:03:55 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
-2025-08-11 13:03:55 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 3ms: Unable to connect to any of the specified MySQL hosts
-2025-08-11 13:03:55 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 2ms: Unable to connect to any of the specified MySQL hosts
-2025-08-11 13:03:55 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
-2025-08-11 13:03:55 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 1ms: Unable to connect to any of the specified MySQL hosts
-2025-08-11 13:03:55 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
-2025-08-11 13:03:55 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 1ms: Unable to connect to any of the specified MySQL hosts
-2025-08-11 13:03:55 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
-2025-08-11 13:03:55 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 1ms: Unable to connect to any of the specified MySQL hosts
-2025-08-11 13:03:55 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
-2025-08-11 13:03:56 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team Business Management in 1288ms
-2025-08-11 13:03:56 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
-2025-08-11 13:03:56 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
-2025-08-11 13:03:56 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
-2025-08-11 13:03:56 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 2ms: Unable to connect to any of the specified MySQL hosts
-2025-08-11 13:03:56 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 1ms: Unable to connect to any of the specified MySQL hosts
-2025-08-11 13:03:56 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 1ms: Unable to connect to any of the specified MySQL hosts
-2025-08-11 13:03:56 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
-2025-08-11 13:03:56 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
-2025-08-11 13:03:56 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
-2025-08-11 13:03:56 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
-2025-08-11 13:03:56 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
-2025-08-11 13:03:57 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team AP service delivery in 1284ms
-2025-08-11 13:04:07 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Object reference not set to an instance of an object.
-2025-08-11 13:04:09 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team Core Services in 1272ms
-2025-08-11 13:04:09 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team Business Management in 1280ms
-2025-08-11 13:04:09 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team Application Localization & Support in 1298ms
-2025-08-11 13:04:09 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team HOTS in 1298ms
-2025-08-11 13:04:09 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Object reference not set to an instance of an object.
-2025-08-11 13:04:10 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team MX service delivery in 1254ms
-2025-08-11 13:04:10 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team CALA service delivery in 1280ms
-2025-08-11 13:04:10 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team Security and Compliance in 1261ms
-2025-08-11 13:04:10 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team EMEA service delivery in 1297ms
-2025-08-11 13:04:11 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team Core Connections in 1263ms
-2025-08-11 13:04:11 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team EUS in 1259ms
-2025-08-11 13:04:11 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team PAID in 1279ms
-2025-08-11 13:04:11 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team SK/CZ service delivery new in 1279ms
-2025-08-11 13:04:12 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 795ms: Collection was modified; enumeration operation may not execute.
-2025-08-11 13:04:13 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team AP service delivery in 1264ms
-2025-08-11 13:04:13 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team Core Services in 1274ms
-2025-08-11 13:04:13 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team Business Management in 1299ms
-2025-08-11 13:04:14 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team MX service delivery in 1281ms
-2025-08-11 13:04:14 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team EMEA service delivery in 1259ms
-2025-08-11 13:04:14 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team Application Localization & Support in 1300ms
-2025-08-11 13:04:15 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team CALA service delivery in 1302ms
-2025-08-11 13:04:15 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team PAID in 1276ms
-2025-08-11 13:04:15 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team EUS in 1301ms
-2025-08-11 13:04:15 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team ASSET in 1434ms
-2025-08-11 13:04:16 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team Core Connections in 1279ms
-2025-08-11 13:04:16 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team Security and Compliance in 1236ms
-2025-08-11 13:04:17 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team SK/CZ service delivery new in 1255ms
+2025-08-11 13:13:19 [SERVERTEST] INFO: GetTeams returned 14 teams
+2025-08-11 13:13:19 [SERVERTEST] INFO: PARALLEL CALC START: 14 teams from 2025-08-11 to 2025-08-17
+2025-08-11 13:13:22 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team AP service delivery in 2109ms
+2025-08-11 13:13:22 [SERVERTEST] INFO: PARALLEL SUCCESS: Team 'AP service delivery' completed in 2109.9791ms
+2025-08-11 13:13:22 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team EMEA service delivery in 2139ms
+2025-08-11 13:13:22 [SERVERTEST] INFO: PARALLEL SUCCESS: Team 'EMEA service delivery' completed in 2141.2364ms
+2025-08-11 13:13:23 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team Application Localization & Support in 1275ms
+2025-08-11 13:13:23 [SERVERTEST] INFO: PARALLEL SUCCESS: Team 'Application Localization & Support' completed in 1281.8766ms
+2025-08-11 13:13:23 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team EUS in 1261ms
+2025-08-11 13:13:23 [SERVERTEST] INFO: PARALLEL SUCCESS: Team 'EUS' completed in 1266.1797ms
+2025-08-11 13:13:24 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team HOTS in 1240ms
+2025-08-11 13:13:24 [SERVERTEST] INFO: PARALLEL SUCCESS: Team 'HOTS' completed in 1234.5ms
+2025-08-11 13:13:24 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team ASSET in 1488ms
+2025-08-11 13:13:24 [SERVERTEST] INFO: PARALLEL SUCCESS: Team 'ASSET' completed in 1484.4359ms
+2025-08-11 13:13:25 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team MX service delivery in 1273ms
+2025-08-11 13:13:25 [SERVERTEST] INFO: PARALLEL SUCCESS: Team 'MX service delivery' completed in 1281.3187ms
+2025-08-11 13:13:26 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team Business Management in 1276ms
+2025-08-11 13:13:26 [SERVERTEST] INFO: PARALLEL SUCCESS: Team 'Business Management' completed in 1281.3235ms
+2025-08-11 13:13:27 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team PAID in 1273ms
+2025-08-11 13:13:27 [SERVERTEST] INFO: PARALLEL SUCCESS: Team 'PAID' completed in 1265.9708ms
+2025-08-11 13:13:27 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team CALA service delivery in 1286ms
+2025-08-11 13:13:27 [SERVERTEST] INFO: PARALLEL SUCCESS: Team 'CALA service delivery' completed in 1287.9126ms
+2025-08-11 13:13:28 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team Security and Compliance in 1269ms
+2025-08-11 13:13:28 [SERVERTEST] INFO: PARALLEL SUCCESS: Team 'Security and Compliance' completed in 1272.0189ms
+2025-08-11 13:13:28 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team Core Connections in 1255ms
+2025-08-11 13:13:28 [SERVERTEST] INFO: PARALLEL SUCCESS: Team 'Core Connections' completed in 1250.089ms
+2025-08-11 13:13:29 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team SK/CZ service delivery new in 1255ms
+2025-08-11 13:13:29 [SERVERTEST] INFO: PARALLEL SUCCESS: Team 'SK/CZ service delivery new' completed in 1265.6341ms
+2025-08-11 13:13:29 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team Core Services in 1268ms
+2025-08-11 13:13:29 [SERVERTEST] INFO: PARALLEL SUCCESS: Team 'Core Services' completed in 1281.184ms
+2025-08-11 13:13:29 [SERVERTEST] INFO: PARALLEL CALC COMPLETE: 14 success, 0 errors in 9978ms
+2025-08-11 13:13:29 [SERVERTEST] INFO: Parallel manpower calculation result: True
+2025-08-11 13:13:31 [SERVERTEST] INFO: Total teams with percentage: 14
+2025-08-11 13:13:32 [SERVERTEST] INFO: Total member count across all teams: 28
+2025-08-11 13:13:32 [SERVERTEST] INFO: === PAGE LOAD PHASES: PostBack=False, CurrentTeam=, EventTarget=
+2025-08-11 13:13:32 [SERVERTEST] INFO: PAGE LOAD COMPLETE: 39758.6391ms
+2025-08-11 13:13:40 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
+2025-08-11 13:13:40 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
+2025-08-11 13:13:40 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
+2025-08-11 13:13:40 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
+2025-08-11 13:13:40 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
+2025-08-11 13:13:40 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
+2025-08-11 13:13:40 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
+2025-08-11 13:13:40 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
+2025-08-11 13:13:40 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
+2025-08-11 13:13:40 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
+2025-08-11 13:13:40 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
+2025-08-11 13:13:40 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
+2025-08-11 13:13:40 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
+2025-08-11 13:13:41 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team AP service delivery in 1293ms
+2025-08-11 13:13:41 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
+2025-08-11 13:13:41 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
+2025-08-11 13:13:41 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
+2025-08-11 13:13:42 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
+2025-08-11 13:13:42 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
+2025-08-11 13:13:42 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
+2025-08-11 13:13:42 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
+2025-08-11 13:13:42 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
+2025-08-11 13:13:42 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
+2025-08-11 13:13:42 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
+2025-08-11 13:13:42 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
+2025-08-11 13:13:42 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
+2025-08-11 13:13:42 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
+2025-08-11 13:13:43 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team AP service delivery in 1286ms
+2025-08-11 13:14:05 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team EMEA service delivery in 1276ms
+2025-08-11 13:14:05 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team AP service delivery in 1290ms
+2025-08-11 13:14:06 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team Application Localization & Support in 1273ms
+2025-08-11 13:14:06 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team EUS in 1289ms
+2025-08-11 13:14:07 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team HOTS in 1266ms
+2025-08-11 13:14:07 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team ASSET in 1415ms
+2025-08-11 13:14:08 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team MX service delivery in 1269ms
+2025-08-11 13:14:09 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team Business Management in 1275ms
+2025-08-11 13:14:10 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team PAID in 1238ms
+2025-08-11 13:14:10 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team CALA service delivery in 1250ms
+2025-08-11 13:14:11 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team Security and Compliance in 1268ms
+2025-08-11 13:14:11 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team Core Connections in 1238ms
+2025-08-11 13:14:12 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team SK/CZ service delivery new in 1256ms
+2025-08-11 13:14:12 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team Core Services in 1268ms
+2025-08-11 13:14:13 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Object reference not set to an instance of an object.
+2025-08-11 13:14:13 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 1ms: Unable to connect to any of the specified MySQL hosts
+2025-08-11 13:14:13 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 1ms: Unable to connect to any of the specified MySQL hosts
+2025-08-11 13:14:13 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
+2025-08-11 13:14:13 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
+2025-08-11 13:14:13 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
+2025-08-11 13:14:13 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
+2025-08-11 13:14:13 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
+2025-08-11 13:14:13 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
+2025-08-11 13:14:13 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
+2025-08-11 13:14:13 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
+2025-08-11 13:14:13 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
+2025-08-11 13:14:13 [SERVERTEST] ERROR: CalculateAndUpdateManpower failed after 0ms: Unable to connect to any of the specified MySQL hosts
+2025-08-11 13:14:14 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team AP service delivery in 1289ms
