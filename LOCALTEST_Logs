@@ -1,7 +1,12 @@
-2025-08-11 17:12:15 [LOCALTEST] INFO: Page_Load: CurrentTeam=, EventTarget=
-2025-08-11 17:12:31 [LOCALTEST] INFO: GetTeams returned 14 teams
-2025-08-11 17:12:31 [LOCALTEST] INFO: PARALLEL CALC START: 14 teams from 2025-08-11 to 2025-08-17
-2025-08-11 17:12:32 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team Core Connections in 563ms
-2025-08-11 17:12:32 [LOCALTEST] INFO: PARALLEL SUCCESS: Team 'Core Connections' completed in 565,8792ms
-2025-08-11 17:12:32 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team AP service delivery in 564ms
-2025-08-11 17:12:32 [LOCALTEST] INFO: PARALLEL SUCCESS: Team 'AP service delivery' completed in 568,9636ms
+2025-08-11 21:28:18 [LOCALTEST] INFO: Page_Load: CurrentTeam=, EventTarget=
+2025-08-11 21:28:36 [LOCALTEST] INFO: GetTeams returned 14 teams
+2025-08-11 21:28:36 [LOCALTEST] INFO: PARALLEL CALC START: 14 teams from 2025-08-11 to 2025-08-17
+2025-08-11 21:28:36 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team Core Services in 683ms
+2025-08-11 21:28:36 [LOCALTEST] INFO: PARALLEL SUCCESS: Team 'Core Services' completed in 687,293ms
+2025-08-11 21:28:36 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team HOTS in 699ms
+2025-08-11 21:28:36 [LOCALTEST] INFO: PARALLEL SUCCESS: Team 'HOTS' completed in 703,7088ms
+2025-08-11 21:28:36 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team AP service delivery in 830ms
+2025-08-11 21:28:36 [LOCALTEST] INFO: PARALLEL SUCCESS: Team 'AP service delivery' completed in 872,4951ms
+2025-08-11 21:28:36 [LOCALTEST] INFO: PARALLEL SUCCESS: Team 'Business Management' completed in 874,7171ms
+2025-08-11 21:28:37 [LOCALTEST] ERROR: CalculateAndUpdateManpower failed after 105ms: Unable to connect to any of the specified MySQL hosts
+2025-08-11 21:28:37 [LOCALTEST] ERROR: PARALLEL ERROR: Team 'MX service delivery' failed after 105,7685ms
