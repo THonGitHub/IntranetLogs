@@ -1,36 +1,35 @@
-2025-08-11 22:52:05 [LOCALTEST] INFO: Page_Load: CurrentTeam=, EventTarget=
-2025-08-11 22:52:23 [LOCALTEST] INFO: GetTeams returned 14 teams
-2025-08-11 22:52:23 [LOCALTEST] INFO: PARALLEL CALC START: 14 teams from 2025-08-11 to 2025-08-17
-2025-08-11 22:52:24 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team EMEA service delivery in 747ms
-2025-08-11 22:52:24 [LOCALTEST] INFO: PARALLEL SUCCESS: Team 'EMEA service delivery' completed in 753,2759ms
-2025-08-11 22:52:24 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team AP service delivery in 750ms
-2025-08-11 22:52:24 [LOCALTEST] INFO: PARALLEL SUCCESS: Team 'AP service delivery' completed in 755,2857ms
-2025-08-11 22:52:24 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team Application Localization & Support in 363ms
-2025-08-11 22:52:24 [LOCALTEST] INFO: PARALLEL SUCCESS: Team 'Application Localization & Support' completed in 364,7262ms
-2025-08-11 22:52:25 [LOCALTEST] INFO: PARALLEL SUCCESS: Team 'EUS' completed in 624,624ms
-2025-08-11 22:52:25 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team HOTS in 368ms
-2025-08-11 22:52:25 [LOCALTEST] INFO: PARALLEL SUCCESS: Team 'HOTS' completed in 369,3518ms
-2025-08-11 22:52:25 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team ASSET in 734ms
-2025-08-11 22:52:25 [LOCALTEST] INFO: PARALLEL SUCCESS: Team 'ASSET' completed in 736,1798ms
-2025-08-11 22:52:25 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team MX service delivery in 386ms
-2025-08-11 22:52:25 [LOCALTEST] INFO: PARALLEL SUCCESS: Team 'MX service delivery' completed in 386,7081ms
-2025-08-11 22:52:26 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team Business Management in 391ms
-2025-08-11 22:52:26 [LOCALTEST] INFO: PARALLEL SUCCESS: Team 'Business Management' completed in 392,6725ms
-2025-08-11 22:52:26 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team PAID in 400ms
-2025-08-11 22:52:26 [LOCALTEST] INFO: PARALLEL SUCCESS: Team 'PAID' completed in 401,8404ms
-2025-08-11 22:52:26 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team CALA service delivery in 381ms
-2025-08-11 22:52:26 [LOCALTEST] INFO: PARALLEL SUCCESS: Team 'CALA service delivery' completed in 383,0466ms
-2025-08-11 22:52:26 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team Security and Compliance in 365ms
-2025-08-11 22:52:26 [LOCALTEST] INFO: PARALLEL SUCCESS: Team 'Security and Compliance' completed in 367,3448ms
-2025-08-11 22:52:26 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team Core Connections in 335ms
-2025-08-11 22:52:26 [LOCALTEST] INFO: PARALLEL SUCCESS: Team 'Core Connections' completed in 337,2535ms
-2025-08-11 22:52:27 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team SK/CZ service delivery new in 463ms
-2025-08-11 22:52:27 [LOCALTEST] INFO: PARALLEL SUCCESS: Team 'SK/CZ service delivery new' completed in 464,2413ms
-2025-08-11 22:52:27 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team Core Services in 520ms
-2025-08-11 22:52:27 [LOCALTEST] INFO: PARALLEL SUCCESS: Team 'Core Services' completed in 521,0354ms
-2025-08-11 22:52:27 [LOCALTEST] INFO: PARALLEL CALC COMPLETE: 14 success, 0 errors in 3497ms
-2025-08-11 22:52:27 [LOCALTEST] INFO: Parallel manpower calculation result: True
-2025-08-11 22:52:27 [LOCALTEST] INFO: Total teams with percentage: 14
-2025-08-11 22:52:28 [LOCALTEST] INFO: Total member count across all teams: 28
-2025-08-11 22:52:28 [LOCALTEST] INFO: === PAGE LOAD PHASES: PostBack=False, CurrentTeam=, EventTarget=
-2025-08-11 22:52:28 [LOCALTEST] INFO: PAGE LOAD COMPLETE: 23192,734ms
+2025-08-12 18:19:29 [LOCALTEST] INFO: Page_Load: CurrentTeam=, EventTarget=
+2025-08-12 18:20:12 [LOCALTEST] INFO: GetTeams returned 14 teams
+2025-08-12 18:20:12 [LOCALTEST] INFO: PARALLEL CALC START: 14 teams from 2025-08-11 to 2025-08-17
+2025-08-12 18:20:20 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team EMEA service delivery in 8481ms
+2025-08-12 18:20:20 [LOCALTEST] INFO: PARALLEL SUCCESS: Team 'EMEA service delivery' completed in 8484,7794ms
+2025-08-12 18:20:21 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team AP service delivery in 8590ms
+2025-08-12 18:20:21 [LOCALTEST] INFO: PARALLEL SUCCESS: Team 'AP service delivery' completed in 8594,0311ms
+2025-08-12 18:20:24 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team Application Localization & Support in 3252ms
+2025-08-12 18:20:24 [LOCALTEST] INFO: PARALLEL SUCCESS: Team 'Application Localization & Support' completed in 3253,5515ms
+2025-08-12 18:20:24 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team EUS in 3468ms
+2025-08-12 18:20:24 [LOCALTEST] INFO: PARALLEL SUCCESS: Team 'EUS' completed in 3469,3278ms
+2025-08-12 18:20:28 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team ASSET in 4538ms
+2025-08-12 18:20:28 [LOCALTEST] INFO: PARALLEL SUCCESS: Team 'ASSET' completed in 4539,2483ms
+2025-08-12 18:20:29 [LOCALTEST] INFO: PARALLEL SUCCESS: Team 'HOTS' completed in 4832,6059ms
+2025-08-12 18:20:32 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team MX service delivery in 3181ms
+2025-08-12 18:20:32 [LOCALTEST] INFO: PARALLEL SUCCESS: Team 'MX service delivery' completed in 3181,901ms
+2025-08-12 18:20:32 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team Business Management in 3275ms
+2025-08-12 18:20:32 [LOCALTEST] INFO: PARALLEL SUCCESS: Team 'Business Management' completed in 3276,2222ms
+2025-08-12 18:20:36 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team CALA service delivery in 4265ms
+2025-08-12 18:20:36 [LOCALTEST] INFO: PARALLEL SUCCESS: Team 'CALA service delivery' completed in 4266,0302ms
+2025-08-12 18:20:36 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team PAID in 4331ms
+2025-08-12 18:20:36 [LOCALTEST] INFO: PARALLEL SUCCESS: Team 'PAID' completed in 4332,6521ms
+2025-08-12 18:20:41 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team Security and Compliance in 4210ms
+2025-08-12 18:20:41 [LOCALTEST] INFO: PARALLEL SUCCESS: Team 'Security and Compliance' completed in 4211,0651ms
+2025-08-12 18:20:41 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team Core Connections in 4618ms
+2025-08-12 18:20:41 [LOCALTEST] INFO: PARALLEL SUCCESS: Team 'Core Connections' completed in 4619,2617ms
+2025-08-12 18:20:45 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team Core Services in 4094ms
+2025-08-12 18:20:45 [LOCALTEST] INFO: PARALLEL SUCCESS: Team 'Core Services' completed in 4095,3852ms
+2025-08-12 18:20:45 [LOCALTEST] INFO: PARALLEL SUCCESS: Team 'SK/CZ service delivery new' completed in 4592,6525ms
+2025-08-12 18:20:45 [LOCALTEST] INFO: PARALLEL CALC COMPLETE: 14 success, 0 errors in 33112ms
+2025-08-12 18:20:45 [LOCALTEST] INFO: Parallel manpower calculation result: True
+2025-08-12 18:20:51 [LOCALTEST] INFO: Total teams with percentage: 14
+2025-08-12 18:20:52 [LOCALTEST] INFO: Total member count across all teams: 28
+2025-08-12 18:20:52 [LOCALTEST] INFO: === PAGE LOAD PHASES: PostBack=False, CurrentTeam=, EventTarget=
+2025-08-12 18:20:52 [LOCALTEST] INFO: PAGE LOAD COMPLETE: 83625,7438ms
