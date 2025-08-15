@@ -208,3 +208,111 @@
 2025-08-16 00:20:57 [LOCALTEST] INFO: FORCED BYPASS: Skipping cache for key 'ManpowerData_2025-08-11_2025-08-17_' due to refresh
 2025-08-16 00:20:57 [LOCALTEST] INFO: FORCED BYPASS: Skipping cache for key 'ManpowerData_2025-08-11_2025-08-17_' due to refresh
 2025-08-16 00:20:57 [LOCALTEST] INFO: Manual refresh completed - all cache cleared and fresh data loaded
+2025-08-16 00:22:22 [LOCALTEST] INFO: Postback detected in teams view - rebinding teams
+2025-08-16 00:22:22 [LOCALTEST] INFO: GetTeams: Query execution took 41,8352ms
+2025-08-16 00:22:22 [LOCALTEST] INFO: GetTeams: 14 teams loaded in 43ms
+2025-08-16 00:22:22 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_AP service delivery'
+2025-08-16 00:22:22 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_AP service delivery'
+2025-08-16 00:22:22 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_Application Localization & Support'
+2025-08-16 00:22:22 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_Application Localization & Support'
+2025-08-16 00:22:22 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_ASSET'
+2025-08-16 00:22:22 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_ASSET'
+2025-08-16 00:22:22 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_Business Management'
+2025-08-16 00:22:22 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_Business Management'
+2025-08-16 00:22:22 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_CALA service delivery'
+2025-08-16 00:22:22 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_CALA service delivery'
+2025-08-16 00:22:22 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_Core Connections'
+2025-08-16 00:22:22 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_Core Connections'
+2025-08-16 00:22:22 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_Core Services'
+2025-08-16 00:22:22 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_Core Services'
+2025-08-16 00:22:22 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_EMEA service delivery'
+2025-08-16 00:22:22 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_EMEA service delivery'
+2025-08-16 00:22:22 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_EUS'
+2025-08-16 00:22:22 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_EUS'
+2025-08-16 00:22:22 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_HOTS'
+2025-08-16 00:22:22 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_HOTS'
+2025-08-16 00:22:22 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_MX service delivery'
+2025-08-16 00:22:22 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_MX service delivery'
+2025-08-16 00:22:22 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_PAID'
+2025-08-16 00:22:22 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_PAID'
+2025-08-16 00:22:22 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_Security and Compliance'
+2025-08-16 00:22:22 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_Security and Compliance'
+2025-08-16 00:22:22 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_SK/CZ service delivery new'
+2025-08-16 00:22:22 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_SK/CZ service delivery new'
+2025-08-16 00:22:22 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_'
+2025-08-16 00:22:22 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_'
+2025-08-16 00:22:22 [LOCALTEST] INFO: PAGE LOAD COMPLETE: 537,2524ms
+2025-08-16 00:22:22 [LOCALTEST] INFO: Manual refresh: Clearing ALL cache and reloading fresh data
+2025-08-16 00:22:22 [LOCALTEST] INFO: GetTeams: Query execution took 28,8506ms
+2025-08-16 00:22:22 [LOCALTEST] INFO: GetTeams: 14 teams loaded in 29ms
+2025-08-16 00:22:22 [LOCALTEST] INFO: GetTeams: Query execution took 27,9774ms
+2025-08-16 00:22:22 [LOCALTEST] INFO: GetTeams: 14 teams loaded in 28ms
+2025-08-16 00:22:22 [LOCALTEST] INFO: FORCED BYPASS: Skipping cache for key 'ManpowerData_2025-08-11_2025-08-17_AP service delivery' due to refresh
+2025-08-16 00:22:22 [LOCALTEST] INFO: FORCED BYPASS: Skipping cache for key 'ManpowerData_2025-08-11_2025-08-17_Application Localization & Support' due to refresh
+2025-08-16 00:22:22 [LOCALTEST] INFO: FORCED BYPASS: Skipping cache for key 'ManpowerData_2025-08-11_2025-08-17_ASSET' due to refresh
+2025-08-16 00:22:23 [LOCALTEST] INFO: FORCED BYPASS: Skipping cache for key 'ManpowerData_2025-08-11_2025-08-17_Business Management' due to refresh
+2025-08-16 00:22:23 [LOCALTEST] INFO: FORCED BYPASS: Skipping cache for key 'ManpowerData_2025-08-11_2025-08-17_CALA service delivery' due to refresh
+2025-08-16 00:22:23 [LOCALTEST] INFO: FORCED BYPASS: Skipping cache for key 'ManpowerData_2025-08-11_2025-08-17_Core Connections' due to refresh
+2025-08-16 00:22:23 [LOCALTEST] INFO: FORCED BYPASS: Skipping cache for key 'ManpowerData_2025-08-11_2025-08-17_Core Services' due to refresh
+2025-08-16 00:22:23 [LOCALTEST] INFO: FORCED BYPASS: Skipping cache for key 'ManpowerData_2025-08-11_2025-08-17_EMEA service delivery' due to refresh
+2025-08-16 00:22:23 [LOCALTEST] INFO: FORCED BYPASS: Skipping cache for key 'ManpowerData_2025-08-11_2025-08-17_EUS' due to refresh
+2025-08-16 00:22:23 [LOCALTEST] INFO: FORCED BYPASS: Skipping cache for key 'ManpowerData_2025-08-11_2025-08-17_HOTS' due to refresh
+2025-08-16 00:22:23 [LOCALTEST] INFO: FORCED BYPASS: Skipping cache for key 'ManpowerData_2025-08-11_2025-08-17_MX service delivery' due to refresh
+2025-08-16 00:22:23 [LOCALTEST] INFO: FORCED BYPASS: Skipping cache for key 'ManpowerData_2025-08-11_2025-08-17_PAID' due to refresh
+2025-08-16 00:22:23 [LOCALTEST] INFO: FORCED BYPASS: Skipping cache for key 'ManpowerData_2025-08-11_2025-08-17_Security and Compliance' due to refresh
+2025-08-16 00:22:23 [LOCALTEST] INFO: FORCED BYPASS: Skipping cache for key 'ManpowerData_2025-08-11_2025-08-17_SK/CZ service delivery new' due to refresh
+2025-08-16 00:22:23 [LOCALTEST] INFO: Manual refresh completed - all cache cleared and fresh data loaded
+2025-08-16 00:22:54 [LOCALTEST] INFO: Postback detected in teams view - rebinding teams
+2025-08-16 00:22:54 [LOCALTEST] INFO: GetTeams: Query execution took 27,3114ms
+2025-08-16 00:22:54 [LOCALTEST] INFO: GetTeams: 14 teams loaded in 28ms
+2025-08-16 00:22:54 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_AP service delivery'
+2025-08-16 00:22:54 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_AP service delivery'
+2025-08-16 00:22:54 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_Application Localization & Support'
+2025-08-16 00:22:54 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_Application Localization & Support'
+2025-08-16 00:22:54 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_ASSET'
+2025-08-16 00:22:54 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_ASSET'
+2025-08-16 00:22:54 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_Business Management'
+2025-08-16 00:22:54 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_Business Management'
+2025-08-16 00:22:54 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_CALA service delivery'
+2025-08-16 00:22:54 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_CALA service delivery'
+2025-08-16 00:22:54 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_Core Connections'
+2025-08-16 00:22:54 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_Core Connections'
+2025-08-16 00:22:54 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_Core Services'
+2025-08-16 00:22:54 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_Core Services'
+2025-08-16 00:22:54 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_EMEA service delivery'
+2025-08-16 00:22:54 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_EMEA service delivery'
+2025-08-16 00:22:54 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_EUS'
+2025-08-16 00:22:54 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_EUS'
+2025-08-16 00:22:54 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_HOTS'
+2025-08-16 00:22:54 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_HOTS'
+2025-08-16 00:22:54 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_MX service delivery'
+2025-08-16 00:22:54 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_MX service delivery'
+2025-08-16 00:22:54 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_PAID'
+2025-08-16 00:22:54 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_PAID'
+2025-08-16 00:22:54 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_Security and Compliance'
+2025-08-16 00:22:54 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_Security and Compliance'
+2025-08-16 00:22:54 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_SK/CZ service delivery new'
+2025-08-16 00:22:54 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_SK/CZ service delivery new'
+2025-08-16 00:22:54 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_'
+2025-08-16 00:22:54 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_'
+2025-08-16 00:22:54 [LOCALTEST] INFO: PAGE LOAD COMPLETE: 545,3247ms
+2025-08-16 00:22:54 [LOCALTEST] INFO: Manual refresh: Clearing ALL cache and reloading fresh data
+2025-08-16 00:22:54 [LOCALTEST] INFO: GetTeams: Query execution took 27,5787ms
+2025-08-16 00:22:54 [LOCALTEST] INFO: GetTeams: 14 teams loaded in 26ms
+2025-08-16 00:22:54 [LOCALTEST] INFO: GetTeams: Query execution took 28,1295ms
+2025-08-16 00:22:54 [LOCALTEST] INFO: GetTeams: 14 teams loaded in 28ms
+2025-08-16 00:22:54 [LOCALTEST] INFO: FORCED BYPASS: Skipping cache for key 'ManpowerData_2025-08-11_2025-08-17_AP service delivery' due to refresh
+2025-08-16 00:22:54 [LOCALTEST] INFO: FORCED BYPASS: Skipping cache for key 'ManpowerData_2025-08-11_2025-08-17_Application Localization & Support' due to refresh
+2025-08-16 00:22:54 [LOCALTEST] INFO: FORCED BYPASS: Skipping cache for key 'ManpowerData_2025-08-11_2025-08-17_ASSET' due to refresh
+2025-08-16 00:22:54 [LOCALTEST] INFO: FORCED BYPASS: Skipping cache for key 'ManpowerData_2025-08-11_2025-08-17_Business Management' due to refresh
+2025-08-16 00:22:54 [LOCALTEST] INFO: FORCED BYPASS: Skipping cache for key 'ManpowerData_2025-08-11_2025-08-17_CALA service delivery' due to refresh
+2025-08-16 00:22:54 [LOCALTEST] INFO: FORCED BYPASS: Skipping cache for key 'ManpowerData_2025-08-11_2025-08-17_Core Connections' due to refresh
+2025-08-16 00:22:54 [LOCALTEST] INFO: FORCED BYPASS: Skipping cache for key 'ManpowerData_2025-08-11_2025-08-17_Core Services' due to refresh
+2025-08-16 00:22:55 [LOCALTEST] INFO: FORCED BYPASS: Skipping cache for key 'ManpowerData_2025-08-11_2025-08-17_EMEA service delivery' due to refresh
+2025-08-16 00:22:55 [LOCALTEST] INFO: FORCED BYPASS: Skipping cache for key 'ManpowerData_2025-08-11_2025-08-17_EUS' due to refresh
+2025-08-16 00:22:55 [LOCALTEST] INFO: FORCED BYPASS: Skipping cache for key 'ManpowerData_2025-08-11_2025-08-17_HOTS' due to refresh
+2025-08-16 00:22:55 [LOCALTEST] INFO: FORCED BYPASS: Skipping cache for key 'ManpowerData_2025-08-11_2025-08-17_MX service delivery' due to refresh
+2025-08-16 00:22:55 [LOCALTEST] INFO: FORCED BYPASS: Skipping cache for key 'ManpowerData_2025-08-11_2025-08-17_PAID' due to refresh
+2025-08-16 00:22:55 [LOCALTEST] INFO: FORCED BYPASS: Skipping cache for key 'ManpowerData_2025-08-11_2025-08-17_Security and Compliance' due to refresh
+2025-08-16 00:22:55 [LOCALTEST] INFO: FORCED BYPASS: Skipping cache for key 'ManpowerData_2025-08-11_2025-08-17_SK/CZ service delivery new' due to refresh
+2025-08-16 00:22:55 [LOCALTEST] INFO: Manual refresh completed - all cache cleared and fresh data loaded
