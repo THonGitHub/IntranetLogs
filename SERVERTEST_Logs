@@ -1,36 +1,20 @@
-2025-08-15 11:20:01 [SERVERTEST] INFO: GetTeams returned 14 teams
-2025-08-15 11:20:01 [SERVERTEST] INFO: PARALLEL CALC START: 14 teams from 2025-08-11 to 2025-08-17
-2025-08-15 11:20:03 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team AP service delivery in 2103ms
-2025-08-15 11:20:03 [SERVERTEST] INFO: PARALLEL SUCCESS: Team 'AP service delivery' completed in 2109.3789ms
-2025-08-15 11:20:03 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team EMEA service delivery in 2170ms
-2025-08-15 11:20:03 [SERVERTEST] INFO: PARALLEL SUCCESS: Team 'EMEA service delivery' completed in 2187.5809ms
-2025-08-15 11:20:05 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team EUS in 1879ms
-2025-08-15 11:20:05 [SERVERTEST] INFO: PARALLEL SUCCESS: Team 'EUS' completed in 1879.4297ms
-2025-08-15 11:20:05 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team Application Localization & Support in 1962ms
-2025-08-15 11:20:05 [SERVERTEST] INFO: PARALLEL SUCCESS: Team 'Application Localization & Support' completed in 1973.1594ms
-2025-08-15 11:20:06 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team HOTS in 1263ms
-2025-08-15 11:20:06 [SERVERTEST] INFO: PARALLEL SUCCESS: Team 'HOTS' completed in 1255.5482ms
-2025-08-15 11:20:07 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team ASSET in 1462ms
-2025-08-15 11:20:07 [SERVERTEST] INFO: PARALLEL SUCCESS: Team 'ASSET' completed in 1458.8647ms
-2025-08-15 11:20:08 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team MX service delivery in 1261ms
-2025-08-15 11:20:08 [SERVERTEST] INFO: PARALLEL SUCCESS: Team 'MX service delivery' completed in 1265.7404ms
-2025-08-15 11:20:08 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team Business Management in 1268ms
-2025-08-15 11:20:08 [SERVERTEST] INFO: PARALLEL SUCCESS: Team 'Business Management' completed in 1265.6662ms
-2025-08-15 11:20:09 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team PAID in 1315ms
-2025-08-15 11:20:09 [SERVERTEST] INFO: PARALLEL SUCCESS: Team 'PAID' completed in 1312.5002ms
-2025-08-15 11:20:09 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team CALA service delivery in 1243ms
-2025-08-15 11:20:09 [SERVERTEST] INFO: PARALLEL SUCCESS: Team 'CALA service delivery' completed in 1249.9159ms
-2025-08-15 11:20:10 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team Security and Compliance in 1261ms
-2025-08-15 11:20:10 [SERVERTEST] INFO: PARALLEL SUCCESS: Team 'Security and Compliance' completed in 1265.5233ms
-2025-08-15 11:20:11 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team Core Connections in 2115ms
-2025-08-15 11:20:11 [SERVERTEST] INFO: PARALLEL SUCCESS: Team 'Core Connections' completed in 2112.4946ms
-2025-08-15 11:20:12 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team SK/CZ service delivery new in 1284ms
-2025-08-15 11:20:12 [SERVERTEST] INFO: PARALLEL SUCCESS: Team 'SK/CZ service delivery new' completed in 1284.3982ms
-2025-08-15 11:20:13 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team Core Services in 1284ms
-2025-08-15 11:20:13 [SERVERTEST] INFO: PARALLEL SUCCESS: Team 'Core Services' completed in 1281.1355ms
-2025-08-15 11:20:13 [SERVERTEST] INFO: PARALLEL CALC COMPLETE: 14 success, 0 errors in 11452ms
-2025-08-15 11:20:13 [SERVERTEST] INFO: Parallel manpower calculation result: True
-2025-08-15 11:20:14 [SERVERTEST] INFO: Total teams with percentage: 14
-2025-08-15 11:20:15 [SERVERTEST] INFO: Total member count across all teams: 29
-2025-08-15 11:20:15 [SERVERTEST] INFO: === PAGE LOAD PHASES: PostBack=False, CurrentTeam=, EventTarget=
-2025-08-15 11:20:15 [SERVERTEST] INFO: PAGE LOAD COMPLETE: 41792.4683ms
+2025-08-15 11:35:42 [SERVERTEST] INFO: DB Connection #7 created in 0ms - ConnectionString length: 196
+2025-08-15 11:35:42 [SERVERTEST] INFO: GetTeams: Query execution took 125.0016ms
+2025-08-15 11:35:42 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 123ms
+2025-08-15 11:38:22 [SERVERTEST] INFO: DB Connection #9 created in 0ms - ConnectionString length: 196
+2025-08-15 11:38:22 [SERVERTEST] INFO: GetTeams: Query execution took 125.0113ms
+2025-08-15 11:38:22 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 124ms
+2025-08-15 11:38:29 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 123ms
+2025-08-15 11:38:29 [SERVERTEST] INFO: GetARAHours: 43 records in 124ms
+2025-08-15 11:38:37 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 123ms
+2025-08-15 11:38:37 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 123ms
+2025-08-15 11:39:05 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 123ms
+2025-08-15 11:39:09 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team ASSET in 1465ms
+2025-08-15 11:39:10 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 123ms
+2025-08-15 11:39:10 [SERVERTEST] INFO: GetARAHours: 44 records in 123ms
+2025-08-15 11:39:44 [SERVERTEST] INFO: DB Connection #11 created in 0ms - ConnectionString length: 196
+2025-08-15 11:39:44 [SERVERTEST] INFO: GetTeams: Query execution took 125.0089ms
+2025-08-15 11:39:44 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 123ms
+2025-08-15 12:04:00 [SERVERTEST] INFO: DB Connection #14 created in 0ms - ConnectionString length: 196
+2025-08-15 12:04:00 [SERVERTEST] INFO: GetTeams: Query execution took 124.9417ms
+2025-08-15 12:04:00 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 123ms
