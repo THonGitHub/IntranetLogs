@@ -18,3 +18,5 @@
 2025-08-15 12:04:00 [SERVERTEST] INFO: DB Connection #14 created in 0ms - ConnectionString length: 196
 2025-08-15 12:04:00 [SERVERTEST] INFO: GetTeams: Query execution took 124.9417ms
 2025-08-15 12:04:00 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 123ms
+2025-08-15 12:11:23 [SERVERTEST] INFO: GetTeams: Query execution took 134.252ms
+2025-08-15 12:11:23 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 123ms
