@@ -1,52 +1,43 @@
-2025-08-15 13:16:47 [SERVERTEST] INFO: DB Connection #2 created in 0ms - ConnectionString length: 196
-2025-08-15 13:16:49 [SERVERTEST] INFO: Opened persistent connection in 1031.2626ms
-2025-08-15 13:16:49 [SERVERTEST] INFO: GetTeams: Query execution took 125.0744ms
-2025-08-15 13:16:49 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 1155ms
-2025-08-15 13:17:15 [SERVERTEST] INFO: GetTeams: Query execution took 124.9576ms
-2025-08-15 13:17:15 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 120ms
-2025-08-15 13:17:17 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 120ms
-2025-08-15 13:17:18 [SERVERTEST] INFO: GetARAHours: 3 records in 120ms
-2025-08-15 13:17:28 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 120ms
-2025-08-15 13:17:28 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 121ms
-2025-08-15 13:17:41 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 120ms
-2025-08-15 13:17:46 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team ASSET in 1453ms
-2025-08-15 13:17:46 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 120ms
-2025-08-15 13:17:46 [SERVERTEST] INFO: GetARAHours: 4 records in 120ms
-2025-08-15 13:18:19 [SERVERTEST] INFO: GetTeams: Query execution took 125.0604ms
-2025-08-15 13:18:19 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 120ms
-2025-08-15 13:19:09 [SERVERTEST] INFO: GetTeams: Query execution took 125.0479ms
-2025-08-15 13:19:09 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 120ms
-2025-08-15 13:19:09 [SERVERTEST] INFO: GetTeamsNeedingRefresh: Checking date range 2025-08-11 to 2025-08-17
-2025-08-15 13:19:09 [SERVERTEST] INFO: REFRESH QUERY: SELECT DISTINCT u.Team FROM AWSusers u JOIN AWSaraSchedule ara ON u.UserId = ara.userId WHERE u.IsUserDisabled = 0 AND ara.date BETWEEN @startDate AND @endDate AND NOT EXISTS (SELECT 1 FROM AWSmanpower mp WHERE mp.teamName = u.Team AND mp.date = ara.date AND mp.lastUpdated >= ara.lastUpdated)
-2025-08-15 13:19:09 [SERVERTEST] INFO: QUERY PARAMS: startDate=2025-08-11, endDate=2025-08-17
-2025-08-15 13:19:09 [SERVERTEST] INFO: No teams require refresh - all ARA data has corresponding manpower calculations
-2025-08-15 13:19:09 [SERVERTEST] INFO: GetTeamsNeedingRefresh: Found 0 teams needing refresh in 121ms
-2025-08-15 13:19:29 [SERVERTEST] INFO: GetTeams: Query execution took 125.0668ms
-2025-08-15 13:19:29 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 120ms
-2025-08-15 13:19:32 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 120ms
-2025-08-15 13:37:36 [SERVERTEST] INFO: GetTeams: Query execution took 125.0008ms
-2025-08-15 13:37:36 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 120ms
-2025-08-15 13:41:16 [SERVERTEST] INFO: GetTeams: Query execution took 125.0646ms
-2025-08-15 13:41:16 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 120ms
-2025-08-15 13:41:16 [SERVERTEST] INFO: GetTeamsNeedingRefresh: Checking date range 2025-08-11 to 2025-08-17
-2025-08-15 13:41:16 [SERVERTEST] INFO: REFRESH QUERY: SELECT DISTINCT u.Team FROM AWSusers u JOIN AWSaraSchedule ara ON u.UserId = ara.userId WHERE u.IsUserDisabled = 0 AND ara.date BETWEEN @startDate AND @endDate AND NOT EXISTS (SELECT 1 FROM AWSmanpower mp WHERE mp.teamName = u.Team AND mp.date = ara.date AND mp.lastUpdated >= ara.lastUpdated)
-2025-08-15 13:41:16 [SERVERTEST] INFO: QUERY PARAMS: startDate=2025-08-11, endDate=2025-08-17
-2025-08-15 13:41:16 [SERVERTEST] INFO: No teams require refresh - all ARA data has corresponding manpower calculations
-2025-08-15 13:41:16 [SERVERTEST] INFO: GetTeamsNeedingRefresh: Found 0 teams needing refresh in 120ms
-2025-08-15 13:41:49 [SERVERTEST] INFO: GetTeams: Query execution took 124.9978ms
-2025-08-15 13:41:49 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 121ms
-2025-08-15 13:41:49 [SERVERTEST] INFO: GetTeamsNeedingRefresh: Checking date range 2025-08-11 to 2025-08-17
-2025-08-15 13:41:49 [SERVERTEST] INFO: REFRESH QUERY: SELECT DISTINCT u.Team FROM AWSusers u JOIN AWSaraSchedule ara ON u.UserId = ara.userId WHERE u.IsUserDisabled = 0 AND ara.date BETWEEN @startDate AND @endDate AND NOT EXISTS (SELECT 1 FROM AWSmanpower mp WHERE mp.teamName = u.Team AND mp.date = ara.date AND mp.lastUpdated >= ara.lastUpdated)
-2025-08-15 13:41:49 [SERVERTEST] INFO: QUERY PARAMS: startDate=2025-08-11, endDate=2025-08-17
-2025-08-15 13:41:49 [SERVERTEST] INFO: No teams require refresh - all ARA data has corresponding manpower calculations
-2025-08-15 13:41:49 [SERVERTEST] INFO: GetTeamsNeedingRefresh: Found 0 teams needing refresh in 121ms
-2025-08-15 13:41:59 [SERVERTEST] INFO: GetTeams: Query execution took 109.4438ms
-2025-08-15 13:41:59 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 120ms
-2025-08-15 13:42:01 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 137ms
-2025-08-15 13:42:01 [SERVERTEST] INFO: GetARAHours: 2 records in 126ms
-2025-08-15 13:42:13 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 120ms
-2025-08-15 13:42:13 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 121ms
-2025-08-15 13:42:22 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 120ms
-2025-08-15 13:42:25 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team ASSET in 1393ms
-2025-08-15 13:42:26 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 120ms
-2025-08-15 13:42:26 [SERVERTEST] INFO: GetARAHours: 1 records in 120ms
+2025-08-15 14:20:42 [SERVERTEST] INFO: DB Connection #2 created in 0ms - ConnectionString length: 196
+2025-08-15 14:20:43 [SERVERTEST] INFO: Opened persistent connection in 1005.2119ms
+2025-08-15 14:20:43 [SERVERTEST] INFO: GetTeams: Query execution took 124.9267ms
+2025-08-15 14:20:43 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 1133ms
+2025-08-15 14:21:30 [SERVERTEST] INFO: GetTeams: Query execution took 125.0355ms
+2025-08-15 14:21:30 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 121ms
+2025-08-15 14:21:39 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 121ms
+2025-08-15 14:21:39 [SERVERTEST] INFO: GetARAHours: 1 records in 120ms
+2025-08-15 14:21:46 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 121ms
+2025-08-15 14:21:46 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 120ms
+2025-08-15 14:21:53 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 121ms
+2025-08-15 14:21:57 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team ASSET in 1262ms
+2025-08-15 14:21:57 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 120ms
+2025-08-15 14:21:57 [SERVERTEST] INFO: GetARAHours: 0 records in 120ms
+2025-08-15 14:23:18 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 121ms
+2025-08-15 14:23:18 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 120ms
+2025-08-15 14:23:29 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 121ms
+2025-08-15 14:23:32 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team ASSET in 1391ms
+2025-08-15 14:23:33 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 121ms
+2025-08-15 14:23:33 [SERVERTEST] INFO: GetARAHours: 1 records in 120ms
+2025-08-15 14:23:52 [SERVERTEST] INFO: GetTeams: Query execution took 124.9829ms
+2025-08-15 14:23:52 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 121ms
+2025-08-15 14:24:29 [SERVERTEST] INFO: GetTeams: Query execution took 129.5931ms
+2025-08-15 14:24:29 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 123ms
+2025-08-15 14:24:29 [SERVERTEST] INFO: GetTeams: Query execution took 125.0388ms
+2025-08-15 14:24:29 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 124ms
+2025-08-15 14:24:40 [SERVERTEST] INFO: GetTeams: Query execution took 125.0598ms
+2025-08-15 14:24:40 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 125ms
+2025-08-15 14:24:41 [SERVERTEST] INFO: GetTeams: Query execution took 122.7759ms
+2025-08-15 14:24:41 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 123ms
+2025-08-15 14:24:57 [SERVERTEST] INFO: GetTeams: Query execution took 125.0211ms
+2025-08-15 14:24:57 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 123ms
+2025-08-15 14:25:00 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 122ms
+2025-08-15 14:25:37 [SERVERTEST] INFO: GetTeams: Query execution took 130.845ms
+2025-08-15 14:25:37 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 122ms
+2025-08-15 14:26:05 [SERVERTEST] INFO: GetTeams: Query execution took 124.9986ms
+2025-08-15 14:26:05 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 120ms
+2025-08-15 14:26:05 [SERVERTEST] INFO: GetTeams: Query execution took 125.0174ms
+2025-08-15 14:26:05 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 120ms
+2025-08-15 14:26:16 [SERVERTEST] INFO: GetTeams: Query execution took 124.9987ms
+2025-08-15 14:26:16 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 121ms
+2025-08-15 14:26:16 [SERVERTEST] INFO: GetTeams: Query execution took 125.0428ms
+2025-08-15 14:26:16 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 121ms
