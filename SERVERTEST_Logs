@@ -1,43 +1,14 @@
-2025-08-15 14:20:42 [SERVERTEST] INFO: DB Connection #2 created in 0ms - ConnectionString length: 196
-2025-08-15 14:20:43 [SERVERTEST] INFO: Opened persistent connection in 1005.2119ms
-2025-08-15 14:20:43 [SERVERTEST] INFO: GetTeams: Query execution took 124.9267ms
-2025-08-15 14:20:43 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 1133ms
-2025-08-15 14:21:30 [SERVERTEST] INFO: GetTeams: Query execution took 125.0355ms
-2025-08-15 14:21:30 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 121ms
-2025-08-15 14:21:39 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 121ms
-2025-08-15 14:21:39 [SERVERTEST] INFO: GetARAHours: 1 records in 120ms
-2025-08-15 14:21:46 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 121ms
-2025-08-15 14:21:46 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 120ms
-2025-08-15 14:21:53 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 121ms
-2025-08-15 14:21:57 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team ASSET in 1262ms
-2025-08-15 14:21:57 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 120ms
-2025-08-15 14:21:57 [SERVERTEST] INFO: GetARAHours: 0 records in 120ms
-2025-08-15 14:23:18 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 121ms
-2025-08-15 14:23:18 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 120ms
-2025-08-15 14:23:29 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 121ms
-2025-08-15 14:23:32 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team ASSET in 1391ms
-2025-08-15 14:23:33 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 121ms
-2025-08-15 14:23:33 [SERVERTEST] INFO: GetARAHours: 1 records in 120ms
-2025-08-15 14:23:52 [SERVERTEST] INFO: GetTeams: Query execution took 124.9829ms
-2025-08-15 14:23:52 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 121ms
-2025-08-15 14:24:29 [SERVERTEST] INFO: GetTeams: Query execution took 129.5931ms
-2025-08-15 14:24:29 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 123ms
-2025-08-15 14:24:29 [SERVERTEST] INFO: GetTeams: Query execution took 125.0388ms
-2025-08-15 14:24:29 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 124ms
-2025-08-15 14:24:40 [SERVERTEST] INFO: GetTeams: Query execution took 125.0598ms
-2025-08-15 14:24:40 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 125ms
-2025-08-15 14:24:41 [SERVERTEST] INFO: GetTeams: Query execution took 122.7759ms
-2025-08-15 14:24:41 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 123ms
-2025-08-15 14:24:57 [SERVERTEST] INFO: GetTeams: Query execution took 125.0211ms
-2025-08-15 14:24:57 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 123ms
-2025-08-15 14:25:00 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 122ms
-2025-08-15 14:25:37 [SERVERTEST] INFO: GetTeams: Query execution took 130.845ms
-2025-08-15 14:25:37 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 122ms
-2025-08-15 14:26:05 [SERVERTEST] INFO: GetTeams: Query execution took 124.9986ms
-2025-08-15 14:26:05 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 120ms
-2025-08-15 14:26:05 [SERVERTEST] INFO: GetTeams: Query execution took 125.0174ms
-2025-08-15 14:26:05 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 120ms
-2025-08-15 14:26:16 [SERVERTEST] INFO: GetTeams: Query execution took 124.9987ms
-2025-08-15 14:26:16 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 121ms
-2025-08-15 14:26:16 [SERVERTEST] INFO: GetTeams: Query execution took 125.0428ms
-2025-08-15 14:26:16 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 121ms
+2025-08-15 14:40:20 [SERVERTEST] INFO: DB Connection #2 created in 0ms - ConnectionString length: 196
+2025-08-15 14:40:21 [SERVERTEST] INFO: Opened persistent connection in 1015.7599ms
+2025-08-15 14:40:21 [SERVERTEST] INFO: GetTeams: Query execution took 124.9865ms
+2025-08-15 14:40:21 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 1140ms
+2025-08-15 14:40:31 [SERVERTEST] INFO: GetTeams: Query execution took 125.1326ms
+2025-08-15 14:40:31 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 120ms
+2025-08-15 14:40:34 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 120ms
+2025-08-15 14:40:35 [SERVERTEST] INFO: GetARAHours: 1 records in 120ms
+2025-08-15 14:40:39 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 120ms
+2025-08-15 14:40:39 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 120ms
+2025-08-15 14:40:46 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 120ms
+2025-08-15 14:40:50 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team ASSET in 1240ms
+2025-08-15 14:40:50 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 120ms
+2025-08-15 14:40:51 [SERVERTEST] INFO: GetARAHours: 0 records in 120ms
