@@ -1,22 +1,24 @@
-2025-08-15 11:35:42 [SERVERTEST] INFO: DB Connection #7 created in 0ms - ConnectionString length: 196
-2025-08-15 11:35:42 [SERVERTEST] INFO: GetTeams: Query execution took 125.0016ms
-2025-08-15 11:35:42 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 123ms
-2025-08-15 11:38:22 [SERVERTEST] INFO: DB Connection #9 created in 0ms - ConnectionString length: 196
-2025-08-15 11:38:22 [SERVERTEST] INFO: GetTeams: Query execution took 125.0113ms
-2025-08-15 11:38:22 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 124ms
-2025-08-15 11:38:29 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 123ms
-2025-08-15 11:38:29 [SERVERTEST] INFO: GetARAHours: 43 records in 124ms
-2025-08-15 11:38:37 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 123ms
-2025-08-15 11:38:37 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 123ms
-2025-08-15 11:39:05 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 123ms
-2025-08-15 11:39:09 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team ASSET in 1465ms
-2025-08-15 11:39:10 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 123ms
-2025-08-15 11:39:10 [SERVERTEST] INFO: GetARAHours: 44 records in 123ms
-2025-08-15 11:39:44 [SERVERTEST] INFO: DB Connection #11 created in 0ms - ConnectionString length: 196
-2025-08-15 11:39:44 [SERVERTEST] INFO: GetTeams: Query execution took 125.0089ms
-2025-08-15 11:39:44 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 123ms
-2025-08-15 12:04:00 [SERVERTEST] INFO: DB Connection #14 created in 0ms - ConnectionString length: 196
-2025-08-15 12:04:00 [SERVERTEST] INFO: GetTeams: Query execution took 124.9417ms
-2025-08-15 12:04:00 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 123ms
-2025-08-15 12:11:23 [SERVERTEST] INFO: GetTeams: Query execution took 134.252ms
-2025-08-15 12:11:23 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 123ms
+2025-08-15 12:39:26 [SERVERTEST] INFO: DB Connection #2 created in 0ms - ConnectionString length: 196
+2025-08-15 12:39:27 [SERVERTEST] INFO: Opened persistent connection in 1015.4743ms
+2025-08-15 12:39:28 [SERVERTEST] INFO: GetTeams: Query execution took 125.112ms
+2025-08-15 12:39:28 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 1143ms
+2025-08-15 12:46:59 [SERVERTEST] INFO: GetTeams: Query execution took 124.9916ms
+2025-08-15 12:46:59 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 123ms
+2025-08-15 12:47:02 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 123ms
+2025-08-15 12:47:02 [SERVERTEST] INFO: GetARAHours: 0 records in 122ms
+2025-08-15 12:47:12 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 123ms
+2025-08-15 12:47:12 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 122ms
+2025-08-15 12:47:30 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 123ms
+2025-08-15 12:47:35 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team ASSET in 1712ms
+2025-08-15 12:47:35 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 123ms
+2025-08-15 12:47:36 [SERVERTEST] INFO: GetARAHours: 2 records in 123ms
+2025-08-15 12:51:45 [SERVERTEST] INFO: GetTeams: Query execution took 109.3764ms
+2025-08-15 12:51:45 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 123ms
+2025-08-15 12:53:52 [SERVERTEST] INFO: GetTeams: Query execution took 124.9782ms
+2025-08-15 12:53:52 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 126ms
+2025-08-15 12:53:52 [SERVERTEST] INFO: GetTeamsNeedingRefresh: Checking date range 2025-08-11 to 2025-08-17
+2025-08-15 12:53:53 [SERVERTEST] INFO: ARA DATA: Team=ASSET, MaxARAUpdated=8/15/2025 7:53:13 PM, Count=2
+2025-08-15 12:53:53 [SERVERTEST] INFO: MANPOWER DATA: Team=ASSET, MaxMPUpdated=8/15/2025 7:53:14 PM, Count=8
+2025-08-15 12:53:53 [SERVERTEST] INFO: REFRESH QUERY: SELECT DISTINCT u.Team, MAX(ara.lastUpdated) as MaxARAUpdated, COALESCE(MAX(mp.lastUpdated), '1900-01-01') as MaxMPUpdated FROM AWSusers u JOIN AWSaraSchedule ara ON u.UserId = ara.userId LEFT JOIN AWSmanpower mp ON u.Team = mp.teamName AND mp.date BETWEEN @startDate AND @endDate WHERE u.IsUserDisabled = 0 AND ara.date BETWEEN @startDate AND @endDate GROUP BY u.Team HAVING MAX(ara.lastUpdated) > COALESCE(MAX(mp.lastUpdated), '1900-01-01')
+2025-08-15 12:53:53 [SERVERTEST] INFO: QUERY PARAMS: startDate=2025-08-11, endDate=2025-08-17
+2025-08-15 12:53:53 [SERVERTEST] INFO: GetTeamsNeedingRefresh: Found 0 teams needing refresh in 371ms

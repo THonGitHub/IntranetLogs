@@ -1,36 +1,140 @@
-2025-08-15 21:09:16 [LOCALTEST] INFO: DB Connection #1 created in 5,9841ms - ConnectionString length: 196
-2025-08-15 21:11:00 [LOCALTEST] INFO: DB Connection #2 created in 0ms - ConnectionString length: 196
-2025-08-15 21:11:00 [LOCALTEST] INFO: Opened persistent connection in 472,6856ms
-2025-08-15 21:11:00 [LOCALTEST] INFO: GetTeams: Query execution took 28,237ms
-2025-08-15 21:11:00 [LOCALTEST] INFO: GetTeams: 14 teams loaded in 503ms
-2025-08-15 21:11:00 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_AP service delivery'
-2025-08-15 21:11:00 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_AP service delivery'
-2025-08-15 21:11:00 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_Application Localization & Support'
-2025-08-15 21:11:00 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_Application Localization & Support'
-2025-08-15 21:11:00 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_ASSET'
-2025-08-15 21:11:00 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_ASSET'
-2025-08-15 21:11:00 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_Business Management'
-2025-08-15 21:11:00 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_Business Management'
-2025-08-15 21:11:00 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_CALA service delivery'
-2025-08-15 21:11:00 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_CALA service delivery'
-2025-08-15 21:11:00 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_Core Connections'
-2025-08-15 21:11:00 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_Core Connections'
-2025-08-15 21:11:00 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_Core Services'
-2025-08-15 21:11:00 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_Core Services'
-2025-08-15 21:11:00 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_EMEA service delivery'
-2025-08-15 21:11:00 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_EMEA service delivery'
-2025-08-15 21:11:00 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_EUS'
-2025-08-15 21:11:00 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_EUS'
-2025-08-15 21:11:00 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_HOTS'
-2025-08-15 21:11:00 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_HOTS'
-2025-08-15 21:11:00 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_MX service delivery'
-2025-08-15 21:11:00 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_MX service delivery'
-2025-08-15 21:11:01 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_PAID'
-2025-08-15 21:11:01 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_PAID'
-2025-08-15 21:11:01 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_Security and Compliance'
-2025-08-15 21:11:01 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_Security and Compliance'
-2025-08-15 21:11:01 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_SK/CZ service delivery new'
-2025-08-15 21:11:01 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_SK/CZ service delivery new'
-2025-08-15 21:11:01 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_'
-2025-08-15 21:11:01 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_'
-2025-08-15 21:11:02 [LOCALTEST] INFO: PAGE LOAD COMPLETE: 105240,4716ms
+2025-08-15 21:37:02 [LOCALTEST] INFO: DB Connection #1 created in 2,5963ms - ConnectionString length: 196
+2025-08-15 21:38:51 [LOCALTEST] INFO: DB Connection #2 created in 0ms - ConnectionString length: 196
+2025-08-15 21:38:52 [LOCALTEST] INFO: Opened persistent connection in 1019,8226ms
+2025-08-15 21:38:52 [LOCALTEST] INFO: GetTeams: Query execution took 28,1576ms
+2025-08-15 21:38:52 [LOCALTEST] INFO: GetTeams: 14 teams loaded in 1049ms
+2025-08-15 21:38:52 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_AP service delivery'
+2025-08-15 21:38:52 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_AP service delivery'
+2025-08-15 21:38:52 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_Application Localization & Support'
+2025-08-15 21:38:52 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_Application Localization & Support'
+2025-08-15 21:38:52 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_ASSET'
+2025-08-15 21:38:52 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_ASSET'
+2025-08-15 21:38:52 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_Business Management'
+2025-08-15 21:38:52 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_Business Management'
+2025-08-15 21:38:52 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_CALA service delivery'
+2025-08-15 21:38:52 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_CALA service delivery'
+2025-08-15 21:38:52 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_Core Connections'
+2025-08-15 21:38:52 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_Core Connections'
+2025-08-15 21:38:52 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_Core Services'
+2025-08-15 21:38:52 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_Core Services'
+2025-08-15 21:38:52 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_EMEA service delivery'
+2025-08-15 21:38:52 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_EMEA service delivery'
+2025-08-15 21:38:52 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_EUS'
+2025-08-15 21:38:52 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_EUS'
+2025-08-15 21:38:52 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_HOTS'
+2025-08-15 21:38:52 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_HOTS'
+2025-08-15 21:38:52 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_MX service delivery'
+2025-08-15 21:38:52 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_MX service delivery'
+2025-08-15 21:38:52 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_PAID'
+2025-08-15 21:38:52 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_PAID'
+2025-08-15 21:38:52 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_Security and Compliance'
+2025-08-15 21:38:52 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_Security and Compliance'
+2025-08-15 21:38:52 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_SK/CZ service delivery new'
+2025-08-15 21:38:52 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_SK/CZ service delivery new'
+2025-08-15 21:38:52 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-11_2025-08-17_'
+2025-08-15 21:38:52 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-11_2025-08-17_'
+2025-08-15 21:38:52 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_'
+2025-08-15 21:38:52 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_'
+2025-08-15 21:38:52 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_'
+2025-08-15 21:38:52 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_'
+2025-08-15 21:38:52 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_'
+2025-08-15 21:38:52 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_'
+2025-08-15 21:38:52 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_'
+2025-08-15 21:38:52 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_'
+2025-08-15 21:38:52 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_'
+2025-08-15 21:38:52 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_'
+2025-08-15 21:38:52 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_'
+2025-08-15 21:38:52 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_'
+2025-08-15 21:38:52 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_'
+2025-08-15 21:38:53 [LOCALTEST] INFO: PAGE LOAD COMPLETE: 110615,8094ms
+2025-08-15 21:51:06 [LOCALTEST] INFO: Postback detected in teams view - rebinding teams
+2025-08-15 21:51:06 [LOCALTEST] INFO: GetTeams: Query execution took 30,1856ms
+2025-08-15 21:51:06 [LOCALTEST] INFO: GetTeams: 14 teams loaded in 30ms
+2025-08-15 21:51:06 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_AP service delivery'
+2025-08-15 21:51:06 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_Application Localization & Support'
+2025-08-15 21:51:06 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_ASSET'
+2025-08-15 21:51:06 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_Business Management'
+2025-08-15 21:51:06 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_CALA service delivery'
+2025-08-15 21:51:06 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_Core Connections'
+2025-08-15 21:51:06 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_Core Services'
+2025-08-15 21:51:06 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_EMEA service delivery'
+2025-08-15 21:51:06 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_EUS'
+2025-08-15 21:51:06 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_HOTS'
+2025-08-15 21:51:06 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_MX service delivery'
+2025-08-15 21:51:06 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_PAID'
+2025-08-15 21:51:06 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_Security and Compliance'
+2025-08-15 21:51:06 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_SK/CZ service delivery new'
+2025-08-15 21:51:06 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_'
+2025-08-15 21:51:06 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_'
+2025-08-15 21:51:06 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_'
+2025-08-15 21:51:06 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_'
+2025-08-15 21:51:06 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_'
+2025-08-15 21:51:06 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_'
+2025-08-15 21:51:06 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_'
+2025-08-15 21:51:06 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_'
+2025-08-15 21:51:06 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_'
+2025-08-15 21:51:06 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_'
+2025-08-15 21:51:06 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_'
+2025-08-15 21:51:06 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_'
+2025-08-15 21:51:06 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_'
+2025-08-15 21:51:06 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_'
+2025-08-15 21:51:06 [LOCALTEST] INFO: PAGE LOAD COMPLETE: 47,7767ms
+2025-08-15 21:51:06 [LOCALTEST] INFO: Manual refresh triggered for date range 2025-08-11 to 2025-08-17
+2025-08-15 21:51:06 [LOCALTEST] INFO: GetTeamsNeedingRefresh: Checking date range 2025-08-11 to 2025-08-17
+2025-08-15 21:51:06 [LOCALTEST] INFO: ARA DATA: Team=ASSET, MaxARAUpdated=15. 8. 2025 19:47:33, Count=1
+2025-08-15 21:51:06 [LOCALTEST] INFO: MANPOWER DATA: Team=ASSET, MaxMPUpdated=15. 8. 2025 19:47:35, Count=6
+2025-08-15 21:51:06 [LOCALTEST] INFO: REFRESH QUERY: SELECT DISTINCT u.Team, MAX(ara.lastUpdated) as MaxARAUpdated, COALESCE(MAX(mp.lastUpdated), '1900-01-01') as MaxMPUpdated FROM AWSusers u JOIN AWSaraSchedule ara ON u.UserId = ara.userId LEFT JOIN AWSmanpower mp ON u.Team = mp.teamName AND mp.date BETWEEN @startDate AND @endDate WHERE u.IsUserDisabled = 0 AND ara.date BETWEEN @startDate AND @endDate GROUP BY u.Team HAVING MAX(ara.lastUpdated) > COALESCE(MAX(mp.lastUpdated), '1900-01-01')
+2025-08-15 21:51:06 [LOCALTEST] INFO: QUERY PARAMS: startDate=2025-08-11, endDate=2025-08-17
+2025-08-15 21:51:06 [LOCALTEST] INFO: GetTeamsNeedingRefresh: Found 0 teams needing refresh in 89ms
+2025-08-15 21:51:06 [LOCALTEST] INFO: Teams needing refresh: 
+2025-08-15 21:51:06 [LOCALTEST] INFO: No teams need refresh - data is up to date
+2025-08-15 21:52:25 [LOCALTEST] INFO: Postback detected in teams view - rebinding teams
+2025-08-15 21:52:25 [LOCALTEST] INFO: GetTeams: Query execution took 52,5768ms
+2025-08-15 21:52:25 [LOCALTEST] INFO: GetTeams: 14 teams loaded in 53ms
+2025-08-15 21:52:25 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_AP service delivery'
+2025-08-15 21:52:25 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_Application Localization & Support'
+2025-08-15 21:52:25 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_ASSET'
+2025-08-15 21:52:25 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_Business Management'
+2025-08-15 21:52:25 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_CALA service delivery'
+2025-08-15 21:52:25 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_Core Connections'
+2025-08-15 21:52:25 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_Core Services'
+2025-08-15 21:52:25 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_EMEA service delivery'
+2025-08-15 21:52:25 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_EUS'
+2025-08-15 21:52:25 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_HOTS'
+2025-08-15 21:52:25 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_MX service delivery'
+2025-08-15 21:52:25 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_PAID'
+2025-08-15 21:52:25 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_Security and Compliance'
+2025-08-15 21:52:25 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_SK/CZ service delivery new'
+2025-08-15 21:52:25 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_'
+2025-08-15 21:52:25 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_'
+2025-08-15 21:52:25 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_'
+2025-08-15 21:52:25 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_'
+2025-08-15 21:52:25 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_'
+2025-08-15 21:52:25 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_'
+2025-08-15 21:52:25 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_'
+2025-08-15 21:52:25 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_'
+2025-08-15 21:52:25 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_'
+2025-08-15 21:52:25 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_'
+2025-08-15 21:52:25 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_'
+2025-08-15 21:52:25 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_'
+2025-08-15 21:52:25 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_'
+2025-08-15 21:52:25 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-11_2025-08-17_'
+2025-08-15 21:52:25 [LOCALTEST] INFO: PAGE LOAD COMPLETE: 71,5695ms
+2025-08-15 21:52:28 [LOCALTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 31ms
+2025-08-15 21:52:28 [LOCALTEST] INFO: GetARAHours: 2 records in 27ms
+2025-08-15 21:52:28 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-10_2025-08-18_ASSET'
+2025-08-15 21:52:28 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-10_2025-08-18_ASSET'
+2025-08-15 21:52:59 [LOCALTEST] INFO: Postback detected in member view for team: ASSET - restoring member view state
+2025-08-15 21:52:59 [LOCALTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 47ms
+2025-08-15 21:52:59 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-10_2025-08-18_ASSET'
+2025-08-15 21:52:59 [LOCALTEST] INFO: PAGE LOAD COMPLETE: 83,1003ms
+2025-08-15 21:52:59 [LOCALTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 27ms
+2025-08-15 21:53:12 [LOCALTEST] INFO: Postback detected in member view for team: ASSET - restoring member view state
+2025-08-15 21:53:12 [LOCALTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 26ms
+2025-08-15 21:53:12 [LOCALTEST] INFO: SESSION CACHE HIT: Using cached data for key 'ManpowerData_2025-08-10_2025-08-18_ASSET'
+2025-08-15 21:53:12 [LOCALTEST] INFO: PAGE LOAD COMPLETE: 56,9174ms
+2025-08-15 21:53:14 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team ASSET in 425ms
+2025-08-15 21:53:14 [LOCALTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 30ms
+2025-08-15 21:53:14 [LOCALTEST] INFO: GetARAHours: 3 records in 33ms
+2025-08-15 21:53:14 [LOCALTEST] INFO: CACHE MISS: Creating manpower data for key 'ManpowerData_2025-08-10_2025-08-18_ASSET'
+2025-08-15 21:53:14 [LOCALTEST] INFO: SESSION CACHE MISS: Creating entry for key 'ManpowerData_2025-08-10_2025-08-18_ASSET'
