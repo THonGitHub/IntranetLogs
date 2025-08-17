@@ -1,52 +1,11 @@
-2025-08-17 12:51:51 [SERVERTEST] INFO: DB Connection #2 created in 0ms - ConnectionString length: 196
-2025-08-17 12:51:52 [SERVERTEST] INFO: Opened persistent connection in 1015.9226ms
-2025-08-17 12:51:52 [SERVERTEST] INFO: GetTeams: Query execution took 125.0038ms
-2025-08-17 12:51:52 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 1144ms
-2025-08-17 12:51:54 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team AP service delivery in 2139ms
-2025-08-17 12:51:55 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team Application Localization & Support in 1257ms
-2025-08-17 12:51:57 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team ASSET in 1429ms
-2025-08-17 12:51:58 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team Business Management in 1251ms
-2025-08-17 12:51:59 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team CALA service delivery in 1277ms
-2025-08-17 12:52:00 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team Core Connections in 1261ms
-2025-08-17 12:52:02 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team Core Services in 1283ms
-2025-08-17 12:52:03 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team EMEA service delivery in 1253ms
-2025-08-17 12:52:04 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team EUS in 1259ms
-2025-08-17 12:52:06 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team HOTS in 1267ms
-2025-08-17 12:52:07 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team MX service delivery in 1259ms
-2025-08-17 12:52:08 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team PAID in 1259ms
-2025-08-17 12:52:09 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team Security and Compliance in 1267ms
-2025-08-17 12:52:11 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team SK/CZ service delivery new in 1289ms
-2025-08-17 12:57:46 [SERVERTEST] INFO: GetTeams: Query execution took 115.8674ms
-2025-08-17 12:57:46 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 120ms
-2025-08-17 12:57:47 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team AP service delivery in 1231ms
-2025-08-17 12:57:48 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team Application Localization & Support in 1253ms
-2025-08-17 12:57:49 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team ASSET in 1400ms
-2025-08-17 12:57:51 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team Business Management in 1272ms
-2025-08-17 12:57:52 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team CALA service delivery in 1279ms
-2025-08-17 12:57:53 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team Core Connections in 1273ms
-2025-08-17 12:57:55 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team Core Services in 1257ms
-2025-08-17 12:57:56 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team EMEA service delivery in 1263ms
-2025-08-17 12:57:57 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team EUS in 1271ms
-2025-08-17 12:57:58 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team HOTS in 1250ms
-2025-08-17 12:58:00 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team MX service delivery in 1266ms
-2025-08-17 12:58:01 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team PAID in 1272ms
-2025-08-17 12:58:02 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team Security and Compliance in 1272ms
-2025-08-17 12:58:03 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team SK/CZ service delivery new in 1248ms
-2025-08-17 12:58:04 [SERVERTEST] INFO: GetTeams: Query execution took 109.4303ms
-2025-08-17 12:58:04 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 121ms
-2025-08-17 12:58:04 [SERVERTEST] INFO: GetTeams: Query execution took 125.0906ms
-2025-08-17 12:58:04 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 121ms
-2025-08-17 12:58:05 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team AP service delivery in 1252ms
-2025-08-17 12:58:06 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team Application Localization & Support in 1259ms
-2025-08-17 12:58:08 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team ASSET in 1408ms
-2025-08-17 12:58:09 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team Business Management in 1274ms
-2025-08-17 12:58:10 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team CALA service delivery in 1288ms
-2025-08-17 12:58:12 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team Core Connections in 1252ms
-2025-08-17 12:58:13 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team Core Services in 1268ms
-2025-08-17 12:58:14 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team EMEA service delivery in 1272ms
-2025-08-17 12:58:15 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team EUS in 1287ms
-2025-08-17 12:58:17 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team HOTS in 1273ms
-2025-08-17 12:58:18 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team MX service delivery in 1286ms
-2025-08-17 12:58:19 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team PAID in 1261ms
-2025-08-17 12:58:20 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team Security and Compliance in 1273ms
-2025-08-17 12:58:22 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team SK/CZ service delivery new in 1260ms
+DEBUG: _currentUser='', _environment='SERVERTEST'
+DEBUG: _currentUser='th3882', _environment='SERVERTEST'
+2025-08-17 13:46:29 [SERVERTEST] INFO: DB Connection #2 created in 0ms - ConnectionString length: 196
+DEBUG: _currentUser='th3882', _environment='SERVERTEST'
+2025-08-17 13:46:30 [SERVERTEST] INFO: Opened persistent connection in 1002.5062ms
+DEBUG: _currentUser='th3882', _environment='SERVERTEST'
+2025-08-17 13:46:30 [SERVERTEST] INFO: GetTeams: Query execution took 125.0028ms
+DEBUG: _currentUser='th3882', _environment='SERVERTEST'
+2025-08-17 13:46:30 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 1129ms
+DEBUG: _currentUser='th3882', _environment='SERVERTEST'
+2025-08-17 13:46:32 [SERVERTEST] INFO: PAGE LOAD COMPLETE: 156816.1163ms

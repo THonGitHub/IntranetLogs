@@ -1,30 +1,6 @@
-2025-08-17 21:49:20 [LOCALTEST] INFO: DB Connection #1 created in 2,0009ms - ConnectionString length: 196
-2025-08-17 21:51:37 [LOCALTEST] INFO: DB Connection #2 created in 0ms - ConnectionString length: 196
-2025-08-17 21:51:39 [LOCALTEST] INFO: Opened persistent connection in 2025,7751ms
-2025-08-17 21:51:39 [LOCALTEST] INFO: GetTeams: Query execution took 229,1837ms
-2025-08-17 21:51:39 [LOCALTEST] INFO: GetTeams: 14 teams loaded in 2256ms
-2025-08-17 21:51:43 [LOCALTEST] INFO: PAGE LOAD COMPLETE: 143037,7417ms
-2025-08-17 21:55:37 [LOCALTEST] INFO: Postback detected in teams view - rebinding teams
-2025-08-17 21:55:38 [LOCALTEST] INFO: GetTeams: Query execution took 244,3106ms
-2025-08-17 21:55:38 [LOCALTEST] INFO: GetTeams: 14 teams loaded in 245ms
-2025-08-17 21:55:38 [LOCALTEST] INFO: PAGE LOAD COMPLETE: 369,057ms
-2025-08-17 21:55:38 [LOCALTEST] INFO: Manual refresh: Clearing ALL cache and reloading fresh data
-2025-08-17 21:55:38 [LOCALTEST] INFO: GetTeams: Query execution took 227,58ms
-2025-08-17 21:55:38 [LOCALTEST] INFO: GetTeams: 14 teams loaded in 228ms
-2025-08-17 21:55:42 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team AP service delivery in 4203ms
-2025-08-17 21:55:45 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team Application Localization & Support in 2375ms
-2025-08-17 21:55:47 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team ASSET in 2599ms
-2025-08-17 21:55:50 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team Business Management in 2430ms
-2025-08-17 21:55:52 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team CALA service delivery in 2294ms
-2025-08-17 21:55:54 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team Core Connections in 2313ms
-2025-08-17 21:55:57 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team Core Services in 2355ms
-2025-08-17 21:55:59 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team EMEA service delivery in 2429ms
-2025-08-17 21:56:01 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team EUS in 2310ms
-2025-08-17 21:56:04 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team HOTS in 2393ms
-2025-08-17 21:56:06 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team MX service delivery in 2401ms
-2025-08-17 21:56:09 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team PAID in 2356ms
-2025-08-17 21:56:11 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team Security and Compliance in 2310ms
-2025-08-17 21:56:13 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team SK/CZ service delivery new in 2353ms
-2025-08-17 21:56:13 [LOCALTEST] INFO: GetTeams: Query execution took 231,6126ms
-2025-08-17 21:56:13 [LOCALTEST] INFO: GetTeams: 14 teams loaded in 232ms
-2025-08-17 21:56:17 [LOCALTEST] INFO: Manual refresh completed - all cache cleared and fresh data loaded
+2025-08-17 22:43:59 [LOCALTEST] INFO: DB Connection #1 created in 2,0002ms - ConnectionString length: 196
+2025-08-17 22:45:52 [LOCALTEST] INFO: DB Connection #2 created in 0ms - ConnectionString length: 196
+2025-08-17 22:45:54 [LOCALTEST] INFO: Opened persistent connection in 1978,9879ms
+2025-08-17 22:45:54 [LOCALTEST] INFO: GetTeams: Query execution took 225,811ms
+2025-08-17 22:45:54 [LOCALTEST] INFO: GetTeams: 14 teams loaded in 2207ms
+2025-08-17 22:45:58 [LOCALTEST] INFO: PAGE LOAD COMPLETE: 118878,1518ms
