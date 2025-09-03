@@ -1,28 +1,28 @@
-2025-09-03 21:02:51 [LOCALTEST] INFO: PAGE TIMING: Page_Load START at 21:02:51.682
-2025-09-03 21:02:51 [LOCALTEST] INFO: PAGE TIMING: Starting authentication check at 21:02:51.696
-2025-09-03 21:02:51 [LOCALTEST] INFO: DB Connection #1 created in 4,0004ms - ConnectionString length: 196
-2025-09-03 21:02:51 [LOCALTEST] INFO: AUTH TIMING: GetCurrentUser() START
-2025-09-03 21:02:51 [LOCALTEST] INFO: AUTH TIMING: Username resolved to 'th3882' in 2ms
-2025-09-03 21:02:51 [LOCALTEST] INFO: WHITELIST: Checking database first for user th3882
-2025-09-03 21:02:54 [LOCALTEST] INFO: WHITELIST HIT: User th3882 found in database, skipping LDAP check
-2025-09-03 21:02:54 [LOCALTEST] INFO: AUTH TIMING: LDAP validation took 3090,0843ms
-2025-09-03 21:02:54 [LOCALTEST] INFO: AUTH TIMING: GetCurrentUser() COMPLETE in 3094ms
-2025-09-03 21:02:54 [LOCALTEST] INFO: DB Connection #2 created in 0ms - ConnectionString length: 196
-2025-09-03 21:02:55 [LOCALTEST] INFO: Opened persistent connection in 271,671ms
-2025-09-03 21:02:55 [LOCALTEST] INFO: GetTeams: Query execution took 28,5123ms
-2025-09-03 21:02:55 [LOCALTEST] INFO: GetTeams: 14 teams loaded in 301ms
-2025-09-03 21:02:55 [LOCALTEST] INFO: TeamUtilization: 'AP service delivery' (3m) = 0% | 0 records, 0 total manpower | 35ms
-2025-09-03 21:02:55 [LOCALTEST] INFO: TeamUtilization: 'Application Localization & Support' (1m) = 0% | 0 records, 0 total manpower | 26ms
-2025-09-03 21:02:55 [LOCALTEST] INFO: TeamUtilization: 'ASSET' (11m) = 48% | 60 records, 210 total manpower | 45ms
-2025-09-03 21:02:55 [LOCALTEST] INFO: TeamUtilization: 'Business Management' (1m) = 0% | 0 records, 0 total manpower | 26ms
-2025-09-03 21:02:55 [LOCALTEST] INFO: TeamUtilization: 'CALA service delivery' (1m) = 0% | 0 records, 0 total manpower | 26ms
-2025-09-03 21:02:55 [LOCALTEST] INFO: TeamUtilization: 'Core Connections' (1m) = 0% | 0 records, 0 total manpower | 26ms
-2025-09-03 21:02:55 [LOCALTEST] INFO: TeamUtilization: 'Core Services' (1m) = 0% | 0 records, 0 total manpower | 26ms
-2025-09-03 21:02:55 [LOCALTEST] INFO: TeamUtilization: 'EMEA service delivery' (1m) = 0% | 0 records, 0 total manpower | 26ms
-2025-09-03 21:02:55 [LOCALTEST] INFO: TeamUtilization: 'EUS' (4m) = 88% | 110 records, 140 total manpower | 29ms
-2025-09-03 21:02:55 [LOCALTEST] INFO: TeamUtilization: 'HOTS' (1m) = 0% | 0 records, 0 total manpower | 28ms
-2025-09-03 21:02:55 [LOCALTEST] INFO: TeamUtilization: 'MX service delivery' (1m) = 0% | 0 records, 0 total manpower | 28ms
-2025-09-03 21:02:55 [LOCALTEST] INFO: TeamUtilization: 'PAID' (1m) = 0% | 0 records, 0 total manpower | 26ms
-2025-09-03 21:02:55 [LOCALTEST] INFO: TeamUtilization: 'Security and Compliance' (1m) = 0% | 0 records, 0 total manpower | 26ms
-2025-09-03 21:02:55 [LOCALTEST] INFO: TeamUtilization: 'SK/CZ service delivery new' (1m) = 0% | 0 records, 0 total manpower | 26ms
-2025-09-03 21:02:58 [LOCALTEST] INFO: PAGE TIMING: Page_Load COMPLETE in 6519ms at 21:02:58.203
+2025-09-03 21:28:16 [LOCALTEST] INFO: PAGE TIMING: Page_Load START at 21:28:16.423
+2025-09-03 21:28:16 [LOCALTEST] INFO: PAGE TIMING: Starting authentication check at 21:28:16.434
+2025-09-03 21:28:16 [LOCALTEST] INFO: DB Connection #1 created in 4,2554ms - ConnectionString length: 196
+2025-09-03 21:28:16 [LOCALTEST] INFO: AUTH TIMING: GetCurrentUser() START
+2025-09-03 21:28:16 [LOCALTEST] INFO: AUTH TIMING: Username resolved to 'th3882' in 2ms
+2025-09-03 21:28:16 [LOCALTEST] INFO: WHITELIST: Checking database first for user th3882
+2025-09-03 21:28:19 [LOCALTEST] INFO: Opened persistent connection in 2606,9415ms
+2025-09-03 21:28:19 [LOCALTEST] INFO: WHITELIST HIT: User th3882 found in database, skipping LDAP check
+2025-09-03 21:28:19 [LOCALTEST] INFO: AUTH TIMING: LDAP validation took 2958,9107ms
+2025-09-03 21:28:19 [LOCALTEST] INFO: AUTH TIMING: GetCurrentUser() COMPLETE in 2963ms
+2025-09-03 21:28:19 [LOCALTEST] INFO: DB Connection #2 created in 0ms - ConnectionString length: 196
+2025-09-03 21:28:19 [LOCALTEST] INFO: GetTeams: Query execution took 28,6543ms
+2025-09-03 21:28:19 [LOCALTEST] INFO: GetTeams: 14 teams loaded in 29ms
+2025-09-03 21:28:19 [LOCALTEST] INFO: TeamUtilization: 'AP service delivery' (3m) = 0% | 0 records, 0 total manpower | 29ms
+2025-09-03 21:28:19 [LOCALTEST] INFO: TeamUtilization: 'Application Localization & Support' (1m) = 0% | 0 records, 0 total manpower | 30ms
+2025-09-03 21:28:19 [LOCALTEST] INFO: TeamUtilization: 'ASSET' (11m) = 48% | 60 records, 210 total manpower | 45ms
+2025-09-03 21:28:19 [LOCALTEST] INFO: TeamUtilization: 'Business Management' (1m) = 0% | 0 records, 0 total manpower | 28ms
+2025-09-03 21:28:19 [LOCALTEST] INFO: TeamUtilization: 'CALA service delivery' (1m) = 0% | 0 records, 0 total manpower | 26ms
+2025-09-03 21:28:19 [LOCALTEST] INFO: TeamUtilization: 'Core Connections' (1m) = 0% | 0 records, 0 total manpower | 26ms
+2025-09-03 21:28:19 [LOCALTEST] INFO: TeamUtilization: 'Core Services' (1m) = 0% | 0 records, 0 total manpower | 27ms
+2025-09-03 21:28:19 [LOCALTEST] INFO: TeamUtilization: 'EMEA service delivery' (1m) = 0% | 0 records, 0 total manpower | 26ms
+2025-09-03 21:28:19 [LOCALTEST] INFO: TeamUtilization: 'EUS' (4m) = 88% | 110 records, 140 total manpower | 29ms
+2025-09-03 21:28:19 [LOCALTEST] INFO: TeamUtilization: 'HOTS' (1m) = 0% | 0 records, 0 total manpower | 27ms
+2025-09-03 21:28:19 [LOCALTEST] INFO: TeamUtilization: 'MX service delivery' (1m) = 0% | 0 records, 0 total manpower | 27ms
+2025-09-03 21:28:19 [LOCALTEST] INFO: TeamUtilization: 'PAID' (1m) = 0% | 0 records, 0 total manpower | 26ms
+2025-09-03 21:28:19 [LOCALTEST] INFO: TeamUtilization: 'Security and Compliance' (1m) = 0% | 0 records, 0 total manpower | 26ms
+2025-09-03 21:28:19 [LOCALTEST] INFO: TeamUtilization: 'SK/CZ service delivery new' (1m) = 0% | 0 records, 0 total manpower | 26ms
+2025-09-03 21:28:22 [LOCALTEST] INFO: PAGE TIMING: Page_Load COMPLETE in 5987ms at 21:28:22.412
