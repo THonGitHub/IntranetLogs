@@ -1,65 +1,30 @@
-2025-09-03 19:56:25 [LOCALTEST] INFO: DB Connection #1 created in 3,2926ms - ConnectionString length: 196
-2025-09-03 19:56:25 [LOCALTEST] INFO: LDAP Query: Searching for user th3882
-2025-09-03 19:56:27 [LOCALTEST] INFO: User th3882 found, checking 98 group memberships
-2025-09-03 19:56:27 [LOCALTEST] INFO: SUCCESS: User th3882 is member of group 'TSI ALL'
-2025-09-03 19:56:30 [LOCALTEST] INFO: DB Connection #2 created in 0ms - ConnectionString length: 196
-2025-09-03 19:56:31 [LOCALTEST] INFO: Opened persistent connection in 285,2784ms
-2025-09-03 19:56:31 [LOCALTEST] INFO: GetTeams: Query execution took 31,2128ms
-2025-09-03 19:56:31 [LOCALTEST] INFO: GetTeams: 14 teams loaded in 326ms
-2025-09-03 19:56:31 [LOCALTEST] INFO: CalculateTeamUtilizationPercentage START for team 'AP service delivery' with 3 members
-2025-09-03 19:56:31 [LOCALTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'AP service delivery' from 2025-09-01 to 2025-09-07
-2025-09-03 19:56:31 [LOCALTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'AP service delivery'
-2025-09-03 19:56:31 [LOCALTEST] INFO: CalculateTeamUtilizationPercentage END for team 'AP service delivery': 0% (totalManpower=0, took 33ms)
-2025-09-03 19:56:31 [LOCALTEST] INFO: CalculateTeamUtilizationPercentage START for team 'Application Localization & Support' with 1 members
-2025-09-03 19:56:31 [LOCALTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'Application Localization & Support' from 2025-09-01 to 2025-09-07
-2025-09-03 19:56:31 [LOCALTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'Application Localization & Support'
-2025-09-03 19:56:31 [LOCALTEST] INFO: CalculateTeamUtilizationPercentage END for team 'Application Localization & Support': 0% (totalManpower=0, took 40ms)
-2025-09-03 19:56:31 [LOCALTEST] INFO: CalculateTeamUtilizationPercentage START for team 'ASSET' with 11 members
-2025-09-03 19:56:31 [LOCALTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'ASSET' from 2025-09-01 to 2025-09-07
-2025-09-03 19:56:31 [LOCALTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 60 manpower records for team 'ASSET'
-2025-09-03 19:56:31 [LOCALTEST] INFO: CalculateTeamUtilizationPercentage END for team 'ASSET': 48% (totalManpower=210, took 49ms)
-2025-09-03 19:56:31 [LOCALTEST] INFO: CalculateTeamUtilizationPercentage START for team 'Business Management' with 1 members
-2025-09-03 19:56:31 [LOCALTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'Business Management' from 2025-09-01 to 2025-09-07
-2025-09-03 19:56:31 [LOCALTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'Business Management'
-2025-09-03 19:56:31 [LOCALTEST] INFO: CalculateTeamUtilizationPercentage END for team 'Business Management': 0% (totalManpower=0, took 28ms)
-2025-09-03 19:56:31 [LOCALTEST] INFO: CalculateTeamUtilizationPercentage START for team 'CALA service delivery' with 1 members
-2025-09-03 19:56:31 [LOCALTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'CALA service delivery' from 2025-09-01 to 2025-09-07
-2025-09-03 19:56:31 [LOCALTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'CALA service delivery'
-2025-09-03 19:56:31 [LOCALTEST] INFO: CalculateTeamUtilizationPercentage END for team 'CALA service delivery': 0% (totalManpower=0, took 32ms)
-2025-09-03 19:56:31 [LOCALTEST] INFO: CalculateTeamUtilizationPercentage START for team 'Core Connections' with 1 members
-2025-09-03 19:56:31 [LOCALTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'Core Connections' from 2025-09-01 to 2025-09-07
-2025-09-03 19:56:31 [LOCALTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'Core Connections'
-2025-09-03 19:56:31 [LOCALTEST] INFO: CalculateTeamUtilizationPercentage END for team 'Core Connections': 0% (totalManpower=0, took 27ms)
-2025-09-03 19:56:31 [LOCALTEST] INFO: CalculateTeamUtilizationPercentage START for team 'Core Services' with 1 members
-2025-09-03 19:56:31 [LOCALTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'Core Services' from 2025-09-01 to 2025-09-07
-2025-09-03 19:56:31 [LOCALTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'Core Services'
-2025-09-03 19:56:31 [LOCALTEST] INFO: CalculateTeamUtilizationPercentage END for team 'Core Services': 0% (totalManpower=0, took 28ms)
-2025-09-03 19:56:31 [LOCALTEST] INFO: CalculateTeamUtilizationPercentage START for team 'EMEA service delivery' with 1 members
-2025-09-03 19:56:31 [LOCALTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'EMEA service delivery' from 2025-09-01 to 2025-09-07
-2025-09-03 19:56:31 [LOCALTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'EMEA service delivery'
-2025-09-03 19:56:31 [LOCALTEST] INFO: CalculateTeamUtilizationPercentage END for team 'EMEA service delivery': 0% (totalManpower=0, took 34ms)
-2025-09-03 19:56:31 [LOCALTEST] INFO: CalculateTeamUtilizationPercentage START for team 'EUS' with 4 members
-2025-09-03 19:56:31 [LOCALTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'EUS' from 2025-09-01 to 2025-09-07
-2025-09-03 19:56:31 [LOCALTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 110 manpower records for team 'EUS'
-2025-09-03 19:56:31 [LOCALTEST] INFO: CalculateTeamUtilizationPercentage END for team 'EUS': 88% (totalManpower=140, took 40ms)
-2025-09-03 19:56:31 [LOCALTEST] INFO: CalculateTeamUtilizationPercentage START for team 'HOTS' with 1 members
-2025-09-03 19:56:31 [LOCALTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'HOTS' from 2025-09-01 to 2025-09-07
-2025-09-03 19:56:31 [LOCALTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'HOTS'
-2025-09-03 19:56:31 [LOCALTEST] INFO: CalculateTeamUtilizationPercentage END for team 'HOTS': 0% (totalManpower=0, took 28ms)
-2025-09-03 19:56:31 [LOCALTEST] INFO: CalculateTeamUtilizationPercentage START for team 'MX service delivery' with 1 members
-2025-09-03 19:56:31 [LOCALTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'MX service delivery' from 2025-09-01 to 2025-09-07
-2025-09-03 19:56:31 [LOCALTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'MX service delivery'
-2025-09-03 19:56:31 [LOCALTEST] INFO: CalculateTeamUtilizationPercentage END for team 'MX service delivery': 0% (totalManpower=0, took 27ms)
-2025-09-03 19:56:31 [LOCALTEST] INFO: CalculateTeamUtilizationPercentage START for team 'PAID' with 1 members
-2025-09-03 19:56:31 [LOCALTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'PAID' from 2025-09-01 to 2025-09-07
-2025-09-03 19:56:31 [LOCALTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'PAID'
-2025-09-03 19:56:31 [LOCALTEST] INFO: CalculateTeamUtilizationPercentage END for team 'PAID': 0% (totalManpower=0, took 28ms)
-2025-09-03 19:56:31 [LOCALTEST] INFO: CalculateTeamUtilizationPercentage START for team 'Security and Compliance' with 1 members
-2025-09-03 19:56:31 [LOCALTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'Security and Compliance' from 2025-09-01 to 2025-09-07
-2025-09-03 19:56:31 [LOCALTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'Security and Compliance'
-2025-09-03 19:56:31 [LOCALTEST] INFO: CalculateTeamUtilizationPercentage END for team 'Security and Compliance': 0% (totalManpower=0, took 29ms)
-2025-09-03 19:56:31 [LOCALTEST] INFO: CalculateTeamUtilizationPercentage START for team 'SK/CZ service delivery new' with 1 members
-2025-09-03 19:56:31 [LOCALTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'SK/CZ service delivery new' from 2025-09-01 to 2025-09-07
-2025-09-03 19:56:31 [LOCALTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'SK/CZ service delivery new'
-2025-09-03 19:56:31 [LOCALTEST] INFO: CalculateTeamUtilizationPercentage END for team 'SK/CZ service delivery new': 0% (totalManpower=0, took 29ms)
-2025-09-03 19:56:35 [LOCALTEST] INFO: PAGE LOAD COMPLETE: 9254,5506ms
+2025-09-03 20:21:41 [LOCALTEST] INFO: PAGE TIMING: Page_Load START at 20:21:41.475
+2025-09-03 20:21:41 [LOCALTEST] INFO: PAGE TIMING: Starting authentication check at 20:21:41.483
+2025-09-03 20:21:41 [LOCALTEST] INFO: DB Connection #1 created in 3,4684ms - ConnectionString length: 196
+2025-09-03 20:21:41 [LOCALTEST] INFO: AUTH TIMING: GetCurrentUser() START
+2025-09-03 20:21:41 [LOCALTEST] INFO: AUTH TIMING: Username resolved to 'th3882' in 1ms
+2025-09-03 20:21:41 [LOCALTEST] INFO: LDAP TIMING: Starting membership check for user 'th3882' in group 'TSI ALL'
+2025-09-03 20:21:41 [LOCALTEST] INFO: LDAP Query: Searching for user th3882
+2025-09-03 20:21:42 [LOCALTEST] INFO: User th3882 found, checking 98 group memberships
+2025-09-03 20:21:42 [LOCALTEST] INFO: SUCCESS: User th3882 is member of group 'TSI ALL'
+2025-09-03 20:21:45 [LOCALTEST] INFO: AUTH TIMING: LDAP validation took 3883,0296ms
+2025-09-03 20:21:45 [LOCALTEST] INFO: AUTH TIMING: GetCurrentUser() COMPLETE in 3886ms
+2025-09-03 20:21:45 [LOCALTEST] INFO: DB Connection #2 created in 0ms - ConnectionString length: 196
+2025-09-03 20:21:45 [LOCALTEST] INFO: Opened persistent connection in 284,4739ms
+2025-09-03 20:21:45 [LOCALTEST] INFO: GetTeams: Query execution took 28,0477ms
+2025-09-03 20:21:45 [LOCALTEST] INFO: GetTeams: 14 teams loaded in 313ms
+2025-09-03 20:21:45 [LOCALTEST] INFO: TeamUtilization: 'AP service delivery' (3m) = 0% | 0 records, 0 total manpower | 30ms
+2025-09-03 20:21:45 [LOCALTEST] INFO: TeamUtilization: 'Application Localization & Support' (1m) = 0% | 0 records, 0 total manpower | 26ms
+2025-09-03 20:21:45 [LOCALTEST] INFO: TeamUtilization: 'ASSET' (11m) = 48% | 60 records, 210 total manpower | 45ms
+2025-09-03 20:21:45 [LOCALTEST] INFO: TeamUtilization: 'Business Management' (1m) = 0% | 0 records, 0 total manpower | 26ms
+2025-09-03 20:21:45 [LOCALTEST] INFO: TeamUtilization: 'CALA service delivery' (1m) = 0% | 0 records, 0 total manpower | 35ms
+2025-09-03 20:21:45 [LOCALTEST] INFO: TeamUtilization: 'Core Connections' (1m) = 0% | 0 records, 0 total manpower | 27ms
+2025-09-03 20:21:45 [LOCALTEST] INFO: TeamUtilization: 'Core Services' (1m) = 0% | 0 records, 0 total manpower | 26ms
+2025-09-03 20:21:46 [LOCALTEST] INFO: TeamUtilization: 'EMEA service delivery' (1m) = 0% | 0 records, 0 total manpower | 26ms
+2025-09-03 20:21:46 [LOCALTEST] INFO: TeamUtilization: 'EUS' (4m) = 88% | 110 records, 140 total manpower | 30ms
+2025-09-03 20:21:46 [LOCALTEST] INFO: TeamUtilization: 'HOTS' (1m) = 0% | 0 records, 0 total manpower | 26ms
+2025-09-03 20:21:46 [LOCALTEST] INFO: TeamUtilization: 'MX service delivery' (1m) = 0% | 0 records, 0 total manpower | 28ms
+2025-09-03 20:21:46 [LOCALTEST] INFO: TeamUtilization: 'PAID' (1m) = 0% | 0 records, 0 total manpower | 26ms
+2025-09-03 20:21:46 [LOCALTEST] INFO: TeamUtilization: 'Security and Compliance' (1m) = 0% | 0 records, 0 total manpower | 34ms
+2025-09-03 20:21:46 [LOCALTEST] INFO: TeamUtilization: 'SK/CZ service delivery new' (1m) = 0% | 0 records, 0 total manpower | 26ms
+2025-09-03 20:21:47 [LOCALTEST] INFO: PAGE TIMING: Page_Load COMPLETE in 6475ms at 20:21:47.952
