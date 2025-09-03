@@ -1,65 +1,460 @@
 DEBUG: _currentUser='', _environment='SERVERTEST'
 DEBUG: _currentUser='', _environment='SERVERTEST'
 DEBUG: _currentUser='th3882', _environment='SERVERTEST'
-2025-09-03 10:14:52 [SERVERTEST] INFO: DB Connection #2 created in 0ms - ConnectionString length: 196
-2025-09-03 10:14:53 [SERVERTEST] INFO: Opened persistent connection in 1046.8978ms
-2025-09-03 10:14:53 [SERVERTEST] INFO: GetTeams: Query execution took 125.0652ms
-2025-09-03 10:14:53 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 1167ms
+2025-09-03 10:43:45 [SERVERTEST] INFO: DB Connection #2 created in 0ms - ConnectionString length: 196
+2025-09-03 10:43:46 [SERVERTEST] INFO: Opened persistent connection in 1031.2721ms
+2025-09-03 10:43:46 [SERVERTEST] INFO: GetTeams: Query execution took 124.9972ms
+2025-09-03 10:43:46 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 1161ms
 DEBUG: _currentUser='th3882', _environment='SERVERTEST'
-2025-09-03 10:14:53 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'AP service delivery' with 3 members
-2025-09-03 10:14:53 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'AP service delivery' from 2025-09-01 to 2025-09-07
-2025-09-03 10:14:53 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'AP service delivery'
-2025-09-03 10:14:53 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'AP service delivery': 0% (totalManpower=0, took 128ms)
-2025-09-03 10:14:53 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'Application Localization & Support' with 1 members
-2025-09-03 10:14:53 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'Application Localization & Support' from 2025-09-01 to 2025-09-07
-2025-09-03 10:14:53 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'Application Localization & Support'
-2025-09-03 10:14:53 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'Application Localization & Support': 0% (totalManpower=0, took 123ms)
-2025-09-03 10:14:53 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'ASSET' with 11 members
-2025-09-03 10:14:53 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'ASSET' from 2025-09-01 to 2025-09-07
-2025-09-03 10:14:53 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'ASSET'
-2025-09-03 10:14:53 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'ASSET': 0% (totalManpower=0, took 123ms)
-2025-09-03 10:14:53 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'Business Management' with 1 members
-2025-09-03 10:14:53 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'Business Management' from 2025-09-01 to 2025-09-07
-2025-09-03 10:14:54 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'Business Management'
-2025-09-03 10:14:54 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'Business Management': 0% (totalManpower=0, took 124ms)
-2025-09-03 10:14:54 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'CALA service delivery' with 1 members
-2025-09-03 10:14:54 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'CALA service delivery' from 2025-09-01 to 2025-09-07
-2025-09-03 10:14:54 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'CALA service delivery'
-2025-09-03 10:14:54 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'CALA service delivery': 0% (totalManpower=0, took 123ms)
-2025-09-03 10:14:54 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'Core Connections' with 1 members
-2025-09-03 10:14:54 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'Core Connections' from 2025-09-01 to 2025-09-07
-2025-09-03 10:14:54 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'Core Connections'
-2025-09-03 10:14:54 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'Core Connections': 0% (totalManpower=0, took 124ms)
-2025-09-03 10:14:54 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'Core Services' with 1 members
-2025-09-03 10:14:54 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'Core Services' from 2025-09-01 to 2025-09-07
-2025-09-03 10:14:54 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'Core Services'
-2025-09-03 10:14:54 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'Core Services': 0% (totalManpower=0, took 124ms)
-2025-09-03 10:14:54 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'EMEA service delivery' with 1 members
-2025-09-03 10:14:54 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'EMEA service delivery' from 2025-09-01 to 2025-09-07
-2025-09-03 10:14:54 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'EMEA service delivery'
-2025-09-03 10:14:54 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'EMEA service delivery': 0% (totalManpower=0, took 124ms)
-2025-09-03 10:14:54 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'EUS' with 4 members
-2025-09-03 10:14:54 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'EUS' from 2025-09-01 to 2025-09-07
-2025-09-03 10:14:54 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'EUS'
-2025-09-03 10:14:54 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'EUS': 0% (totalManpower=0, took 124ms)
-2025-09-03 10:14:54 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'HOTS' with 1 members
-2025-09-03 10:14:54 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'HOTS' from 2025-09-01 to 2025-09-07
-2025-09-03 10:14:54 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'HOTS'
-2025-09-03 10:14:54 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'HOTS': 0% (totalManpower=0, took 124ms)
-2025-09-03 10:14:54 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'MX service delivery' with 1 members
-2025-09-03 10:14:54 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'MX service delivery' from 2025-09-01 to 2025-09-07
-2025-09-03 10:14:54 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'MX service delivery'
-2025-09-03 10:14:54 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'MX service delivery': 0% (totalManpower=0, took 124ms)
-2025-09-03 10:14:54 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'PAID' with 1 members
-2025-09-03 10:14:54 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'PAID' from 2025-09-01 to 2025-09-07
-2025-09-03 10:14:55 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'PAID'
-2025-09-03 10:14:55 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'PAID': 0% (totalManpower=0, took 124ms)
-2025-09-03 10:14:55 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'Security and Compliance' with 1 members
-2025-09-03 10:14:55 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'Security and Compliance' from 2025-09-01 to 2025-09-07
-2025-09-03 10:14:55 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'Security and Compliance'
-2025-09-03 10:14:55 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'Security and Compliance': 0% (totalManpower=0, took 124ms)
-2025-09-03 10:14:55 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'SK/CZ service delivery new' with 1 members
-2025-09-03 10:14:55 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'SK/CZ service delivery new' from 2025-09-01 to 2025-09-07
-2025-09-03 10:14:55 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'SK/CZ service delivery new'
-2025-09-03 10:14:55 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'SK/CZ service delivery new': 0% (totalManpower=0, took 124ms)
-2025-09-03 10:14:55 [SERVERTEST] INFO: PAGE LOAD COMPLETE: 13957.7551ms
+2025-09-03 10:43:46 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'AP service delivery' with 3 members
+2025-09-03 10:43:46 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'AP service delivery' from 2025-09-01 to 2025-09-07
+2025-09-03 10:43:46 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'AP service delivery'
+2025-09-03 10:43:46 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'AP service delivery': 0% (totalManpower=0, took 126ms)
+2025-09-03 10:43:46 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'Application Localization & Support' with 1 members
+2025-09-03 10:43:46 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'Application Localization & Support' from 2025-09-01 to 2025-09-07
+2025-09-03 10:43:47 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'Application Localization & Support'
+2025-09-03 10:43:47 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'Application Localization & Support': 0% (totalManpower=0, took 135ms)
+2025-09-03 10:43:47 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'ASSET' with 11 members
+2025-09-03 10:43:47 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'ASSET' from 2025-09-01 to 2025-09-07
+2025-09-03 10:43:47 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'ASSET'
+2025-09-03 10:43:47 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'ASSET': 0% (totalManpower=0, took 121ms)
+2025-09-03 10:43:47 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'Business Management' with 1 members
+2025-09-03 10:43:47 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'Business Management' from 2025-09-01 to 2025-09-07
+2025-09-03 10:43:47 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'Business Management'
+2025-09-03 10:43:47 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'Business Management': 0% (totalManpower=0, took 121ms)
+2025-09-03 10:43:47 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'CALA service delivery' with 1 members
+2025-09-03 10:43:47 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'CALA service delivery' from 2025-09-01 to 2025-09-07
+2025-09-03 10:43:47 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'CALA service delivery'
+2025-09-03 10:43:47 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'CALA service delivery': 0% (totalManpower=0, took 121ms)
+2025-09-03 10:43:47 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'Core Connections' with 1 members
+2025-09-03 10:43:47 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'Core Connections' from 2025-09-01 to 2025-09-07
+2025-09-03 10:43:47 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'Core Connections'
+2025-09-03 10:43:47 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'Core Connections': 0% (totalManpower=0, took 121ms)
+2025-09-03 10:43:47 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'Core Services' with 1 members
+2025-09-03 10:43:47 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'Core Services' from 2025-09-01 to 2025-09-07
+2025-09-03 10:43:47 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'Core Services'
+2025-09-03 10:43:47 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'Core Services': 0% (totalManpower=0, took 122ms)
+2025-09-03 10:43:47 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'EMEA service delivery' with 1 members
+2025-09-03 10:43:47 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'EMEA service delivery' from 2025-09-01 to 2025-09-07
+2025-09-03 10:43:47 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'EMEA service delivery'
+2025-09-03 10:43:47 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'EMEA service delivery': 0% (totalManpower=0, took 123ms)
+2025-09-03 10:43:47 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'EUS' with 4 members
+2025-09-03 10:43:47 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'EUS' from 2025-09-01 to 2025-09-07
+2025-09-03 10:43:47 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'EUS'
+2025-09-03 10:43:47 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'EUS': 0% (totalManpower=0, took 122ms)
+2025-09-03 10:43:47 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'HOTS' with 1 members
+2025-09-03 10:43:47 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'HOTS' from 2025-09-01 to 2025-09-07
+2025-09-03 10:43:48 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'HOTS'
+2025-09-03 10:43:48 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'HOTS': 0% (totalManpower=0, took 122ms)
+2025-09-03 10:43:48 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'MX service delivery' with 1 members
+2025-09-03 10:43:48 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'MX service delivery' from 2025-09-01 to 2025-09-07
+2025-09-03 10:43:48 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'MX service delivery'
+2025-09-03 10:43:48 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'MX service delivery': 0% (totalManpower=0, took 121ms)
+2025-09-03 10:43:48 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'PAID' with 1 members
+2025-09-03 10:43:48 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'PAID' from 2025-09-01 to 2025-09-07
+2025-09-03 10:43:48 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'PAID'
+2025-09-03 10:43:48 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'PAID': 0% (totalManpower=0, took 122ms)
+2025-09-03 10:43:48 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'Security and Compliance' with 1 members
+2025-09-03 10:43:48 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'Security and Compliance' from 2025-09-01 to 2025-09-07
+2025-09-03 10:43:48 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'Security and Compliance'
+2025-09-03 10:43:48 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'Security and Compliance': 0% (totalManpower=0, took 122ms)
+2025-09-03 10:43:48 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'SK/CZ service delivery new' with 1 members
+2025-09-03 10:43:48 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'SK/CZ service delivery new' from 2025-09-01 to 2025-09-07
+2025-09-03 10:43:48 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'SK/CZ service delivery new'
+2025-09-03 10:43:48 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'SK/CZ service delivery new': 0% (totalManpower=0, took 122ms)
+2025-09-03 10:43:48 [SERVERTEST] INFO: PAGE LOAD COMPLETE: 13095.0304ms
+2025-09-03 10:44:01 [SERVERTEST] INFO: GetTeams: Query execution took 109.3676ms
+2025-09-03 10:44:01 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 122ms
+DEBUG: _currentUser='th3882', _environment='SERVERTEST'
+2025-09-03 10:44:01 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'AP service delivery' with 3 members
+2025-09-03 10:44:01 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'AP service delivery' from 2025-09-01 to 2025-09-07
+2025-09-03 10:44:01 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'AP service delivery'
+2025-09-03 10:44:01 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'AP service delivery': 0% (totalManpower=0, took 1ms)
+2025-09-03 10:44:01 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'Application Localization & Support' with 1 members
+2025-09-03 10:44:01 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'Application Localization & Support' from 2025-09-01 to 2025-09-07
+2025-09-03 10:44:01 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'Application Localization & Support'
+2025-09-03 10:44:01 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'Application Localization & Support': 0% (totalManpower=0, took 1ms)
+2025-09-03 10:44:01 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'ASSET' with 11 members
+2025-09-03 10:44:01 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'ASSET' from 2025-09-01 to 2025-09-07
+2025-09-03 10:44:01 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'ASSET'
+2025-09-03 10:44:01 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'ASSET': 0% (totalManpower=0, took 0ms)
+2025-09-03 10:44:01 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'Business Management' with 1 members
+2025-09-03 10:44:01 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'Business Management' from 2025-09-01 to 2025-09-07
+2025-09-03 10:44:01 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'Business Management'
+2025-09-03 10:44:01 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'Business Management': 0% (totalManpower=0, took 0ms)
+2025-09-03 10:44:01 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'CALA service delivery' with 1 members
+2025-09-03 10:44:01 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'CALA service delivery' from 2025-09-01 to 2025-09-07
+2025-09-03 10:44:01 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'CALA service delivery'
+2025-09-03 10:44:01 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'CALA service delivery': 0% (totalManpower=0, took 0ms)
+2025-09-03 10:44:01 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'Core Connections' with 1 members
+2025-09-03 10:44:01 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'Core Connections' from 2025-09-01 to 2025-09-07
+2025-09-03 10:44:01 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'Core Connections'
+2025-09-03 10:44:01 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'Core Connections': 0% (totalManpower=0, took 0ms)
+2025-09-03 10:44:01 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'Core Services' with 1 members
+2025-09-03 10:44:01 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'Core Services' from 2025-09-01 to 2025-09-07
+2025-09-03 10:44:01 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'Core Services'
+2025-09-03 10:44:01 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'Core Services': 0% (totalManpower=0, took 0ms)
+2025-09-03 10:44:01 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'EMEA service delivery' with 1 members
+2025-09-03 10:44:01 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'EMEA service delivery' from 2025-09-01 to 2025-09-07
+2025-09-03 10:44:01 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'EMEA service delivery'
+2025-09-03 10:44:01 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'EMEA service delivery': 0% (totalManpower=0, took 0ms)
+2025-09-03 10:44:01 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'EUS' with 4 members
+2025-09-03 10:44:01 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'EUS' from 2025-09-01 to 2025-09-07
+2025-09-03 10:44:01 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'EUS'
+2025-09-03 10:44:01 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'EUS': 0% (totalManpower=0, took 0ms)
+2025-09-03 10:44:01 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'HOTS' with 1 members
+2025-09-03 10:44:01 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'HOTS' from 2025-09-01 to 2025-09-07
+2025-09-03 10:44:01 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'HOTS'
+2025-09-03 10:44:01 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'HOTS': 0% (totalManpower=0, took 0ms)
+2025-09-03 10:44:01 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'MX service delivery' with 1 members
+2025-09-03 10:44:01 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'MX service delivery' from 2025-09-01 to 2025-09-07
+2025-09-03 10:44:01 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'MX service delivery'
+2025-09-03 10:44:01 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'MX service delivery': 0% (totalManpower=0, took 0ms)
+2025-09-03 10:44:01 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'PAID' with 1 members
+2025-09-03 10:44:01 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'PAID' from 2025-09-01 to 2025-09-07
+2025-09-03 10:44:01 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'PAID'
+2025-09-03 10:44:01 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'PAID': 0% (totalManpower=0, took 0ms)
+2025-09-03 10:44:01 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'Security and Compliance' with 1 members
+2025-09-03 10:44:01 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'Security and Compliance' from 2025-09-01 to 2025-09-07
+2025-09-03 10:44:01 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'Security and Compliance'
+2025-09-03 10:44:01 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'Security and Compliance': 0% (totalManpower=0, took 0ms)
+2025-09-03 10:44:01 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'SK/CZ service delivery new' with 1 members
+2025-09-03 10:44:01 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'SK/CZ service delivery new' from 2025-09-01 to 2025-09-07
+2025-09-03 10:44:01 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'SK/CZ service delivery new'
+2025-09-03 10:44:01 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'SK/CZ service delivery new': 0% (totalManpower=0, took 0ms)
+2025-09-03 10:44:01 [SERVERTEST] INFO: PAGE LOAD COMPLETE: 140.5405ms
+DEBUG: _currentUser='', _environment='SERVERTEST'
+2025-09-03 10:44:04 [SERVERTEST] INFO: GetTeams: Query execution took 109.5357ms
+2025-09-03 10:44:04 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 122ms
+2025-09-03 10:44:07 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 127ms
+2025-09-03 10:44:07 [SERVERTEST] INFO: GetARAHours: 0 records in 121ms
+DEBUG: _currentUser='', _environment='SERVERTEST'
+2025-09-03 10:44:26 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 121ms
+DEBUG: _currentUser='', _environment='SERVERTEST'
+2025-09-03 10:44:38 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 121ms
+2025-09-03 10:44:38 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 121ms
+DEBUG: _currentUser='', _environment='SERVERTEST'
+2025-09-03 10:45:00 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 121ms
+2025-09-03 10:45:11 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team ASSET in 1426ms
+2025-09-03 10:45:11 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 121ms
+2025-09-03 10:45:11 [SERVERTEST] INFO: GetARAHours: 6 records in 121ms
+DEBUG: _currentUser='', _environment='SERVERTEST'
+2025-09-03 10:45:30 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 121ms
+2025-09-03 10:45:30 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 121ms
+DEBUG: _currentUser='', _environment='SERVERTEST'
+2025-09-03 10:45:51 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 121ms
+2025-09-03 10:46:00 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team ASSET in 1412ms
+2025-09-03 10:46:00 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 124ms
+2025-09-03 10:46:00 [SERVERTEST] INFO: GetARAHours: 12 records in 121ms
+DEBUG: _currentUser='', _environment='SERVERTEST'
+2025-09-03 10:46:09 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 121ms
+2025-09-03 10:46:10 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 121ms
+DEBUG: _currentUser='', _environment='SERVERTEST'
+2025-09-03 10:46:28 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 122ms
+2025-09-03 10:46:38 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team ASSET in 1434ms
+2025-09-03 10:46:38 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 121ms
+2025-09-03 10:46:38 [SERVERTEST] INFO: GetARAHours: 18 records in 125ms
+DEBUG: _currentUser='', _environment='SERVERTEST'
+2025-09-03 10:46:45 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 121ms
+2025-09-03 10:46:45 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 121ms
+DEBUG: _currentUser='', _environment='SERVERTEST'
+2025-09-03 10:47:07 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 121ms
+2025-09-03 10:47:16 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team ASSET in 1436ms
+2025-09-03 10:47:16 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 121ms
+2025-09-03 10:47:17 [SERVERTEST] INFO: GetARAHours: 24 records in 121ms
+DEBUG: _currentUser='', _environment='SERVERTEST'
+2025-09-03 10:47:26 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 121ms
+2025-09-03 10:47:26 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 133ms
+DEBUG: _currentUser='', _environment='SERVERTEST'
+2025-09-03 10:47:46 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 122ms
+2025-09-03 10:47:55 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team ASSET in 1461ms
+2025-09-03 10:47:55 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 121ms
+2025-09-03 10:47:56 [SERVERTEST] INFO: GetARAHours: 30 records in 122ms
+DEBUG: _currentUser='', _environment='SERVERTEST'
+2025-09-03 10:48:04 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 121ms
+2025-09-03 10:48:05 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 121ms
+DEBUG: _currentUser='', _environment='SERVERTEST'
+2025-09-03 10:48:24 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 121ms
+2025-09-03 10:48:33 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team ASSET in 1423ms
+2025-09-03 10:48:33 [SERVERTEST] INFO: GetTeamMembers: 11 members for team 'ASSET' in 121ms
+2025-09-03 10:48:34 [SERVERTEST] INFO: GetARAHours: 36 records in 121ms
+2025-09-03 10:48:45 [SERVERTEST] INFO: GetTeams: Query execution took 109.4493ms
+2025-09-03 10:48:45 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 122ms
+DEBUG: _currentUser='th3882', _environment='SERVERTEST'
+2025-09-03 10:48:45 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'AP service delivery' with 3 members
+2025-09-03 10:48:45 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'AP service delivery' from 2025-09-01 to 2025-09-07
+2025-09-03 10:48:45 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'AP service delivery'
+2025-09-03 10:48:45 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'AP service delivery': 0% (totalManpower=0, took 0ms)
+2025-09-03 10:48:45 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'Application Localization & Support' with 1 members
+2025-09-03 10:48:45 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'Application Localization & Support' from 2025-09-01 to 2025-09-07
+2025-09-03 10:48:45 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'Application Localization & Support'
+2025-09-03 10:48:45 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'Application Localization & Support': 0% (totalManpower=0, took 0ms)
+2025-09-03 10:48:45 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'ASSET' with 11 members
+2025-09-03 10:48:45 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'ASSET' from 2025-09-01 to 2025-09-07
+2025-09-03 10:48:45 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 60 manpower records for team 'ASSET'
+2025-09-03 10:48:45 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'ASSET': 48% (totalManpower=210, took 123ms)
+2025-09-03 10:48:45 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'Business Management' with 1 members
+2025-09-03 10:48:45 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'Business Management' from 2025-09-01 to 2025-09-07
+2025-09-03 10:48:45 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'Business Management'
+2025-09-03 10:48:45 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'Business Management': 0% (totalManpower=0, took 0ms)
+2025-09-03 10:48:45 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'CALA service delivery' with 1 members
+2025-09-03 10:48:45 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'CALA service delivery' from 2025-09-01 to 2025-09-07
+2025-09-03 10:48:45 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'CALA service delivery'
+2025-09-03 10:48:45 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'CALA service delivery': 0% (totalManpower=0, took 0ms)
+2025-09-03 10:48:45 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'Core Connections' with 1 members
+2025-09-03 10:48:45 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'Core Connections' from 2025-09-01 to 2025-09-07
+2025-09-03 10:48:45 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'Core Connections'
+2025-09-03 10:48:45 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'Core Connections': 0% (totalManpower=0, took 0ms)
+2025-09-03 10:48:45 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'Core Services' with 1 members
+2025-09-03 10:48:45 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'Core Services' from 2025-09-01 to 2025-09-07
+2025-09-03 10:48:45 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'Core Services'
+2025-09-03 10:48:45 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'Core Services': 0% (totalManpower=0, took 0ms)
+2025-09-03 10:48:45 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'EMEA service delivery' with 1 members
+2025-09-03 10:48:45 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'EMEA service delivery' from 2025-09-01 to 2025-09-07
+2025-09-03 10:48:45 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'EMEA service delivery'
+2025-09-03 10:48:45 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'EMEA service delivery': 0% (totalManpower=0, took 0ms)
+2025-09-03 10:48:45 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'EUS' with 4 members
+2025-09-03 10:48:45 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'EUS' from 2025-09-01 to 2025-09-07
+2025-09-03 10:48:45 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'EUS'
+2025-09-03 10:48:45 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'EUS': 0% (totalManpower=0, took 0ms)
+2025-09-03 10:48:45 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'HOTS' with 1 members
+2025-09-03 10:48:45 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'HOTS' from 2025-09-01 to 2025-09-07
+2025-09-03 10:48:45 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'HOTS'
+2025-09-03 10:48:45 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'HOTS': 0% (totalManpower=0, took 0ms)
+2025-09-03 10:48:45 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'MX service delivery' with 1 members
+2025-09-03 10:48:45 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'MX service delivery' from 2025-09-01 to 2025-09-07
+2025-09-03 10:48:45 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'MX service delivery'
+2025-09-03 10:48:45 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'MX service delivery': 0% (totalManpower=0, took 0ms)
+2025-09-03 10:48:45 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'PAID' with 1 members
+2025-09-03 10:48:45 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'PAID' from 2025-09-01 to 2025-09-07
+2025-09-03 10:48:45 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'PAID'
+2025-09-03 10:48:45 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'PAID': 0% (totalManpower=0, took 0ms)
+2025-09-03 10:48:45 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'Security and Compliance' with 1 members
+2025-09-03 10:48:45 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'Security and Compliance' from 2025-09-01 to 2025-09-07
+2025-09-03 10:48:45 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'Security and Compliance'
+2025-09-03 10:48:45 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'Security and Compliance': 0% (totalManpower=0, took 0ms)
+2025-09-03 10:48:45 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'SK/CZ service delivery new' with 1 members
+2025-09-03 10:48:45 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'SK/CZ service delivery new' from 2025-09-01 to 2025-09-07
+2025-09-03 10:48:45 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'SK/CZ service delivery new'
+2025-09-03 10:48:45 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'SK/CZ service delivery new': 0% (totalManpower=0, took 0ms)
+2025-09-03 10:48:46 [SERVERTEST] INFO: PAGE LOAD COMPLETE: 781.3996ms
+DEBUG: _currentUser='', _environment='SERVERTEST'
+2025-09-03 10:48:56 [SERVERTEST] INFO: GetTeams: Query execution took 125.0646ms
+2025-09-03 10:48:56 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 121ms
+2025-09-03 10:49:00 [SERVERTEST] INFO: GetTeamMembers: 4 members for team 'EUS' in 121ms
+DEBUG: _currentUser='', _environment='SERVERTEST'
+2025-09-03 10:49:10 [SERVERTEST] INFO: GetTeamMembers: 4 members for team 'EUS' in 121ms
+2025-09-03 10:49:10 [SERVERTEST] INFO: GetTeamMembers: 4 members for team 'EUS' in 121ms
+DEBUG: _currentUser='', _environment='SERVERTEST'
+2025-09-03 10:49:28 [SERVERTEST] INFO: GetTeamMembers: 4 members for team 'EUS' in 121ms
+2025-09-03 10:49:42 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team EUS in 1428ms
+2025-09-03 10:49:42 [SERVERTEST] INFO: GetTeamMembers: 4 members for team 'EUS' in 121ms
+2025-09-03 10:49:43 [SERVERTEST] INFO: GetARAHours: 49 records in 122ms
+DEBUG: _currentUser='', _environment='SERVERTEST'
+2025-09-03 10:49:54 [SERVERTEST] INFO: GetTeamMembers: 4 members for team 'EUS' in 121ms
+2025-09-03 10:49:55 [SERVERTEST] INFO: GetTeamMembers: 4 members for team 'EUS' in 121ms
+DEBUG: _currentUser='', _environment='SERVERTEST'
+2025-09-03 10:50:14 [SERVERTEST] INFO: GetTeamMembers: 4 members for team 'EUS' in 121ms
+2025-09-03 10:50:23 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team EUS in 1403ms
+2025-09-03 10:50:23 [SERVERTEST] INFO: GetTeamMembers: 4 members for team 'EUS' in 121ms
+2025-09-03 10:50:24 [SERVERTEST] INFO: GetARAHours: 55 records in 122ms
+DEBUG: _currentUser='', _environment='SERVERTEST'
+2025-09-03 10:51:49 [SERVERTEST] INFO: GetTeamMembers: 4 members for team 'EUS' in 121ms
+2025-09-03 10:51:50 [SERVERTEST] INFO: GetTeamMembers: 4 members for team 'EUS' in 121ms
+DEBUG: _currentUser='', _environment='SERVERTEST'
+2025-09-03 10:52:08 [SERVERTEST] INFO: GetTeamMembers: 4 members for team 'EUS' in 121ms
+2025-09-03 10:52:17 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team EUS in 1418ms
+2025-09-03 10:52:18 [SERVERTEST] INFO: GetTeamMembers: 4 members for team 'EUS' in 121ms
+2025-09-03 10:52:18 [SERVERTEST] INFO: GetARAHours: 61 records in 122ms
+DEBUG: _currentUser='', _environment='SERVERTEST'
+2025-09-03 10:52:28 [SERVERTEST] INFO: GetTeamMembers: 4 members for team 'EUS' in 121ms
+2025-09-03 10:52:29 [SERVERTEST] INFO: GetTeamMembers: 4 members for team 'EUS' in 121ms
+DEBUG: _currentUser='', _environment='SERVERTEST'
+2025-09-03 10:52:42 [SERVERTEST] INFO: GetTeamMembers: 4 members for team 'EUS' in 121ms
+2025-09-03 10:52:52 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team EUS in 1442ms
+2025-09-03 10:52:52 [SERVERTEST] INFO: GetTeamMembers: 4 members for team 'EUS' in 121ms
+2025-09-03 10:52:52 [SERVERTEST] INFO: GetARAHours: 67 records in 122ms
+2025-09-03 10:52:59 [SERVERTEST] INFO: GetTeams: Query execution took 124.9928ms
+2025-09-03 10:52:59 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 122ms
+DEBUG: _currentUser='th3882', _environment='SERVERTEST'
+2025-09-03 10:52:59 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'AP service delivery' with 3 members
+2025-09-03 10:52:59 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'AP service delivery' from 2025-09-01 to 2025-09-07
+2025-09-03 10:52:59 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'AP service delivery'
+2025-09-03 10:52:59 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'AP service delivery': 0% (totalManpower=0, took 0ms)
+2025-09-03 10:52:59 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'Application Localization & Support' with 1 members
+2025-09-03 10:52:59 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'Application Localization & Support' from 2025-09-01 to 2025-09-07
+2025-09-03 10:52:59 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'Application Localization & Support'
+2025-09-03 10:52:59 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'Application Localization & Support': 0% (totalManpower=0, took 0ms)
+2025-09-03 10:52:59 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'ASSET' with 11 members
+2025-09-03 10:52:59 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'ASSET' from 2025-09-01 to 2025-09-07
+2025-09-03 10:52:59 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 60 manpower records for team 'ASSET'
+2025-09-03 10:52:59 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'ASSET': 48% (totalManpower=210, took 0ms)
+2025-09-03 10:52:59 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'Business Management' with 1 members
+2025-09-03 10:52:59 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'Business Management' from 2025-09-01 to 2025-09-07
+2025-09-03 10:52:59 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'Business Management'
+2025-09-03 10:52:59 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'Business Management': 0% (totalManpower=0, took 0ms)
+2025-09-03 10:52:59 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'CALA service delivery' with 1 members
+2025-09-03 10:52:59 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'CALA service delivery' from 2025-09-01 to 2025-09-07
+2025-09-03 10:52:59 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'CALA service delivery'
+2025-09-03 10:52:59 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'CALA service delivery': 0% (totalManpower=0, took 0ms)
+2025-09-03 10:52:59 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'Core Connections' with 1 members
+2025-09-03 10:52:59 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'Core Connections' from 2025-09-01 to 2025-09-07
+2025-09-03 10:52:59 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'Core Connections'
+2025-09-03 10:52:59 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'Core Connections': 0% (totalManpower=0, took 0ms)
+2025-09-03 10:52:59 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'Core Services' with 1 members
+2025-09-03 10:52:59 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'Core Services' from 2025-09-01 to 2025-09-07
+2025-09-03 10:52:59 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'Core Services'
+2025-09-03 10:52:59 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'Core Services': 0% (totalManpower=0, took 0ms)
+2025-09-03 10:52:59 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'EMEA service delivery' with 1 members
+2025-09-03 10:52:59 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'EMEA service delivery' from 2025-09-01 to 2025-09-07
+2025-09-03 10:52:59 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'EMEA service delivery'
+2025-09-03 10:52:59 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'EMEA service delivery': 0% (totalManpower=0, took 0ms)
+2025-09-03 10:52:59 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'EUS' with 4 members
+2025-09-03 10:52:59 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'EUS' from 2025-09-01 to 2025-09-07
+2025-09-03 10:52:59 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 110 manpower records for team 'EUS'
+2025-09-03 10:52:59 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'EUS': 88% (totalManpower=140, took 123ms)
+2025-09-03 10:52:59 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'HOTS' with 1 members
+2025-09-03 10:52:59 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'HOTS' from 2025-09-01 to 2025-09-07
+2025-09-03 10:52:59 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'HOTS'
+2025-09-03 10:52:59 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'HOTS': 0% (totalManpower=0, took 0ms)
+2025-09-03 10:52:59 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'MX service delivery' with 1 members
+2025-09-03 10:52:59 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'MX service delivery' from 2025-09-01 to 2025-09-07
+2025-09-03 10:52:59 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'MX service delivery'
+2025-09-03 10:52:59 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'MX service delivery': 0% (totalManpower=0, took 0ms)
+2025-09-03 10:52:59 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'PAID' with 1 members
+2025-09-03 10:52:59 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'PAID' from 2025-09-01 to 2025-09-07
+2025-09-03 10:52:59 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'PAID'
+2025-09-03 10:52:59 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'PAID': 0% (totalManpower=0, took 0ms)
+2025-09-03 10:52:59 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'Security and Compliance' with 1 members
+2025-09-03 10:52:59 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'Security and Compliance' from 2025-09-01 to 2025-09-07
+2025-09-03 10:52:59 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'Security and Compliance'
+2025-09-03 10:52:59 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'Security and Compliance': 0% (totalManpower=0, took 0ms)
+2025-09-03 10:52:59 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'SK/CZ service delivery new' with 1 members
+2025-09-03 10:52:59 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'SK/CZ service delivery new' from 2025-09-01 to 2025-09-07
+2025-09-03 10:52:59 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'SK/CZ service delivery new'
+2025-09-03 10:52:59 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'SK/CZ service delivery new': 0% (totalManpower=0, took 0ms)
+2025-09-03 10:53:01 [SERVERTEST] INFO: PAGE LOAD COMPLETE: 1500.0195ms
+DEBUG: _currentUser='', _environment='SERVERTEST'
+DEBUG: _currentUser='', _environment='SERVERTEST'
+2025-09-03 10:53:31 [SERVERTEST] INFO: GetTeams: Query execution took 124.9394ms
+2025-09-03 10:53:31 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 122ms
+DEBUG: _currentUser='th3882', _environment='SERVERTEST'
+2025-09-03 10:53:31 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'AP service delivery' with 3 members
+2025-09-03 10:53:31 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'AP service delivery' from 2025-09-01 to 2025-09-07
+2025-09-03 10:53:31 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'AP service delivery'
+2025-09-03 10:53:31 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'AP service delivery': 0% (totalManpower=0, took 123ms)
+2025-09-03 10:53:31 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'Application Localization & Support' with 1 members
+2025-09-03 10:53:31 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'Application Localization & Support' from 2025-09-01 to 2025-09-07
+2025-09-03 10:53:31 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'Application Localization & Support'
+2025-09-03 10:53:31 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'Application Localization & Support': 0% (totalManpower=0, took 123ms)
+2025-09-03 10:53:31 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'ASSET' with 11 members
+2025-09-03 10:53:31 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'ASSET' from 2025-09-01 to 2025-09-07
+2025-09-03 10:53:31 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 60 manpower records for team 'ASSET'
+2025-09-03 10:53:31 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'ASSET': 48% (totalManpower=210, took 123ms)
+2025-09-03 10:53:31 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'Business Management' with 1 members
+2025-09-03 10:53:31 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'Business Management' from 2025-09-01 to 2025-09-07
+2025-09-03 10:53:31 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'Business Management'
+2025-09-03 10:53:31 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'Business Management': 0% (totalManpower=0, took 122ms)
+2025-09-03 10:53:31 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'CALA service delivery' with 1 members
+2025-09-03 10:53:31 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'CALA service delivery' from 2025-09-01 to 2025-09-07
+2025-09-03 10:53:31 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'CALA service delivery'
+2025-09-03 10:53:31 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'CALA service delivery': 0% (totalManpower=0, took 122ms)
+2025-09-03 10:53:31 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'Core Connections' with 1 members
+2025-09-03 10:53:31 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'Core Connections' from 2025-09-01 to 2025-09-07
+2025-09-03 10:53:31 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'Core Connections'
+2025-09-03 10:53:31 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'Core Connections': 0% (totalManpower=0, took 121ms)
+2025-09-03 10:53:31 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'Core Services' with 1 members
+2025-09-03 10:53:31 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'Core Services' from 2025-09-01 to 2025-09-07
+2025-09-03 10:53:31 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'Core Services'
+2025-09-03 10:53:31 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'Core Services': 0% (totalManpower=0, took 121ms)
+2025-09-03 10:53:31 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'EMEA service delivery' with 1 members
+2025-09-03 10:53:31 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'EMEA service delivery' from 2025-09-01 to 2025-09-07
+2025-09-03 10:53:32 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'EMEA service delivery'
+2025-09-03 10:53:32 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'EMEA service delivery': 0% (totalManpower=0, took 121ms)
+2025-09-03 10:53:32 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'EUS' with 4 members
+2025-09-03 10:53:32 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'EUS' from 2025-09-01 to 2025-09-07
+2025-09-03 10:53:32 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 110 manpower records for team 'EUS'
+2025-09-03 10:53:32 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'EUS': 88% (totalManpower=140, took 122ms)
+2025-09-03 10:53:32 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'HOTS' with 1 members
+2025-09-03 10:53:32 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'HOTS' from 2025-09-01 to 2025-09-07
+2025-09-03 10:53:32 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'HOTS'
+2025-09-03 10:53:32 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'HOTS': 0% (totalManpower=0, took 121ms)
+2025-09-03 10:53:32 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'MX service delivery' with 1 members
+2025-09-03 10:53:32 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'MX service delivery' from 2025-09-01 to 2025-09-07
+2025-09-03 10:53:32 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'MX service delivery'
+2025-09-03 10:53:32 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'MX service delivery': 0% (totalManpower=0, took 121ms)
+2025-09-03 10:53:32 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'PAID' with 1 members
+2025-09-03 10:53:32 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'PAID' from 2025-09-01 to 2025-09-07
+2025-09-03 10:53:32 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'PAID'
+2025-09-03 10:53:32 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'PAID': 0% (totalManpower=0, took 121ms)
+2025-09-03 10:53:32 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'Security and Compliance' with 1 members
+2025-09-03 10:53:32 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'Security and Compliance' from 2025-09-01 to 2025-09-07
+2025-09-03 10:53:32 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'Security and Compliance'
+2025-09-03 10:53:32 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'Security and Compliance': 0% (totalManpower=0, took 121ms)
+2025-09-03 10:53:32 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'SK/CZ service delivery new' with 1 members
+2025-09-03 10:53:32 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'SK/CZ service delivery new' from 2025-09-01 to 2025-09-07
+2025-09-03 10:53:32 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'SK/CZ service delivery new'
+2025-09-03 10:53:32 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'SK/CZ service delivery new': 0% (totalManpower=0, took 121ms)
+2025-09-03 10:53:34 [SERVERTEST] INFO: PAGE LOAD COMPLETE: 5289.194ms
+DEBUG: _currentUser='', _environment='SERVERTEST'
+DEBUG: _currentUser='', _environment='SERVERTEST'
+2025-09-03 10:56:27 [SERVERTEST] INFO: GetTeams: Query execution took 109.3822ms
+2025-09-03 10:56:27 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 121ms
+DEBUG: _currentUser='th3882', _environment='SERVERTEST'
+2025-09-03 10:56:27 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'AP service delivery' with 3 members
+2025-09-03 10:56:27 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'AP service delivery' from 2025-09-01 to 2025-09-07
+2025-09-03 10:56:28 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'AP service delivery'
+2025-09-03 10:56:28 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'AP service delivery': 0% (totalManpower=0, took 122ms)
+2025-09-03 10:56:28 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'Application Localization & Support' with 1 members
+2025-09-03 10:56:28 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'Application Localization & Support' from 2025-09-01 to 2025-09-07
+2025-09-03 10:56:28 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'Application Localization & Support'
+2025-09-03 10:56:28 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'Application Localization & Support': 0% (totalManpower=0, took 123ms)
+2025-09-03 10:56:28 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'ASSET' with 11 members
+2025-09-03 10:56:28 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'ASSET' from 2025-09-01 to 2025-09-07
+2025-09-03 10:56:28 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 60 manpower records for team 'ASSET'
+2025-09-03 10:56:28 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'ASSET': 48% (totalManpower=210, took 123ms)
+2025-09-03 10:56:28 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'Business Management' with 1 members
+2025-09-03 10:56:28 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'Business Management' from 2025-09-01 to 2025-09-07
+2025-09-03 10:56:28 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'Business Management'
+2025-09-03 10:56:28 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'Business Management': 0% (totalManpower=0, took 122ms)
+2025-09-03 10:56:28 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'CALA service delivery' with 1 members
+2025-09-03 10:56:28 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'CALA service delivery' from 2025-09-01 to 2025-09-07
+2025-09-03 10:56:28 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'CALA service delivery'
+2025-09-03 10:56:28 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'CALA service delivery': 0% (totalManpower=0, took 121ms)
+2025-09-03 10:56:28 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'Core Connections' with 1 members
+2025-09-03 10:56:28 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'Core Connections' from 2025-09-01 to 2025-09-07
+2025-09-03 10:56:28 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'Core Connections'
+2025-09-03 10:56:28 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'Core Connections': 0% (totalManpower=0, took 122ms)
+2025-09-03 10:56:28 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'Core Services' with 1 members
+2025-09-03 10:56:28 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'Core Services' from 2025-09-01 to 2025-09-07
+2025-09-03 10:56:28 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'Core Services'
+2025-09-03 10:56:28 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'Core Services': 0% (totalManpower=0, took 121ms)
+2025-09-03 10:56:28 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'EMEA service delivery' with 1 members
+2025-09-03 10:56:28 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'EMEA service delivery' from 2025-09-01 to 2025-09-07
+2025-09-03 10:56:28 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'EMEA service delivery'
+2025-09-03 10:56:28 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'EMEA service delivery': 0% (totalManpower=0, took 121ms)
+2025-09-03 10:56:28 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'EUS' with 4 members
+2025-09-03 10:56:28 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'EUS' from 2025-09-01 to 2025-09-07
+2025-09-03 10:56:29 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 110 manpower records for team 'EUS'
+2025-09-03 10:56:29 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'EUS': 88% (totalManpower=140, took 124ms)
+2025-09-03 10:56:29 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'HOTS' with 1 members
+2025-09-03 10:56:29 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'HOTS' from 2025-09-01 to 2025-09-07
+2025-09-03 10:56:29 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'HOTS'
+2025-09-03 10:56:29 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'HOTS': 0% (totalManpower=0, took 122ms)
+2025-09-03 10:56:29 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'MX service delivery' with 1 members
+2025-09-03 10:56:29 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'MX service delivery' from 2025-09-01 to 2025-09-07
+2025-09-03 10:56:29 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'MX service delivery'
+2025-09-03 10:56:29 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'MX service delivery': 0% (totalManpower=0, took 122ms)
+2025-09-03 10:56:29 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'PAID' with 1 members
+2025-09-03 10:56:29 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'PAID' from 2025-09-01 to 2025-09-07
+2025-09-03 10:56:29 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'PAID'
+2025-09-03 10:56:29 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'PAID': 0% (totalManpower=0, took 122ms)
+2025-09-03 10:56:29 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'Security and Compliance' with 1 members
+2025-09-03 10:56:29 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'Security and Compliance' from 2025-09-01 to 2025-09-07
+2025-09-03 10:56:29 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'Security and Compliance'
+2025-09-03 10:56:29 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'Security and Compliance': 0% (totalManpower=0, took 121ms)
+2025-09-03 10:56:29 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage START for team 'SK/CZ service delivery new' with 1 members
+2025-09-03 10:56:29 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Getting manpower data for team 'SK/CZ service delivery new' from 2025-09-01 to 2025-09-07
+2025-09-03 10:56:29 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage: Retrieved 0 manpower records for team 'SK/CZ service delivery new'
+2025-09-03 10:56:29 [SERVERTEST] INFO: CalculateTeamUtilizationPercentage END for team 'SK/CZ service delivery new': 0% (totalManpower=0, took 122ms)
+2025-09-03 10:56:31 [SERVERTEST] INFO: PAGE LOAD COMPLETE: 6031.1655ms
