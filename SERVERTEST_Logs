@@ -1,31 +1,59 @@
 DEBUG: _currentUser='', _environment='SERVERTEST'
-2025-09-04 04:55:30 [SERVERTEST] INFO: AUTH TIMING: Username resolved to 'th3882' in 0ms
-2025-09-04 04:55:30 [SERVERTEST] INFO: WHITELIST: Checking database first for user th3882
-2025-09-04 04:55:30 [SERVERTEST] ERROR: DEBUG: About to call _dataAccess.CheckUserForWhitelist(th3882)
-2025-09-04 04:55:30 [SERVERTEST] ERROR: FORCE LOG TEST: CheckUserForWhitelist called for user th3882
-2025-09-04 04:55:30 [SERVERTEST] INFO: WHITELIST DB: Starting database lookup for user th3882
-2025-09-04 04:55:36 [SERVERTEST] INFO: Opened persistent connection in 6303.9592ms
-2025-09-04 04:55:36 [SERVERTEST] INFO: WHITELIST DB: Got connection in 6347ms
-2025-09-04 04:55:36 [SERVERTEST] INFO: WHITELIST DB: Query prepared in 6355ms
-2025-09-04 04:55:36 [SERVERTEST] INFO: WHITELIST DB: User found and returned in 6507ms
-2025-09-04 04:55:36 [SERVERTEST] ERROR: DEBUG: Returned from CheckUserForWhitelist, result = FOUND
-2025-09-04 04:55:36 [SERVERTEST] INFO: WHITELIST HIT: User th3882 found in database, skipping LDAP check
-2025-09-04 04:55:36 [SERVERTEST] INFO: AUTH TIMING: LDAP validation took 6553.9713ms
-2025-09-04 04:55:36 [SERVERTEST] INFO: AUTH TIMING: GetCurrentUser() COMPLETE in 6546ms
-2025-09-04 04:55:36 [SERVERTEST] INFO: DB Connection #2 created in 0ms - ConnectionString length: 196
-2025-09-04 04:55:36 [SERVERTEST] INFO: GetTeams: Query execution took 140.5316ms
-2025-09-04 04:55:36 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 127ms
-2025-09-04 04:55:37 [SERVERTEST] INFO: TeamUtilization: 'AP service delivery' (3m) = 0% | 0 records, 0 total manpower | 130ms
-2025-09-04 04:55:37 [SERVERTEST] INFO: TeamUtilization: 'Application Localization & Support' (9m) = 0% | 0 records, 0 total manpower | 125ms
-2025-09-04 04:55:37 [SERVERTEST] INFO: TeamUtilization: 'ASSET' (11m) = 48% | 60 records, 210 total manpower | 150ms
-2025-09-04 04:55:37 [SERVERTEST] INFO: TeamUtilization: 'Business Management' (11m) = 0% | 0 records, 0 total manpower | 124ms
-2025-09-04 04:55:37 [SERVERTEST] INFO: TeamUtilization: 'CALA service delivery' (3m) = 0% | 0 records, 0 total manpower | 124ms
-2025-09-04 04:55:37 [SERVERTEST] INFO: TeamUtilization: 'Core Connections' (5m) = 0% | 0 records, 0 total manpower | 125ms
-2025-09-04 04:55:37 [SERVERTEST] INFO: TeamUtilization: 'Core Services' (8m) = 0% | 0 records, 0 total manpower | 124ms
-2025-09-04 04:55:37 [SERVERTEST] INFO: TeamUtilization: 'EMEA service delivery' (9m) = 0% | 0 records, 0 total manpower | 124ms
-2025-09-04 04:55:38 [SERVERTEST] INFO: TeamUtilization: 'EUS' (12m) = 29% | 110 records, 140 total manpower | 130ms
-2025-09-04 04:55:38 [SERVERTEST] INFO: TeamUtilization: 'HOTS' (1m) = 0% | 0 records, 0 total manpower | 124ms
-2025-09-04 04:55:38 [SERVERTEST] INFO: TeamUtilization: 'MX service delivery' (1m) = 0% | 0 records, 0 total manpower | 124ms
-2025-09-04 04:55:38 [SERVERTEST] INFO: TeamUtilization: 'PAID' (7m) = 0% | 0 records, 0 total manpower | 124ms
-2025-09-04 04:55:38 [SERVERTEST] INFO: TeamUtilization: 'Security and Compliance' (9m) = 0% | 0 records, 0 total manpower | 124ms
-2025-09-04 04:55:40 [SERVERTEST] INFO: PAGE TIMING: Page_Load COMPLETE in 10074ms at 04:55:40.173
+2025-09-05 01:40:56 [SERVERTEST] INFO: AUTH TIMING: Username resolved to 'th3882' in 0ms
+2025-09-05 01:40:56 [SERVERTEST] INFO: WHITELIST: Checking database first for user th3882
+2025-09-05 01:40:56 [SERVERTEST] ERROR: DEBUG: About to call _dataAccess.CheckUserForWhitelist(th3882)
+2025-09-05 01:40:56 [SERVERTEST] ERROR: FORCE LOG TEST: CheckUserForWhitelist called for user th3882
+2025-09-05 01:40:56 [SERVERTEST] INFO: WHITELIST DB: Starting database lookup for user th3882
+2025-09-05 01:41:03 [SERVERTEST] INFO: WHITELIST DB: Got connection in 6369ms
+2025-09-05 01:41:03 [SERVERTEST] INFO: WHITELIST DB: Query prepared in 6374ms
+2025-09-05 01:41:03 [SERVERTEST] INFO: WHITELIST DB: User found and returned in 6514ms
+2025-09-05 01:41:03 [SERVERTEST] ERROR: DEBUG: Returned from CheckUserForWhitelist, result = FOUND
+2025-09-05 01:41:03 [SERVERTEST] INFO: WHITELIST HIT: User th3882 found in database, skipping LDAP check
+2025-09-05 01:41:03 [SERVERTEST] INFO: AUTH TIMING: LDAP validation took 6559.8956ms
+2025-09-05 01:41:03 [SERVERTEST] INFO: AUTH TIMING: GetCurrentUser() COMPLETE in 6552ms
+2025-09-05 01:41:03 [SERVERTEST] INFO: DB Connection #2 created in 0ms - ConnectionString length: 196
+2025-09-05 01:41:04 [SERVERTEST] INFO: Opened persistent connection in 1031.3258ms
+2025-09-05 01:41:04 [SERVERTEST] INFO: GetTeams: Query execution took 140.5692ms
+2025-09-05 01:41:04 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 1172ms
+2025-09-05 01:41:04 [SERVERTEST] INFO: TeamUtilization: 'AP service delivery' (3m) = 0% | 0 records, 0 total manpower | 129ms
+2025-09-05 01:41:04 [SERVERTEST] INFO: TeamUtilization: 'Application Localization & Support' (9m) = 0% | 0 records, 0 total manpower | 125ms
+2025-09-05 01:41:04 [SERVERTEST] INFO: TeamUtilization: 'ASSET' (11m) = 48% | 60 records, 210 total manpower | 141ms
+2025-09-05 01:41:04 [SERVERTEST] INFO: TeamUtilization: 'Business Management' (11m) = 0% | 0 records, 0 total manpower | 125ms
+2025-09-05 01:41:05 [SERVERTEST] INFO: TeamUtilization: 'CALA service delivery' (3m) = 0% | 0 records, 0 total manpower | 125ms
+2025-09-05 01:41:05 [SERVERTEST] INFO: TeamUtilization: 'Core Connections' (5m) = 0% | 0 records, 0 total manpower | 125ms
+2025-09-05 01:41:05 [SERVERTEST] INFO: TeamUtilization: 'Core Services' (8m) = 0% | 0 records, 0 total manpower | 125ms
+2025-09-05 01:41:05 [SERVERTEST] INFO: TeamUtilization: 'EMEA service delivery' (9m) = 0% | 0 records, 0 total manpower | 125ms
+2025-09-05 01:41:05 [SERVERTEST] INFO: TeamUtilization: 'EUS' (12m) = 29% | 110 records, 140 total manpower | 126ms
+2025-09-05 01:41:05 [SERVERTEST] INFO: TeamUtilization: 'HOTS' (1m) = 0% | 0 records, 0 total manpower | 125ms
+2025-09-05 01:41:05 [SERVERTEST] INFO: TeamUtilization: 'MX service delivery' (1m) = 0% | 0 records, 0 total manpower | 125ms
+2025-09-05 01:41:05 [SERVERTEST] INFO: TeamUtilization: 'PAID' (7m) = 0% | 0 records, 0 total manpower | 125ms
+2025-09-05 01:41:06 [SERVERTEST] INFO: TeamUtilization: 'Security and Compliance' (9m) = 0% | 0 records, 0 total manpower | 125ms
+2025-09-05 01:41:07 [SERVERTEST] INFO: PAGE TIMING: Page_Load COMPLETE in 10825ms at 01:41:07.480
+2025-09-05 01:42:56 [SERVERTEST] INFO: AUTH TIMING: Username resolved to 'th3882' in 0ms
+2025-09-05 01:42:56 [SERVERTEST] INFO: WHITELIST: Checking database first for user th3882
+2025-09-05 01:42:56 [SERVERTEST] ERROR: DEBUG: About to call _dataAccess.CheckUserForWhitelist(th3882)
+2025-09-05 01:42:56 [SERVERTEST] ERROR: FORCE LOG TEST: CheckUserForWhitelist called for user th3882
+2025-09-05 01:42:56 [SERVERTEST] INFO: WHITELIST DB: Starting database lookup for user th3882
+2025-09-05 01:42:58 [SERVERTEST] INFO: WHITELIST DB: Got connection in 1919ms
+2025-09-05 01:42:58 [SERVERTEST] INFO: WHITELIST DB: Query prepared in 1919ms
+2025-09-05 01:42:58 [SERVERTEST] INFO: WHITELIST DB: User found and returned in 2044ms
+2025-09-05 01:42:58 [SERVERTEST] ERROR: DEBUG: Returned from CheckUserForWhitelist, result = FOUND
+2025-09-05 01:42:58 [SERVERTEST] INFO: WHITELIST HIT: User th3882 found in database, skipping LDAP check
+2025-09-05 01:42:58 [SERVERTEST] INFO: AUTH TIMING: LDAP validation took 2050.9965ms
+2025-09-05 01:42:58 [SERVERTEST] INFO: AUTH TIMING: GetCurrentUser() COMPLETE in 2046ms
+2025-09-05 01:42:58 [SERVERTEST] INFO: GetTeams: Query execution took 125.0095ms
+2025-09-05 01:42:58 [SERVERTEST] INFO: GetTeams: 14 teams loaded in 125ms
+2025-09-05 01:42:58 [SERVERTEST] INFO: TeamUtilization: 'AP service delivery' (3m) = 0% | 0 records, 0 total manpower | 125ms
+2025-09-05 01:42:58 [SERVERTEST] INFO: TeamUtilization: 'Application Localization & Support' (9m) = 0% | 0 records, 0 total manpower | 125ms
+2025-09-05 01:42:59 [SERVERTEST] INFO: TeamUtilization: 'ASSET' (11m) = 48% | 60 records, 210 total manpower | 126ms
+2025-09-05 01:42:59 [SERVERTEST] INFO: TeamUtilization: 'Business Management' (11m) = 0% | 0 records, 0 total manpower | 124ms
+2025-09-05 01:42:59 [SERVERTEST] INFO: TeamUtilization: 'CALA service delivery' (3m) = 0% | 0 records, 0 total manpower | 125ms
+2025-09-05 01:42:59 [SERVERTEST] INFO: TeamUtilization: 'Core Connections' (5m) = 0% | 0 records, 0 total manpower | 125ms
+2025-09-05 01:42:59 [SERVERTEST] INFO: TeamUtilization: 'Core Services' (8m) = 0% | 0 records, 0 total manpower | 125ms
+2025-09-05 01:42:59 [SERVERTEST] INFO: TeamUtilization: 'EMEA service delivery' (9m) = 0% | 0 records, 0 total manpower | 125ms
+2025-09-05 01:42:59 [SERVERTEST] INFO: TeamUtilization: 'EUS' (12m) = 29% | 110 records, 140 total manpower | 127ms
+2025-09-05 01:42:59 [SERVERTEST] INFO: TeamUtilization: 'HOTS' (1m) = 0% | 0 records, 0 total manpower | 125ms
+2025-09-05 01:43:00 [SERVERTEST] INFO: TeamUtilization: 'MX service delivery' (1m) = 0% | 0 records, 0 total manpower | 125ms
+2025-09-05 01:43:00 [SERVERTEST] INFO: TeamUtilization: 'PAID' (7m) = 0% | 0 records, 0 total manpower | 125ms
+2025-09-05 01:43:00 [SERVERTEST] INFO: TeamUtilization: 'Security and Compliance' (9m) = 0% | 0 records, 0 total manpower | 125ms
+2025-09-05 01:43:01 [SERVERTEST] INFO: PAGE TIMING: Page_Load COMPLETE in 5229ms at 01:43:01.708
