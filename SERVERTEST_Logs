@@ -1,9 +1,13 @@
-PS C:\Users\th3882\OneDrive - AT&T Services, Inc\Documents\Programing\VisualBasic\ATT\Dev\ARAworkloadScheduler> git fetch origin
-
-PS C:\Users\th3882\OneDrive - AT&T Services, Inc\Documents\Programing\VisualBasic\ATT\Dev\ARAworkloadScheduler> git reset --hard origin/master
-HEAD is now at 412aaba udate - commented all logging
-PS C:\Users\th3882\OneDrive - AT&T Services, Inc\Documents\Programing\VisualBasic\ATT\Dev\ARAworkloadScheduler> git status
-On branch master
-Your branch is up to date with 'origin/master'.
-
-nothing to commit, working tree clean
+PS C:\Users\th3882\OneDrive - AT&T Services, Inc\Documents\Programing\VisualBasic\ATT\Dev\ARAworkloadScheduler> git checkout test
+Switched to branch 'test'
+Your branch is up to date with 'origin/test'.
+PS C:\Users\th3882\OneDrive - AT&T Services, Inc\Documents\Programing\VisualBasic\ATT\Dev\ARAworkloadScheduler> git log --oneline --graph --all
+* 412aaba (origin/master, origin/HEAD, master) udate - commented all logging
+* a997d20 (HEAD -> test, origin/test) updated logging
+* 2265b40 updated logging
+* e45c94a updated logging
+* 802650f improved logging
+* 6b931d2 improved logging
+...
+* a510803 update
+:
