@@ -1,19 +1,21 @@
-Merge branch 'master' of https://github.com/THonGitHub/ARAworkloadScheduler
+PS C:\Users\th3882\OneDrive - AT&T Services, Inc\Documents\Programing\VisualBasic\ATT\Dev\ARAworkloadScheduler> git status
+On branch master
+Your branch and 'origin/master' have diverged,
+and have 118 and 24 different commits each, respectively.
+  (use "git pull" if you want to integrate the remote branch with yours)
 
-# Conflicts:
-#       Default.aspx.vb
-#
-# It looks like you may be committing a merge.
-# If this is not correct, please run
-#       git update-ref -d MERGE_HEAD
-# and try again.
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
 
+PS C:\Users\th3882\OneDrive - AT&T Services, Inc\Documents\Programing\VisualBasic\ATT\Dev\ARAworkloadScheduler> git pull
+error: You have not concluded your merge (MERGE_HEAD exists).
+hint: Please, commit your changes before merging.
+fatal: Exiting because of unfinished merge.
+PS C:\Users\th3882\OneDrive - AT&T Services, Inc\Documents\Programing\VisualBasic\ATT\Dev\ARAworkloadScheduler> git commit
+[master 63607b8] Merge branch 'master' of https://github.com/THonGitHub/ARAworkloadScheduler
+PS C:\Users\th3882\OneDrive - AT&T Services, Inc\Documents\Programing\VisualBasic\ATT\Dev\ARAworkloadScheduler> git status
+On branch master
+Your branch is ahead of 'origin/master' by 119 commits.
+  (use "git push" to publish your local commits)
 
-# Please enter the commit message for your changes. Lines starting
-# with '#' will be ignored, and an empty message aborts the commit.
-#
-# On branch master
-# Your branch and 'origin/master' have diverged,
-# and have 118 and 24 different commits each, respectively.
-#
-# All conflicts fixed but you are still merging.
+nothing to commit, working tree clean
