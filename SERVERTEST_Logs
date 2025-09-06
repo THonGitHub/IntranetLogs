@@ -1,21 +1,19 @@
-PS C:\Users\th3882\OneDrive - AT&T Services, Inc\Documents\Programing\VisualBasic\ATT\Dev\ARAworkloadScheduler> git status
-On branch master
-Your branch and 'origin/master' have diverged,
-and have 118 and 24 different commits each, respectively.
-  (use "git pull" if you want to integrate the remote branch with yours)
-
-All conflicts fixed but you are still merging.
-  (use "git commit" to conclude merge)
-
-PS C:\Users\th3882\OneDrive - AT&T Services, Inc\Documents\Programing\VisualBasic\ATT\Dev\ARAworkloadScheduler> git pull
-error: You have not concluded your merge (MERGE_HEAD exists).
-hint: Please, commit your changes before merging.
-fatal: Exiting because of unfinished merge.
-PS C:\Users\th3882\OneDrive - AT&T Services, Inc\Documents\Programing\VisualBasic\ATT\Dev\ARAworkloadScheduler> git commit
-[master 63607b8] Merge branch 'master' of https://github.com/THonGitHub/ARAworkloadScheduler
-PS C:\Users\th3882\OneDrive - AT&T Services, Inc\Documents\Programing\VisualBasic\ATT\Dev\ARAworkloadScheduler> git status
-On branch master
-Your branch is ahead of 'origin/master' by 119 commits.
-  (use "git push" to publish your local commits)
-
-nothing to commit, working tree clean
+PS C:\Users\th3882\OneDrive - AT&T Services, Inc\Documents\Programing\VisualBasic\ATT\Dev\ARAworkloadScheduler> git log --oneline --graph master ^origin/master
+* 63607b8 (HEAD -> master) Merge branch 'master' of https://github.com/THonGitHub/ARAworkloadScheduler
+* 697aa7f Merge branch 'master' of https://github.com/THonGitHub/ARAworkloadScheduler
+*   b0d857f Merge branch 'master' of https://github.com/THonGitHub/ARAworkloadScheduler
+|\
+| * 810adbb update
+* | 5867aeb Merge branch 'master' of https://github.com/THonGitHub/ARAworkloadScheduler
+|\|
+| * 7829cde update
+* | 4aa8756 Merge branch 'master' of https://github.com/THonGitHub/ARAworkloadScheduler
+|\|
+| * e1ddf98 updated calendar change manpower calculations methd from async on parallel
+* | 1798446 Merge branch 'master' of https://github.com/THonGitHub/ARAworkloadScheduler
+|\|
+| * fa74fb8 update
+* | bf7569a Merge branch 'master' of https://github.com/THonGitHub/ARAworkloadScheduler
+|\|
+| * 08e18d2 added method for paralled DB operations
+* 034a3f4 Merge branch 'master' of https://github.com/THonGitHub/ARAworkloadScheduler
