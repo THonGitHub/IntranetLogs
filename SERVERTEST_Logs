@@ -1,19 +1,9 @@
-PS C:\Users\th3882\OneDrive - AT&T Services, Inc\Documents\Programing\VisualBasic\ATT\Dev\ARAworkloadScheduler> git log --oneline --graph master ^origin/master
-* 63607b8 (HEAD -> master) Merge branch 'master' of https://github.com/THonGitHub/ARAworkloadScheduler
-* 697aa7f Merge branch 'master' of https://github.com/THonGitHub/ARAworkloadScheduler
-*   b0d857f Merge branch 'master' of https://github.com/THonGitHub/ARAworkloadScheduler
-|\
-| * 810adbb update
-* | 5867aeb Merge branch 'master' of https://github.com/THonGitHub/ARAworkloadScheduler
-|\|
-| * 7829cde update
-* | 4aa8756 Merge branch 'master' of https://github.com/THonGitHub/ARAworkloadScheduler
-|\|
-| * e1ddf98 updated calendar change manpower calculations methd from async on parallel
-* | 1798446 Merge branch 'master' of https://github.com/THonGitHub/ARAworkloadScheduler
-|\|
-| * fa74fb8 update
-* | bf7569a Merge branch 'master' of https://github.com/THonGitHub/ARAworkloadScheduler
-|\|
-| * 08e18d2 added method for paralled DB operations
-* 034a3f4 Merge branch 'master' of https://github.com/THonGitHub/ARAworkloadScheduler
+PS C:\Users\th3882\OneDrive - AT&T Services, Inc\Documents\Programing\VisualBasic\ATT\Dev\ARAworkloadScheduler> git fetch origin
+
+PS C:\Users\th3882\OneDrive - AT&T Services, Inc\Documents\Programing\VisualBasic\ATT\Dev\ARAworkloadScheduler> git reset --hard origin/master
+HEAD is now at 412aaba udate - commented all logging
+PS C:\Users\th3882\OneDrive - AT&T Services, Inc\Documents\Programing\VisualBasic\ATT\Dev\ARAworkloadScheduler> git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
