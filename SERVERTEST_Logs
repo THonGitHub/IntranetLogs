@@ -1,50 +1,93 @@
-Microsoft Windows [Version 10.0.20348.4052]
-(c) Microsoft Corporation. All rights reserved.
+ Volume in drive B is New Volume
+ Volume Serial Number is 6487-8FEA
 
-C:\Users\s04848>reg query "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP" /s /v version
+ Directory of B:\websites\aws\bin
 
-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727
-    Version    REG_SZ    2.0.50727.4927
+10. 09. 2013  18:29           103˙424 Antlr3.Runtime.dll
+07. 09. 2025  22:09           130˙560 ARAworkloadScheduler.dll
+19. 10. 2021  13:53         3˙316˙968 BouncyCastle.Crypto.dll
+31. 07. 2025  13:19         4˙694˙688 BouncyCastle.Cryptography.dll
+14. 08. 2025  19:02           496˙792 Google.Protobuf.dll
+17. 03. 2024  23:56            75˙264 K4os.Compression.LZ4.dll
+17. 03. 2024  23:56            83˙456 K4os.Compression.LZ4.Streams.dll
+08. 11. 2022  20:08            13˙312 K4os.Hash.xxHash.dll
+27. 06. 2017  14:59         1˙957˙624 Microsoft.AI.Agent.Intercept.dll
+19. 02. 2025  01:38           166˙432 Microsoft.AI.DependencyCollector.dll
+19. 02. 2025  01:38           215˙072 Microsoft.AI.PerfCounterCollector.dll
+19. 02. 2025  01:38           121˙888 Microsoft.AI.ServerTelemetryChannel.dll
+19. 02. 2025  01:38            95˙264 Microsoft.AI.Web.dll
+19. 02. 2025  01:38           114˙744 Microsoft.AI.WindowsServer.dll
+19. 02. 2025  01:38           386˙592 Microsoft.ApplicationInsights.dll
+30. 07. 2013  18:57            45˙752 Microsoft.AspNet.FriendlyUrls.dll
+02. 07. 2020  23:36            27˙528 Microsoft.AspNet.TelemetryCorrelation.dll
+11. 02. 2014  17:26            15˙056 Microsoft.AspNet.Web.Optimization.WebForms.dll
+15. 07. 2025  19:30            26˙384 Microsoft.Bcl.AsyncInterfaces.dll
+06. 03. 2023  00:41            37˙312 Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+06. 09. 2013  13:20            15˙056 Microsoft.ScriptManager.MSAjax.dll
+06. 09. 2013  13:20            13˙008 Microsoft.ScriptManager.WebForms.dll
+11. 04. 2022  21:09            50˙648 Microsoft.Web.Infrastructure.dll
+26. 06. 2025  09:32         1˙188˙936 MySql.Data.dll
+08. 03. 2023  09:09           711˙952 Newtonsoft.Json.dll
+19. 03. 2025  22:55            23˙816 System.Buffers.dll
+15. 07. 2025  19:35            92˙432 System.Configuration.ConfigurationManager.dll
+15. 07. 2025  19:34           199˙976 System.Diagnostics.DiagnosticSource.dll
+15. 07. 2025  19:32            84˙752 System.IO.Pipelines.dll
+04. 04. 2025  01:00           145˙200 System.Memory.dll
+19. 03. 2025  22:55           110˙344 System.Numerics.Vectors.dll
+04. 04. 2025  01:00            19˙256 System.Runtime.CompilerServices.Unsafe.dll
+15. 07. 2025  19:34            79˙656 System.Text.Encodings.Web.dll
+15. 07. 2025  19:36           726˙840 System.Text.Json.dll
+04. 04. 2025  01:00            27˙960 System.Threading.Tasks.Extensions.dll
+15. 05. 2025  22:27            25˙232 System.ValueTuple.dll
+11. 02. 2014  17:26            70˙864 System.Web.Optimization.dll
+23. 01. 2014  15:57         1˙274˙520 WebGrease.dll
+17. 07. 2025  19:14           428˙032 ZstdSharp.dll
+              39 File(s)     17˙412˙592 bytes
+               0 Dir(s)  103˙295˙819˙776 bytes free
+=======================
+ Volume in drive B is New Volume
+ Volume Serial Number is 6487-8FEA
 
-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727\1033
-    Version    REG_SZ    2.0.50727.4927
+ Directory of B:\websites\aws\bin
 
-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.0
-    Version    REG_SZ    3.0.30729.4926
-
-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.0\Setup
-    Version    REG_SZ    3.0.30729.4926
-
-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.0\Setup\1033
-    Version    REG_SZ    3.0.30729.4926
-
-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.0\Setup\Windows Communication Foundation
-    Version    REG_SZ    3.0.4506.4926
-
-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.0\Setup\Windows Presentation Foundation
-    Version    REG_SZ    3.0.6920.4902
-
-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.5
-    Version    REG_SZ    3.5.30729.4926
-
-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.5\1033
-    Version    REG_SZ    3.5.30729.4926
-
-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client
-    Version    REG_SZ    4.8.04161
-
-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client\1033
-    Version    REG_SZ    4.8.04161
-
-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full
-    Version    REG_SZ    4.8.04161
-
-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full\1033
-    Version    REG_SZ    4.8.04161
-
-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4.0\Client
-    Version    REG_SZ    4.0.0.0
-
-End of search: 14 match(es) found.
-
-C:\Users\s04848>
+10. 09. 2013  18:29           103˙424 Antlr3.Runtime.dll
+07. 09. 2025  22:09           130˙560 ARAworkloadScheduler.dll
+19. 10. 2021  13:53         3˙316˙968 BouncyCastle.Crypto.dll
+31. 07. 2025  13:19         4˙694˙688 BouncyCastle.Cryptography.dll
+14. 08. 2025  19:02           496˙792 Google.Protobuf.dll
+17. 03. 2024  23:56            75˙264 K4os.Compression.LZ4.dll
+17. 03. 2024  23:56            83˙456 K4os.Compression.LZ4.Streams.dll
+08. 11. 2022  20:08            13˙312 K4os.Hash.xxHash.dll
+27. 06. 2017  14:59         1˙957˙624 Microsoft.AI.Agent.Intercept.dll
+19. 02. 2025  01:38           166˙432 Microsoft.AI.DependencyCollector.dll
+19. 02. 2025  01:38           215˙072 Microsoft.AI.PerfCounterCollector.dll
+19. 02. 2025  01:38           121˙888 Microsoft.AI.ServerTelemetryChannel.dll
+19. 02. 2025  01:38            95˙264 Microsoft.AI.Web.dll
+19. 02. 2025  01:38           114˙744 Microsoft.AI.WindowsServer.dll
+19. 02. 2025  01:38           386˙592 Microsoft.ApplicationInsights.dll
+30. 07. 2013  18:57            45˙752 Microsoft.AspNet.FriendlyUrls.dll
+02. 07. 2020  23:36            27˙528 Microsoft.AspNet.TelemetryCorrelation.dll
+11. 02. 2014  17:26            15˙056 Microsoft.AspNet.Web.Optimization.WebForms.dll
+15. 07. 2025  19:30            26˙384 Microsoft.Bcl.AsyncInterfaces.dll
+06. 03. 2023  00:41            37˙312 Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+06. 09. 2013  13:20            15˙056 Microsoft.ScriptManager.MSAjax.dll
+06. 09. 2013  13:20            13˙008 Microsoft.ScriptManager.WebForms.dll
+11. 04. 2022  21:09            50˙648 Microsoft.Web.Infrastructure.dll
+26. 06. 2025  09:32         1˙188˙936 MySql.Data.dll
+08. 03. 2023  09:09           711˙952 Newtonsoft.Json.dll
+19. 03. 2025  22:55            23˙816 System.Buffers.dll
+15. 07. 2025  19:35            92˙432 System.Configuration.ConfigurationManager.dll
+15. 07. 2025  19:34           199˙976 System.Diagnostics.DiagnosticSource.dll
+15. 07. 2025  19:32            84˙752 System.IO.Pipelines.dll
+04. 04. 2025  01:00           145˙200 System.Memory.dll
+19. 03. 2025  22:55           110˙344 System.Numerics.Vectors.dll
+04. 04. 2025  01:00            19˙256 System.Runtime.CompilerServices.Unsafe.dll
+15. 07. 2025  19:34            79˙656 System.Text.Encodings.Web.dll
+15. 07. 2025  19:36           726˙840 System.Text.Json.dll
+04. 04. 2025  01:00            27˙960 System.Threading.Tasks.Extensions.dll
+15. 05. 2025  22:27            25˙232 System.ValueTuple.dll
+11. 02. 2014  17:26            70˙864 System.Web.Optimization.dll
+23. 01. 2014  15:57         1˙274˙520 WebGrease.dll
+17. 07. 2025  19:14           428˙032 ZstdSharp.dll
+              39 File(s)     17˙412˙592 bytes
+               0 Dir(s)  103˙295˙819˙776 bytes free
