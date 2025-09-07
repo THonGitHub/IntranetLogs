@@ -1,8 +1,50 @@
-<bindingRedirect oldVersion="0.0.0.0-9.0.8.0" newVersion="9.0.8.0" />
-Could not load file or assembly 'System.Diagnostics.DiagnosticSource' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
-====================
-<bindingRedirect oldVersion="0.0.0.0-9.0.0.7" newVersion="9.0.0.7" />
-Could not load file or assembly 'System.Diagnostics.DiagnosticSource, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
-====================
-<bindingRedirect oldVersion="0.0.0.0-9.0.825.36511" newVersion="9.0.825.36511" />
-Could not load file or assembly 'System.Diagnostics.DiagnosticSource, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+Microsoft Windows [Version 10.0.20348.4052]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\s04848>reg query "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP" /s /v version
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727
+    Version    REG_SZ    2.0.50727.4927
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727\1033
+    Version    REG_SZ    2.0.50727.4927
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.0
+    Version    REG_SZ    3.0.30729.4926
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.0\Setup
+    Version    REG_SZ    3.0.30729.4926
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.0\Setup\1033
+    Version    REG_SZ    3.0.30729.4926
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.0\Setup\Windows Communication Foundation
+    Version    REG_SZ    3.0.4506.4926
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.0\Setup\Windows Presentation Foundation
+    Version    REG_SZ    3.0.6920.4902
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.5
+    Version    REG_SZ    3.5.30729.4926
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.5\1033
+    Version    REG_SZ    3.5.30729.4926
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client
+    Version    REG_SZ    4.8.04161
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client\1033
+    Version    REG_SZ    4.8.04161
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full
+    Version    REG_SZ    4.8.04161
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full\1033
+    Version    REG_SZ    4.8.04161
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4.0\Client
+    Version    REG_SZ    4.0.0.0
+
+End of search: 14 match(es) found.
+
+C:\Users\s04848>
