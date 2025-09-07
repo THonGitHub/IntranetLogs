@@ -1,15 +1,96 @@
+LOCALTEST:
 
-Server Error in '/aws' Application.
-Could not load file or assembly 'System.Diagnostics.DiagnosticSource, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+Server Error in '/' Application.
+Could not load file or assembly 'System.Diagnostics.DiagnosticSource' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
 Description: An unhandled exception occurred during the execution of the current web request. Please review the stack trace for more information about the error and where it originated in the code.
 
-Exception Details: System.IO.FileLoadException: Could not load file or assembly 'System.Diagnostics.DiagnosticSource, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+Exception Details: System.IO.FileLoadException: Could not load file or assembly 'System.Diagnostics.DiagnosticSource' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
 
 Source Error:
 
 An unhandled exception was generated during the execution of the current web request. Information regarding the origin and location of the exception can be identified using the exception stack trace below.
 
-Assembly Load Trace: The following information can be helpful to determine why the assembly 'System.Diagnostics.DiagnosticSource, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' could not be loaded.
+Assembly Load Trace: The following information can be helpful to determine why the assembly 'System.Diagnostics.DiagnosticSource' could not be loaded.
+
+
+=== Pre-bind state information ===
+LOG: DisplayName = System.Diagnostics.DiagnosticSource
+ (Partial)
+WRN: Partial binding information was supplied for an assembly:
+WRN: Assembly Name: System.Diagnostics.DiagnosticSource | Domain ID: 2
+WRN: A partial bind occurs when only part of the assembly display name is provided.
+WRN: This might result in the binder loading an incorrect assembly.
+WRN: It is recommended to provide a fully specified textual identity for the assembly,
+WRN: that consists of the simple name, version, culture, and public key token.
+WRN: See whitepaper http://go.microsoft.com/fwlink/?LinkId=109270 for more information and common solutions to this issue.
+LOG: Appbase = file:///C:/Users/th3882/OneDrive - AT&T Services, Inc/Documents/Programing/VisualBasic/ATT/Dev/ARAworkloadScheduler/
+LOG: Initial PrivatePath = C:\Users\th3882\OneDrive - AT&T Services, Inc\Documents\Programing\VisualBasic\ATT\Dev\ARAworkloadScheduler\bin
+Calling assembly : (Unknown).
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: C:\Users\th3882\OneDrive - AT&T Services, Inc\Documents\Programing\VisualBasic\ATT\Dev\ARAworkloadScheduler\web.config
+LOG: Using host configuration file: C:\Users\th3882\OneDrive - AT&T Services, Inc\Documents\IISExpress\config\aspnet.config
+LOG: Using machine configuration file from C:\Windows\Microsoft.NET\Framework64\v4.0.30319\config\machine.config.
+LOG: Policy not being applied to reference at this time (private, custom, partial, or location-based assembly bind).
+LOG: Attempting download of new URL file:///C:/Users/th3882/AppData/Local/Temp/Temporary ASP.NET Files/vs/c2853bc1/29a492fb/System.Diagnostics.DiagnosticSource.DLL.
+LOG: Attempting download of new URL file:///C:/Users/th3882/AppData/Local/Temp/Temporary ASP.NET Files/vs/c2853bc1/29a492fb/System.Diagnostics.DiagnosticSource/System.Diagnostics.DiagnosticSource.DLL.
+LOG: Attempting download of new URL file:///C:/Users/th3882/OneDrive - AT&T Services, Inc/Documents/Programing/VisualBasic/ATT/Dev/ARAworkloadScheduler/bin/System.Diagnostics.DiagnosticSource.DLL.
+LOG: Using application configuration file: C:\Users\th3882\OneDrive - AT&T Services, Inc\Documents\Programing\VisualBasic\ATT\Dev\ARAworkloadScheduler\web.config
+LOG: Using host configuration file: C:\Users\th3882\OneDrive - AT&T Services, Inc\Documents\IISExpress\config\aspnet.config
+LOG: Using machine configuration file from C:\Windows\Microsoft.NET\Framework64\v4.0.30319\config\machine.config.
+LOG: Redirect found in application configuration file: 9.0.0.8 redirected to 9.0.8.0.
+LOG: Post-policy reference: System.Diagnostics.DiagnosticSource, Version=9.0.8.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51
+LOG: Attempting download of new URL file:///C:/Users/th3882/AppData/Local/Temp/Temporary ASP.NET Files/vs/c2853bc1/29a492fb/System.Diagnostics.DiagnosticSource.DLL.
+LOG: Attempting download of new URL file:///C:/Users/th3882/AppData/Local/Temp/Temporary ASP.NET Files/vs/c2853bc1/29a492fb/System.Diagnostics.DiagnosticSource/System.Diagnostics.DiagnosticSource.DLL.
+LOG: Attempting download of new URL file:///C:/Users/th3882/OneDrive - AT&T Services, Inc/Documents/Programing/VisualBasic/ATT/Dev/ARAworkloadScheduler/bin/System.Diagnostics.DiagnosticSource.DLL.
+WRN: Comparing the assembly name resulted in the mismatch: Revision Number
+ERR: Failed to complete setup of assembly (hr = 0x80131040). Probing terminated.
+
+
+Stack Trace:
+
+
+[FileLoadException: Could not load file or assembly 'System.Diagnostics.DiagnosticSource' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)]
+
+[FileLoadException: Could not load file or assembly 'System.Diagnostics.DiagnosticSource, Version=9.0.8.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)]
+   System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks) +0
+   System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks) +232
+   System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean forIntrospection) +113
+   System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection) +23
+   System.Reflection.Assembly.Load(String assemblyString) +35
+   System.Web.Configuration.CompilationSection.LoadAssemblyHelper(String assemblyName, Boolean starDirective) +48
+
+[ConfigurationErrorsException: Could not load file or assembly 'System.Diagnostics.DiagnosticSource, Version=9.0.8.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)]
+   System.Web.Configuration.CompilationSection.LoadAssemblyHelper(String assemblyName, Boolean starDirective) +767
+   System.Web.Configuration.CompilationSection.LoadAllAssembliesFromAppDomainBinDirectory() +256
+   System.Web.Configuration.CompilationSection.LoadAssembly(AssemblyInfo ai) +58
+   System.Web.Compilation.BuildManager.GetReferencedAssemblies(CompilationSection compConfig) +287
+   System.Web.Compilation.BuildManager.GetPreStartInitMethodsFromReferencedAssemblies() +69
+   System.Web.Compilation.BuildManager.CallPreStartInitMethods(String preStartInitListPath, Boolean& isRefAssemblyLoaded) +137
+   System.Web.Compilation.BuildManager.ExecutePreAppStart() +172
+   System.Web.Hosting.HostingEnvironment.Initialize(ApplicationManager appManager, IApplicationHost appHost, IConfigMapPathFactory configMapPathFactory, HostingEnvironmentParameters hostingParameters, PolicyLevel policyLevel, Exception appDomainCreationException) +854
+
+[HttpException (0x80004005): Could not load file or assembly 'System.Diagnostics.DiagnosticSource, Version=9.0.8.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)]
+   System.Web.HttpRuntime.FirstRequestInit(HttpContext context) +532
+   System.Web.HttpRuntime.EnsureFirstRequestInit(HttpContext context) +111
+   System.Web.HttpRuntime.ProcessRequestNotificationPrivate(IIS7WorkerRequest wr, HttpContext context) +719
+
+
+Version Information: Microsoft .NET Framework Version:4.0.30319; ASP.NET Version:4.8.9282.0 
+===================
+SERVERTEST:
+
+Server Error in '/aws' Application.
+Could not load file or assembly 'System.Diagnostics.DiagnosticSource' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+Description: An unhandled exception occurred during the execution of the current web request. Please review the stack trace for more information about the error and where it originated in the code.
+
+Exception Details: System.IO.FileLoadException: Could not load file or assembly 'System.Diagnostics.DiagnosticSource' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+
+Source Error:
+
+An unhandled exception was generated during the execution of the current web request. Information regarding the origin and location of the exception can be identified using the exception stack trace below.
+
+Assembly Load Trace: The following information can be helpful to determine why the assembly 'System.Diagnostics.DiagnosticSource' could not be loaded.
 
 
 WRN: Assembly binding logging is turned OFF.
@@ -21,104 +102,30 @@ To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fus
 Stack Trace:
 
 
-[FileLoadException: Could not load file or assembly 'System.Diagnostics.DiagnosticSource, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)]
+[FileLoadException: Could not load file or assembly 'System.Diagnostics.DiagnosticSource' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)]
 
-[FileLoadException: Could not load file or assembly 'System.Diagnostics.DiagnosticSource, Version=9.0.0.7, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)]
-   Microsoft.AspNet.TelemetryCorrelation.TelemetryCorrelationHttpModule.Application_BeginRequest(Object sender, EventArgs e) +0
-   System.Web.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute() +223
-   System.Web.<>c__DisplayClass285_0.<ExecuteStepImpl>b__0() +40
-   System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step) +155
-   System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously) +94
+[FileLoadException: Could not load file or assembly 'System.Diagnostics.DiagnosticSource, Version=9.0.8.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)]
+   System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks) +0
+   System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks) +232
+   System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean forIntrospection) +113
+   System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection) +23
+   System.Reflection.Assembly.Load(String assemblyString) +35
+   System.Web.Configuration.CompilationSection.LoadAssemblyHelper(String assemblyName, Boolean starDirective) +48
+
+[ConfigurationErrorsException: Could not load file or assembly 'System.Diagnostics.DiagnosticSource, Version=9.0.8.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)]
+   System.Web.Configuration.CompilationSection.LoadAssemblyHelper(String assemblyName, Boolean starDirective) +767
+   System.Web.Configuration.CompilationSection.LoadAllAssembliesFromAppDomainBinDirectory() +256
+   System.Web.Configuration.CompilationSection.LoadAssembly(AssemblyInfo ai) +58
+   System.Web.Compilation.BuildManager.GetReferencedAssemblies(CompilationSection compConfig) +287
+   System.Web.Compilation.BuildManager.GetPreStartInitMethodsFromReferencedAssemblies() +69
+   System.Web.Compilation.BuildManager.CallPreStartInitMethods(String preStartInitListPath, Boolean& isRefAssemblyLoaded) +137
+   System.Web.Compilation.BuildManager.ExecutePreAppStart() +172
+   System.Web.Hosting.HostingEnvironment.Initialize(ApplicationManager appManager, IApplicationHost appHost, IConfigMapPathFactory configMapPathFactory, HostingEnvironmentParameters hostingParameters, PolicyLevel policyLevel, Exception appDomainCreationException) +854
+
+[HttpException (0x80004005): Could not load file or assembly 'System.Diagnostics.DiagnosticSource, Version=9.0.8.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)]
+   System.Web.HttpRuntime.FirstRequestInit(HttpContext context) +532
+   System.Web.HttpRuntime.EnsureFirstRequestInit(HttpContext context) +111
+   System.Web.HttpRuntime.ProcessRequestNotificationPrivate(IIS7WorkerRequest wr, HttpContext context) +724
 
 
 Version Information: Microsoft .NET Framework Version:4.0.30319; ASP.NET Version:4.8.4770.0 
-================================
-<runtime>
-	<assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
-		<dependentAssembly>
-			<assemblyIdentity name="Microsoft.Web.Infrastructure" publicKeyToken="31bf3856ad364e35" />
-			<bindingRedirect oldVersion="0.0.0.0-2.0.0.0" newVersion="2.0.0.0" />
-		</dependentAssembly>			
-		<dependentAssembly>
-			<assemblyIdentity name="Microsoft.Web.Infrastructure" publicKeyToken="31BF3856AD364E35" culture="neutral" />
-			<bindingRedirect oldVersion="0.0.0.0-2.0.0.0" newVersion="2.0.0.0" />
-		</dependentAssembly>
-		<dependentAssembly>
-			<assemblyIdentity name="System.Threading.Tasks.Extensions" publicKeyToken="CC7B13FFCD2DDD51" culture="neutral" />
-			<bindingRedirect oldVersion="0.0.0.0-4.2.4.0" newVersion="4.2.4.0" />
-		</dependentAssembly>
-		<dependentAssembly>
-			<assemblyIdentity name="System.Runtime.CompilerServices.Unsafe" publicKeyToken="B03F5F7F11D50A3A" culture="neutral" />
-			<bindingRedirect oldVersion="0.0.0.0-6.0.3.0" newVersion="6.0.3.0" />
-		</dependentAssembly>
-		<dependentAssembly>
-			<assemblyIdentity name="System.Numerics.Vectors" publicKeyToken="B03F5F7F11D50A3A" culture="neutral" />
-			<bindingRedirect oldVersion="0.0.0.0-4.1.6.0" newVersion="4.1.6.0" />
-		</dependentAssembly>
-		<dependentAssembly>
-			<assemblyIdentity name="System.Memory" publicKeyToken="CC7B13FFCD2DDD51" culture="neutral" />
-			<bindingRedirect oldVersion="0.0.0.0-4.0.5.0" newVersion="4.0.5.0" />
-		</dependentAssembly>
-		<dependentAssembly>
-			<assemblyIdentity name="System.IO.Pipelines" publicKeyToken="CC7B13FFCD2DDD51" culture="neutral" />
-			<bindingRedirect oldVersion="0.0.0.0-9.0.0.7" newVersion="9.0.0.7" />
-		</dependentAssembly>
-		<dependentAssembly>
-			<assemblyIdentity name="System.Diagnostics.DiagnosticSource" publicKeyToken="CC7B13FFCD2DDD51" culture="neutral" />
-			<bindingRedirect oldVersion="0.0.0.0-9.0.0.7" newVersion="9.0.0.7" />
-		</dependentAssembly>
-		<dependentAssembly>
-			<assemblyIdentity name="System.Buffers" publicKeyToken="CC7B13FFCD2DDD51" culture="neutral" />
-			<bindingRedirect oldVersion="0.0.0.0-4.0.5.0" newVersion="4.0.5.0" />
-		</dependentAssembly>
-		<dependentAssembly>
-			<assemblyIdentity name="Google.Protobuf" publicKeyToken="A7D26565BAC4D604" culture="neutral" />
-			<bindingRedirect oldVersion="0.0.0.0-3.31.1.0" newVersion="3.31.1.0" />
-		</dependentAssembly>
-		<dependentAssembly>
-			<assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" />
-			<bindingRedirect oldVersion="0.0.0.0-13.0.0.0" newVersion="13.0.0.0" />
-		</dependentAssembly>
-		<dependentAssembly>
-			<assemblyIdentity name="WebGrease" publicKeyToken="31bf3856ad364e35" />
-			<bindingRedirect oldVersion="0.0.0.0-1.6.5135.21930" newVersion="1.6.5135.21930" />
-		</dependentAssembly>
-		<dependentAssembly>
-			<assemblyIdentity name="Antlr3.Runtime" publicKeyToken="eb42632606e9261f" />
-			<bindingRedirect oldVersion="0.0.0.0-3.5.0.2" newVersion="3.5.0.2" />
-		</dependentAssembly>
-		<dependentAssembly>
-			<assemblyIdentity name="System.Memory" publicKeyToken="cc7b13ffcd2ddd51" culture="neutral" />
-			<bindingRedirect oldVersion="0.0.0.0-4.0.5.0" newVersion="4.0.5.0" />
-		</dependentAssembly>
-		<dependentAssembly>
-			<assemblyIdentity name="System.Runtime.CompilerServices.Unsafe" publicKeyToken="b03f5f7f11d50a3a" culture="neutral" />
-			<bindingRedirect oldVersion="0.0.0.0-6.0.3.0" newVersion="6.0.3.0" />
-		</dependentAssembly>
-		<dependentAssembly>
-			<assemblyIdentity name="System.Buffers" publicKeyToken="cc7b13ffcd2ddd51" culture="neutral" />
-			<bindingRedirect oldVersion="0.0.0.0-4.0.5.0" newVersion="4.0.5.0" />
-		</dependentAssembly>
-		<dependentAssembly>
-			<assemblyIdentity name="System.IO.Pipelines" publicKeyToken="cc7b13ffcd2ddd51" culture="neutral" />
-			<bindingRedirect oldVersion="0.0.0.0-9.0.0.7" newVersion="9.0.0.7" />
-		</dependentAssembly>
-		<dependentAssembly>
-			<assemblyIdentity name="System.Threading.Tasks.Extensions" publicKeyToken="cc7b13ffcd2ddd51" culture="neutral" />
-			<bindingRedirect oldVersion="0.0.0.0-4.2.4.0" newVersion="4.2.4.0" />
-		</dependentAssembly>
-		<dependentAssembly>
-			<assemblyIdentity name="System.Diagnostics.DiagnosticSource" publicKeyToken="cc7b13ffcd2ddd51" culture="neutral" />
-			<bindingRedirect oldVersion="0.0.0.0-9.0.0.7" newVersion="9.0.0.7" />
-		</dependentAssembly>
-		<dependentAssembly>
-			<assemblyIdentity name="Google.Protobuf" publicKeyToken="a7d26565bac4d604" culture="neutral" />
-			<bindingRedirect oldVersion="0.0.0.0-3.31.1.0" newVersion="3.31.1.0" />
-		</dependentAssembly>
-		<dependentAssembly>
-			<assemblyIdentity name="System.Numerics.Vectors" publicKeyToken="b03f5f7f11d50a3a" culture="neutral" />
-			<bindingRedirect oldVersion="0.0.0.0-4.1.6.0" newVersion="4.1.6.0" />
-		</dependentAssembly>
-	</assemblyBinding>
-</runtime>
-	
