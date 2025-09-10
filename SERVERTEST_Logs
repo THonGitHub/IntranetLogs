@@ -1,2 +1,8 @@
-=== NEW SESSION STARTED 2025-09-10 12:07:02 ===
-DEBUG: _currentUser='', _environment='SERVERTEST'
+
+Server Error in '/' Application.
+Access is denied.
+Description: An error occurred while accessing the resources required to serve this request. The server may not be configured for access to the requested URL.
+
+Error message 401.2.: Unauthorized: Logon failed due to server configuration.  Verify that you have permission to view this directory or page based on the credentials you supplied and the authentication methods enabled on the Web server.  Contact the Web server's administrator for additional assistance.
+
+Version Information: Microsoft .NET Framework Version:4.0.30319; ASP.NET Version:4.8.9282.0 
