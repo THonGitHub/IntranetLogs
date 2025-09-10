@@ -1,13 +1,10 @@
-2025-09-10 19:42:12 [LOCALTEST] INFO: PAGE TIMING: Page_Load START at 19:42:12.878
-2025-09-10 19:42:12 [LOCALTEST] INFO: PAGE TIMING: Starting authentication check at 19:42:12.879
-2025-09-10 19:42:12 [LOCALTEST] INFO: AUTH TIMING: GetCurrentUser() START
-2025-09-10 19:42:12 [LOCALTEST] ERROR: Unable to determine current username
-2025-09-10 20:37:28 [LOCALTEST] INFO: PAGE TIMING: Page_Load START at 20:37:28.278
-2025-09-10 20:37:28 [LOCALTEST] INFO: PAGE TIMING: Starting authentication check at 20:37:28.281
-2025-09-10 20:37:28 [LOCALTEST] INFO: AUTH TIMING: GetCurrentUser() START
-2025-09-10 20:37:28 [LOCALTEST] INFO: GetCurrentUsername: Company environment detected
-2025-09-10 20:37:28 [LOCALTEST] INFO: GetCurrentUsername: Identity.Name = ''
-2025-09-10 20:37:28 [LOCALTEST] INFO: GetCurrentUsername: IsAuthenticated = False
-2025-09-10 20:37:28 [LOCALTEST] INFO: GetCurrentUsername: AuthenticationType = ''
-2025-09-10 20:37:28 [LOCALTEST] ERROR: GetCurrentUsername: Identity.Name is null or empty
-2025-09-10 20:37:28 [LOCALTEST] ERROR: Unable to determine current username
+=== NEW SESSION STARTED 2025-09-10 21:07:06 ===
+2025-09-10 21:07:06 [LOCALTEST] INFO: PAGE TIMING: Page_Load START at 21:07:06.352
+2025-09-10 21:07:06 [LOCALTEST] INFO: PAGE TIMING: Starting authentication check at 21:07:06.352
+2025-09-10 21:07:06 [LOCALTEST] INFO: AUTH TIMING: GetCurrentUser() START
+2025-09-10 21:07:06 [LOCALTEST] INFO: GetCurrentUsername: Company environment detected
+2025-09-10 21:07:06 [LOCALTEST] INFO: GetCurrentUsername: Identity.Name = ''
+2025-09-10 21:07:06 [LOCALTEST] INFO: GetCurrentUsername: IsAuthenticated = False
+2025-09-10 21:07:06 [LOCALTEST] INFO: GetCurrentUsername: AuthenticationType = ''
+2025-09-10 21:07:06 [LOCALTEST] ERROR: GetCurrentUsername: Identity.Name is null or empty
+2025-09-10 21:07:06 [LOCALTEST] ERROR: Unable to determine current username
