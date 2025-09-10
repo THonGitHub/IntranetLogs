@@ -1,93 +1,45 @@
- Volume in drive B is New Volume
- Volume Serial Number is 6487-8FEA
-
- Directory of B:\websites\aws\bin
-
-10. 09. 2013  18:29           103˙424 Antlr3.Runtime.dll
-07. 09. 2025  22:09           130˙560 ARAworkloadScheduler.dll
-19. 10. 2021  13:53         3˙316˙968 BouncyCastle.Crypto.dll
-31. 07. 2025  13:19         4˙694˙688 BouncyCastle.Cryptography.dll
-14. 08. 2025  19:02           496˙792 Google.Protobuf.dll
-17. 03. 2024  23:56            75˙264 K4os.Compression.LZ4.dll
-17. 03. 2024  23:56            83˙456 K4os.Compression.LZ4.Streams.dll
-08. 11. 2022  20:08            13˙312 K4os.Hash.xxHash.dll
-27. 06. 2017  14:59         1˙957˙624 Microsoft.AI.Agent.Intercept.dll
-19. 02. 2025  01:38           166˙432 Microsoft.AI.DependencyCollector.dll
-19. 02. 2025  01:38           215˙072 Microsoft.AI.PerfCounterCollector.dll
-19. 02. 2025  01:38           121˙888 Microsoft.AI.ServerTelemetryChannel.dll
-19. 02. 2025  01:38            95˙264 Microsoft.AI.Web.dll
-19. 02. 2025  01:38           114˙744 Microsoft.AI.WindowsServer.dll
-19. 02. 2025  01:38           386˙592 Microsoft.ApplicationInsights.dll
-30. 07. 2013  18:57            45˙752 Microsoft.AspNet.FriendlyUrls.dll
-02. 07. 2020  23:36            27˙528 Microsoft.AspNet.TelemetryCorrelation.dll
-11. 02. 2014  17:26            15˙056 Microsoft.AspNet.Web.Optimization.WebForms.dll
-15. 07. 2025  19:30            26˙384 Microsoft.Bcl.AsyncInterfaces.dll
-06. 03. 2023  00:41            37˙312 Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-06. 09. 2013  13:20            15˙056 Microsoft.ScriptManager.MSAjax.dll
-06. 09. 2013  13:20            13˙008 Microsoft.ScriptManager.WebForms.dll
-11. 04. 2022  21:09            50˙648 Microsoft.Web.Infrastructure.dll
-26. 06. 2025  09:32         1˙188˙936 MySql.Data.dll
-08. 03. 2023  09:09           711˙952 Newtonsoft.Json.dll
-19. 03. 2025  22:55            23˙816 System.Buffers.dll
-15. 07. 2025  19:35            92˙432 System.Configuration.ConfigurationManager.dll
-15. 07. 2025  19:34           199˙976 System.Diagnostics.DiagnosticSource.dll
-15. 07. 2025  19:32            84˙752 System.IO.Pipelines.dll
-04. 04. 2025  01:00           145˙200 System.Memory.dll
-19. 03. 2025  22:55           110˙344 System.Numerics.Vectors.dll
-04. 04. 2025  01:00            19˙256 System.Runtime.CompilerServices.Unsafe.dll
-15. 07. 2025  19:34            79˙656 System.Text.Encodings.Web.dll
-15. 07. 2025  19:36           726˙840 System.Text.Json.dll
-04. 04. 2025  01:00            27˙960 System.Threading.Tasks.Extensions.dll
-15. 05. 2025  22:27            25˙232 System.ValueTuple.dll
-11. 02. 2014  17:26            70˙864 System.Web.Optimization.dll
-23. 01. 2014  15:57         1˙274˙520 WebGrease.dll
-17. 07. 2025  19:14           428˙032 ZstdSharp.dll
-              39 File(s)     17˙412˙592 bytes
-               0 Dir(s)  103˙295˙819˙776 bytes free
-=======================
- Volume in drive B is New Volume
- Volume Serial Number is 6487-8FEA
-
- Directory of B:\websites\aws\bin
-
-10. 09. 2013  18:29           103˙424 Antlr3.Runtime.dll
-07. 09. 2025  22:09           130˙560 ARAworkloadScheduler.dll
-19. 10. 2021  13:53         3˙316˙968 BouncyCastle.Crypto.dll
-31. 07. 2025  13:19         4˙694˙688 BouncyCastle.Cryptography.dll
-14. 08. 2025  19:02           496˙792 Google.Protobuf.dll
-17. 03. 2024  23:56            75˙264 K4os.Compression.LZ4.dll
-17. 03. 2024  23:56            83˙456 K4os.Compression.LZ4.Streams.dll
-08. 11. 2022  20:08            13˙312 K4os.Hash.xxHash.dll
-27. 06. 2017  14:59         1˙957˙624 Microsoft.AI.Agent.Intercept.dll
-19. 02. 2025  01:38           166˙432 Microsoft.AI.DependencyCollector.dll
-19. 02. 2025  01:38           215˙072 Microsoft.AI.PerfCounterCollector.dll
-19. 02. 2025  01:38           121˙888 Microsoft.AI.ServerTelemetryChannel.dll
-19. 02. 2025  01:38            95˙264 Microsoft.AI.Web.dll
-19. 02. 2025  01:38           114˙744 Microsoft.AI.WindowsServer.dll
-19. 02. 2025  01:38           386˙592 Microsoft.ApplicationInsights.dll
-30. 07. 2013  18:57            45˙752 Microsoft.AspNet.FriendlyUrls.dll
-02. 07. 2020  23:36            27˙528 Microsoft.AspNet.TelemetryCorrelation.dll
-11. 02. 2014  17:26            15˙056 Microsoft.AspNet.Web.Optimization.WebForms.dll
-15. 07. 2025  19:30            26˙384 Microsoft.Bcl.AsyncInterfaces.dll
-06. 03. 2023  00:41            37˙312 Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-06. 09. 2013  13:20            15˙056 Microsoft.ScriptManager.MSAjax.dll
-06. 09. 2013  13:20            13˙008 Microsoft.ScriptManager.WebForms.dll
-11. 04. 2022  21:09            50˙648 Microsoft.Web.Infrastructure.dll
-26. 06. 2025  09:32         1˙188˙936 MySql.Data.dll
-08. 03. 2023  09:09           711˙952 Newtonsoft.Json.dll
-19. 03. 2025  22:55            23˙816 System.Buffers.dll
-15. 07. 2025  19:35            92˙432 System.Configuration.ConfigurationManager.dll
-15. 07. 2025  19:34           199˙976 System.Diagnostics.DiagnosticSource.dll
-15. 07. 2025  19:32            84˙752 System.IO.Pipelines.dll
-04. 04. 2025  01:00           145˙200 System.Memory.dll
-19. 03. 2025  22:55           110˙344 System.Numerics.Vectors.dll
-04. 04. 2025  01:00            19˙256 System.Runtime.CompilerServices.Unsafe.dll
-15. 07. 2025  19:34            79˙656 System.Text.Encodings.Web.dll
-15. 07. 2025  19:36           726˙840 System.Text.Json.dll
-04. 04. 2025  01:00            27˙960 System.Threading.Tasks.Extensions.dll
-15. 05. 2025  22:27            25˙232 System.ValueTuple.dll
-11. 02. 2014  17:26            70˙864 System.Web.Optimization.dll
-23. 01. 2014  15:57         1˙274˙520 WebGrease.dll
-17. 07. 2025  19:14           428˙032 ZstdSharp.dll
-              39 File(s)     17˙412˙592 bytes
-               0 Dir(s)  103˙295˙819˙776 bytes free
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  For more information on how to configure your ASP.NET application, please visit
+  https://go.microsoft.com/fwlink/?LinkId=169433
+  -->
+<configuration>
+  <system.web>
+    <compilation debug="true" strict="false" explicit="true" targetFramework="4.8" />
+    <httpRuntime targetFramework="4.8" />
+    <pages>
+      <namespaces>
+        <add namespace="System.Web.Optimization" />
+      </namespaces>
+      <controls>
+        <add assembly="Microsoft.AspNet.Web.Optimization.WebForms" namespace="Microsoft.AspNet.Web.Optimization.WebForms" tagPrefix="webopt" />
+      </controls>
+    </pages>
+  </system.web>
+  <runtime>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="Antlr3.Runtime" publicKeyToken="eb42632606e9261f" />
+        <bindingRedirect oldVersion="0.0.0.0-3.5.0.2" newVersion="3.5.0.2" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.Web.Infrastructure" publicKeyToken="31bf3856ad364e35" />
+        <bindingRedirect oldVersion="0.0.0.0-2.0.0.0" newVersion="2.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" />
+        <bindingRedirect oldVersion="0.0.0.0-13.0.0.0" newVersion="13.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="WebGrease" publicKeyToken="31bf3856ad364e35" />
+        <bindingRedirect oldVersion="0.0.0.0-1.6.5135.21930" newVersion="1.6.5135.21930" />
+      </dependentAssembly>
+    </assemblyBinding>
+  </runtime>
+  <system.codedom>
+    <compilers>
+      <compiler language="c#;cs;csharp" extension=".cs" type="Microsoft.CodeDom.Providers.DotNetCompilerPlatform.CSharpCodeProvider, Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=2.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" warningLevel="4" compilerOptions="/langversion:default /nowarn:1659;1699;1701" />
+      <compiler language="vb;vbs;visualbasic;vbscript" extension=".vb" type="Microsoft.CodeDom.Providers.DotNetCompilerPlatform.VBCodeProvider, Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=2.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" warningLevel="4" compilerOptions="/langversion:default /nowarn:41008 /define:_MYTYPE=\&quot;Web\&quot; /optionInfer+" />
+    </compilers>
+  </system.codedom>
+</configuration>
