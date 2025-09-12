@@ -1,34 +1,10 @@
-=== NEW SESSION STARTED 2025-09-10 22:58:31 ===
-2025-09-10 22:58:31 [LOCALTEST] INFO: PAGE TIMING: Page_Load START at 22:58:31.757
-2025-09-10 22:58:31 [LOCALTEST] INFO: PAGE TIMING: Starting authentication check at 22:58:31.758
-2025-09-10 22:58:31 [LOCALTEST] INFO: AUTH TIMING: GetCurrentUser() START
-2025-09-10 22:58:31 [LOCALTEST] INFO: GetCurrentUsername: Company environment detected
-2025-09-10 22:58:31 [LOCALTEST] INFO: GetCurrentUsername: Identity.Name = 'INTL\th3882'
-2025-09-10 22:58:31 [LOCALTEST] INFO: GetCurrentUsername: IsAuthenticated = True
-2025-09-10 22:58:31 [LOCALTEST] INFO: GetCurrentUsername: AuthenticationType = 'Negotiate'
-2025-09-10 22:58:31 [LOCALTEST] INFO: GetCurrentUsername: Extracted username = 'th3882'
-2025-09-10 22:58:31 [LOCALTEST] INFO: AUTH TIMING: Username resolved to 'th3882' in 4ms
-2025-09-10 22:58:31 [LOCALTEST] INFO: WHITELIST: Checking database first for user th3882
-2025-09-10 22:58:33 [LOCALTEST] ERROR: DEBUG: Returned from CheckUserForWhitelist, result = FOUND
-2025-09-10 22:58:33 [LOCALTEST] INFO: WHITELIST HIT: User th3882 found in database, skipping LDAP check
-2025-09-10 22:58:33 [LOCALTEST] INFO: AUTH TIMING: LDAP validation took 2153,7929ms
-2025-09-10 22:58:33 [LOCALTEST] INFO: AUTH TIMING: GetCurrentUser() COMPLETE in 2159ms
-2025-09-10 22:58:34 [LOCALTEST] INFO: GetTeams: Query execution took 30,7575ms
-2025-09-10 22:58:34 [LOCALTEST] INFO: GetTeams: 16 teams loaded in 496ms
-2025-09-10 22:58:34 [LOCALTEST] INFO: TeamUtilization: 'AP service delivery' (4m) = 0% | 0 records, 0 total manpower | 38ms
-2025-09-10 22:58:34 [LOCALTEST] INFO: TeamUtilization: 'Application Localization & Support' (10m) = 0% | 0 records, 0 total manpower | 24ms
-2025-09-10 22:58:34 [LOCALTEST] INFO: TeamUtilization: 'ASSET' (12m) = 0% | 0 records, 0 total manpower | 30ms
-2025-09-10 22:58:34 [LOCALTEST] INFO: TeamUtilization: 'ASSET 2' (2m) = 0% | 0 records, 0 total manpower | 34ms
-2025-09-10 22:58:34 [LOCALTEST] INFO: TeamUtilization: 'ASSET 3' (2m) = 0% | 0 records, 0 total manpower | 177ms
-2025-09-10 22:58:34 [LOCALTEST] INFO: TeamUtilization: 'Business Management' (12m) = 0% | 0 records, 0 total manpower | 74ms
-2025-09-10 22:58:34 [LOCALTEST] INFO: TeamUtilization: 'CALA service delivery' (4m) = 0% | 0 records, 0 total manpower | 27ms
-2025-09-10 22:58:34 [LOCALTEST] INFO: TeamUtilization: 'Core Connections' (6m) = 0% | 0 records, 0 total manpower | 35ms
-2025-09-10 22:58:34 [LOCALTEST] INFO: TeamUtilization: 'Core Services' (9m) = 0% | 0 records, 0 total manpower | 27ms
-2025-09-10 22:58:34 [LOCALTEST] INFO: TeamUtilization: 'EMEA service delivery' (10m) = 0% | 0 records, 0 total manpower | 27ms
-2025-09-10 22:58:34 [LOCALTEST] INFO: TeamUtilization: 'EUS' (13m) = 0% | 0 records, 0 total manpower | 23ms
-2025-09-10 22:58:34 [LOCALTEST] INFO: TeamUtilization: 'HOTS' (2m) = 0% | 0 records, 0 total manpower | 32ms
-2025-09-10 22:58:35 [LOCALTEST] INFO: TeamUtilization: 'MX service delivery' (2m) = 0% | 0 records, 0 total manpower | 34ms
-2025-09-10 22:58:35 [LOCALTEST] INFO: TeamUtilization: 'PAID' (8m) = 0% | 0 records, 0 total manpower | 25ms
-2025-09-10 22:58:35 [LOCALTEST] INFO: TeamUtilization: 'Security and Compliance' (10m) = 0% | 0 records, 0 total manpower | 23ms
-2025-09-10 22:58:35 [LOCALTEST] INFO: TeamUtilization: 'Voice' (1m) = 0% | 0 records, 0 total manpower | 28ms
-2025-09-10 22:58:35 [LOCALTEST] INFO: PAGE TIMING: Page_Load COMPLETE in 3390ms at 22:58:35.147
+=== NEW SESSION STARTED 2025-09-12 10:18:39 ===
+2025-09-12 10:18:39 [LOCALTEST] INFO: AUTH TIMING: GetCurrentUser() START
+2025-09-12 10:18:39 [LOCALTEST] INFO: AUTH TIMING: Username resolved to 'th3882' in 1ms
+2025-09-12 10:18:39 [LOCALTEST] INFO: WHITELIST: Checking database first for user th3882
+2025-09-12 10:18:41 [LOCALTEST] ERROR: DEBUG: Returned from CheckUserForWhitelist, result = FOUND
+2025-09-12 10:18:41 [LOCALTEST] INFO: WHITELIST HIT: User th3882 found in database, skipping LDAP check
+2025-09-12 10:18:41 [LOCALTEST] INFO: AUTH TIMING: LDAP validation took 2365,5692ms
+2025-09-12 10:18:41 [LOCALTEST] INFO: AUTH TIMING: GetCurrentUser() COMPLETE in 2369ms
+2025-09-12 10:18:42 [LOCALTEST] INFO: GetTeams: Query execution took 33,3008ms
+2025-09-12 10:18:42 [LOCALTEST] INFO: GetTeams: 15 teams loaded in 436ms
