@@ -56,3 +56,15 @@ DEBUG: _currentUser='', _environment='SERVERTEST'
 2025-09-12 01:20:41 [SERVERTEST] INFO: AUTH TIMING: GetCurrentUser() COMPLETE in 1779ms
 2025-09-12 01:20:41 [SERVERTEST] INFO: GetTeams: Query execution took 203.1844ms
 2025-09-12 01:20:41 [SERVERTEST] INFO: GetTeams: 15 teams loaded in 197ms
+2025-09-12 01:22:54 [SERVERTEST] INFO: AUTH TIMING: Username resolved to 'th3882' in 0ms
+2025-09-12 01:22:54 [SERVERTEST] INFO: WHITELIST: Checking database first for user th3882
+2025-09-12 01:22:55 [SERVERTEST] ERROR: DEBUG: Returned from CheckUserForWhitelist, result = FOUND
+2025-09-12 01:22:55 [SERVERTEST] INFO: WHITELIST HIT: User th3882 found in database, skipping LDAP check
+2025-09-12 01:22:55 [SERVERTEST] INFO: AUTH TIMING: LDAP validation took 1783.6755ms
+2025-09-12 01:22:55 [SERVERTEST] INFO: AUTH TIMING: GetCurrentUser() COMPLETE in 1784ms
+2025-09-12 01:22:56 [SERVERTEST] INFO: GetTeams: Query execution took 187.556ms
+2025-09-12 01:22:56 [SERVERTEST] INFO: GetTeams: 15 teams loaded in 196ms
+2025-09-12 01:23:05 [SERVERTEST] INFO: GetTeams: Query execution took 187.511ms
+2025-09-12 01:23:05 [SERVERTEST] INFO: GetTeams: 15 teams loaded in 194ms
+2025-09-12 01:23:05 [SERVERTEST] INFO: GetTeamMembersWithRoles: 10 members for team 'ASSET' in 193ms
+2025-09-12 01:23:05 [SERVERTEST] INFO: GetARAHours: 0 records in 193ms
