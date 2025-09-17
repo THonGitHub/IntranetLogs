@@ -1,70 +1,55 @@
-=== NEW SESSION STARTED 2025-09-12 01:12:42 ===
+=== NEW SESSION STARTED 2025-09-17 12:08:01 ===
 DEBUG: _currentUser='', _environment='SERVERTEST'
-2025-09-12 01:12:43 [SERVERTEST] INFO: AUTH TIMING: Username resolved to 'th3882' in 1ms
-2025-09-12 01:12:43 [SERVERTEST] INFO: WHITELIST: Checking database first for user th3882
-2025-09-12 01:12:52 [SERVERTEST] ERROR: DEBUG: Returned from CheckUserForWhitelist, result = FOUND
-2025-09-12 01:12:52 [SERVERTEST] INFO: WHITELIST HIT: User th3882 found in database, skipping LDAP check
-2025-09-12 01:12:52 [SERVERTEST] INFO: AUTH TIMING: LDAP validation took 9668.6442ms
-2025-09-12 01:12:52 [SERVERTEST] INFO: AUTH TIMING: GetCurrentUser() COMPLETE in 9659ms
-2025-09-12 01:12:55 [SERVERTEST] INFO: GetTeams: Query execution took 203.2964ms
-2025-09-12 01:12:55 [SERVERTEST] INFO: GetTeams: 15 teams loaded in 3181ms
-2025-09-12 01:13:17 [SERVERTEST] INFO: GetTeams: Query execution took 203.1302ms
-2025-09-12 01:13:17 [SERVERTEST] INFO: GetTeams: 15 teams loaded in 194ms
-2025-09-12 01:13:17 [SERVERTEST] INFO: GetTeamMembersWithRoles: 10 members for team 'ASSET' in 196ms
-2025-09-12 01:13:18 [SERVERTEST] INFO: GetARAHours: 0 records in 193ms
-2025-09-12 01:13:59 [SERVERTEST] INFO: AUTH TIMING: Username resolved to 'th3882' in 0ms
-2025-09-12 01:13:59 [SERVERTEST] INFO: WHITELIST: Checking database first for user th3882
-2025-09-12 01:14:02 [SERVERTEST] ERROR: DEBUG: Returned from CheckUserForWhitelist, result = FOUND
-2025-09-12 01:14:02 [SERVERTEST] INFO: WHITELIST HIT: User th3882 found in database, skipping LDAP check
-2025-09-12 01:14:02 [SERVERTEST] INFO: AUTH TIMING: LDAP validation took 3143.0632ms
-2025-09-12 01:14:02 [SERVERTEST] INFO: AUTH TIMING: GetCurrentUser() COMPLETE in 3136ms
-2025-09-12 01:14:02 [SERVERTEST] INFO: GetTeams: Query execution took 187.4949ms
-2025-09-12 01:14:02 [SERVERTEST] INFO: GetTeams: 15 teams loaded in 194ms
-2025-09-12 01:14:19 [SERVERTEST] INFO: GetTeams: Query execution took 187.7201ms
-2025-09-12 01:14:19 [SERVERTEST] INFO: GetTeams: 15 teams loaded in 194ms
-2025-09-12 01:14:20 [SERVERTEST] INFO: GetTeamMembersWithRoles: 10 members for team 'ASSET' in 193ms
-2025-09-12 01:14:20 [SERVERTEST] INFO: GetARAHours: 0 records in 193ms
-2025-09-12 01:17:09 [SERVERTEST] INFO: AUTH TIMING: Username resolved to 'th3882' in 0ms
-2025-09-12 01:17:09 [SERVERTEST] INFO: WHITELIST: Checking database first for user th3882
-2025-09-12 01:17:12 [SERVERTEST] ERROR: DEBUG: Returned from CheckUserForWhitelist, result = FOUND
-2025-09-12 01:17:12 [SERVERTEST] INFO: WHITELIST HIT: User th3882 found in database, skipping LDAP check
-2025-09-12 01:17:12 [SERVERTEST] INFO: AUTH TIMING: LDAP validation took 3147.6453ms
-2025-09-12 01:17:12 [SERVERTEST] INFO: AUTH TIMING: GetCurrentUser() COMPLETE in 3143ms
-2025-09-12 01:17:12 [SERVERTEST] INFO: GetTeams: Query execution took 189.4434ms
-2025-09-12 01:17:12 [SERVERTEST] INFO: GetTeams: 15 teams loaded in 195ms
-2025-09-12 01:17:26 [SERVERTEST] INFO: GetTeams: Query execution took 187.5691ms
-2025-09-12 01:17:26 [SERVERTEST] INFO: GetTeams: 15 teams loaded in 195ms
-2025-09-12 01:17:27 [SERVERTEST] INFO: GetTeamMembersWithRoles: 10 members for team 'ASSET' in 193ms
-2025-09-12 01:17:27 [SERVERTEST] INFO: GetARAHours: 0 records in 200ms
-2025-09-12 01:20:15 [SERVERTEST] INFO: AUTH TIMING: Username resolved to 'th3882' in 0ms
-2025-09-12 01:20:15 [SERVERTEST] INFO: WHITELIST: Checking database first for user th3882
-2025-09-12 01:20:19 [SERVERTEST] ERROR: DEBUG: Returned from CheckUserForWhitelist, result = FOUND
-2025-09-12 01:20:19 [SERVERTEST] INFO: WHITELIST HIT: User th3882 found in database, skipping LDAP check
-2025-09-12 01:20:19 [SERVERTEST] INFO: AUTH TIMING: LDAP validation took 3111.0029ms
-2025-09-12 01:20:19 [SERVERTEST] INFO: AUTH TIMING: GetCurrentUser() COMPLETE in 3115ms
-2025-09-12 01:20:19 [SERVERTEST] INFO: GetTeams: Query execution took 203.1345ms
-2025-09-12 01:20:19 [SERVERTEST] INFO: GetTeams: 15 teams loaded in 194ms
-2025-09-12 01:20:39 [SERVERTEST] INFO: AUTH TIMING: Username resolved to 'th3882' in 0ms
-2025-09-12 01:20:39 [SERVERTEST] INFO: WHITELIST: Checking database first for user th3882
-2025-09-12 01:20:39 [SERVERTEST] INFO: GetTeams: Query execution took 187.4996ms
-2025-09-12 01:20:39 [SERVERTEST] INFO: GetTeams: 15 teams loaded in 194ms
-2025-09-12 01:20:40 [SERVERTEST] INFO: GetTeamMembersWithRoles: 10 members for team 'ASSET' in 194ms
-2025-09-12 01:20:40 [SERVERTEST] INFO: GetARAHours: 0 records in 193ms
-2025-09-12 01:20:41 [SERVERTEST] ERROR: DEBUG: Returned from CheckUserForWhitelist, result = FOUND
-2025-09-12 01:20:41 [SERVERTEST] INFO: WHITELIST HIT: User th3882 found in database, skipping LDAP check
-2025-09-12 01:20:41 [SERVERTEST] INFO: AUTH TIMING: LDAP validation took 1781.208ms
-2025-09-12 01:20:41 [SERVERTEST] INFO: AUTH TIMING: GetCurrentUser() COMPLETE in 1779ms
-2025-09-12 01:20:41 [SERVERTEST] INFO: GetTeams: Query execution took 203.1844ms
-2025-09-12 01:20:41 [SERVERTEST] INFO: GetTeams: 15 teams loaded in 197ms
-2025-09-12 01:22:54 [SERVERTEST] INFO: AUTH TIMING: Username resolved to 'th3882' in 0ms
-2025-09-12 01:22:54 [SERVERTEST] INFO: WHITELIST: Checking database first for user th3882
-2025-09-12 01:22:55 [SERVERTEST] ERROR: DEBUG: Returned from CheckUserForWhitelist, result = FOUND
-2025-09-12 01:22:55 [SERVERTEST] INFO: WHITELIST HIT: User th3882 found in database, skipping LDAP check
-2025-09-12 01:22:55 [SERVERTEST] INFO: AUTH TIMING: LDAP validation took 1783.6755ms
-2025-09-12 01:22:55 [SERVERTEST] INFO: AUTH TIMING: GetCurrentUser() COMPLETE in 1784ms
-2025-09-12 01:22:56 [SERVERTEST] INFO: GetTeams: Query execution took 187.556ms
-2025-09-12 01:22:56 [SERVERTEST] INFO: GetTeams: 15 teams loaded in 196ms
-2025-09-12 01:23:05 [SERVERTEST] INFO: GetTeams: Query execution took 187.511ms
-2025-09-12 01:23:05 [SERVERTEST] INFO: GetTeams: 15 teams loaded in 194ms
-2025-09-12 01:23:05 [SERVERTEST] INFO: GetTeamMembersWithRoles: 10 members for team 'ASSET' in 193ms
-2025-09-12 01:23:05 [SERVERTEST] INFO: GetARAHours: 0 records in 193ms
+2025-09-17 12:08:12 [SERVERTEST] INFO: AUTH TIMING: Username resolved to 'th3882' in 1ms
+2025-09-17 12:08:12 [SERVERTEST] INFO: WHITELIST: Checking database first for user th3882
+2025-09-17 12:08:21 [SERVERTEST] ERROR: DEBUG: Returned from CheckUserForWhitelist, result = FOUND
+2025-09-17 12:08:21 [SERVERTEST] INFO: WHITELIST HIT: User th3882 found in database, skipping LDAP check
+2025-09-17 12:08:21 [SERVERTEST] INFO: AUTH TIMING: LDAP validation took 9697.3073ms
+2025-09-17 12:08:21 [SERVERTEST] INFO: AUTH TIMING: GetCurrentUser() COMPLETE in 9709ms
+2025-09-17 12:08:25 [SERVERTEST] INFO: GetTeams: 3 teams loaded in 3156ms
+2025-09-17 12:08:33 [SERVERTEST] INFO: GetTeams: 3 teams loaded in 195ms
+2025-09-17 12:08:37 [SERVERTEST] INFO: GetTeamMembersWithRoles: 2 members for team 'SEPELA, Pavol' in 389ms
+2025-09-17 12:08:37 [SERVERTEST] INFO: GetARAHours: 0 records in 194ms
+2025-09-17 12:08:55 [SERVERTEST] INFO: GetTeamMembersWithRoles: 2 members for team 'SEPELA, Pavol' in 389ms
+2025-09-17 12:09:01 [SERVERTEST] INFO: GetTeamMembersWithRoles: 2 members for team 'SEPELA, Pavol' in 389ms
+2025-09-17 12:09:01 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: od2620, excludeTeam: SEPELA, Pavol
+2025-09-17 12:09:04 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole query: SELECT r.teamName FROM AWSuserRoles r INNER JOIN AWSteams t ON r.teamName = t.TeamName WHERE r.userId = @userId AND r.role = 'member' AND r.teamName != @excludeTeamName AND (t.IsTeamDisabled = 0 OR t.IsTeamDisabled IS NULL) LIMIT 1
+2025-09-17 12:09:04 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
+2025-09-17 12:09:07 [SERVERTEST] ERROR: AddTeamMemberWithRoles ERROR: Cannot add or update a child row: a foreign key constraint fails (`TSI_ASSET_AUTOMATION`.`AWSuserRoles`, CONSTRAINT `fk_roles_team` FOREIGN KEY (`teamName`) REFERENCES `AWSteams` (`TeamName`) ON DELETE CASCADE ON UPDATE CASCADE) | StackTrace:    at MySql.Data.MySqlClient.MySqlStream.<ReadPacketAsync>d__30.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at MySql.Data.MySqlClient.NativeDriver.<GetResultAsync>d__45.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at MySql.Data.MySqlClient.Driver.<GetResultAsync>d__85.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at MySql.Data.MySqlClient.Driver.<NextResultAsync>d__84.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at MySql.Data.MySqlClient.MySqlDataReader.<NextResultAsync>d__97.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at MySql.Data.MySqlClient.MySqlDataReader.<NextResultAsync>d__97.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at MySql.Data.MySqlClient.MySqlCommand.<ExecuteReaderAsync>d__111.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at MySql.Data.MySqlClient.MySqlCommand.<ExecuteReaderAsync>d__111.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at MySql.Data.MySqlClient.MySqlCommand.<ExecuteReaderAsync>d__111.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at MySql.Data.MySqlClient.MySqlCommand.<ExecuteNonQueryAsync>d__100.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at ARAworkloadScheduler.DataAccess.AddTeamMemberWithRoles(String userId, String firstName, String lastName, String teamName) in C:\Users\th3882\OneDrive - AT&T Services, Inc\Documents\Programing\VisualBasic\ATT\Dev\ARAworkloadScheduler\Utils\DataAccess.vb:line 420
