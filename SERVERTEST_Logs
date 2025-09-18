@@ -1,55 +1,28 @@
-=== NEW SESSION STARTED 2025-09-17 12:08:01 ===
+=== NEW SESSION STARTED 2025-09-18 03:07:44 ===
 DEBUG: _currentUser='', _environment='SERVERTEST'
-2025-09-17 12:08:12 [SERVERTEST] INFO: AUTH TIMING: Username resolved to 'th3882' in 1ms
-2025-09-17 12:08:12 [SERVERTEST] INFO: WHITELIST: Checking database first for user th3882
-2025-09-17 12:08:21 [SERVERTEST] ERROR: DEBUG: Returned from CheckUserForWhitelist, result = FOUND
-2025-09-17 12:08:21 [SERVERTEST] INFO: WHITELIST HIT: User th3882 found in database, skipping LDAP check
-2025-09-17 12:08:21 [SERVERTEST] INFO: AUTH TIMING: LDAP validation took 9697.3073ms
-2025-09-17 12:08:21 [SERVERTEST] INFO: AUTH TIMING: GetCurrentUser() COMPLETE in 9709ms
-2025-09-17 12:08:25 [SERVERTEST] INFO: GetTeams: 3 teams loaded in 3156ms
-2025-09-17 12:08:33 [SERVERTEST] INFO: GetTeams: 3 teams loaded in 195ms
-2025-09-17 12:08:37 [SERVERTEST] INFO: GetTeamMembersWithRoles: 2 members for team 'SEPELA, Pavol' in 389ms
-2025-09-17 12:08:37 [SERVERTEST] INFO: GetARAHours: 0 records in 194ms
-2025-09-17 12:08:55 [SERVERTEST] INFO: GetTeamMembersWithRoles: 2 members for team 'SEPELA, Pavol' in 389ms
-2025-09-17 12:09:01 [SERVERTEST] INFO: GetTeamMembersWithRoles: 2 members for team 'SEPELA, Pavol' in 389ms
-2025-09-17 12:09:01 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: od2620, excludeTeam: SEPELA, Pavol
-2025-09-17 12:09:04 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole query: SELECT r.teamName FROM AWSuserRoles r INNER JOIN AWSteams t ON r.teamName = t.TeamName WHERE r.userId = @userId AND r.role = 'member' AND r.teamName != @excludeTeamName AND (t.IsTeamDisabled = 0 OR t.IsTeamDisabled IS NULL) LIMIT 1
-2025-09-17 12:09:04 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-17 12:09:07 [SERVERTEST] ERROR: AddTeamMemberWithRoles ERROR: Cannot add or update a child row: a foreign key constraint fails (`TSI_ASSET_AUTOMATION`.`AWSuserRoles`, CONSTRAINT `fk_roles_team` FOREIGN KEY (`teamName`) REFERENCES `AWSteams` (`TeamName`) ON DELETE CASCADE ON UPDATE CASCADE) | StackTrace:    at MySql.Data.MySqlClient.MySqlStream.<ReadPacketAsync>d__30.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at MySql.Data.MySqlClient.NativeDriver.<GetResultAsync>d__45.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at MySql.Data.MySqlClient.Driver.<GetResultAsync>d__85.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at MySql.Data.MySqlClient.Driver.<NextResultAsync>d__84.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
-   at MySql.Data.MySqlClient.MySqlDataReader.<NextResultAsync>d__97.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
-   at MySql.Data.MySqlClient.MySqlDataReader.<NextResultAsync>d__97.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at MySql.Data.MySqlClient.MySqlCommand.<ExecuteReaderAsync>d__111.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
-   at MySql.Data.MySqlClient.MySqlCommand.<ExecuteReaderAsync>d__111.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
-   at MySql.Data.MySqlClient.MySqlCommand.<ExecuteReaderAsync>d__111.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at MySql.Data.MySqlClient.MySqlCommand.<ExecuteNonQueryAsync>d__100.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
-   at ARAworkloadScheduler.DataAccess.AddTeamMemberWithRoles(String userId, String firstName, String lastName, String teamName) in C:\Users\th3882\OneDrive - AT&T Services, Inc\Documents\Programing\VisualBasic\ATT\Dev\ARAworkloadScheduler\Utils\DataAccess.vb:line 420
+2025-09-18 03:07:44 [SERVERTEST] INFO: AUTH TIMING: Username resolved to 'th3882' in 1ms
+2025-09-18 03:07:44 [SERVERTEST] INFO: WHITELIST: Checking database first for user th3882
+2025-09-18 03:07:54 [SERVERTEST] ERROR: DEBUG: Returned from CheckUserForWhitelist, result = FOUND
+2025-09-18 03:07:54 [SERVERTEST] INFO: WHITELIST HIT: User th3882 found in database, skipping LDAP check
+2025-09-18 03:07:54 [SERVERTEST] INFO: AUTH TIMING: LDAP validation took 9696.2975ms
+2025-09-18 03:07:54 [SERVERTEST] INFO: AUTH TIMING: GetCurrentUser() COMPLETE in 9691ms
+2025-09-18 03:07:57 [SERVERTEST] INFO: GetTeams: 3 teams loaded in 3173ms
+2025-09-18 03:08:26 [SERVERTEST] INFO: GetTeams: 3 teams loaded in 195ms
+2025-09-18 03:08:29 [SERVERTEST] INFO: GetTeamMembersWithRoles: 4 members for team 'SEPELA, Pavol' in 391ms
+2025-09-18 03:08:29 [SERVERTEST] INFO: GetARAHours: 0 records in 197ms
+2025-09-18 03:08:47 [SERVERTEST] INFO: GetTeamMembersWithRoles: 4 members for team 'SEPELA, Pavol' in 391ms
+2025-09-18 03:08:51 [SERVERTEST] INFO: Deleted 0 shift schedule records for user od2620
+2025-09-18 03:08:51 [SERVERTEST] INFO: Deleted 0 ARA schedule records for user od2620
+2025-09-18 03:08:55 [SERVERTEST] INFO: Recalculated manpower for team SEPELA, Pavol after user od2620 deletion
+2025-09-18 03:08:55 [SERVERTEST] INFO: DeleteUser: User od2620 soft deleted successfully
+2025-09-18 03:08:55 [SERVERTEST] INFO: GetTeamMembersWithRoles: 3 members for team 'SEPELA, Pavol' in 391ms
+2025-09-18 03:08:55 [SERVERTEST] INFO: GetARAHours: 0 records in 195ms
+2025-09-18 03:10:32 [SERVERTEST] INFO: GetTeamMembersWithRoles: 3 members for team 'SEPELA, Pavol' in 391ms
+2025-09-18 03:13:52 [SERVERTEST] INFO: GetTeamMembersWithRoles: 3 members for team 'SEPELA, Pavol' in 391ms
+2025-09-18 03:13:52 [SERVERTEST] INFO: GetTeamMembersWithRoles: 3 members for team 'SEPELA, Pavol' in 391ms
+2025-09-18 03:13:52 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: od2620, excludeManager: SEPELA, Pavol
+2025-09-18 03:13:56 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
+2025-09-18 03:13:56 [SERVERTEST] INFO: AddTeamMemberWithRoles START - UserId: od2620, Team: SEPELA, Pavol, Name: ONDREJ DORICA
+2025-09-18 03:13:58 [SERVERTEST] INFO: User reactivated successfully
+2025-09-18 03:13:58 [SERVERTEST] INFO: GetTeamMembersWithRoles: 4 members for team 'SEPELA, Pavol' in 392ms
+2025-09-18 03:13:59 [SERVERTEST] INFO: GetARAHours: 0 records in 195ms
