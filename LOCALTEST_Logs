@@ -1,22 +1,22 @@
-=== NEW SESSION STARTED 2025-09-19 22:04:06 ===
-2025-09-19 22:04:06 [LOCALTEST] INFO: AUTH TIMING: GetCurrentUser() START
-2025-09-19 22:04:06 [LOCALTEST] INFO: AUTH TIMING: Username resolved to 'th3882' in 1ms
-2025-09-19 22:04:06 [LOCALTEST] INFO: WHITELIST: Checking database first for user th3882
-2025-09-19 22:04:09 [LOCALTEST] ERROR: DEBUG: Returned from CheckUserForWhitelist, result = FOUND
-2025-09-19 22:04:09 [LOCALTEST] INFO: WHITELIST HIT: User th3882 found in database, skipping LDAP check
-2025-09-19 22:04:09 [LOCALTEST] INFO: AUTH TIMING: LDAP validation took 2322,8017ms
-2025-09-19 22:04:09 [LOCALTEST] INFO: AUTH TIMING: GetCurrentUser() COMPLETE in 2325ms
-2025-09-19 22:04:09 [LOCALTEST] INFO: GetManpowerData: 0 records in 52ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 22:04:09 [LOCALTEST] INFO: GetManpowerData: 0 records in 52ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 22:04:09 [LOCALTEST] INFO: GetManpowerData: 0 records in 277ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 22:04:09 [LOCALTEST] INFO: GetManpowerData: 0 records in 50ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 22:04:10 [LOCALTEST] INFO: GetManpowerData: 0 records in 56ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 22:04:10 [LOCALTEST] INFO: GetManpowerData: 0 records in 50ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 22:04:10 [LOCALTEST] INFO: GetManpowerData: 0 records in 50ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 22:04:10 [LOCALTEST] INFO: GetManpowerData: 0 records in 49ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 22:04:10 [LOCALTEST] INFO: GetManpowerData: 0 records in 51ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 22:04:10 [LOCALTEST] INFO: GetManpowerData: 0 records in 50ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 22:04:10 [LOCALTEST] INFO: GetManpowerData: 0 records in 55ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 22:04:10 [LOCALTEST] INFO: GetManpowerData: 0 records in 51ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 22:04:10 [LOCALTEST] INFO: GetManpowerData: 0 records in 49ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 22:04:10 [LOCALTEST] INFO: GetManpowerData: 0 records in 24ms for date range 2025-09-15 to 2025-09-21
+=== NEW SESSION STARTED 2025-09-19 22:16:50 ===
+2025-09-19 22:16:50 [LOCALTEST] INFO: AUTH TIMING: GetCurrentUser() START
+2025-09-19 22:16:50 [LOCALTEST] INFO: AUTH TIMING: Username resolved to 'th3882' in 2ms
+2025-09-19 22:16:50 [LOCALTEST] INFO: WHITELIST: Checking database first for user th3882
+2025-09-19 22:16:53 [LOCALTEST] ERROR: DEBUG: Returned from CheckUserForWhitelist, result = FOUND
+2025-09-19 22:16:53 [LOCALTEST] INFO: WHITELIST HIT: User th3882 found in database, skipping LDAP check
+2025-09-19 22:16:53 [LOCALTEST] INFO: AUTH TIMING: LDAP validation took 2305,5347ms
+2025-09-19 22:16:53 [LOCALTEST] INFO: AUTH TIMING: GetCurrentUser() COMPLETE in 2308ms
+2025-09-19 22:16:53 [LOCALTEST] INFO: GetManpowerData: 0 records in 50ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 22:16:53 [LOCALTEST] INFO: GetManpowerData: 0 records in 51ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 22:16:53 [LOCALTEST] INFO: GetManpowerData: 0 records in 50ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 22:16:53 [LOCALTEST] INFO: GetManpowerData: 0 records in 49ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 22:16:53 [LOCALTEST] INFO: GetManpowerData: 0 records in 52ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 22:16:53 [LOCALTEST] INFO: GetManpowerData: 0 records in 49ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 22:16:54 [LOCALTEST] INFO: GetManpowerData: 0 records in 51ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 22:16:54 [LOCALTEST] INFO: GetManpowerData: 0 records in 50ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 22:16:54 [LOCALTEST] INFO: GetManpowerData: 0 records in 51ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 22:16:54 [LOCALTEST] INFO: GetManpowerData: 0 records in 53ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 22:16:54 [LOCALTEST] INFO: GetManpowerData: 0 records in 52ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 22:16:54 [LOCALTEST] INFO: GetManpowerData: 0 records in 51ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 22:16:54 [LOCALTEST] INFO: GetManpowerData: 0 records in 53ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 22:16:54 [LOCALTEST] INFO: GetManpowerData: 0 records in 25ms for date range 2025-09-15 to 2025-09-21
