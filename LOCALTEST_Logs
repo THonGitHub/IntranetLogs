@@ -1,141 +1,22 @@
-=== NEW SESSION STARTED 2025-09-19 19:52:54 ===
-2025-09-19 19:52:54 [LOCALTEST] INFO: AUTH TIMING: GetCurrentUser() START
-2025-09-19 19:52:54 [LOCALTEST] INFO: AUTH TIMING: Username resolved to 'th3882' in 2ms
-2025-09-19 19:52:54 [LOCALTEST] INFO: WHITELIST: Checking database first for user th3882
-2025-09-19 19:52:57 [LOCALTEST] ERROR: DEBUG: Returned from CheckUserForWhitelist, result = FOUND
-2025-09-19 19:52:57 [LOCALTEST] INFO: WHITELIST HIT: User th3882 found in database, skipping LDAP check
-2025-09-19 19:52:57 [LOCALTEST] INFO: AUTH TIMING: LDAP validation took 2355,9862ms
-2025-09-19 19:52:57 [LOCALTEST] INFO: AUTH TIMING: GetCurrentUser() COMPLETE in 2359ms
-2025-09-19 19:52:57 [LOCALTEST] INFO: GetManpowerData: 0 records in 53ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 19:52:58 [LOCALTEST] INFO: GetManpowerData: 0 records in 51ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 19:52:58 [LOCALTEST] INFO: GetManpowerData: 0 records in 50ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 19:52:58 [LOCALTEST] INFO: GetManpowerData: 0 records in 51ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 19:52:58 [LOCALTEST] INFO: GetManpowerData: 0 records in 54ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 19:52:58 [LOCALTEST] INFO: GetManpowerData: 0 records in 52ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 19:52:58 [LOCALTEST] INFO: GetManpowerData: 0 records in 51ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 19:52:58 [LOCALTEST] INFO: GetManpowerData: 0 records in 68ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 19:52:58 [LOCALTEST] INFO: GetManpowerData: 0 records in 51ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 19:52:58 [LOCALTEST] INFO: GetManpowerData: 0 records in 62ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 19:52:58 [LOCALTEST] INFO: GetManpowerData: 0 records in 53ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 19:52:58 [LOCALTEST] INFO: GetManpowerData: 0 records in 49ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 19:52:58 [LOCALTEST] INFO: GetManpowerData: 0 records in 50ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 19:52:58 [LOCALTEST] INFO: GetManpowerData: 0 records in 25ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 21:08:10 [LOCALTEST] ERROR: GetTeams failed after 21932ms: Fatal error encountered during command execution
-2025-09-19 21:08:30 [LOCALTEST] INFO: CalculateAndUpdateManpower START - TeamName: AKKERSDIJK, ASKO, StartDate: 2025-09-15, EndDate: 2025-09-21
-2025-09-19 21:08:50 [LOCALTEST] INFO: Found managerId: aa0797 for team: AKKERSDIJK, ASKO
-2025-09-19 21:08:50 [LOCALTEST] INFO: Extended ARA query range: 2025-09-14 to 2025-09-22
-2025-09-19 21:08:50 [LOCALTEST] INFO: === ARA DATA RETRIEVED ===
-2025-09-19 21:08:50 [LOCALTEST] INFO: Total ARA records: 0
-2025-09-19 21:08:50 [LOCALTEST] INFO: Deleted 0 existing manpower records
-2025-09-19 21:08:50 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team AKKERSDIJK, ASKO in 19875ms
-2025-09-19 21:08:50 [LOCALTEST] INFO: CalculateAndUpdateManpower START - TeamName: ARROYO, CARLOS, StartDate: 2025-09-15, EndDate: 2025-09-21
-2025-09-19 21:09:10 [LOCALTEST] INFO: Found managerId: ca2579 for team: ARROYO, CARLOS
-2025-09-19 21:09:10 [LOCALTEST] INFO: Extended ARA query range: 2025-09-14 to 2025-09-22
-2025-09-19 21:09:10 [LOCALTEST] INFO: === ARA DATA RETRIEVED ===
-2025-09-19 21:09:10 [LOCALTEST] INFO: Total ARA records: 0
-2025-09-19 21:09:10 [LOCALTEST] INFO: Deleted 0 existing manpower records
-2025-09-19 21:09:10 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team ARROYO, CARLOS in 19896ms
-2025-09-19 21:09:10 [LOCALTEST] INFO: CalculateAndUpdateManpower START - TeamName: COSENTINO, MARIANO, StartDate: 2025-09-15, EndDate: 2025-09-21
-2025-09-19 21:09:30 [LOCALTEST] INFO: Found managerId: mc735p for team: COSENTINO, MARIANO
-2025-09-19 21:09:30 [LOCALTEST] INFO: Extended ARA query range: 2025-09-14 to 2025-09-22
-2025-09-19 21:09:30 [LOCALTEST] INFO: === ARA DATA RETRIEVED ===
-2025-09-19 21:09:30 [LOCALTEST] INFO: Total ARA records: 0
-2025-09-19 21:09:30 [LOCALTEST] INFO: Deleted 0 existing manpower records
-2025-09-19 21:09:30 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team COSENTINO, MARIANO in 19861ms
-2025-09-19 21:09:30 [LOCALTEST] INFO: CalculateAndUpdateManpower START - TeamName: DOBSON, JOHN, StartDate: 2025-09-15, EndDate: 2025-09-21
-2025-09-19 21:09:30 [LOCALTEST] INFO: Found managerId: jd7971 for team: DOBSON, JOHN
-2025-09-19 21:09:30 [LOCALTEST] INFO: Extended ARA query range: 2025-09-14 to 2025-09-22
-2025-09-19 21:09:30 [LOCALTEST] INFO: === ARA DATA RETRIEVED ===
-2025-09-19 21:09:30 [LOCALTEST] INFO: Total ARA records: 0
-2025-09-19 21:09:30 [LOCALTEST] INFO: Deleted 0 existing manpower records
-2025-09-19 21:09:30 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team DOBSON, JOHN in 331ms
-2025-09-19 21:09:30 [LOCALTEST] INFO: CalculateAndUpdateManpower START - TeamName: EYAL, OFER, StartDate: 2025-09-15, EndDate: 2025-09-21
-2025-09-19 21:09:30 [LOCALTEST] INFO: Found managerId: oe218x for team: EYAL, OFER
-2025-09-19 21:09:30 [LOCALTEST] INFO: Extended ARA query range: 2025-09-14 to 2025-09-22
-2025-09-19 21:09:30 [LOCALTEST] INFO: === ARA DATA RETRIEVED ===
-2025-09-19 21:09:30 [LOCALTEST] INFO: Total ARA records: 0
-2025-09-19 21:09:30 [LOCALTEST] INFO: Deleted 0 existing manpower records
-2025-09-19 21:09:30 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team EYAL, OFER in 324ms
-2025-09-19 21:09:30 [LOCALTEST] INFO: CalculateAndUpdateManpower START - TeamName: FRESSONE, DANTE, StartDate: 2025-09-15, EndDate: 2025-09-21
-2025-09-19 21:09:31 [LOCALTEST] INFO: Found managerId: df461h for team: FRESSONE, DANTE
-2025-09-19 21:09:31 [LOCALTEST] INFO: Extended ARA query range: 2025-09-14 to 2025-09-22
-2025-09-19 21:09:31 [LOCALTEST] INFO: === ARA DATA RETRIEVED ===
-2025-09-19 21:09:31 [LOCALTEST] INFO: Total ARA records: 0
-2025-09-19 21:09:31 [LOCALTEST] INFO: Deleted 0 existing manpower records
-2025-09-19 21:09:31 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team FRESSONE, DANTE in 328ms
-2025-09-19 21:09:31 [LOCALTEST] INFO: CalculateAndUpdateManpower START - TeamName: LISGES, WOLFGANG, StartDate: 2025-09-15, EndDate: 2025-09-21
-2025-09-19 21:09:31 [LOCALTEST] INFO: Found managerId: wl2628 for team: LISGES, WOLFGANG
-2025-09-19 21:09:31 [LOCALTEST] INFO: Extended ARA query range: 2025-09-14 to 2025-09-22
-2025-09-19 21:09:31 [LOCALTEST] INFO: === ARA DATA RETRIEVED ===
-2025-09-19 21:09:31 [LOCALTEST] INFO: Total ARA records: 0
-2025-09-19 21:09:31 [LOCALTEST] INFO: Deleted 0 existing manpower records
-2025-09-19 21:09:31 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team LISGES, WOLFGANG in 323ms
-2025-09-19 21:09:31 [LOCALTEST] INFO: CalculateAndUpdateManpower START - TeamName: MONTANO SALAZAR, JOSUE, StartDate: 2025-09-15, EndDate: 2025-09-21
-2025-09-19 21:09:31 [LOCALTEST] INFO: Found managerId: jm0441 for team: MONTANO SALAZAR, JOSUE
-2025-09-19 21:09:31 [LOCALTEST] INFO: Extended ARA query range: 2025-09-14 to 2025-09-22
-2025-09-19 21:09:31 [LOCALTEST] INFO: === ARA DATA RETRIEVED ===
-2025-09-19 21:09:31 [LOCALTEST] INFO: Total ARA records: 0
-2025-09-19 21:09:31 [LOCALTEST] INFO: Deleted 0 existing manpower records
-2025-09-19 21:09:31 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team MONTANO SALAZAR, JOSUE in 316ms
-2025-09-19 21:09:31 [LOCALTEST] INFO: CalculateAndUpdateManpower START - TeamName: PERISSE, ANDRE, StartDate: 2025-09-15, EndDate: 2025-09-21
-2025-09-19 21:09:31 [LOCALTEST] INFO: Found managerId: ap842n for team: PERISSE, ANDRE
-2025-09-19 21:09:31 [LOCALTEST] INFO: Extended ARA query range: 2025-09-14 to 2025-09-22
-2025-09-19 21:09:31 [LOCALTEST] INFO: === ARA DATA RETRIEVED ===
-2025-09-19 21:09:31 [LOCALTEST] INFO: Total ARA records: 0
-2025-09-19 21:09:32 [LOCALTEST] INFO: Deleted 0 existing manpower records
-2025-09-19 21:09:32 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team PERISSE, ANDRE in 317ms
-2025-09-19 21:09:32 [LOCALTEST] INFO: CalculateAndUpdateManpower START - TeamName: SEPELA, Pavol, StartDate: 2025-09-15, EndDate: 2025-09-21
-2025-09-19 21:09:32 [LOCALTEST] INFO: Found managerId: ps163h for team: SEPELA, Pavol
-2025-09-19 21:09:32 [LOCALTEST] INFO: Extended ARA query range: 2025-09-14 to 2025-09-22
-2025-09-19 21:09:32 [LOCALTEST] INFO: === ARA DATA RETRIEVED ===
-2025-09-19 21:09:32 [LOCALTEST] INFO: Total ARA records: 0
-2025-09-19 21:09:32 [LOCALTEST] INFO: Deleted 0 existing manpower records
-2025-09-19 21:09:32 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team SEPELA, Pavol in 326ms
-2025-09-19 21:09:32 [LOCALTEST] INFO: CalculateAndUpdateManpower START - TeamName: SPARKS, JOHN, StartDate: 2025-09-15, EndDate: 2025-09-21
-2025-09-19 21:09:32 [LOCALTEST] INFO: Found managerId: js4578 for team: SPARKS, JOHN
-2025-09-19 21:09:32 [LOCALTEST] INFO: Extended ARA query range: 2025-09-14 to 2025-09-22
-2025-09-19 21:09:32 [LOCALTEST] INFO: === ARA DATA RETRIEVED ===
-2025-09-19 21:09:32 [LOCALTEST] INFO: Total ARA records: 0
-2025-09-19 21:09:32 [LOCALTEST] INFO: Deleted 0 existing manpower records
-2025-09-19 21:09:32 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team SPARKS, JOHN in 329ms
-2025-09-19 21:09:32 [LOCALTEST] INFO: CalculateAndUpdateManpower START - TeamName: SUJAN, GREGOR, StartDate: 2025-09-15, EndDate: 2025-09-21
-2025-09-19 21:09:32 [LOCALTEST] INFO: Found managerId: gs2643 for team: SUJAN, GREGOR
-2025-09-19 21:09:32 [LOCALTEST] INFO: Extended ARA query range: 2025-09-14 to 2025-09-22
-2025-09-19 21:09:32 [LOCALTEST] INFO: === ARA DATA RETRIEVED ===
-2025-09-19 21:09:32 [LOCALTEST] INFO: Total ARA records: 0
-2025-09-19 21:09:32 [LOCALTEST] INFO: Deleted 0 existing manpower records
-2025-09-19 21:09:32 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team SUJAN, GREGOR in 320ms
-2025-09-19 21:09:32 [LOCALTEST] INFO: CalculateAndUpdateManpower START - TeamName: VAN OSNABRUGGE, MARTIJN, StartDate: 2025-09-15, EndDate: 2025-09-21
-2025-09-19 21:09:33 [LOCALTEST] INFO: Found managerId: mv2896 for team: VAN OSNABRUGGE, MARTIJN
-2025-09-19 21:09:33 [LOCALTEST] INFO: Extended ARA query range: 2025-09-14 to 2025-09-22
-2025-09-19 21:09:33 [LOCALTEST] INFO: === ARA DATA RETRIEVED ===
-2025-09-19 21:09:33 [LOCALTEST] INFO: Total ARA records: 0
-2025-09-19 21:09:33 [LOCALTEST] INFO: Deleted 0 existing manpower records
-2025-09-19 21:09:33 [LOCALTEST] INFO: CalculateAndUpdateManpower completed for team VAN OSNABRUGGE, MARTIJN in 329ms
-2025-09-19 21:09:33 [LOCALTEST] INFO: GetManpowerData: 0 records in 49ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 21:09:33 [LOCALTEST] INFO: GetManpowerData: 0 records in 51ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 21:09:33 [LOCALTEST] INFO: GetManpowerData: 0 records in 51ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 21:09:33 [LOCALTEST] INFO: GetManpowerData: 0 records in 50ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 21:09:33 [LOCALTEST] INFO: GetManpowerData: 0 records in 49ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 21:09:33 [LOCALTEST] INFO: GetManpowerData: 0 records in 53ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 21:09:33 [LOCALTEST] INFO: GetManpowerData: 0 records in 49ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 21:09:33 [LOCALTEST] INFO: GetManpowerData: 0 records in 50ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 21:09:33 [LOCALTEST] INFO: GetManpowerData: 0 records in 49ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 21:09:33 [LOCALTEST] INFO: GetManpowerData: 0 records in 49ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 21:09:33 [LOCALTEST] INFO: GetManpowerData: 0 records in 49ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 21:09:33 [LOCALTEST] INFO: GetManpowerData: 0 records in 50ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 21:09:34 [LOCALTEST] INFO: GetManpowerData: 0 records in 49ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 21:09:34 [LOCALTEST] INFO: GetManpowerData: 0 records in 24ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 21:09:34 [LOCALTEST] INFO: GetManpowerData: 0 records in 25ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 21:09:34 [LOCALTEST] INFO: GetManpowerData: 0 records in 24ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 21:09:34 [LOCALTEST] INFO: GetManpowerData: 0 records in 24ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 21:09:34 [LOCALTEST] INFO: GetManpowerData: 0 records in 25ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 21:09:34 [LOCALTEST] INFO: GetManpowerData: 0 records in 24ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 21:09:34 [LOCALTEST] INFO: GetManpowerData: 0 records in 24ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 21:09:34 [LOCALTEST] INFO: GetManpowerData: 0 records in 26ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 21:09:34 [LOCALTEST] INFO: GetManpowerData: 0 records in 24ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 21:09:34 [LOCALTEST] INFO: GetManpowerData: 0 records in 25ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 21:09:34 [LOCALTEST] INFO: GetManpowerData: 0 records in 25ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 21:09:34 [LOCALTEST] INFO: GetManpowerData: 0 records in 25ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 21:09:34 [LOCALTEST] INFO: GetManpowerData: 0 records in 25ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 21:09:34 [LOCALTEST] INFO: GetManpowerData: 0 records in 24ms for date range 2025-09-15 to 2025-09-21
+=== NEW SESSION STARTED 2025-09-19 22:04:06 ===
+2025-09-19 22:04:06 [LOCALTEST] INFO: AUTH TIMING: GetCurrentUser() START
+2025-09-19 22:04:06 [LOCALTEST] INFO: AUTH TIMING: Username resolved to 'th3882' in 1ms
+2025-09-19 22:04:06 [LOCALTEST] INFO: WHITELIST: Checking database first for user th3882
+2025-09-19 22:04:09 [LOCALTEST] ERROR: DEBUG: Returned from CheckUserForWhitelist, result = FOUND
+2025-09-19 22:04:09 [LOCALTEST] INFO: WHITELIST HIT: User th3882 found in database, skipping LDAP check
+2025-09-19 22:04:09 [LOCALTEST] INFO: AUTH TIMING: LDAP validation took 2322,8017ms
+2025-09-19 22:04:09 [LOCALTEST] INFO: AUTH TIMING: GetCurrentUser() COMPLETE in 2325ms
+2025-09-19 22:04:09 [LOCALTEST] INFO: GetManpowerData: 0 records in 52ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 22:04:09 [LOCALTEST] INFO: GetManpowerData: 0 records in 52ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 22:04:09 [LOCALTEST] INFO: GetManpowerData: 0 records in 277ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 22:04:09 [LOCALTEST] INFO: GetManpowerData: 0 records in 50ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 22:04:10 [LOCALTEST] INFO: GetManpowerData: 0 records in 56ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 22:04:10 [LOCALTEST] INFO: GetManpowerData: 0 records in 50ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 22:04:10 [LOCALTEST] INFO: GetManpowerData: 0 records in 50ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 22:04:10 [LOCALTEST] INFO: GetManpowerData: 0 records in 49ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 22:04:10 [LOCALTEST] INFO: GetManpowerData: 0 records in 51ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 22:04:10 [LOCALTEST] INFO: GetManpowerData: 0 records in 50ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 22:04:10 [LOCALTEST] INFO: GetManpowerData: 0 records in 55ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 22:04:10 [LOCALTEST] INFO: GetManpowerData: 0 records in 51ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 22:04:10 [LOCALTEST] INFO: GetManpowerData: 0 records in 49ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 22:04:10 [LOCALTEST] INFO: GetManpowerData: 0 records in 24ms for date range 2025-09-15 to 2025-09-21

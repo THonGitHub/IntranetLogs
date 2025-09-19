@@ -1,509 +1,140 @@
-=== NEW SESSION STARTED 2025-09-19 10:37:23 ===
+=== NEW SESSION STARTED 2025-09-19 13:03:49 ===
 DEBUG: _currentUser='', _environment='SERVERTEST'
-2025-09-19 10:37:23 [SERVERTEST] INFO: AUTH TIMING: Username resolved to 'th3882' in 1ms
-2025-09-19 10:37:23 [SERVERTEST] INFO: WHITELIST: Checking database first for user th3882
-2025-09-19 10:37:30 [SERVERTEST] ERROR: DEBUG: Returned from CheckUserForWhitelist, result = FOUND
-2025-09-19 10:37:30 [SERVERTEST] INFO: WHITELIST HIT: User th3882 found in database, skipping LDAP check
-2025-09-19 10:37:30 [SERVERTEST] INFO: AUTH TIMING: LDAP validation took 6650.4251ms
-2025-09-19 10:37:30 [SERVERTEST] INFO: AUTH TIMING: GetCurrentUser() COMPLETE in 6657ms
-2025-09-19 10:37:32 [SERVERTEST] INFO: GetManpowerData: 0 records in 260ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 10:37:33 [SERVERTEST] INFO: GetManpowerData: 0 records in 261ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 10:37:33 [SERVERTEST] INFO: GetManpowerData: 0 records in 260ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 10:37:33 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 10:37:33 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 10:37:34 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 10:37:34 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 10:37:34 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 10:37:34 [SERVERTEST] INFO: GetManpowerData: 0 records in 260ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 10:37:35 [SERVERTEST] INFO: GetManpowerData: 0 records in 263ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 10:37:35 [SERVERTEST] INFO: GetManpowerData: 0 records in 260ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 10:37:35 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 10:37:35 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 10:37:36 [SERVERTEST] INFO: GetManpowerData: 0 records in 129ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 10:51:04 [SERVERTEST] INFO: AUTH TIMING: Username resolved to 'th3882' in 0ms
-2025-09-19 10:51:04 [SERVERTEST] INFO: WHITELIST: Checking database first for user th3882
-2025-09-19 10:51:06 [SERVERTEST] ERROR: DEBUG: Returned from CheckUserForWhitelist, result = FOUND
-2025-09-19 10:51:06 [SERVERTEST] INFO: WHITELIST HIT: User th3882 found in database, skipping LDAP check
-2025-09-19 10:51:06 [SERVERTEST] INFO: AUTH TIMING: LDAP validation took 2109.4783ms
-2025-09-19 10:51:06 [SERVERTEST] INFO: AUTH TIMING: GetCurrentUser() COMPLETE in 2101ms
-2025-09-19 10:51:06 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 10:51:07 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 10:51:07 [SERVERTEST] INFO: GetManpowerData: 0 records in 274ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 10:51:07 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 10:51:07 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 10:51:08 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 10:51:08 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 10:51:08 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 10:51:08 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 10:51:09 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 10:51:09 [SERVERTEST] INFO: GetManpowerData: 0 records in 260ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 10:51:09 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 10:51:09 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 10:51:10 [SERVERTEST] INFO: GetManpowerData: 0 records in 137ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 10:52:51 [SERVERTEST] INFO: AUTH TIMING: Username resolved to 'th3882' in 0ms
-2025-09-19 10:52:51 [SERVERTEST] INFO: WHITELIST: Checking database first for user th3882
-2025-09-19 10:52:53 [SERVERTEST] ERROR: DEBUG: Returned from CheckUserForWhitelist, result = FOUND
-2025-09-19 10:52:53 [SERVERTEST] INFO: WHITELIST HIT: User th3882 found in database, skipping LDAP check
-2025-09-19 10:52:53 [SERVERTEST] INFO: AUTH TIMING: LDAP validation took 2101.8003ms
-2025-09-19 10:52:53 [SERVERTEST] INFO: AUTH TIMING: GetCurrentUser() COMPLETE in 2116ms
-2025-09-19 10:52:53 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 10:52:54 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 10:52:54 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 10:52:54 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 10:52:55 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 10:52:55 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 10:52:55 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 10:52:55 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 10:52:56 [SERVERTEST] INFO: GetManpowerData: 0 records in 260ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 10:52:56 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 10:52:56 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 10:52:56 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 10:52:57 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 10:52:57 [SERVERTEST] INFO: GetManpowerData: 0 records in 129ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 10:53:17 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 10:53:36 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: cb212x, excludeManager: COSENTINO, MARIANO
-2025-09-19 10:53:37 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 10:53:40 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 10:53:46 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 10:53:46 [SERVERTEST] INFO: GetManpowerData: 0 records in 129ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 10:53:55 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 10:55:01 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: bl1485, excludeManager: COSENTINO, MARIANO
-2025-09-19 10:55:03 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 10:55:05 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 10:59:14 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: dm382j, excludeManager: COSENTINO, MARIANO
-2025-09-19 10:59:16 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 10:59:18 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 10:59:38 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: ro8165, excludeManager: COSENTINO, MARIANO
-2025-09-19 10:59:39 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 10:59:41 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:00:10 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: ts574w, excludeManager: COSENTINO, MARIANO
-2025-09-19 11:00:11 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:00:13 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:00:36 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: sv2514, excludeManager: COSENTINO, MARIANO
-2025-09-19 11:00:37 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:00:39 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:01:15 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: kh908s, excludeManager: COSENTINO, MARIANO
-2025-09-19 11:01:17 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:01:19 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:01:42 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: hp0594, excludeManager: COSENTINO, MARIANO
-2025-09-19 11:01:43 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:01:46 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:02:15 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: gs5737, excludeManager: COSENTINO, MARIANO
-2025-09-19 11:02:17 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:02:19 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:02:43 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 11:02:43 [SERVERTEST] INFO: GetManpowerData: 0 records in 130ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 11:03:29 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: ta774q, excludeManager: DOBSON, JOHN
-2025-09-19 11:03:30 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:03:32 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:03:54 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: ma2328, excludeManager: DOBSON, JOHN
-2025-09-19 11:03:55 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:03:57 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:04:23 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: mb719k, excludeManager: DOBSON, JOHN
-2025-09-19 11:04:24 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:04:26 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:04:59 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: ab2878, excludeManager: DOBSON, JOHN
-2025-09-19 11:05:00 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:05:02 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:05:30 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: pe3671, excludeManager: DOBSON, JOHN
-2025-09-19 11:05:31 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:05:33 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:05:57 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: pg5681, excludeManager: DOBSON, JOHN
-2025-09-19 11:05:58 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:06:00 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:06:20 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: ph168q, excludeManager: DOBSON, JOHN
-2025-09-19 11:06:21 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:06:33 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: ph168q, excludeManager: DOBSON, JOHN
-2025-09-19 11:06:34 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:06:36 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:06:57 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: kc848n, excludeManager: DOBSON, JOHN
-2025-09-19 11:06:59 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:07:01 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:07:45 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: dl0033, excludeManager: DOBSON, JOHN
-2025-09-19 11:07:46 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:07:48 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:08:07 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: ym8076, excludeManager: DOBSON, JOHN
-2025-09-19 11:08:08 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:08:11 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:08:30 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: sm144w, excludeManager: DOBSON, JOHN
-2025-09-19 11:08:31 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:08:34 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:08:41 [SERVERTEST] INFO: GetManpowerData: 0 records in 260ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 11:08:41 [SERVERTEST] INFO: GetManpowerData: 0 records in 130ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 11:08:48 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:09:49 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: fg024n, excludeManager: EYAL, OFER
-2025-09-19 11:09:50 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:09:52 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:10:10 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: mm523e, excludeManager: EYAL, OFER
-2025-09-19 11:10:11 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:10:14 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:10:35 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: im1762, excludeManager: EYAL, OFER
-2025-09-19 11:10:36 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:10:39 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:10:59 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: dr419b, excludeManager: EYAL, OFER
-2025-09-19 11:11:00 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:11:03 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:11:24 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: ts491t, excludeManager: EYAL, OFER
-2025-09-19 11:11:25 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:11:28 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:11:47 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: ps6274, excludeManager: EYAL, OFER
-2025-09-19 11:11:49 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:11:51 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:12:11 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: uv2658, excludeManager: EYAL, OFER
-2025-09-19 11:12:12 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:12:14 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:12:37 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: cw2528, excludeManager: EYAL, OFER
-2025-09-19 11:12:38 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:12:40 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:12:58 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 11:12:58 [SERVERTEST] INFO: GetManpowerData: 0 records in 129ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 11:13:06 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:13:34 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: ab645r, excludeManager: LISGES, WOLFGANG
-2025-09-19 11:13:35 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:13:37 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:14:09 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: ac128b, excludeManager: LISGES, WOLFGANG
-2025-09-19 11:14:11 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:14:13 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:14:40 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: me257m, excludeManager: LISGES, WOLFGANG
-2025-09-19 11:14:41 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:14:43 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:15:14 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: jh377n, excludeManager: LISGES, WOLFGANG
-2025-09-19 11:15:15 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:15:17 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:15:39 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: pj232r, excludeManager: LISGES, WOLFGANG
-2025-09-19 11:15:40 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:15:42 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:16:08 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: sk596q, excludeManager: LISGES, WOLFGANG
-2025-09-19 11:16:10 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:16:12 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:16:34 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: ll253r, excludeManager: LISGES, WOLFGANG
-2025-09-19 11:16:35 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:16:37 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:17:03 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: jl3686, excludeManager: LISGES, WOLFGANG
-2025-09-19 11:17:05 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:17:07 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:17:28 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: sm9142, excludeManager: LISGES, WOLFGANG
-2025-09-19 11:17:30 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:17:32 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:17:52 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: jm336c, excludeManager: LISGES, WOLFGANG
-2025-09-19 11:17:54 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:17:56 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:18:24 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: wm5731, excludeManager: LISGES, WOLFGANG
-2025-09-19 11:18:25 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:18:27 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:19:07 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: fn2089, excludeManager: LISGES, WOLFGANG
-2025-09-19 11:19:08 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:19:10 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:25:36 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: co857n, excludeManager: LISGES, WOLFGANG
-2025-09-19 11:25:38 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:25:40 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:26:01 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: pr3125, excludeManager: LISGES, WOLFGANG
-2025-09-19 11:26:03 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:26:05 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:26:35 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: tr1169, excludeManager: LISGES, WOLFGANG
-2025-09-19 11:26:36 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:26:38 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:26:57 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: gr1867, excludeManager: LISGES, WOLFGANG
-2025-09-19 11:26:58 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:27:00 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:27:21 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: jt3924, excludeManager: LISGES, WOLFGANG
-2025-09-19 11:27:23 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:27:25 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:27:46 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: iv585n, excludeManager: LISGES, WOLFGANG
-2025-09-19 11:27:47 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:27:49 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:28:13 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: dw2759, excludeManager: LISGES, WOLFGANG
-2025-09-19 11:28:15 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:28:17 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:28:23 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 11:28:23 [SERVERTEST] INFO: GetManpowerData: 0 records in 129ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 11:28:51 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:29:20 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: db490w, excludeManager: MONTANO SALAZAR, JOSUE
-2025-09-19 11:29:21 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:29:23 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:29:45 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: jd1709, excludeManager: MONTANO SALAZAR, JOSUE
-2025-09-19 11:29:46 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:29:48 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:30:08 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: ef1979, excludeManager: MONTANO SALAZAR, JOSUE
-2025-09-19 11:30:09 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:30:12 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:30:36 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: df704k, excludeManager: MONTANO SALAZAR, JOSUE
-2025-09-19 11:30:37 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:30:39 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:30:57 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: pf880m, excludeManager: MONTANO SALAZAR, JOSUE
-2025-09-19 11:30:58 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:31:01 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:31:20 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: ci836p, excludeManager: MONTANO SALAZAR, JOSUE
-2025-09-19 11:31:22 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:31:24 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:31:42 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: aw7726, excludeManager: MONTANO SALAZAR, JOSUE
-2025-09-19 11:31:43 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:31:45 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:32:04 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: ks480x, excludeManager: MONTANO SALAZAR, JOSUE
-2025-09-19 11:32:05 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:32:07 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:32:24 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: jt412g, excludeManager: MONTANO SALAZAR, JOSUE
-2025-09-19 11:32:25 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:32:28 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:32:53 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: fa218x, excludeManager: MONTANO SALAZAR, JOSUE
-2025-09-19 11:32:54 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:32:57 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:33:13 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: hh8561, excludeManager: MONTANO SALAZAR, JOSUE
-2025-09-19 11:33:15 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:33:17 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:33:30 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: jl860e, excludeManager: MONTANO SALAZAR, JOSUE
-2025-09-19 11:33:31 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:33:33 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:33:53 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: rl2400, excludeManager: MONTANO SALAZAR, JOSUE
-2025-09-19 11:33:55 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:33:57 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:34:16 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: yr489y, excludeManager: MONTANO SALAZAR, JOSUE
-2025-09-19 11:34:17 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:34:20 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:34:39 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: or525c, excludeManager: MONTANO SALAZAR, JOSUE
-2025-09-19 11:34:40 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:34:42 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:35:12 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 11:35:12 [SERVERTEST] INFO: GetManpowerData: 0 records in 129ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 11:35:25 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:35:36 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: rb821b, excludeManager: PERISSE, ANDRE
-2025-09-19 11:35:37 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:35:39 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:36:00 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: wc3192, excludeManager: PERISSE, ANDRE
-2025-09-19 11:36:01 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:36:03 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:36:36 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: gd0372, excludeManager: PERISSE, ANDRE
-2025-09-19 11:36:37 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:36:39 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:37:06 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: jf1285, excludeManager: PERISSE, ANDRE
-2025-09-19 11:37:08 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:37:10 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:37:32 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: jg532f, excludeManager: PERISSE, ANDRE
-2025-09-19 11:37:33 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:37:35 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:37:59 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: vk0191, excludeManager: PERISSE, ANDRE
-2025-09-19 11:38:00 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:38:02 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:38:21 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: bm882k, excludeManager: PERISSE, ANDRE
-2025-09-19 11:38:22 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:38:24 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:38:45 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 11:38:45 [SERVERTEST] INFO: GetManpowerData: 0 records in 129ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 11:39:26 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: an210x, excludeManager: PERISSE, ANDRE
-2025-09-19 11:39:27 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:39:29 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:39:50 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: lr4382, excludeManager: PERISSE, ANDRE
-2025-09-19 11:39:52 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:39:54 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:40:15 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: cs3927, excludeManager: PERISSE, ANDRE
-2025-09-19 11:40:16 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:40:19 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:40:36 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: jt6165, excludeManager: PERISSE, ANDRE
-2025-09-19 11:40:38 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:40:40 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:40:58 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: lt8213, excludeManager: PERISSE, ANDRE
-2025-09-19 11:40:59 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:41:02 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:41:16 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: ft5564, excludeManager: PERISSE, ANDRE
-2025-09-19 11:41:17 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:41:19 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:41:39 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: tw462p, excludeManager: PERISSE, ANDRE
-2025-09-19 11:41:40 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:41:42 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:42:02 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: dx2795, excludeManager: PERISSE, ANDRE
-2025-09-19 11:42:03 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:42:05 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:42:24 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: ly331n, excludeManager: PERISSE, ANDRE
-2025-09-19 11:42:26 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:42:28 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:42:41 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: gy148r, excludeManager: PERISSE, ANDRE
-2025-09-19 11:42:42 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:42:45 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:43:19 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 11:43:19 [SERVERTEST] INFO: GetManpowerData: 0 records in 129ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 11:43:27 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:43:46 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: mb644n, excludeManager: SEPELA, Pavol
-2025-09-19 11:43:47 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:43:49 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:44:13 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: dc285d, excludeManager: SEPELA, Pavol
-2025-09-19 11:44:14 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:44:17 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:44:32 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: mc794x, excludeManager: SEPELA, Pavol
-2025-09-19 11:44:33 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:44:36 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:44:54 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: mj741c, excludeManager: SEPELA, Pavol
-2025-09-19 11:44:55 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:44:57 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:45:17 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: yl3877, excludeManager: SEPELA, Pavol
-2025-09-19 11:45:18 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:45:20 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:45:33 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: sr044r, excludeManager: SEPELA, Pavol
-2025-09-19 11:45:35 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:45:37 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:45:51 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: ls914q, excludeManager: SEPELA, Pavol
-2025-09-19 11:45:52 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:45:55 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:46:37 [SERVERTEST] INFO: GetManpowerData: 0 records in 260ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 11:46:37 [SERVERTEST] INFO: GetManpowerData: 0 records in 130ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 11:46:49 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:47:10 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: sa012m, excludeManager: SPARKS, JOHN
-2025-09-19 11:47:11 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:47:14 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:47:39 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: sd8696, excludeManager: SPARKS, JOHN
-2025-09-19 11:47:40 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:47:42 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:48:02 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: mi266x, excludeManager: SPARKS, JOHN
-2025-09-19 11:48:03 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:48:05 [SERVERTEST] INFO: GetManpowerData: 0 records in 260ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:48:19 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: gk0019, excludeManager: SPARKS, JOHN
-2025-09-19 11:48:20 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:48:22 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:48:38 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: jp544m, excludeManager: SPARKS, JOHN
-2025-09-19 11:48:39 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:48:41 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:49:09 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: jy600d, excludeManager: SPARKS, JOHN
-2025-09-19 11:49:10 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:49:13 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:49:26 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: rz3800, excludeManager: SPARKS, JOHN
-2025-09-19 11:49:28 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:49:30 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:49:56 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: nc5894, excludeManager: SPARKS, JOHN
-2025-09-19 11:49:58 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:50:00 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:50:22 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: sg0553, excludeManager: SPARKS, JOHN
-2025-09-19 11:50:23 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:50:26 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:50:42 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: ms484u, excludeManager: SPARKS, JOHN
-2025-09-19 11:50:43 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:50:46 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:50:59 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: rs737j, excludeManager: SPARKS, JOHN
-2025-09-19 11:51:00 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:51:03 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:51:25 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: pb684e, excludeManager: SPARKS, JOHN
-2025-09-19 11:51:26 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:51:28 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:51:46 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: gb141p, excludeManager: SPARKS, JOHN
-2025-09-19 11:51:47 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:51:50 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:52:03 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: rj0170, excludeManager: SPARKS, JOHN
-2025-09-19 11:52:04 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:52:07 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:52:25 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: jk440b, excludeManager: SPARKS, JOHN
-2025-09-19 11:52:26 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:52:29 [SERVERTEST] INFO: GetManpowerData: 0 records in 260ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:52:42 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: gk842n, excludeManager: SPARKS, JOHN
-2025-09-19 11:52:43 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:52:46 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:52:59 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: jr913k, excludeManager: SPARKS, JOHN
-2025-09-19 11:53:00 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:53:02 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:53:15 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: mn3262, excludeManager: SPARKS, JOHN
-2025-09-19 11:53:16 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:53:18 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:55:05 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: mc819q, excludeManager: SPARKS, JOHN
-2025-09-19 11:55:06 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:55:09 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:55:30 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: mg858f, excludeManager: SPARKS, JOHN
-2025-09-19 11:55:31 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:55:33 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:55:49 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: mh8711, excludeManager: SPARKS, JOHN
-2025-09-19 11:55:50 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:55:52 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:56:05 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: bk0104, excludeManager: SPARKS, JOHN
-2025-09-19 11:56:06 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:56:09 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:56:28 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: bk093k, excludeManager: SPARKS, JOHN
-2025-09-19 11:56:29 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:56:31 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:56:45 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: lp453x, excludeManager: SPARKS, JOHN
-2025-09-19 11:56:46 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:56:48 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:57:03 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: ap0370, excludeManager: SPARKS, JOHN
-2025-09-19 11:57:04 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:57:06 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:57:20 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: jt195a, excludeManager: SPARKS, JOHN
-2025-09-19 11:57:21 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:57:24 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:58:00 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: rb0090, excludeManager: SPARKS, JOHN
-2025-09-19 11:58:01 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:58:03 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:58:23 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: ab308f, excludeManager: SPARKS, JOHN
-2025-09-19 11:58:24 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:58:27 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:58:45 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: mb507c, excludeManager: SPARKS, JOHN
-2025-09-19 11:58:46 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:58:48 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:59:08 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: gc5255, excludeManager: SPARKS, JOHN
-2025-09-19 11:59:09 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:59:11 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:59:26 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: mj1970, excludeManager: SPARKS, JOHN
-2025-09-19 11:59:27 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:59:29 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 11:59:44 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: sj428k, excludeManager: SPARKS, JOHN
-2025-09-19 11:59:45 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 11:59:48 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 12:00:06 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: pk2801, excludeManager: SPARKS, JOHN
-2025-09-19 12:00:07 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 12:00:09 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 12:00:26 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: aw018f, excludeManager: SPARKS, JOHN
-2025-09-19 12:00:27 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 12:00:29 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 12:00:47 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: sm0077, excludeManager: SPARKS, JOHN
-2025-09-19 12:00:48 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 12:00:50 [SERVERTEST] INFO: GetManpowerData: 0 records in 260ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 12:01:04 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: sm484f, excludeManager: SPARKS, JOHN
-2025-09-19 12:01:05 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 12:01:07 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 12:01:33 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: vn194s, excludeManager: SPARKS, JOHN
-2025-09-19 12:01:34 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 12:01:36 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 12:01:51 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: rn226j, excludeManager: SPARKS, JOHN
-2025-09-19 12:01:52 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 12:01:54 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 12:02:09 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: ss8500, excludeManager: SPARKS, JOHN
-2025-09-19 12:02:10 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 12:02:12 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 12:02:27 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: gs087w, excludeManager: SPARKS, JOHN
-2025-09-19 12:02:28 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 12:02:31 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 12:02:44 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: ss779c, excludeManager: SPARKS, JOHN
-2025-09-19 12:02:45 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 12:02:48 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 12:03:05 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: mw359n, excludeManager: SPARKS, JOHN
-2025-09-19 12:03:06 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 12:03:09 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 12:04:18 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 12:04:18 [SERVERTEST] INFO: GetManpowerData: 0 records in 129ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 12:04:27 [SERVERTEST] INFO: GetManpowerData: 0 records in 262ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 12:04:44 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: kc1738, excludeManager: VAN OSNABRUGGE, MARTIJN
-2025-09-19 12:04:45 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 12:04:47 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 12:05:00 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: af1693, excludeManager: VAN OSNABRUGGE, MARTIJN
-2025-09-19 12:05:01 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 12:05:04 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 12:05:17 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: ts4837, excludeManager: VAN OSNABRUGGE, MARTIJN
-2025-09-19 12:05:19 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 12:05:21 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 12:05:37 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: ds802n, excludeManager: VAN OSNABRUGGE, MARTIJN
-2025-09-19 12:05:38 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 12:05:41 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 12:05:55 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: ts233x, excludeManager: VAN OSNABRUGGE, MARTIJN
-2025-09-19 12:05:56 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 12:05:58 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 12:06:14 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: ms162a, excludeManager: VAN OSNABRUGGE, MARTIJN
-2025-09-19 12:06:15 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 12:06:17 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 12:06:35 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: gv9364, excludeManager: VAN OSNABRUGGE, MARTIJN
-2025-09-19 12:06:37 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 12:06:39 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 12:06:52 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: sy726m, excludeManager: VAN OSNABRUGGE, MARTIJN
-2025-09-19 12:06:53 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 12:06:55 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 12:07:08 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: ky9565, excludeManager: VAN OSNABRUGGE, MARTIJN
-2025-09-19 12:07:09 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 12:07:11 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 12:07:25 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole START - userId: dy574w, excludeManager: VAN OSNABRUGGE, MARTIJN
-2025-09-19 12:07:26 [SERVERTEST] ERROR: FORCE LOG: CheckUserMemberRole result: NULL
-2025-09-19 12:07:28 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-14 to 2025-09-22
-2025-09-19 12:07:35 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-15 to 2025-09-21
-2025-09-19 12:07:35 [SERVERTEST] INFO: GetManpowerData: 0 records in 129ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 13:03:49 [SERVERTEST] INFO: AUTH TIMING: Username resolved to 'th3882' in 1ms
+2025-09-19 13:03:49 [SERVERTEST] INFO: WHITELIST: Checking database first for user th3882
+2025-09-19 13:03:56 [SERVERTEST] ERROR: DEBUG: Returned from CheckUserForWhitelist, result = FOUND
+2025-09-19 13:03:56 [SERVERTEST] INFO: WHITELIST HIT: User th3882 found in database, skipping LDAP check
+2025-09-19 13:03:56 [SERVERTEST] INFO: AUTH TIMING: LDAP validation took 6670.7598ms
+2025-09-19 13:03:56 [SERVERTEST] INFO: AUTH TIMING: GetCurrentUser() COMPLETE in 6668ms
+2025-09-19 13:03:58 [SERVERTEST] INFO: GetManpowerData: 0 records in 261ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 13:03:58 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 13:03:58 [SERVERTEST] INFO: GetManpowerData: 0 records in 260ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 13:03:59 [SERVERTEST] INFO: GetManpowerData: 0 records in 260ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 13:03:59 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 13:03:59 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 13:03:59 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 13:04:00 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 13:04:00 [SERVERTEST] INFO: GetManpowerData: 0 records in 261ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 13:04:00 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 13:04:00 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 13:04:01 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 13:04:01 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 13:04:01 [SERVERTEST] INFO: GetManpowerData: 0 records in 129ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 13:04:56 [SERVERTEST] INFO: CalculateAndUpdateManpower START - TeamName: AKKERSDIJK, ASKO, StartDate: 2025-09-15, EndDate: 2025-09-21
+2025-09-19 13:04:58 [SERVERTEST] INFO: Found managerId: aa0797 for team: AKKERSDIJK, ASKO
+2025-09-19 13:04:58 [SERVERTEST] INFO: Extended ARA query range: 2025-09-14 to 2025-09-22
+2025-09-19 13:04:59 [SERVERTEST] INFO: === ARA DATA RETRIEVED ===
+2025-09-19 13:04:59 [SERVERTEST] INFO: Total ARA records: 0
+2025-09-19 13:04:59 [SERVERTEST] INFO: Deleted 0 existing manpower records
+2025-09-19 13:04:59 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team AKKERSDIJK, ASKO in 2390ms
+2025-09-19 13:04:59 [SERVERTEST] INFO: CalculateAndUpdateManpower START - TeamName: ARROYO, CARLOS, StartDate: 2025-09-15, EndDate: 2025-09-21
+2025-09-19 13:05:01 [SERVERTEST] INFO: Found managerId: ca2579 for team: ARROYO, CARLOS
+2025-09-19 13:05:01 [SERVERTEST] INFO: Extended ARA query range: 2025-09-14 to 2025-09-22
+2025-09-19 13:05:01 [SERVERTEST] INFO: === ARA DATA RETRIEVED ===
+2025-09-19 13:05:01 [SERVERTEST] INFO: Total ARA records: 0
+2025-09-19 13:05:01 [SERVERTEST] INFO: Deleted 0 existing manpower records
+2025-09-19 13:05:01 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team ARROYO, CARLOS in 2406ms
+2025-09-19 13:05:01 [SERVERTEST] INFO: CalculateAndUpdateManpower START - TeamName: COSENTINO, MARIANO, StartDate: 2025-09-15, EndDate: 2025-09-21
+2025-09-19 13:05:03 [SERVERTEST] INFO: Found managerId: mc735p for team: COSENTINO, MARIANO
+2025-09-19 13:05:03 [SERVERTEST] INFO: Extended ARA query range: 2025-09-14 to 2025-09-22
+2025-09-19 13:05:03 [SERVERTEST] INFO: === ARA DATA RETRIEVED ===
+2025-09-19 13:05:03 [SERVERTEST] INFO: Total ARA records: 0
+2025-09-19 13:05:03 [SERVERTEST] INFO: Deleted 0 existing manpower records
+2025-09-19 13:05:03 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team COSENTINO, MARIANO in 2378ms
+2025-09-19 13:05:03 [SERVERTEST] INFO: CalculateAndUpdateManpower START - TeamName: DOBSON, JOHN, StartDate: 2025-09-15, EndDate: 2025-09-21
+2025-09-19 13:05:05 [SERVERTEST] INFO: Found managerId: jd7971 for team: DOBSON, JOHN
+2025-09-19 13:05:05 [SERVERTEST] INFO: Extended ARA query range: 2025-09-14 to 2025-09-22
+2025-09-19 13:05:05 [SERVERTEST] INFO: === ARA DATA RETRIEVED ===
+2025-09-19 13:05:05 [SERVERTEST] INFO: Total ARA records: 0
+2025-09-19 13:05:05 [SERVERTEST] INFO: Deleted 0 existing manpower records
+2025-09-19 13:05:05 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team DOBSON, JOHN in 1467ms
+2025-09-19 13:05:05 [SERVERTEST] INFO: CalculateAndUpdateManpower START - TeamName: EYAL, OFER, StartDate: 2025-09-15, EndDate: 2025-09-21
+2025-09-19 13:05:06 [SERVERTEST] INFO: Found managerId: oe218x for team: EYAL, OFER
+2025-09-19 13:05:06 [SERVERTEST] INFO: Extended ARA query range: 2025-09-14 to 2025-09-22
+2025-09-19 13:05:06 [SERVERTEST] INFO: === ARA DATA RETRIEVED ===
+2025-09-19 13:05:06 [SERVERTEST] INFO: Total ARA records: 0
+2025-09-19 13:05:06 [SERVERTEST] INFO: Deleted 0 existing manpower records
+2025-09-19 13:05:06 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team EYAL, OFER in 1467ms
+2025-09-19 13:05:06 [SERVERTEST] INFO: CalculateAndUpdateManpower START - TeamName: FRESSONE, DANTE, StartDate: 2025-09-15, EndDate: 2025-09-21
+2025-09-19 13:05:08 [SERVERTEST] INFO: Found managerId: df461h for team: FRESSONE, DANTE
+2025-09-19 13:05:08 [SERVERTEST] INFO: Extended ARA query range: 2025-09-14 to 2025-09-22
+2025-09-19 13:05:08 [SERVERTEST] INFO: === ARA DATA RETRIEVED ===
+2025-09-19 13:05:08 [SERVERTEST] INFO: Total ARA records: 0
+2025-09-19 13:05:08 [SERVERTEST] INFO: Deleted 0 existing manpower records
+2025-09-19 13:05:08 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team FRESSONE, DANTE in 1466ms
+2025-09-19 13:05:08 [SERVERTEST] INFO: CalculateAndUpdateManpower START - TeamName: LISGES, WOLFGANG, StartDate: 2025-09-15, EndDate: 2025-09-21
+2025-09-19 13:05:09 [SERVERTEST] INFO: Found managerId: wl2628 for team: LISGES, WOLFGANG
+2025-09-19 13:05:09 [SERVERTEST] INFO: Extended ARA query range: 2025-09-14 to 2025-09-22
+2025-09-19 13:05:09 [SERVERTEST] INFO: === ARA DATA RETRIEVED ===
+2025-09-19 13:05:09 [SERVERTEST] INFO: Total ARA records: 0
+2025-09-19 13:05:09 [SERVERTEST] INFO: Deleted 0 existing manpower records
+2025-09-19 13:05:09 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team LISGES, WOLFGANG in 1471ms
+2025-09-19 13:05:09 [SERVERTEST] INFO: CalculateAndUpdateManpower START - TeamName: MONTANO SALAZAR, JOSUE, StartDate: 2025-09-15, EndDate: 2025-09-21
+2025-09-19 13:05:11 [SERVERTEST] INFO: Found managerId: jm0441 for team: MONTANO SALAZAR, JOSUE
+2025-09-19 13:05:11 [SERVERTEST] INFO: Extended ARA query range: 2025-09-14 to 2025-09-22
+2025-09-19 13:05:11 [SERVERTEST] INFO: === ARA DATA RETRIEVED ===
+2025-09-19 13:05:11 [SERVERTEST] INFO: Total ARA records: 0
+2025-09-19 13:05:11 [SERVERTEST] INFO: Deleted 0 existing manpower records
+2025-09-19 13:05:11 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team MONTANO SALAZAR, JOSUE in 1479ms
+2025-09-19 13:05:11 [SERVERTEST] INFO: CalculateAndUpdateManpower START - TeamName: PERISSE, ANDRE, StartDate: 2025-09-15, EndDate: 2025-09-21
+2025-09-19 13:05:12 [SERVERTEST] INFO: Found managerId: ap842n for team: PERISSE, ANDRE
+2025-09-19 13:05:12 [SERVERTEST] INFO: Extended ARA query range: 2025-09-14 to 2025-09-22
+2025-09-19 13:05:12 [SERVERTEST] INFO: === ARA DATA RETRIEVED ===
+2025-09-19 13:05:12 [SERVERTEST] INFO: Total ARA records: 0
+2025-09-19 13:05:12 [SERVERTEST] INFO: Deleted 0 existing manpower records
+2025-09-19 13:05:12 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team PERISSE, ANDRE in 1478ms
+2025-09-19 13:05:12 [SERVERTEST] INFO: CalculateAndUpdateManpower START - TeamName: SEPELA, Pavol, StartDate: 2025-09-15, EndDate: 2025-09-21
+2025-09-19 13:05:14 [SERVERTEST] INFO: Found managerId: ps163h for team: SEPELA, Pavol
+2025-09-19 13:05:14 [SERVERTEST] INFO: Extended ARA query range: 2025-09-14 to 2025-09-22
+2025-09-19 13:05:14 [SERVERTEST] INFO: === ARA DATA RETRIEVED ===
+2025-09-19 13:05:14 [SERVERTEST] INFO: Total ARA records: 0
+2025-09-19 13:05:14 [SERVERTEST] INFO: Deleted 0 existing manpower records
+2025-09-19 13:05:14 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team SEPELA, Pavol in 1469ms
+2025-09-19 13:05:14 [SERVERTEST] INFO: CalculateAndUpdateManpower START - TeamName: SPARKS, JOHN, StartDate: 2025-09-15, EndDate: 2025-09-21
+2025-09-19 13:05:15 [SERVERTEST] INFO: Found managerId: js4578 for team: SPARKS, JOHN
+2025-09-19 13:05:15 [SERVERTEST] INFO: Extended ARA query range: 2025-09-14 to 2025-09-22
+2025-09-19 13:05:15 [SERVERTEST] INFO: === ARA DATA RETRIEVED ===
+2025-09-19 13:05:15 [SERVERTEST] INFO: Total ARA records: 0
+2025-09-19 13:05:15 [SERVERTEST] INFO: Deleted 0 existing manpower records
+2025-09-19 13:05:15 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team SPARKS, JOHN in 1467ms
+2025-09-19 13:05:15 [SERVERTEST] INFO: CalculateAndUpdateManpower START - TeamName: SUJAN, GREGOR, StartDate: 2025-09-15, EndDate: 2025-09-21
+2025-09-19 13:05:16 [SERVERTEST] INFO: Found managerId: gs2643 for team: SUJAN, GREGOR
+2025-09-19 13:05:16 [SERVERTEST] INFO: Extended ARA query range: 2025-09-14 to 2025-09-22
+2025-09-19 13:05:17 [SERVERTEST] INFO: === ARA DATA RETRIEVED ===
+2025-09-19 13:05:17 [SERVERTEST] INFO: Total ARA records: 0
+2025-09-19 13:05:17 [SERVERTEST] INFO: Deleted 0 existing manpower records
+2025-09-19 13:05:17 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team SUJAN, GREGOR in 1467ms
+2025-09-19 13:05:17 [SERVERTEST] INFO: CalculateAndUpdateManpower START - TeamName: VAN OSNABRUGGE, MARTIJN, StartDate: 2025-09-15, EndDate: 2025-09-21
+2025-09-19 13:05:18 [SERVERTEST] INFO: Found managerId: mv2896 for team: VAN OSNABRUGGE, MARTIJN
+2025-09-19 13:05:18 [SERVERTEST] INFO: Extended ARA query range: 2025-09-14 to 2025-09-22
+2025-09-19 13:05:18 [SERVERTEST] INFO: === ARA DATA RETRIEVED ===
+2025-09-19 13:05:18 [SERVERTEST] INFO: Total ARA records: 0
+2025-09-19 13:05:18 [SERVERTEST] INFO: Deleted 0 existing manpower records
+2025-09-19 13:05:18 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team VAN OSNABRUGGE, MARTIJN in 1484ms
+2025-09-19 13:05:19 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 13:05:19 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 13:05:19 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 13:05:19 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 13:05:20 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 13:05:20 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 13:05:20 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 13:05:20 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 13:05:21 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 13:05:21 [SERVERTEST] INFO: GetManpowerData: 0 records in 258ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 13:05:21 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 13:05:21 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 13:05:22 [SERVERTEST] INFO: GetManpowerData: 0 records in 259ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 13:05:22 [SERVERTEST] INFO: GetManpowerData: 0 records in 129ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 13:05:22 [SERVERTEST] INFO: GetManpowerData: 0 records in 129ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 13:05:22 [SERVERTEST] INFO: GetManpowerData: 0 records in 129ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 13:05:22 [SERVERTEST] INFO: GetManpowerData: 0 records in 129ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 13:05:22 [SERVERTEST] INFO: GetManpowerData: 0 records in 129ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 13:05:22 [SERVERTEST] INFO: GetManpowerData: 0 records in 129ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 13:05:23 [SERVERTEST] INFO: GetManpowerData: 0 records in 129ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 13:05:23 [SERVERTEST] INFO: GetManpowerData: 0 records in 129ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 13:05:23 [SERVERTEST] INFO: GetManpowerData: 0 records in 129ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 13:05:23 [SERVERTEST] INFO: GetManpowerData: 0 records in 129ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 13:05:23 [SERVERTEST] INFO: GetManpowerData: 0 records in 129ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 13:05:23 [SERVERTEST] INFO: GetManpowerData: 0 records in 129ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 13:05:23 [SERVERTEST] INFO: GetManpowerData: 0 records in 129ms for date range 2025-09-15 to 2025-09-21
+2025-09-19 13:05:24 [SERVERTEST] INFO: GetManpowerData: 0 records in 129ms for date range 2025-09-15 to 2025-09-21
