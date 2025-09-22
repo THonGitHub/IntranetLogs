@@ -1,75 +1,8 @@
-=== NEW SESSION STARTED 2025-09-22 03:11:20 ===
+=== NEW SESSION STARTED 2025-09-22 03:43:37 ===
 DEBUG: _currentUser='', _environment='SERVERTEST'
-2025-09-22 03:11:20 [SERVERTEST] INFO: AUTH TIMING: Username resolved to 'th3882' in 1ms
-2025-09-22 03:11:20 [SERVERTEST] INFO: WHITELIST: Checking database first for user th3882
-2025-09-22 03:11:26 [SERVERTEST] ERROR: DEBUG: Returned from CheckUserForWhitelist, result = FOUND
-2025-09-22 03:11:26 [SERVERTEST] INFO: WHITELIST HIT: User th3882 found in database, skipping LDAP check
-2025-09-22 03:11:26 [SERVERTEST] INFO: AUTH TIMING: Company user validation took 6484.3804ms
-2025-09-22 03:11:26 [SERVERTEST] INFO: AUTH TIMING: GetCurrentUser() COMPLETE in 6493ms
-2025-09-22 03:11:29 [SERVERTEST] INFO: GetManpowerData: 0 records in 253ms for date range 2025-09-22 to 2025-09-28
-2025-09-22 03:11:29 [SERVERTEST] INFO: GetManpowerData: 0 records in 250ms for date range 2025-09-22 to 2025-09-28
-2025-09-22 03:11:29 [SERVERTEST] INFO: GetManpowerData: 0 records in 250ms for date range 2025-09-22 to 2025-09-28
-2025-09-22 03:11:30 [SERVERTEST] INFO: GetManpowerData: 0 records in 250ms for date range 2025-09-22 to 2025-09-28
-2025-09-22 03:11:30 [SERVERTEST] INFO: GetManpowerData: 0 records in 250ms for date range 2025-09-22 to 2025-09-28
-2025-09-22 03:11:30 [SERVERTEST] INFO: GetManpowerData: 0 records in 251ms for date range 2025-09-22 to 2025-09-28
-2025-09-22 03:11:30 [SERVERTEST] INFO: GetManpowerData: 0 records in 249ms for date range 2025-09-22 to 2025-09-28
-2025-09-22 03:11:31 [SERVERTEST] INFO: GetManpowerData: 0 records in 249ms for date range 2025-09-22 to 2025-09-28
-2025-09-22 03:11:31 [SERVERTEST] INFO: GetManpowerData: 0 records in 250ms for date range 2025-09-22 to 2025-09-28
-2025-09-22 03:11:31 [SERVERTEST] INFO: GetManpowerData: 7 records in 260ms for date range 2025-09-22 to 2025-09-28
-2025-09-22 03:11:31 [SERVERTEST] INFO: GetManpowerData: 0 records in 250ms for date range 2025-09-22 to 2025-09-28
-2025-09-22 03:11:32 [SERVERTEST] INFO: GetManpowerData: 0 records in 252ms for date range 2025-09-22 to 2025-09-28
-2025-09-22 03:11:32 [SERVERTEST] INFO: GetManpowerData: 0 records in 260ms for date range 2025-09-22 to 2025-09-28
-2025-09-22 03:11:32 [SERVERTEST] INFO: GetManpowerData: 7 records in 125ms for date range 2025-09-22 to 2025-09-28
-2025-09-22 03:14:22 [SERVERTEST] INFO: GetManpowerData: 8 records in 251ms for date range 2025-09-21 to 2025-09-29
-2025-09-22 03:15:18 [SERVERTEST] INFO: CalculateAndUpdateManpower START - TeamName: SEPELA, Pavol, StartDate: 2025-09-22, EndDate: 2025-09-28
-2025-09-22 03:15:20 [SERVERTEST] INFO: Found managerId: ps163h for team: SEPELA, Pavol
-2025-09-22 03:15:20 [SERVERTEST] INFO: Extended ARA query range: 2025-09-21 to 2025-09-29
-2025-09-22 03:15:20 [SERVERTEST] INFO: === ARA DATA RETRIEVED ===
-2025-09-22 03:15:20 [SERVERTEST] INFO: Total ARA records: 13
-2025-09-22 03:15:20 [SERVERTEST] INFO: Deleted 8 existing manpower records
-2025-09-22 03:15:20 [SERVERTEST] INFO: Bulk inserting 43 manpower records into AWSmanpower_new
-2025-09-22 03:15:20 [SERVERTEST] INFO: Bulk inserted 43 manpower records
-2025-09-22 03:15:20 [SERVERTEST] INFO: CalculateAndUpdateManpower completed for team SEPELA, Pavol in 2458ms
-2025-09-22 03:15:21 [SERVERTEST] INFO: GetManpowerData: 43 records in 251ms for date range 2025-09-21 to 2025-09-29
-2025-09-22 03:18:25 [SERVERTEST] INFO: GetManpowerData: 35 records in 251ms for date range 2025-09-22 to 2025-09-28
-2025-09-22 03:18:25 [SERVERTEST] INFO: GetManpowerData: 35 records in 126ms for date range 2025-09-22 to 2025-09-28
-2025-09-22 03:19:07 [SERVERTEST] INFO: AUTH TIMING: Username resolved to 'th3882' in 0ms
-2025-09-22 03:19:07 [SERVERTEST] INFO: WHITELIST: Checking database first for user th3882
-2025-09-22 03:19:08 [SERVERTEST] ERROR: DEBUG: Returned from CheckUserForWhitelist, result = FOUND
-2025-09-22 03:19:08 [SERVERTEST] INFO: WHITELIST HIT: User th3882 found in database, skipping LDAP check
-2025-09-22 03:19:08 [SERVERTEST] INFO: AUTH TIMING: Company user validation took 1125.0048ms
-2025-09-22 03:19:08 [SERVERTEST] INFO: AUTH TIMING: GetCurrentUser() COMPLETE in 1137ms
-2025-09-22 03:19:09 [SERVERTEST] INFO: GetManpowerData: 0 records in 250ms for date range 2025-09-22 to 2025-09-28
-2025-09-22 03:19:09 [SERVERTEST] INFO: GetManpowerData: 0 records in 250ms for date range 2025-09-22 to 2025-09-28
-2025-09-22 03:19:09 [SERVERTEST] INFO: GetManpowerData: 0 records in 250ms for date range 2025-09-22 to 2025-09-28
-2025-09-22 03:19:10 [SERVERTEST] INFO: GetManpowerData: 0 records in 250ms for date range 2025-09-22 to 2025-09-28
-2025-09-22 03:19:10 [SERVERTEST] INFO: GetManpowerData: 0 records in 250ms for date range 2025-09-22 to 2025-09-28
-2025-09-22 03:19:10 [SERVERTEST] INFO: GetManpowerData: 0 records in 250ms for date range 2025-09-22 to 2025-09-28
-2025-09-22 03:19:10 [SERVERTEST] INFO: GetManpowerData: 0 records in 249ms for date range 2025-09-22 to 2025-09-28
-2025-09-22 03:19:11 [SERVERTEST] INFO: GetManpowerData: 0 records in 255ms for date range 2025-09-22 to 2025-09-28
-2025-09-22 03:19:11 [SERVERTEST] INFO: GetManpowerData: 0 records in 249ms for date range 2025-09-22 to 2025-09-28
-2025-09-22 03:19:11 [SERVERTEST] INFO: GetManpowerData: 35 records in 250ms for date range 2025-09-22 to 2025-09-28
-2025-09-22 03:19:11 [SERVERTEST] INFO: GetManpowerData: 0 records in 249ms for date range 2025-09-22 to 2025-09-28
-2025-09-22 03:19:12 [SERVERTEST] INFO: GetManpowerData: 0 records in 250ms for date range 2025-09-22 to 2025-09-28
-2025-09-22 03:19:12 [SERVERTEST] INFO: GetManpowerData: 0 records in 250ms for date range 2025-09-22 to 2025-09-28
-2025-09-22 03:19:12 [SERVERTEST] INFO: GetManpowerData: 35 records in 125ms for date range 2025-09-22 to 2025-09-28
-2025-09-22 03:20:34 [SERVERTEST] INFO: AUTH TIMING: Username resolved to 'th3882' in 0ms
-2025-09-22 03:20:34 [SERVERTEST] INFO: WHITELIST: Checking database first for user th3882
-2025-09-22 03:20:35 [SERVERTEST] ERROR: DEBUG: Returned from CheckUserForWhitelist, result = FOUND
-2025-09-22 03:20:35 [SERVERTEST] INFO: WHITELIST HIT: User th3882 found in database, skipping LDAP check
-2025-09-22 03:20:35 [SERVERTEST] INFO: AUTH TIMING: Company user validation took 1177.2801ms
-2025-09-22 03:20:35 [SERVERTEST] INFO: AUTH TIMING: GetCurrentUser() COMPLETE in 1169ms
-2025-09-22 03:20:35 [SERVERTEST] INFO: GetManpowerData: 0 records in 250ms for date range 2025-09-22 to 2025-09-28
-2025-09-22 03:20:36 [SERVERTEST] INFO: GetManpowerData: 0 records in 250ms for date range 2025-09-22 to 2025-09-28
-2025-09-22 03:20:36 [SERVERTEST] INFO: GetManpowerData: 0 records in 250ms for date range 2025-09-22 to 2025-09-28
-2025-09-22 03:20:36 [SERVERTEST] INFO: GetManpowerData: 0 records in 250ms for date range 2025-09-22 to 2025-09-28
-2025-09-22 03:20:36 [SERVERTEST] INFO: GetManpowerData: 0 records in 250ms for date range 2025-09-22 to 2025-09-28
-2025-09-22 03:20:37 [SERVERTEST] INFO: GetManpowerData: 0 records in 250ms for date range 2025-09-22 to 2025-09-28
-2025-09-22 03:20:37 [SERVERTEST] INFO: GetManpowerData: 0 records in 250ms for date range 2025-09-22 to 2025-09-28
-2025-09-22 03:20:37 [SERVERTEST] INFO: GetManpowerData: 0 records in 250ms for date range 2025-09-22 to 2025-09-28
-2025-09-22 03:20:37 [SERVERTEST] INFO: GetManpowerData: 0 records in 250ms for date range 2025-09-22 to 2025-09-28
-2025-09-22 03:20:38 [SERVERTEST] INFO: GetManpowerData: 35 records in 250ms for date range 2025-09-22 to 2025-09-28
-2025-09-22 03:20:38 [SERVERTEST] INFO: GetManpowerData: 0 records in 250ms for date range 2025-09-22 to 2025-09-28
-2025-09-22 03:20:38 [SERVERTEST] INFO: GetManpowerData: 0 records in 250ms for date range 2025-09-22 to 2025-09-28
-2025-09-22 03:20:38 [SERVERTEST] INFO: GetManpowerData: 0 records in 249ms for date range 2025-09-22 to 2025-09-28
-2025-09-22 03:20:39 [SERVERTEST] INFO: GetManpowerData: 35 records in 125ms for date range 2025-09-22 to 2025-09-28
+2025-09-22 03:43:38 [SERVERTEST] INFO: AUTH TIMING: Username resolved to 'th3882' in 1ms
+2025-09-22 03:43:38 [SERVERTEST] INFO: WHITELIST: Checking database first for user th3882
+2025-09-22 03:43:44 [SERVERTEST] INFO: DEBUG: Returned from CheckUserForWhitelist, result = FOUND
+2025-09-22 03:43:44 [SERVERTEST] INFO: WHITELIST HIT: User th3882 found in database, skipping LDAP check
+2025-09-22 03:43:44 [SERVERTEST] INFO: AUTH TIMING: Company user validation took 6433.814ms
+2025-09-22 03:43:44 [SERVERTEST] INFO: AUTH TIMING: GetCurrentUser() COMPLETE in 6427ms
