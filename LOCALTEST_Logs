@@ -6,3 +6,23 @@
 2025-09-22 20:30:47 [LOCALTEST] INFO: WHITELIST HIT: User th3882 found in database, skipping LDAP check
 2025-09-22 20:30:47 [LOCALTEST] INFO: AUTH TIMING: Company user validation took 1914,6732ms
 2025-09-22 20:30:47 [LOCALTEST] INFO: AUTH TIMING: GetCurrentUser() COMPLETE in 1916ms
+2025-09-22 20:34:08 [LOCALTEST] ERROR: TEAM_CLICK: TeamLink_Click method started
+2025-09-22 20:34:08 [LOCALTEST] ERROR: TEAM_CLICK: managerId from CommandArgument = 'ps163h'
+2025-09-22 20:34:08 [LOCALTEST] ERROR: TEAM_CLICK: userRights = 1
+2025-09-22 20:34:08 [LOCALTEST] ERROR: TEAM_CLICK: authResult.User.Team = 'ps163h'
+2025-09-22 20:34:08 [LOCALTEST] ERROR: TEAM_CLICK: Comparing managerId 'ps163h' with userTeam 'ps163h' (IgnoreCase)
+2025-09-22 20:34:08 [LOCALTEST] ERROR: TEAM_CLICK: ManagerId matches userTeam - continuing to member view
+2025-09-22 20:34:08 [LOCALTEST] ERROR: TEAM_CLICK: Converted managerId 'ps163h' to display name 'SEPELA, Pavol'
+2025-09-22 20:34:08 [LOCALTEST] ERROR: TEAM_CLICK: Setting Session CurrentTeam = 'SEPELA, Pavol'
+2025-09-22 20:34:08 [LOCALTEST] ERROR: TEAM_CLICK: Calling ShowMemberView('SEPELA, Pavol')
+2025-09-22 20:34:09 [LOCALTEST] ERROR: TEAM_CLICK: ShowMemberView completed
+2025-09-22 20:34:40 [LOCALTEST] ERROR: TEAM_CLICK: TeamLink_Click method started
+2025-09-22 20:34:40 [LOCALTEST] ERROR: TEAM_CLICK: managerId from CommandArgument = 'ps163h'
+2025-09-22 20:34:40 [LOCALTEST] ERROR: TEAM_CLICK: userRights = 1
+2025-09-22 20:34:40 [LOCALTEST] ERROR: TEAM_CLICK: authResult.User.Team = 'ps163h'
+2025-09-22 20:34:40 [LOCALTEST] ERROR: TEAM_CLICK: Comparing managerId 'ps163h' with userTeam 'ps163h' (IgnoreCase)
+2025-09-22 20:34:40 [LOCALTEST] ERROR: TEAM_CLICK: ManagerId matches userTeam - continuing to member view
+2025-09-22 20:34:41 [LOCALTEST] ERROR: TEAM_CLICK: Converted managerId 'ps163h' to display name 'SEPELA, Pavol'
+2025-09-22 20:34:41 [LOCALTEST] ERROR: TEAM_CLICK: Setting Session CurrentTeam = 'SEPELA, Pavol'
+2025-09-22 20:34:41 [LOCALTEST] ERROR: TEAM_CLICK: Calling ShowMemberView('SEPELA, Pavol')
+2025-09-22 20:34:41 [LOCALTEST] ERROR: TEAM_CLICK: ShowMemberView completed
