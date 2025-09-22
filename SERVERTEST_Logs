@@ -6,3 +6,9 @@ DEBUG: _currentUser='', _environment='SERVERTEST'
 2025-09-22 13:07:40 [SERVERTEST] INFO: WHITELIST HIT: User th3882 found in database, skipping LDAP check
 2025-09-22 13:07:40 [SERVERTEST] INFO: AUTH TIMING: Company user validation took 6422.7479ms
 2025-09-22 13:07:40 [SERVERTEST] INFO: AUTH TIMING: GetCurrentUser() COMPLETE in 6430ms
+2025-09-22 13:15:14 [SERVERTEST] INFO: AUTH TIMING: Username resolved to 'th3882' in 0ms
+2025-09-22 13:15:14 [SERVERTEST] INFO: WHITELIST: Checking database first for user th3882
+2025-09-22 13:15:17 [SERVERTEST] INFO: DEBUG: Returned from CheckUserForWhitelist, result = FOUND
+2025-09-22 13:15:17 [SERVERTEST] INFO: WHITELIST HIT: User th3882 found in database, skipping LDAP check
+2025-09-22 13:15:17 [SERVERTEST] INFO: AUTH TIMING: Company user validation took 2078.2111ms
+2025-09-22 13:15:17 [SERVERTEST] INFO: AUTH TIMING: GetCurrentUser() COMPLETE in 2070ms
