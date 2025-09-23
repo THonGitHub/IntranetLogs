@@ -1,28 +1,62 @@
-=== NEW SESSION STARTED 2025-09-22 22:07:44 ===
-2025-09-22 22:07:44 [LOCALTEST] ERROR: PAGE_LOAD START: IsPostBack=False, CurrentTeam Session='NULL'
-2025-09-22 22:07:44 [LOCALTEST] INFO: AUTH TIMING: GetCurrentUser() START
-2025-09-22 22:07:44 [LOCALTEST] INFO: AUTH TIMING: Username resolved to 'th3882' in 2ms
-2025-09-22 22:07:44 [LOCALTEST] INFO: WHITELIST: Checking database first for user th3882
-2025-09-22 22:07:46 [LOCALTEST] INFO: DEBUG: Returned from CheckUserForWhitelist, result = FOUND
-2025-09-22 22:07:46 [LOCALTEST] INFO: WHITELIST HIT: User th3882 found in database, skipping LDAP check
-2025-09-22 22:07:46 [LOCALTEST] INFO: AUTH TIMING: Company user validation took 2432,4082ms
-2025-09-22 22:07:46 [LOCALTEST] INFO: AUTH TIMING: GetCurrentUser() COMPLETE in 2436ms
-2025-09-22 22:08:12 [LOCALTEST] ERROR: PAGE_LOAD START: IsPostBack=False, CurrentTeam Session='NULL'
-2025-09-22 22:08:12 [LOCALTEST] INFO: AUTH TIMING: GetCurrentUser() START
-2025-09-22 22:08:12 [LOCALTEST] INFO: AUTH TIMING: Username resolved to 'th3882' in 0ms
-2025-09-22 22:08:12 [LOCALTEST] INFO: WHITELIST: Checking database first for user th3882
-2025-09-22 22:08:13 [LOCALTEST] INFO: DEBUG: Returned from CheckUserForWhitelist, result = FOUND
-2025-09-22 22:08:13 [LOCALTEST] INFO: WHITELIST HIT: User th3882 found in database, skipping LDAP check
-2025-09-22 22:08:13 [LOCALTEST] INFO: AUTH TIMING: Company user validation took 435,7259ms
-2025-09-22 22:08:13 [LOCALTEST] INFO: AUTH TIMING: GetCurrentUser() COMPLETE in 436ms
-2025-09-22 22:08:14 [LOCALTEST] ERROR: PAGE_LOAD START: IsPostBack=True, CurrentTeam Session='NULL'
-2025-09-22 22:08:14 [LOCALTEST] ERROR: TEAM_CLICK: TeamLink_Click method started
-2025-09-22 22:08:14 [LOCALTEST] ERROR: TEAM_CLICK: managerId from CommandArgument = 'ps163h'
-2025-09-22 22:08:14 [LOCALTEST] ERROR: TEAM_CLICK: userRights = 1
-2025-09-22 22:08:14 [LOCALTEST] ERROR: TEAM_CLICK: authResult.User.Team = 'ps163h'
-2025-09-22 22:08:14 [LOCALTEST] ERROR: TEAM_CLICK: Comparing managerId 'ps163h' with userTeam 'ps163h' (IgnoreCase)
-2025-09-22 22:08:14 [LOCALTEST] ERROR: TEAM_CLICK: ManagerId matches userTeam - continuing to member view
-2025-09-22 22:08:15 [LOCALTEST] ERROR: TEAM_CLICK: Converted managerId 'ps163h' to display name 'SEPELA, Pavol'
-2025-09-22 22:08:15 [LOCALTEST] ERROR: TEAM_CLICK: Setting Session CurrentTeam = 'SEPELA, Pavol'
-2025-09-22 22:08:15 [LOCALTEST] ERROR: TEAM_CLICK: Calling ShowMemberView('SEPELA, Pavol')
-2025-09-22 22:08:15 [LOCALTEST] ERROR: TEAM_CLICK: ShowMemberView completed
+=== NEW SESSION STARTED 2025-09-23 21:31:40 ===
+2025-09-23 21:31:40 [LOCALTEST] INFO: AUTH TIMING: GetCurrentUser() START
+2025-09-23 21:31:40 [LOCALTEST] INFO: AUTH TIMING: Username resolved to 'th3882' in 1ms
+2025-09-23 21:31:40 [LOCALTEST] INFO: WHITELIST: Checking database first for user th3882
+2025-09-23 21:31:42 [LOCALTEST] INFO: DEBUG: Returned from CheckUserForWhitelist, result = FOUND
+2025-09-23 21:31:42 [LOCALTEST] INFO: WHITELIST HIT: User th3882 found in database, skipping LDAP check
+2025-09-23 21:31:42 [LOCALTEST] INFO: AUTH TIMING: Company user validation took 1902,6933ms
+2025-09-23 21:31:42 [LOCALTEST] INFO: AUTH TIMING: GetCurrentUser() COMPLETE in 1904ms
+2025-09-23 21:31:43 [LOCALTEST] INFO: TEAM BIND: TeamName='AKKERSDIJK, ASKO', ManagerId='aa0797', UserTeam='ps163h', UserRights=1
+2025-09-23 21:31:43 [LOCALTEST] INFO: TEAM BIND: Comparison result: False
+2025-09-23 21:31:43 [LOCALTEST] INFO: TEAM BIND: TeamName='ARROYO, CARLOS', ManagerId='ca2579', UserTeam='ps163h', UserRights=1
+2025-09-23 21:31:43 [LOCALTEST] INFO: TEAM BIND: Comparison result: False
+2025-09-23 21:31:43 [LOCALTEST] INFO: TEAM BIND: TeamName='COSENTINO, MARIANO', ManagerId='mc735p', UserTeam='ps163h', UserRights=1
+2025-09-23 21:31:43 [LOCALTEST] INFO: TEAM BIND: Comparison result: False
+2025-09-23 21:31:43 [LOCALTEST] INFO: TEAM BIND: TeamName='DOBSON, JOHN', ManagerId='jd7971', UserTeam='ps163h', UserRights=1
+2025-09-23 21:31:43 [LOCALTEST] INFO: TEAM BIND: Comparison result: False
+2025-09-23 21:31:43 [LOCALTEST] INFO: TEAM BIND: TeamName='EYAL, OFER', ManagerId='oe218x', UserTeam='ps163h', UserRights=1
+2025-09-23 21:31:43 [LOCALTEST] INFO: TEAM BIND: Comparison result: False
+2025-09-23 21:31:43 [LOCALTEST] INFO: TEAM BIND: TeamName='FRESSONE, DANTE', ManagerId='df461h', UserTeam='ps163h', UserRights=1
+2025-09-23 21:31:43 [LOCALTEST] INFO: TEAM BIND: Comparison result: False
+2025-09-23 21:31:43 [LOCALTEST] INFO: TEAM BIND: TeamName='LISGES, WOLFGANG', ManagerId='wl2628', UserTeam='ps163h', UserRights=1
+2025-09-23 21:31:43 [LOCALTEST] INFO: TEAM BIND: Comparison result: False
+2025-09-23 21:31:43 [LOCALTEST] INFO: TEAM BIND: TeamName='MONTANO SALAZAR, JOSUE', ManagerId='jm0441', UserTeam='ps163h', UserRights=1
+2025-09-23 21:31:43 [LOCALTEST] INFO: TEAM BIND: Comparison result: False
+2025-09-23 21:31:43 [LOCALTEST] INFO: TEAM BIND: TeamName='PERISSE, ANDRE', ManagerId='ap842n', UserTeam='ps163h', UserRights=1
+2025-09-23 21:31:43 [LOCALTEST] INFO: TEAM BIND: Comparison result: False
+2025-09-23 21:31:43 [LOCALTEST] INFO: TEAM BIND: TeamName='SEPELA, Pavol', ManagerId='ps163h', UserTeam='ps163h', UserRights=1
+2025-09-23 21:31:43 [LOCALTEST] INFO: TEAM BIND: Comparison result: True
+2025-09-23 21:31:43 [LOCALTEST] INFO: TEAM BIND: TeamName='SPARKS, JOHN', ManagerId='js4578', UserTeam='ps163h', UserRights=1
+2025-09-23 21:31:43 [LOCALTEST] INFO: TEAM BIND: Comparison result: False
+2025-09-23 21:31:43 [LOCALTEST] INFO: TEAM BIND: TeamName='SUJAN, GREGOR', ManagerId='gs2643', UserTeam='ps163h', UserRights=1
+2025-09-23 21:31:43 [LOCALTEST] INFO: TEAM BIND: Comparison result: False
+2025-09-23 21:31:43 [LOCALTEST] INFO: TEAM BIND: TeamName='VAN OSNABRUGGE, MARTIJN', ManagerId='mv2896', UserTeam='ps163h', UserRights=1
+2025-09-23 21:31:43 [LOCALTEST] INFO: TEAM BIND: Comparison result: False
+2025-09-23 21:32:37 [LOCALTEST] INFO: TEAM BIND: TeamName='AKKERSDIJK, ASKO', ManagerId='aa0797', UserTeam='ps163h', UserRights=1
+2025-09-23 21:32:37 [LOCALTEST] INFO: TEAM BIND: Comparison result: False
+2025-09-23 21:32:37 [LOCALTEST] INFO: TEAM BIND: TeamName='ARROYO, CARLOS', ManagerId='ca2579', UserTeam='ps163h', UserRights=1
+2025-09-23 21:32:37 [LOCALTEST] INFO: TEAM BIND: Comparison result: False
+2025-09-23 21:32:37 [LOCALTEST] INFO: TEAM BIND: TeamName='COSENTINO, MARIANO', ManagerId='mc735p', UserTeam='ps163h', UserRights=1
+2025-09-23 21:32:37 [LOCALTEST] INFO: TEAM BIND: Comparison result: False
+2025-09-23 21:32:37 [LOCALTEST] INFO: TEAM BIND: TeamName='DOBSON, JOHN', ManagerId='jd7971', UserTeam='ps163h', UserRights=1
+2025-09-23 21:32:37 [LOCALTEST] INFO: TEAM BIND: Comparison result: False
+2025-09-23 21:32:37 [LOCALTEST] INFO: TEAM BIND: TeamName='EYAL, OFER', ManagerId='oe218x', UserTeam='ps163h', UserRights=1
+2025-09-23 21:32:37 [LOCALTEST] INFO: TEAM BIND: Comparison result: False
+2025-09-23 21:32:37 [LOCALTEST] INFO: TEAM BIND: TeamName='FRESSONE, DANTE', ManagerId='df461h', UserTeam='ps163h', UserRights=1
+2025-09-23 21:32:37 [LOCALTEST] INFO: TEAM BIND: Comparison result: False
+2025-09-23 21:32:37 [LOCALTEST] INFO: TEAM BIND: TeamName='LISGES, WOLFGANG', ManagerId='wl2628', UserTeam='ps163h', UserRights=1
+2025-09-23 21:32:37 [LOCALTEST] INFO: TEAM BIND: Comparison result: False
+2025-09-23 21:32:37 [LOCALTEST] INFO: TEAM BIND: TeamName='MONTANO SALAZAR, JOSUE', ManagerId='jm0441', UserTeam='ps163h', UserRights=1
+2025-09-23 21:32:37 [LOCALTEST] INFO: TEAM BIND: Comparison result: False
+2025-09-23 21:32:37 [LOCALTEST] INFO: TEAM BIND: TeamName='PERISSE, ANDRE', ManagerId='ap842n', UserTeam='ps163h', UserRights=1
+2025-09-23 21:32:37 [LOCALTEST] INFO: TEAM BIND: Comparison result: False
+2025-09-23 21:32:37 [LOCALTEST] INFO: TEAM BIND: TeamName='SEPELA, Pavol', ManagerId='ps163h', UserTeam='ps163h', UserRights=1
+2025-09-23 21:32:37 [LOCALTEST] INFO: TEAM BIND: Comparison result: True
+2025-09-23 21:32:37 [LOCALTEST] INFO: TEAM BIND: TeamName='SPARKS, JOHN', ManagerId='js4578', UserTeam='ps163h', UserRights=1
+2025-09-23 21:32:37 [LOCALTEST] INFO: TEAM BIND: Comparison result: False
+2025-09-23 21:32:37 [LOCALTEST] INFO: TEAM BIND: TeamName='SUJAN, GREGOR', ManagerId='gs2643', UserTeam='ps163h', UserRights=1
+2025-09-23 21:32:37 [LOCALTEST] INFO: TEAM BIND: Comparison result: False
+2025-09-23 21:32:37 [LOCALTEST] INFO: TEAM BIND: TeamName='VAN OSNABRUGGE, MARTIJN', ManagerId='mv2896', UserTeam='ps163h', UserRights=1
+2025-09-23 21:32:37 [LOCALTEST] INFO: TEAM BIND: Comparison result: False
+2025-09-23 21:32:37 [LOCALTEST] INFO: TeamLink_Click CALLED: teamName='SEPELA, Pavol', Session CurrentTeam=''
+2025-09-23 21:32:37 [LOCALTEST] INFO: ShowMemberView CALLED: teamName='SEPELA, Pavol'
