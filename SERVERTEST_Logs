@@ -1,1 +1,5 @@
 2025-10-04 22:47:33.472 - [DIAGNOSTIC-1] IsPostBack=False, EventTarget='', EventArgument=''
+2025-10-04 22:48:44.511 - [DIAGNOSTIC-2] IsPostBack=True, EventTarget='ctl00$MainContent$Calendar1', EventArgument='9415'
+2025-10-04 22:48:45.262 - [CALENDAR-EVENT] Calendar1_SelectionChanged FIRED! SelectedDate=2025-10-11
+2025-10-04 22:48:48.945 - [DIAGNOSTIC-3] IsPostBack=True, EventTarget='ctl00$MainContent$Calendar1', EventArgument='9422'
+2025-10-04 22:48:50.103 - [CALENDAR-EVENT] Calendar1_SelectionChanged FIRED! SelectedDate=2025-10-18
