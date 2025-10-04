@@ -1,74 +1,24 @@
-=== NEW SESSION STARTED 2025-10-04 14:49:24 ===
-2025-10-04 14:49:24.349 - [DIRECT-DIAGNOSTIC-1] IsPostBack=False, EventTarget='', HasAuthResult=False, SessionUserId=''
+=== NEW SESSION STARTED 2025-10-04 14:58:43 ===
 DEBUG: _currentUser='', _environment='SERVERTEST'
-2025-10-04 14:49:24 [SERVERTEST] INFO: AUTH TIMING: Username resolved to 'th3882' in 0ms
-2025-10-04 14:49:24 [SERVERTEST] INFO: WHITELIST: Checking database first for user th3882
-2025-10-04 14:49:31 [SERVERTEST] INFO: DEBUG: Returned from CheckUserForWhitelist, result = FOUND
-2025-10-04 14:49:31 [SERVERTEST] INFO: WHITELIST HIT: User th3882 found in database, skipping LDAP check
-2025-10-04 14:49:31 [SERVERTEST] INFO: AUTH TIMING: Company user validation took 6738.1281ms
-2025-10-04 14:49:31 [SERVERTEST] INFO: AUTH TIMING: GetCurrentUser() COMPLETE in 6734ms
-2025-10-04 14:49:31 [SERVERTEST] INFO: [PERF] Fresh authentication completed in 6738.1281ms
-2025-10-04 14:49:31 [SERVERTEST] INFO: AUTH SUCCESS: User th3882, Rights: 0, Team: ps163h
-2025-10-04 14:49:33 [SERVERTEST] INFO: [DB-SIZE] AWSusers_new: 171 active users
-2025-10-04 14:49:33 [SERVERTEST] INFO: [DB-SIZE] AWSusers_new: 15 active managers
-2025-10-04 14:49:33 [SERVERTEST] INFO: [DB-SIZE] AWSshiftSchedule_new: 345 total records
-2025-10-04 14:49:33 [SERVERTEST] INFO: [DB-SIZE] AWSaraSchedule_new: 327 total records
-2025-10-04 14:49:33 [SERVERTEST] INFO: [DB-SIZE] AWSmanpower_new: 577 total records
-2025-10-04 14:49:33 [SERVERTEST] INFO: [DB-SIZE] AWSshiftSchedule_new date range: 2025-10-01 to 2025-11-01
-2025-10-04 14:49:34 [SERVERTEST] INFO: [DB-SIZE] AWSaraSchedule_new date range: 2025-09-30 to 2025-11-01
-2025-10-04 14:49:34 [SERVERTEST] INFO: [DB-SIZE] AWSmanpower_new date range: 2025-09-30 to 2025-11-01
-2025-10-04 14:49:34 [SERVERTEST] INFO: [PERF] BindTeams START at 14:49:34.154
-2025-10-04 14:49:36 [SERVERTEST] INFO: [PERF] Bulk utilization calculation for 15 teams took 140.6852ms
-2025-10-04 14:49:36 [SERVERTEST] INFO: [PERF] GetCachedManpowerData took 0ms, loaded 79 records
-2025-10-04 14:49:36 [SERVERTEST] INFO: [PERF] BindScrollableHeaders took 0ms
-2025-10-04 14:49:37 [SERVERTEST] INFO: [PERF] PopulateManpowerCells took 93.8931ms
-2025-10-04 14:49:37 [SERVERTEST] INFO: [PERF] BindTeams COMPLETE in 2909.9786ms
-2025-10-04 14:49:37 [SERVERTEST] INFO: [PERF] Page_Load COMPLETE in 12717ms at 14:49:37.064
-2025-10-04 14:49:55.242 - [DIRECT-DIAGNOSTIC-2] IsPostBack=True, EventTarget='ctl00$MainContent$Calendar1', HasAuthResult=True, SessionUserId='th3882'
-2025-10-04 14:49:55 [SERVERTEST] INFO: [DIAGNOSTIC-2] Page_Load ENTRY - IsPostBack=True, EventTarget='ctl00$MainContent$Calendar1', EventArgument='9415'
-2025-10-04 14:49:55 [SERVERTEST] INFO: [PERF] Skipping BindTeams in Page_Load - Calendar event will handle it
-2025-10-04 14:49:55.242 - [DIRECT-CALENDAR-EVENT] Calendar1_SelectionChanged FIRED! SelectedDate=2025-10-11
-2025-10-04 14:49:55 [SERVERTEST] INFO: [CALENDAR] ===== CALENDAR CHANGE EVENT START ===== at 14:49:55.242, Date=2025-10-11
-2025-10-04 14:49:55 [SERVERTEST] INFO: [PERF] BindTeams START at 14:49:55.507
-2025-10-04 14:49:55 [SERVERTEST] INFO: [PERF] Bulk utilization calculation for 15 teams took 15.6009ms
-2025-10-04 14:49:56 [SERVERTEST] INFO: [PERF] GetCachedManpowerData took 0ms, loaded 125 records
-2025-10-04 14:49:56 [SERVERTEST] INFO: [PERF] BindScrollableHeaders took 0ms
-2025-10-04 14:49:56 [SERVERTEST] INFO: [PERF] PopulateManpowerCells took 109.3745ms
-2025-10-04 14:49:56 [SERVERTEST] INFO: [PERF] BindTeams COMPLETE in 1109.3127ms
-2025-10-04 14:49:56 [SERVERTEST] INFO: [CALENDAR] ===== CALENDAR CHANGE EVENT COMPLETE ===== in 1375.0816ms
-2025-10-04 14:49:59.574 - [DIRECT-DIAGNOSTIC-3] IsPostBack=True, EventTarget='ctl00$MainContent$Calendar1', HasAuthResult=True, SessionUserId='th3882'
-2025-10-04 14:49:59 [SERVERTEST] INFO: [DIAGNOSTIC-3] Page_Load ENTRY - IsPostBack=True, EventTarget='ctl00$MainContent$Calendar1', EventArgument='9414'
-2025-10-04 14:49:59 [SERVERTEST] INFO: [PERF] Skipping BindTeams in Page_Load - Calendar event will handle it
-2025-10-04 14:49:59.574 - [DIRECT-CALENDAR-EVENT] Calendar1_SelectionChanged FIRED! SelectedDate=2025-10-10
-2025-10-04 14:49:59 [SERVERTEST] INFO: [CALENDAR] ===== CALENDAR CHANGE EVENT START ===== at 14:49:59.574, Date=2025-10-10
-2025-10-04 14:49:59 [SERVERTEST] INFO: [PERF] BindTeams START at 14:49:59.714
-2025-10-04 14:49:59 [SERVERTEST] INFO: [PERF] Bulk utilization calculation for 15 teams took 0ms
-2025-10-04 14:50:00 [SERVERTEST] INFO: [PERF] GetCachedManpowerData took 0ms, loaded 125 records
-2025-10-04 14:50:00 [SERVERTEST] INFO: [PERF] BindScrollableHeaders took 0ms
-2025-10-04 14:50:00 [SERVERTEST] INFO: [PERF] PopulateManpowerCells took 109.3165ms
-2025-10-04 14:50:00 [SERVERTEST] INFO: [PERF] BindTeams COMPLETE in 1062.5244ms
-2025-10-04 14:50:00 [SERVERTEST] INFO: [CALENDAR] ===== CALENDAR CHANGE EVENT COMPLETE ===== in 1203.1379ms
-2025-10-04 14:50:04.827 - [DIRECT-DIAGNOSTIC-4] IsPostBack=True, EventTarget='ctl00$MainContent$Calendar1', HasAuthResult=True, SessionUserId='th3882'
-2025-10-04 14:50:04 [SERVERTEST] INFO: [DIAGNOSTIC-4] Page_Load ENTRY - IsPostBack=True, EventTarget='ctl00$MainContent$Calendar1', EventArgument='9421'
-2025-10-04 14:50:04 [SERVERTEST] INFO: [PERF] Skipping BindTeams in Page_Load - Calendar event will handle it
-2025-10-04 14:50:04.827 - [DIRECT-CALENDAR-EVENT] Calendar1_SelectionChanged FIRED! SelectedDate=2025-10-17
-2025-10-04 14:50:04 [SERVERTEST] INFO: [CALENDAR] ===== CALENDAR CHANGE EVENT START ===== at 14:50:04.827, Date=2025-10-17
-2025-10-04 14:50:05 [SERVERTEST] INFO: [PERF] BindTeams START at 14:50:05.095
-2025-10-04 14:50:05 [SERVERTEST] INFO: [PERF] Bulk utilization calculation for 15 teams took 0ms
-2025-10-04 14:50:06 [SERVERTEST] INFO: [PERF] GetCachedManpowerData took 0ms, loaded 125 records
-2025-10-04 14:50:06 [SERVERTEST] INFO: [PERF] BindScrollableHeaders took 0ms
-2025-10-04 14:50:06 [SERVERTEST] INFO: [PERF] PopulateManpowerCells took 109.3785ms
-2025-10-04 14:50:06 [SERVERTEST] INFO: [PERF] BindTeams COMPLETE in 1031.2795ms
-2025-10-04 14:50:06 [SERVERTEST] INFO: [CALENDAR] ===== CALENDAR CHANGE EVENT COMPLETE ===== in 1299.3667ms
-2025-10-04 14:50:10.124 - [DIRECT-DIAGNOSTIC-5] IsPostBack=True, EventTarget='ctl00$MainContent$Calendar1', HasAuthResult=True, SessionUserId='th3882'
-2025-10-04 14:50:10 [SERVERTEST] INFO: [DIAGNOSTIC-5] Page_Load ENTRY - IsPostBack=True, EventTarget='ctl00$MainContent$Calendar1', EventArgument='9420'
-2025-10-04 14:50:10 [SERVERTEST] INFO: [PERF] Skipping BindTeams in Page_Load - Calendar event will handle it
-2025-10-04 14:50:10.124 - [DIRECT-CALENDAR-EVENT] Calendar1_SelectionChanged FIRED! SelectedDate=2025-10-16
-2025-10-04 14:50:10 [SERVERTEST] INFO: [CALENDAR] ===== CALENDAR CHANGE EVENT START ===== at 14:50:10.124, Date=2025-10-16
-2025-10-04 14:50:10 [SERVERTEST] INFO: [PERF] BindTeams START at 14:50:10.264
-2025-10-04 14:50:10 [SERVERTEST] INFO: [PERF] Bulk utilization calculation for 15 teams took 0ms
-2025-10-04 14:50:11 [SERVERTEST] INFO: [PERF] GetCachedManpowerData took 0ms, loaded 125 records
-2025-10-04 14:50:11 [SERVERTEST] INFO: [PERF] BindScrollableHeaders took 15.622ms
-2025-10-04 14:50:11 [SERVERTEST] INFO: [PERF] PopulateManpowerCells took 109.3774ms
-2025-10-04 14:50:11 [SERVERTEST] INFO: [PERF] BindTeams COMPLETE in 1062.5158ms
-2025-10-04 14:50:11 [SERVERTEST] INFO: [CALENDAR] ===== CALENDAR CHANGE EVENT COMPLETE ===== in 1203.1434ms
+2025-10-04 14:58:44 [SERVERTEST] INFO: AUTH TIMING: Username resolved to 'th3882' in 0ms
+2025-10-04 14:58:44 [SERVERTEST] INFO: WHITELIST: Checking database first for user th3882
+2025-10-04 14:58:50 [SERVERTEST] INFO: DEBUG: Returned from CheckUserForWhitelist, result = FOUND
+2025-10-04 14:58:50 [SERVERTEST] INFO: WHITELIST HIT: User th3882 found in database, skipping LDAP check
+2025-10-04 14:58:50 [SERVERTEST] INFO: AUTH TIMING: Company user validation took 6562.9155ms
+2025-10-04 14:58:50 [SERVERTEST] INFO: AUTH TIMING: GetCurrentUser() COMPLETE in 6569ms
+2025-10-04 14:58:50 [SERVERTEST] INFO: AUTH SUCCESS: User th3882, Rights: 0, Team: ps163h
+2025-10-04 14:58:52 [SERVERTEST] INFO: [DB-SIZE] AWSusers_new: 171 active users
+2025-10-04 14:58:52 [SERVERTEST] INFO: [DB-SIZE] AWSusers_new: 15 active managers
+2025-10-04 14:58:52 [SERVERTEST] INFO: [DB-SIZE] AWSshiftSchedule_new: 345 total records
+2025-10-04 14:58:53 [SERVERTEST] INFO: [DB-SIZE] AWSaraSchedule_new: 327 total records
+2025-10-04 14:58:53 [SERVERTEST] INFO: [DB-SIZE] AWSmanpower_new: 577 total records
+2025-10-04 14:58:53 [SERVERTEST] INFO: [DB-SIZE] AWSshiftSchedule_new date range: 2025-10-01 to 2025-11-01
+2025-10-04 14:58:53 [SERVERTEST] INFO: [DB-SIZE] AWSaraSchedule_new date range: 2025-09-30 to 2025-11-01
+2025-10-04 14:58:53 [SERVERTEST] INFO: [DB-SIZE] AWSmanpower_new date range: 2025-09-30 to 2025-11-01
+2025-10-04 14:58:56 [SERVERTEST] INFO: [PERF] Page_Load COMPLETE in 12540ms at 14:58:56.564
+2025-10-04 14:59:08 [SERVERTEST] INFO: [PERF] Skipping BindTeams in Page_Load - Calendar event will handle it
+2025-10-04 14:59:12 [SERVERTEST] INFO: [PERF] Skipping BindTeams in Page_Load - Calendar event will handle it
+2025-10-04 14:59:18 [SERVERTEST] INFO: [PERF] Skipping BindTeams in Page_Load - Calendar event will handle it
+2025-10-04 14:59:22 [SERVERTEST] INFO: [PERF] Skipping BindTeams in Page_Load - Calendar event will handle it
+2025-10-04 14:59:24 [SERVERTEST] INFO: [PERF] Skipping BindTeams in Page_Load - Calendar event will handle it
+2025-10-04 14:59:28 [SERVERTEST] INFO: [PERF] Skipping BindTeams in Page_Load - Calendar event will handle it
