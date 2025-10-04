@@ -1,146 +1,42 @@
-=== NEW SESSION STARTED 2025-10-04 16:15:57 ===
-2025-10-04 16:15:57 [LOCALTEST] INFO: [PERF] Page_Load START at 16:15:57.727, IsPostBack=False
-2025-10-04 16:15:57 [LOCALTEST] INFO: [PERF] Starting authentication check at 16:15:57.729
-2025-10-04 16:15:57 [LOCALTEST] INFO: Application loaded in LOCALTEST environment
-2025-10-04 16:15:57 [LOCALTEST] INFO: AUTH TIMING: GetCurrentUser() START
-2025-10-04 16:15:57 [LOCALTEST] INFO: AUTH TIMING: Username resolved to 'th3882' in 1ms
-2025-10-04 16:15:57 [LOCALTEST] INFO: WHITELIST: Checking database first for user th3882
-2025-10-04 16:15:59 [LOCALTEST] INFO: DEBUG: Returned from CheckUserForWhitelist, result = FOUND
-2025-10-04 16:15:59 [LOCALTEST] INFO: WHITELIST HIT: User th3882 found in database, skipping LDAP check
-2025-10-04 16:15:59 [LOCALTEST] INFO: AUTH TIMING: Company user validation took 2144,4345ms
-2025-10-04 16:15:59 [LOCALTEST] INFO: AUTH TIMING: GetCurrentUser() COMPLETE in 2146ms
-2025-10-04 16:15:59 [LOCALTEST] INFO: [PERF] Fresh authentication completed in 2155,2877ms
-2025-10-04 16:15:59 [LOCALTEST] INFO: AUTH SUCCESS: User th3882, Rights: 0, Team: ps163h
-2025-10-04 16:16:00 [LOCALTEST] INFO: [DB-SIZE] AWSusers_new: 171 active users
-2025-10-04 16:16:00 [LOCALTEST] INFO: [DB-SIZE] AWSusers_new: 15 active managers
-2025-10-04 16:16:00 [LOCALTEST] INFO: [DB-SIZE] AWSshiftSchedule_new: 345 total records
-2025-10-04 16:16:00 [LOCALTEST] INFO: [DB-SIZE] AWSaraSchedule_new: 326 total records
-2025-10-04 16:16:00 [LOCALTEST] INFO: [DB-SIZE] AWSmanpower_new: 353 total records
-2025-10-04 16:16:00 [LOCALTEST] INFO: [DB-SIZE] AWSshiftSchedule_new date range: 2025-10-01 to 2025-11-01
-2025-10-04 16:16:00 [LOCALTEST] INFO: [DB-SIZE] AWSaraSchedule_new date range: 2025-09-30 to 2025-11-01
-2025-10-04 16:16:00 [LOCALTEST] INFO: [DB-SIZE] AWSmanpower_new date range: 2025-09-30 to 2025-10-20
-2025-10-04 16:16:00 [LOCALTEST] INFO: [PERF] BindTeams START at 16:16:00.535
-2025-10-04 16:16:00 [LOCALTEST] INFO: [PERF-DB] GetTeams START
-2025-10-04 16:16:00 [LOCALTEST] INFO: [PERF-DB] DB connection opened in 426,895ms
-2025-10-04 16:16:00 [LOCALTEST] INFO: [PERF-DB] GetTeams query completed in 25,9772ms, total time 454ms, returned 15 teams
-2025-10-04 16:16:00 [LOCALTEST] INFO: [PERF] GetTeams completed in 456,1549ms, returned 15 teams
-2025-10-04 16:16:02 [LOCALTEST] INFO: [PERF] GetCachedManpowerData completed in 0ms, returned 79 records
-2025-10-04 16:16:02 [LOCALTEST] INFO: [PERF] BindScrollableHeaders completed in 6,7544ms
-2025-10-04 16:16:02 [LOCALTEST] INFO: [PERF] PopulateManpowerCells completed in 163,3212ms
-2025-10-04 16:16:02 [LOCALTEST] INFO: [PERF] BindTeams COMPLETE in 2459,8106ms
-2025-10-04 16:16:02 [LOCALTEST] INFO: [PERF] Page_Load COMPLETE in 5267ms at 16:16:02.994
-2025-10-04 16:16:52 [LOCALTEST] INFO: [PERF] Page_Load START at 16:16:52.114, IsPostBack=True
-2025-10-04 16:16:52 [LOCALTEST] INFO: [PERF] BindTeams START at 16:16:52.114
-2025-10-04 16:16:52 [LOCALTEST] INFO: [PERF-DB] GetTeams START
-2025-10-04 16:16:52 [LOCALTEST] INFO: [PERF-DB] DB connection opened in 0ms
-2025-10-04 16:16:52 [LOCALTEST] INFO: [PERF-DB] GetTeams query completed in 24,1831ms, total time 25ms, returned 15 teams
-2025-10-04 16:16:52 [LOCALTEST] INFO: [PERF] GetTeams completed in 26,1968ms, returned 15 teams
-2025-10-04 16:16:53 [LOCALTEST] INFO: [PERF] GetCachedManpowerData completed in 0ms, returned 79 records
-2025-10-04 16:16:53 [LOCALTEST] INFO: [PERF] BindScrollableHeaders completed in 1,0043ms
-2025-10-04 16:16:53 [LOCALTEST] INFO: [PERF] PopulateManpowerCells completed in 150,1519ms
-2025-10-04 16:16:53 [LOCALTEST] INFO: [PERF] BindTeams COMPLETE in 1553,2203ms
-2025-10-04 16:16:53 [LOCALTEST] INFO: [PERF] Page_Load COMPLETE in 1554ms at 16:16:53.667
-2025-10-04 16:16:53 [LOCALTEST] INFO: [PERF] Calendar_SelectionChanged START at 16:16:53.676, Date=2025-10-11
-2025-10-04 16:16:53 [LOCALTEST] INFO: [PERF] Calendar changed in teams view - rebinding teams
-2025-10-04 16:16:53 [LOCALTEST] INFO: [PERF-DB] GetTeams START
-2025-10-04 16:16:53 [LOCALTEST] INFO: [PERF-DB] DB connection opened in 0ms
-2025-10-04 16:16:53 [LOCALTEST] INFO: [PERF-DB] GetTeams query completed in 25,3499ms, total time 26ms, returned 15 teams
-2025-10-04 16:16:53 [LOCALTEST] INFO: [PERF] GetTeams completed in 27,3471ms, 15 teams
-2025-10-04 16:16:53 [LOCALTEST] INFO: [PERF] Teams view - calculating manpower for week: 2025-10-06 to 2025-10-12
-2025-10-04 16:16:53 [LOCALTEST] INFO: [PERF-DB] CalculateAndUpdateManpower START - Team: AKKERSDIJK, ASKO, 2025-10-06 to 2025-10-12
-2025-10-04 16:16:54 [LOCALTEST] INFO: [PERF-DB] ARA query completed in 22,6123ms, retrieved 0 ARA records for team 'AKKERSDIJK, ASKO'
-2025-10-04 16:16:54 [LOCALTEST] INFO: [PERF-DB] CalculateAndUpdateManpower COMPLETE for team AKKERSDIJK, ASKO in 485ms, inserted 0 records
-2025-10-04 16:16:54 [LOCALTEST] INFO: [PERF] CalculateAndUpdateManpower for 'AKKERSDIJK, ASKO' in 490,5023ms
-2025-10-04 16:16:54 [LOCALTEST] INFO: [PERF-DB] CalculateAndUpdateManpower START - Team: ARROYO, CARLOS, 2025-10-06 to 2025-10-12
-2025-10-04 16:16:54 [LOCALTEST] INFO: [PERF-DB] ARA query completed in 23,4006ms, retrieved 0 ARA records for team 'ARROYO, CARLOS'
-2025-10-04 16:16:54 [LOCALTEST] INFO: [PERF-DB] CalculateAndUpdateManpower COMPLETE for team ARROYO, CARLOS in 495ms, inserted 0 records
-2025-10-04 16:16:54 [LOCALTEST] INFO: [PERF] CalculateAndUpdateManpower for 'ARROYO, CARLOS' in 495,9893ms
-2025-10-04 16:16:54 [LOCALTEST] INFO: [PERF-DB] CalculateAndUpdateManpower START - Team: COSENTINO, MARIANO, 2025-10-06 to 2025-10-12
-2025-10-04 16:16:54 [LOCALTEST] INFO: [PERF-DB] ARA query completed in 25,1031ms, retrieved 0 ARA records for team 'COSENTINO, MARIANO'
-2025-10-04 16:16:55 [LOCALTEST] INFO: [PERF-DB] CalculateAndUpdateManpower COMPLETE for team COSENTINO, MARIANO in 310ms, inserted 0 records
-2025-10-04 16:16:55 [LOCALTEST] INFO: [PERF] CalculateAndUpdateManpower for 'COSENTINO, MARIANO' in 310,7256ms
-2025-10-04 16:16:55 [LOCALTEST] INFO: [PERF-DB] CalculateAndUpdateManpower START - Team: DE WISPELAERE, STEVEN, 2025-10-06 to 2025-10-12
-2025-10-04 16:16:55 [LOCALTEST] INFO: [PERF-DB] ARA query completed in 25,0217ms, retrieved 0 ARA records for team 'DE WISPELAERE, STEVEN'
-2025-10-04 16:16:55 [LOCALTEST] INFO: [PERF-DB] CalculateAndUpdateManpower COMPLETE for team DE WISPELAERE, STEVEN in 309ms, inserted 0 records
-2025-10-04 16:16:55 [LOCALTEST] INFO: [PERF] CalculateAndUpdateManpower for 'DE WISPELAERE, STEVEN' in 310,8837ms
-2025-10-04 16:16:55 [LOCALTEST] INFO: [PERF-DB] CalculateAndUpdateManpower START - Team: DOBSON, JOHN, 2025-10-06 to 2025-10-12
-2025-10-04 16:16:55 [LOCALTEST] INFO: [PERF-DB] ARA query completed in 28,2124ms, retrieved 0 ARA records for team 'DOBSON, JOHN'
-2025-10-04 16:16:55 [LOCALTEST] INFO: [PERF-DB] CalculateAndUpdateManpower COMPLETE for team DOBSON, JOHN in 344ms, inserted 0 records
-2025-10-04 16:16:55 [LOCALTEST] INFO: [PERF] CalculateAndUpdateManpower for 'DOBSON, JOHN' in 345,8765ms
-2025-10-04 16:16:55 [LOCALTEST] INFO: [PERF-DB] CalculateAndUpdateManpower START - Team: EYAL, OFER, 2025-10-06 to 2025-10-12
-2025-10-04 16:16:55 [LOCALTEST] INFO: [PERF-DB] ARA query completed in 25,2865ms, retrieved 0 ARA records for team 'EYAL, OFER'
-2025-10-04 16:16:55 [LOCALTEST] INFO: [PERF-DB] CalculateAndUpdateManpower COMPLETE for team EYAL, OFER in 324ms, inserted 0 records
-2025-10-04 16:16:55 [LOCALTEST] INFO: [PERF] CalculateAndUpdateManpower for 'EYAL, OFER' in 324,4628ms
-2025-10-04 16:16:55 [LOCALTEST] INFO: [PERF-DB] CalculateAndUpdateManpower START - Team: ILANOVSKY, MARTIN, 2025-10-06 to 2025-10-12
-2025-10-04 16:16:56 [LOCALTEST] INFO: [PERF-DB] ARA query completed in 23,6149ms, retrieved 0 ARA records for team 'ILANOVSKY, MARTIN'
-2025-10-04 16:16:56 [LOCALTEST] INFO: [PERF-DB] CalculateAndUpdateManpower COMPLETE for team ILANOVSKY, MARTIN in 319ms, inserted 0 records
-2025-10-04 16:16:56 [LOCALTEST] INFO: [PERF] CalculateAndUpdateManpower for 'ILANOVSKY, MARTIN' in 319,2423ms
-2025-10-04 16:16:56 [LOCALTEST] INFO: [PERF-DB] CalculateAndUpdateManpower START - Team: KOUJALAGI, GIRISH, 2025-10-06 to 2025-10-12
-2025-10-04 16:16:56 [LOCALTEST] INFO: [PERF-DB] ARA query completed in 24,7035ms, retrieved 0 ARA records for team 'KOUJALAGI, GIRISH'
-2025-10-04 16:16:56 [LOCALTEST] INFO: [PERF-DB] CalculateAndUpdateManpower COMPLETE for team KOUJALAGI, GIRISH in 350ms, inserted 0 records
-2025-10-04 16:16:56 [LOCALTEST] INFO: [PERF] CalculateAndUpdateManpower for 'KOUJALAGI, GIRISH' in 350,9413ms
-2025-10-04 16:16:56 [LOCALTEST] INFO: [PERF-DB] CalculateAndUpdateManpower START - Team: LISGES, WOLFGANG, 2025-10-06 to 2025-10-12
-2025-10-04 16:16:56 [LOCALTEST] INFO: [PERF-DB] ARA query completed in 25,4724ms, retrieved 0 ARA records for team 'LISGES, WOLFGANG'
-2025-10-04 16:16:56 [LOCALTEST] INFO: [PERF-DB] CalculateAndUpdateManpower COMPLETE for team LISGES, WOLFGANG in 307ms, inserted 0 records
-2025-10-04 16:16:56 [LOCALTEST] INFO: [PERF] CalculateAndUpdateManpower for 'LISGES, WOLFGANG' in 307,1485ms
-2025-10-04 16:16:56 [LOCALTEST] INFO: [PERF-DB] CalculateAndUpdateManpower START - Team: MARTIN, ERIK, 2025-10-06 to 2025-10-12
-2025-10-04 16:16:57 [LOCALTEST] INFO: [PERF-DB] ARA query completed in 23,4018ms, retrieved 0 ARA records for team 'MARTIN, ERIK'
-2025-10-04 16:16:57 [LOCALTEST] INFO: [PERF-DB] CalculateAndUpdateManpower COMPLETE for team MARTIN, ERIK in 325ms, inserted 0 records
-2025-10-04 16:16:57 [LOCALTEST] INFO: [PERF] CalculateAndUpdateManpower for 'MARTIN, ERIK' in 325,829ms
-2025-10-04 16:16:57 [LOCALTEST] INFO: [PERF-DB] CalculateAndUpdateManpower START - Team: MONTANO SALAZAR, JOSUE, 2025-10-06 to 2025-10-12
-2025-10-04 16:16:57 [LOCALTEST] INFO: [PERF-DB] ARA query completed in 25,4191ms, retrieved 0 ARA records for team 'MONTANO SALAZAR, JOSUE'
-2025-10-04 16:16:57 [LOCALTEST] INFO: [PERF-DB] CalculateAndUpdateManpower COMPLETE for team MONTANO SALAZAR, JOSUE in 330ms, inserted 0 records
-2025-10-04 16:16:57 [LOCALTEST] INFO: [PERF] CalculateAndUpdateManpower for 'MONTANO SALAZAR, JOSUE' in 331,2933ms
-2025-10-04 16:16:57 [LOCALTEST] INFO: [PERF-DB] CalculateAndUpdateManpower START - Team: PERISSE, ANDRE, 2025-10-06 to 2025-10-12
-2025-10-04 16:16:57 [LOCALTEST] INFO: [PERF-DB] ARA query completed in 25,8801ms, retrieved 0 ARA records for team 'PERISSE, ANDRE'
-2025-10-04 16:16:57 [LOCALTEST] INFO: [PERF-DB] CalculateAndUpdateManpower COMPLETE for team PERISSE, ANDRE in 342ms, inserted 0 records
-2025-10-04 16:16:57 [LOCALTEST] INFO: [PERF] CalculateAndUpdateManpower for 'PERISSE, ANDRE' in 343,4272ms
-2025-10-04 16:16:57 [LOCALTEST] INFO: [PERF-DB] CalculateAndUpdateManpower START - Team: SEPELA, Pavol, 2025-10-06 to 2025-10-12
-2025-10-04 16:16:58 [LOCALTEST] INFO: [PERF-DB] ARA query completed in 27,321ms, retrieved 85 ARA records for team 'SEPELA, Pavol'
-2025-10-04 16:16:58 [LOCALTEST] INFO: [PERF-DB] CalculateAndUpdateManpower COMPLETE for team SEPELA, Pavol in 587ms, inserted 151 records
-2025-10-04 16:16:58 [LOCALTEST] INFO: [PERF] CalculateAndUpdateManpower for 'SEPELA, Pavol' in 588,9952ms
-2025-10-04 16:16:58 [LOCALTEST] INFO: [PERF-DB] CalculateAndUpdateManpower START - Team: SPARKS, JOHN, 2025-10-06 to 2025-10-12
-2025-10-04 16:16:58 [LOCALTEST] INFO: [PERF-DB] ARA query completed in 26,7288ms, retrieved 0 ARA records for team 'SPARKS, JOHN'
-2025-10-04 16:16:58 [LOCALTEST] INFO: [PERF-DB] CalculateAndUpdateManpower COMPLETE for team SPARKS, JOHN in 323ms, inserted 0 records
-2025-10-04 16:16:58 [LOCALTEST] INFO: [PERF] CalculateAndUpdateManpower for 'SPARKS, JOHN' in 324,0386ms
-2025-10-04 16:16:58 [LOCALTEST] INFO: [PERF-DB] CalculateAndUpdateManpower START - Team: VAN OSNABRUGGE, MARTIJN, 2025-10-06 to 2025-10-12
-2025-10-04 16:16:59 [LOCALTEST] INFO: [PERF-DB] ARA query completed in 24,1628ms, retrieved 0 ARA records for team 'VAN OSNABRUGGE, MARTIJN'
-2025-10-04 16:16:59 [LOCALTEST] INFO: [PERF-DB] CalculateAndUpdateManpower COMPLETE for team VAN OSNABRUGGE, MARTIJN in 306ms, inserted 0 records
-2025-10-04 16:16:59 [LOCALTEST] INFO: [PERF] CalculateAndUpdateManpower for 'VAN OSNABRUGGE, MARTIJN' in 305,7175ms
-2025-10-04 16:16:59 [LOCALTEST] INFO: [PERF] All teams manpower calculation completed in 5486,109ms
-2025-10-04 16:16:59 [LOCALTEST] INFO: [PERF] GetCachedManpowerData completed in 28,423ms, 125 records
-2025-10-04 16:16:59 [LOCALTEST] INFO: [PERF] BindTeams START at 16:16:59.221
-2025-10-04 16:16:59 [LOCALTEST] INFO: [PERF-DB] GetTeams START
-2025-10-04 16:16:59 [LOCALTEST] INFO: [PERF-DB] DB connection opened in 0ms
-2025-10-04 16:16:59 [LOCALTEST] INFO: [PERF-DB] GetTeams query completed in 25,6011ms, total time 25ms, returned 15 teams
-2025-10-04 16:16:59 [LOCALTEST] INFO: [PERF] GetTeams completed in 26,6113ms, returned 15 teams
-2025-10-04 16:17:02 [LOCALTEST] INFO: [PERF] GetCachedManpowerData completed in 0ms, returned 125 records
-2025-10-04 16:17:02 [LOCALTEST] INFO: [PERF] BindScrollableHeaders completed in 1,0747ms
-2025-10-04 16:17:02 [LOCALTEST] INFO: [PERF] PopulateManpowerCells completed in 255,4354ms
-2025-10-04 16:17:02 [LOCALTEST] INFO: [PERF] BindTeams COMPLETE in 3306,5467ms
-2025-10-04 16:17:02 [LOCALTEST] INFO: [PERF] BindTeams completed in 3306,5467ms
-2025-10-04 16:17:02 [LOCALTEST] INFO: [PERF] Calendar_SelectionChanged COMPLETE in 8853,8527ms
-2025-10-04 16:17:13 [LOCALTEST] INFO: [PERF] Page_Load START at 16:17:13.666, IsPostBack=True
-2025-10-04 16:17:13 [LOCALTEST] INFO: [PERF] BindTeams START at 16:17:13.667
-2025-10-04 16:17:13 [LOCALTEST] INFO: [PERF-DB] GetTeams START
-2025-10-04 16:17:13 [LOCALTEST] INFO: [PERF-DB] DB connection opened in 0ms
-2025-10-04 16:17:13 [LOCALTEST] INFO: [PERF-DB] GetTeams query completed in 25,1242ms, total time 26ms, returned 15 teams
-2025-10-04 16:17:13 [LOCALTEST] INFO: [PERF] GetTeams completed in 27,7436ms, returned 15 teams
-2025-10-04 16:17:15 [LOCALTEST] INFO: [PERF] GetCachedManpowerData completed in 0ms, returned 125 records
-2025-10-04 16:17:15 [LOCALTEST] INFO: [PERF] BindScrollableHeaders completed in 1,0409ms
-2025-10-04 16:17:15 [LOCALTEST] INFO: [PERF] PopulateManpowerCells completed in 242,8829ms
-2025-10-04 16:17:15 [LOCALTEST] INFO: [PERF] BindTeams COMPLETE in 1951,9687ms
-2025-10-04 16:17:15 [LOCALTEST] INFO: [PERF] Page_Load COMPLETE in 1953ms at 16:17:15.620
-2025-10-04 16:17:19 [LOCALTEST] INFO: [PERF] Page_Load START at 16:17:19.318, IsPostBack=True
-2025-10-04 16:17:38 [LOCALTEST] INFO: [PERF] Page_Load START at 16:17:38.995, IsPostBack=True
-2025-10-04 16:17:40 [LOCALTEST] INFO: [PERF] Page_Load COMPLETE in 1860ms at 16:17:40.856
-2025-10-04 16:17:40 [LOCALTEST] INFO: [PERF] Calendar_SelectionChanged START at 16:17:40.857, Date=2025-10-18
-2025-10-04 16:17:40 [LOCALTEST] INFO: [PERF] Member view - calculating manpower for week: 2025-10-13 to 2025-10-19
-2025-10-04 16:17:40 [LOCALTEST] INFO: [PERF-DB] CalculateAndUpdateManpower START - Team: SEPELA, Pavol, 2025-10-13 to 2025-10-19
-2025-10-04 16:17:41 [LOCALTEST] INFO: [PERF-DB] ARA query completed in 28,0721ms, retrieved 85 ARA records for team 'SEPELA, Pavol'
-2025-10-04 16:17:41 [LOCALTEST] INFO: [PERF-DB] CalculateAndUpdateManpower COMPLETE for team SEPELA, Pavol in 600ms, inserted 151 records
-2025-10-04 16:17:41 [LOCALTEST] INFO: [PERF] CalculateAndUpdateManpower for team 'SEPELA, Pavol' completed in 601,8139ms
-2025-10-04 16:17:41 [LOCALTEST] INFO: [PERF] Cleared manpower cache for key: ManpowerData_2025-10-13_2025-10-19_SEPELA, Pavol
-2025-10-04 16:17:41 [LOCALTEST] INFO: [PERF] BindScrollableHeaders completed in 1,0053ms
-2025-10-04 16:17:43 [LOCALTEST] INFO: [PERF] ShowMemberView completed in 1910,4509ms
-2025-10-04 16:17:43 [LOCALTEST] INFO: [PERF] Calendar_SelectionChanged COMPLETE in 2517,4295ms
+=== NEW SESSION STARTED 2025-10-04 16:48:09 ===
+2025-10-04 16:48:09 [LOCALTEST] INFO: [PERF] Page_Load START at 16:48:09.699, IsPostBack=False
+2025-10-04 16:48:09 [LOCALTEST] INFO: [PERF] Starting authentication check at 16:48:09.701
+2025-10-04 16:48:09 [LOCALTEST] INFO: Application loaded in LOCALTEST environment
+2025-10-04 16:48:09 [LOCALTEST] INFO: AUTH TIMING: GetCurrentUser() START
+2025-10-04 16:48:09 [LOCALTEST] INFO: AUTH TIMING: Username resolved to 'th3882' in 1ms
+2025-10-04 16:48:09 [LOCALTEST] INFO: WHITELIST: Checking database first for user th3882
+2025-10-04 16:48:11 [LOCALTEST] INFO: DEBUG: Returned from CheckUserForWhitelist, result = FOUND
+2025-10-04 16:48:11 [LOCALTEST] INFO: WHITELIST HIT: User th3882 found in database, skipping LDAP check
+2025-10-04 16:48:11 [LOCALTEST] INFO: AUTH TIMING: Company user validation took 1913,5967ms
+2025-10-04 16:48:11 [LOCALTEST] INFO: AUTH TIMING: GetCurrentUser() COMPLETE in 1915ms
+2025-10-04 16:48:11 [LOCALTEST] INFO: [PERF] Fresh authentication completed in 1921,5151ms
+2025-10-04 16:48:11 [LOCALTEST] INFO: AUTH SUCCESS: User th3882, Rights: 0, Team: ps163h
+2025-10-04 16:48:12 [LOCALTEST] INFO: [DB-SIZE] AWSusers_new: 171 active users
+2025-10-04 16:48:12 [LOCALTEST] INFO: [DB-SIZE] AWSusers_new: 15 active managers
+2025-10-04 16:48:12 [LOCALTEST] INFO: [DB-SIZE] AWSshiftSchedule_new: 345 total records
+2025-10-04 16:48:12 [LOCALTEST] INFO: [DB-SIZE] AWSaraSchedule_new: 326 total records
+2025-10-04 16:48:12 [LOCALTEST] INFO: [DB-SIZE] AWSmanpower_new: 353 total records
+2025-10-04 16:48:12 [LOCALTEST] INFO: [DB-SIZE] AWSshiftSchedule_new date range: 2025-10-01 to 2025-11-01
+2025-10-04 16:48:12 [LOCALTEST] INFO: [DB-SIZE] AWSaraSchedule_new date range: 2025-09-30 to 2025-11-01
+2025-10-04 16:48:12 [LOCALTEST] INFO: [DB-SIZE] AWSmanpower_new date range: 2025-09-30 to 2025-10-20
+2025-10-04 16:48:14 [LOCALTEST] INFO: [PERF] BindTeams COMPLETE in 1983,4973ms
+2025-10-04 16:48:14 [LOCALTEST] INFO: [PERF] Page_Load COMPLETE in 4527ms at 16:48:14.227
+2025-10-04 16:48:34 [LOCALTEST] INFO: [PERF] Page_Load START at 16:48:34.776, IsPostBack=True
+2025-10-04 16:48:35 [LOCALTEST] INFO: [PERF] BindTeams COMPLETE in 779,1493ms
+2025-10-04 16:48:35 [LOCALTEST] INFO: [PERF] Page_Load COMPLETE in 780ms at 16:48:35.557
+2025-10-04 16:48:35 [LOCALTEST] INFO: [PERF-DB] CalculateManpowerForAllTeams START - 2025-10-06 to 2025-10-12
+2025-10-04 16:48:36 [LOCALTEST] INFO: [PERF-DB] Found 15 managers to process
+2025-10-04 16:48:36 [LOCALTEST] INFO: [PERF-DB] Bulk ARA query completed in 27,8351ms, retrieved 85 total ARA records
+2025-10-04 16:48:36 [LOCALTEST] INFO: [PERF-DB] Bulk delete completed in 25,529ms, deleted 151 old manpower records
+2025-10-04 16:48:36 [LOCALTEST] INFO: [PERF-DB] Manpower calculation completed in 138,0119ms, prepared 151 records
+2025-10-04 16:48:36 [LOCALTEST] ERROR: CalculateManpowerForAllTeams failed after 887ms: Conversion from string "yyyy-MM-dd" to type 'Integer' is not valid.
+2025-10-04 16:48:36 [LOCALTEST] INFO: [PERF] Batch manpower calculation completed in 896,3629ms
+2025-10-04 16:48:37 [LOCALTEST] INFO: [PERF] BindTeams COMPLETE in 736,0922ms
+2025-10-04 16:48:37 [LOCALTEST] INFO: [PERF] Calendar_SelectionChanged COMPLETE in 1688,3842ms
+2025-10-04 16:48:46 [LOCALTEST] INFO: [PERF] Page_Load START at 16:48:46.662, IsPostBack=True
+2025-10-04 16:48:46 [LOCALTEST] INFO: [PERF] BindTeams COMPLETE in 40,9104ms
+2025-10-04 16:48:46 [LOCALTEST] INFO: [PERF] Page_Load COMPLETE in 41ms at 16:48:46.704
+2025-10-04 16:48:52 [LOCALTEST] INFO: [PERF] Page_Load START at 16:48:52.494, IsPostBack=True
+2025-10-04 16:48:59 [LOCALTEST] INFO: [PERF] Page_Load START at 16:48:59.737, IsPostBack=True
+2025-10-04 16:49:00 [LOCALTEST] INFO: [PERF] Page_Load COMPLETE in 985ms at 16:49:00.722
+2025-10-04 16:49:02 [LOCALTEST] INFO: [PERF] Calendar_SelectionChanged COMPLETE in 1842,74ms
