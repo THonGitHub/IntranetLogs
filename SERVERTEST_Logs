@@ -1,6 +1,6 @@
 POST
 https://pivot-jp.intl.att.com/ARAcallendar/
-[HTTP/1.1 200 OK 4101ms]
+[HTTP/1.1 200 OK 4021ms]
 
 GET
 https://pivot-jp.intl.att.com/ARAcallendar/Content/site.css?v=%3C%=%20DateTime.Now.Ticks%20%%3E
@@ -9,6 +9,10 @@ https://pivot-jp.intl.att.com/ARAcallendar/Content/site.css?v=%3C%=%20DateTime.N
 GET
 https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.css
 [HTTP/1.1 200 OK 0ms]
+
+GET
+https://pivot-jp.intl.att.com/ARAcallendar/Scripts/jquery-3.7.1.min.js
+[HTTP/2 200  0ms]
 
 GET
 https://pivot-jp.intl.att.com/ARAcallendar/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZK6nOHnClbCEfQRuodZ9IqoiZXAjsn2caEDMxF_M33NIr_Oy1ag-ZhKIgRWkQWtLJA2&t=638901284248157332
@@ -23,22 +27,30 @@ https://pivot-jp.intl.att.com/ARAcallendar/Scripts/WebForms/MsAjax/MicrosoftAjax
 [HTTP/2 200  0ms]
 
 GET
+https://pivot-jp.intl.att.com/ARAcallendar/Scripts/AppScripts/shift-hours.js?v=638952702527417150
+[HTTP/2 200  751ms]
+
+GET
 https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.js
 [HTTP/1.1 200 OK 0ms]
 
 GET
-https://pivot-jp.intl.att.com/ARAcallendar/Scripts/AppScripts/shift-hours.js?v=638952692376555239
-[HTTP/2 200  736ms]
+https://pivot-jp.intl.att.com/ARAcallendar/Scripts/AppScripts/modals.js?v=638952702527417150
+[HTTP/2 200  448ms]
 
-GET
-https://pivot-jp.intl.att.com/ARAcallendar/Scripts/AppScripts/modals.js?v=638952692376555239
-[HTTP/2 200  432ms]
-
-Uncaught ReferenceError: $ is not defined
-    <anonymous> https://pivot-jp.intl.att.com/ARAcallendar/:1410
-    EventListener.handleEvent* https://pivot-jp.intl.att.com/ARAcallendar/:1406
-ARAcallendar:1410:13
 GET
 https://pivot-jp.intl.att.com/favicon.ico
 [HTTP/2 200  0ms]
 
+Loading data for: 
+Object { userId: "mb644n", startDate: "01/10/2025", endDate: "31/10/2025" }
+modals.js:257:13
+XHRPOST
+https://pivot-jp.intl.att.com/ARAcallendar/GetExistingDataHandler.ashx
+[HTTP/1.1 404 Not Found 333ms]
+
+Error loading data: Error: Network response was not ok
+    loadExistingData https://pivot-jp.intl.att.com/ARAcallendar/Scripts/AppScripts/modals.js?v=638952702527417150:279
+    promise callback*loadExistingData https://pivot-jp.intl.att.com/ARAcallendar/Scripts/AppScripts/modals.js?v=638952702527417150:277
+    onclick https://pivot-jp.intl.att.com/ARAcallendar/:1
+modals.js:288:17
