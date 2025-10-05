@@ -1,45 +1,46 @@
-=== NEW SESSION STARTED 2025-10-05 07:39:20 ===
+=== NEW SESSION STARTED 2025-10-05 08:12:08 ===
 DEBUG: _currentUser='', _environment='SERVERTEST'
-2025-10-05 07:39:20 [SERVERTEST] INFO: AUTH TIMING: Username resolved to 'th3882' in 0ms
-2025-10-05 07:39:20 [SERVERTEST] INFO: WHITELIST: Checking database first for user th3882
-2025-10-05 07:39:26 [SERVERTEST] INFO: DEBUG: Returned from CheckUserForWhitelist, result = FOUND
-2025-10-05 07:39:26 [SERVERTEST] INFO: WHITELIST HIT: User th3882 found in database, skipping LDAP check
-2025-10-05 07:39:26 [SERVERTEST] INFO: AUTH TIMING: Company user validation took 6593.9471ms
-2025-10-05 07:39:26 [SERVERTEST] INFO: AUTH TIMING: GetCurrentUser() COMPLETE in 6592ms
-2025-10-05 07:39:26 [SERVERTEST] INFO: AUTH SUCCESS: User th3882, Rights: 0, Team: ps163h
-2025-10-05 07:39:28 [SERVERTEST] INFO: [DB-SIZE] AWSusers_new: 171 active users
-2025-10-05 07:39:28 [SERVERTEST] INFO: [DB-SIZE] AWSusers_new: 15 active managers
-2025-10-05 07:39:29 [SERVERTEST] INFO: [DB-SIZE] AWSshiftSchedule_new: 566 total records
-2025-10-05 07:39:29 [SERVERTEST] INFO: [DB-SIZE] AWSaraSchedule_new: 849 total records
-2025-10-05 07:39:29 [SERVERTEST] INFO: [DB-SIZE] AWSmanpower_new: 2547 total records
-2025-10-05 07:39:29 [SERVERTEST] INFO: [DB-SIZE] AWSshiftSchedule_new date range: 2025-10-01 to 2026-10-30
-2025-10-05 07:39:29 [SERVERTEST] INFO: [DB-SIZE] AWSaraSchedule_new date range: 2025-09-30 to 2026-10-30
-2025-10-05 07:39:29 [SERVERTEST] INFO: [DB-SIZE] AWSmanpower_new date range: 2025-09-30 to 2026-10-30
-2025-10-05 07:39:32 [SERVERTEST] INFO: [PERF] Page_Load COMPLETE in 12361ms at 07:39:32.435
-2025-10-05 07:41:44 [SERVERTEST] INFO: [PERF] Page_Load COMPLETE in 351ms at 07:41:44.302
-2025-10-05 07:41:57 [SERVERTEST] INFO: [PERF] Skipping BindTeams in Page_Load - Calendar event will handle it
-2025-10-05 07:42:14 [SERVERTEST] INFO: [PERF] Page_Load COMPLETE in 478ms at 07:42:14.896
-2025-10-05 07:42:14 [SERVERTEST] INFO: [DEACTIVATE-USER] Starting deactivation for userId: pb199k
-2025-10-05 07:42:17 [SERVERTEST] INFO: [DEACTIVATE-USER] User pb199k role check: userRole=member
-2025-10-05 07:42:17 [SERVERTEST] INFO: [DEACTIVATE-USER] UPDATE query affected 1 rows, success=True
-2025-10-05 07:42:19 [SERVERTEST] INFO: [DEACTIVATE-USER] User pb199k deactivated successfully, returning True
-2025-10-05 07:42:41 [SERVERTEST] INFO: [PERF] Page_Load COMPLETE in 388ms at 07:42:41.061
-2025-10-05 07:42:45 [SERVERTEST] INFO: [PERF] Page_Load COMPLETE in 417ms at 07:42:45.947
-2025-10-05 07:42:58 [SERVERTEST] INFO: [PERF] Page_Load COMPLETE in 2662ms at 07:42:58.961
-2025-10-05 07:43:17 [SERVERTEST] INFO: [PERF] Page_Load COMPLETE in 409ms at 07:43:17.644
-2025-10-05 07:43:56 [SERVERTEST] INFO: [PERF] Page_Load COMPLETE in 462ms at 07:43:56.010
-2025-10-05 07:43:58 [SERVERTEST] INFO: [PERF-SH] DB Connection opened in 1080ms
-2025-10-05 07:43:58 [SERVERTEST] INFO: [PERF-SH] Starting insert of 283 records for user pb199k
-2025-10-05 07:44:11 [SERVERTEST] INFO: [PERF-SH] Inserted 100/283 records (14162ms elapsed)
-2025-10-05 07:44:24 [SERVERTEST] INFO: [PERF-SH] Inserted 200/283 records (27261ms elapsed)
-2025-10-05 07:44:35 [SERVERTEST] INFO: [PERF-SH] COMPLETED: 283 records in 38271ms total (Connection: 1080ms, Inserts: 37190ms, Avg: 131.41ms/record)
-2025-10-05 07:44:59 [SERVERTEST] INFO: [PERF] Page_Load COMPLETE in 428ms at 07:44:59.172
-2025-10-05 07:45:21 [SERVERTEST] INFO: [PERF] Page_Load COMPLETE in 408ms at 07:45:21.525
-2025-10-05 07:45:23 [SERVERTEST] INFO: [PERF-AA] DB Connection opened in 1082ms
-2025-10-05 07:45:23 [SERVERTEST] INFO: [PERF-AA] Starting processing of 283 records for user pb199k, timezoneOffset=2
-2025-10-05 07:45:36 [SERVERTEST] INFO: [PERF-AA] Processed 100/283 records (14169ms elapsed, 100 DB inserts)
-2025-10-05 07:45:49 [SERVERTEST] INFO: [PERF-AA] Processed 200/283 records (27258ms elapsed, 200 DB inserts)
-2025-10-05 07:46:00 [SERVERTEST] INFO: [PERF-AA] COMPLETED: 283 records in 38130ms total (Connection: 1082ms, UTC Conversion: 15ms, DB Inserts: 37031ms for 283 records, Avg: 130.85ms/insert)
-2025-10-05 07:46:00 [SERVERTEST] INFO: [CACHE-INVALIDATE] Starting for team 'SEPELA, Pavol', dateRange '2025-10-01_2026-10-31'
-2025-10-05 07:46:00 [SERVERTEST] INFO: [CACHE-INVALIDATE] Recalculating manpower for team 'SEPELA, Pavol' from 2025-10-01 to 2026-10-31
-2025-10-05 07:46:44 [SERVERTEST] INFO: [CACHE-INVALIDATE] Completed manpower recalculation in 44068.5892ms for team 'SEPELA, Pavol'
+2025-10-05 08:12:08 [SERVERTEST] INFO: AUTH TIMING: Username resolved to 'th3882' in 0ms
+2025-10-05 08:12:08 [SERVERTEST] INFO: WHITELIST: Checking database first for user th3882
+2025-10-05 08:12:15 [SERVERTEST] INFO: DEBUG: Returned from CheckUserForWhitelist, result = FOUND
+2025-10-05 08:12:15 [SERVERTEST] INFO: WHITELIST HIT: User th3882 found in database, skipping LDAP check
+2025-10-05 08:12:15 [SERVERTEST] INFO: AUTH TIMING: Company user validation took 6890.8167ms
+2025-10-05 08:12:15 [SERVERTEST] INFO: AUTH TIMING: GetCurrentUser() COMPLETE in 6878ms
+2025-10-05 08:12:15 [SERVERTEST] INFO: AUTH SUCCESS: User th3882, Rights: 0, Team: ps163h
+2025-10-05 08:12:17 [SERVERTEST] INFO: [DB-SIZE] AWSusers_new: 171 active users
+2025-10-05 08:12:17 [SERVERTEST] INFO: [DB-SIZE] AWSusers_new: 15 active managers
+2025-10-05 08:12:17 [SERVERTEST] INFO: [DB-SIZE] AWSshiftSchedule_new: 566 total records
+2025-10-05 08:12:17 [SERVERTEST] INFO: [DB-SIZE] AWSaraSchedule_new: 849 total records
+2025-10-05 08:12:17 [SERVERTEST] INFO: [DB-SIZE] AWSmanpower_new: 2547 total records
+2025-10-05 08:12:17 [SERVERTEST] INFO: [DB-SIZE] AWSshiftSchedule_new date range: 2025-10-01 to 2026-10-30
+2025-10-05 08:12:18 [SERVERTEST] INFO: [DB-SIZE] AWSaraSchedule_new date range: 2025-09-30 to 2026-10-30
+2025-10-05 08:12:18 [SERVERTEST] INFO: [DB-SIZE] AWSmanpower_new date range: 2025-09-30 to 2026-10-30
+2025-10-05 08:12:20 [SERVERTEST] INFO: [PERF] Page_Load COMPLETE in 12553ms at 08:12:20.825
+2025-10-05 08:12:26 [SERVERTEST] INFO: [PERF] Page_Load COMPLETE in 347ms at 08:12:26.841
+2025-10-05 08:12:34 [SERVERTEST] INFO: [PERF] Skipping BindTeams in Page_Load - Calendar event will handle it
+2025-10-05 08:12:45 [SERVERTEST] INFO: [PERF] Page_Load COMPLETE in 459ms at 08:12:45.842
+2025-10-05 08:12:45 [SERVERTEST] INFO: [DEACTIVATE-USER] Starting deactivation for userId: pb199k
+2025-10-05 08:12:47 [SERVERTEST] INFO: [DEACTIVATE-USER] User pb199k role check: userRole=member
+2025-10-05 08:12:48 [SERVERTEST] INFO: [DEACTIVATE-USER] UPDATE query affected 1 rows, success=True
+2025-10-05 08:12:50 [SERVERTEST] INFO: [DEACTIVATE-USER] User pb199k deactivated successfully, returning True
+2025-10-05 08:13:03 [SERVERTEST] INFO: [PERF] Page_Load COMPLETE in 380ms at 08:13:03.758
+2025-10-05 08:13:07 [SERVERTEST] INFO: [PERF] Page_Load COMPLETE in 411ms at 08:13:07.790
+2025-10-05 08:13:18 [SERVERTEST] INFO: [PERF] Page_Load COMPLETE in 2639ms at 08:13:18.334
+2025-10-05 08:13:25 [SERVERTEST] INFO: [PERF] Page_Load COMPLETE in 439ms at 08:13:25.683
+2025-10-05 08:13:52 [SERVERTEST] INFO: [PERF] Page_Load COMPLETE in 386ms at 08:13:52.848
+2025-10-05 08:13:55 [SERVERTEST] INFO: [PERF-SH] DB Connection opened in 1082ms
+2025-10-05 08:13:55 [SERVERTEST] INFO: [PERF-SH] Starting BATCH insert of 283 records for user pb199k
+2025-10-05 08:13:55 [SERVERTEST] INFO: [PERF-SH] Batch query built in 6ms (1132 parameters)
+2025-10-05 08:13:55 [SERVERTEST] INFO: [PERF-SH] Batch insert executed: 283 rows affected
+2025-10-05 08:13:55 [SERVERTEST] INFO: [PERF-SH] COMPLETED: 283 records in 1357ms total (Connection: 1082ms, Build: 6ms, Insert: 268ms)
+2025-10-05 08:14:05 [SERVERTEST] INFO: [PERF] Page_Load COMPLETE in 410ms at 08:14:05.238
+2025-10-05 08:14:27 [SERVERTEST] INFO: [PERF] Page_Load COMPLETE in 411ms at 08:14:27.661
+2025-10-05 08:14:29 [SERVERTEST] INFO: [PERF-AA] DB Connection opened in 1079ms
+2025-10-05 08:14:29 [SERVERTEST] INFO: [PERF-AA] Starting BATCH processing of 283 records for user pb199k, timezoneOffset=2
+2025-10-05 08:14:29 [SERVERTEST] INFO: [PERF-AA] UTC conversion completed in 3ms: 283 input records → 283 DB records
+2025-10-05 08:14:29 [SERVERTEST] INFO: [PERF-AA] Batch query built in 7ms (1132 parameters)
+2025-10-05 08:14:30 [SERVERTEST] INFO: [PERF-AA] Batch insert executed: 283 rows affected
+2025-10-05 08:14:30 [SERVERTEST] INFO: [PERF-AA] COMPLETED: 283 input records → 283 DB records in 1360ms total (Connection: 1079ms, Conversion: 3ms, Build: 7ms, Insert: 271ms)
+2025-10-05 08:14:30 [SERVERTEST] INFO: [CACHE-INVALIDATE] Starting for team 'SEPELA, Pavol', dateRange '2025-10-01_2026-10-31'
+2025-10-05 08:14:30 [SERVERTEST] INFO: [CACHE-INVALIDATE] Recalculating manpower for team 'SEPELA, Pavol' from 2025-10-01 to 2026-10-31
+2025-10-05 08:15:13 [SERVERTEST] INFO: [CACHE-INVALIDATE] Completed manpower recalculation in 42906.7245ms for team 'SEPELA, Pavol'
