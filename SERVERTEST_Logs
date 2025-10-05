@@ -1,8 +1,44 @@
+POST
+https://pivot-jp.intl.att.com/ARAcallendar/
+[HTTP/1.1 200 OK 3251ms]
+
+GET
+https://pivot-jp.intl.att.com/ARAcallendar/Content/site.css?v=%3C%=%20DateTime.Now.Ticks%20%%3E
+[HTTP/2 200 OK 0ms]
+
+GET
+https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.css
+[HTTP/1.1 200 OK 0ms]
+
+GET
+https://pivot-jp.intl.att.com/ARAcallendar/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZK6nOHnClbCEfQRuodZ9IqoiZXAjsn2caEDMxF_M33NIr_Oy1ag-ZhKIgRWkQWtLJA2&t=638901284248157332
+[HTTP/1.1 200 OK 0ms]
+
+GET
+https://pivot-jp.intl.att.com/ARAcallendar/Scripts/WebForms/MsAjax/MicrosoftAjax.js
+[HTTP/2 200  0ms]
+
+GET
+https://pivot-jp.intl.att.com/ARAcallendar/Scripts/WebForms/MsAjax/MicrosoftAjaxWebForms.js
+[HTTP/2 200  0ms]
+
+GET
+https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.js
+[HTTP/1.1 200 OK 0ms]
+
+GET
+https://pivot-jp.intl.att.com/ARAcallendar/Scripts/AppScripts/shift-hours.js?v=638952682888067021
+[HTTP/2 200  763ms]
+
+GET
+https://pivot-jp.intl.att.com/ARAcallendar/Scripts/AppScripts/modals.js?v=638952682888067021
+[HTTP/2 200  451ms]
+
 Uncaught ReferenceError: $ is not defined
     <anonymous> https://pivot-jp.intl.att.com/ARAcallendar/:1410
+    EventListener.handleEvent* https://pivot-jp.intl.att.com/ARAcallendar/:1406
 ARAcallendar:1410:13
-Unknown pseudo-class or pseudo-element ‘-ms-clear’.  Ruleset ignored due to bad selector. flatpickr.min.css:13:660
-Uncaught ReferenceError: $ is not defined
-    openCheckExistingDataModal https://pivot-jp.intl.att.com/ARAcallendar/Scripts/AppScripts/modals.js?v=638952675331003201:220
-    setTimeout handler*openCheckExistingDataModal https://pivot-jp.intl.att.com/ARAcallendar/Scripts/AppScripts/modals.js?v=638952675331003201:219
-    onclick https://pivot-jp.intl.att.com/ARAcallendar/:1
+GET
+https://pivot-jp.intl.att.com/favicon.ico
+[HTTP/2 200  0ms]
+
