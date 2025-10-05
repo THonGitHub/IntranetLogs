@@ -1,6 +1,6 @@
 POST
 https://pivot-jp.intl.att.com/ARAcallendar/
-[HTTP/1.1 200 OK 3251ms]
+[HTTP/1.1 200 OK 4072ms]
 
 GET
 https://pivot-jp.intl.att.com/ARAcallendar/Content/site.css?v=%3C%=%20DateTime.Now.Ticks%20%%3E
@@ -27,12 +27,12 @@ https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.js
 [HTTP/1.1 200 OK 0ms]
 
 GET
-https://pivot-jp.intl.att.com/ARAcallendar/Scripts/AppScripts/shift-hours.js?v=638952682888067021
-[HTTP/2 200  763ms]
+https://pivot-jp.intl.att.com/ARAcallendar/Scripts/AppScripts/shift-hours.js?v=638952688589535009
+[HTTP/2 200  743ms]
 
 GET
-https://pivot-jp.intl.att.com/ARAcallendar/Scripts/AppScripts/modals.js?v=638952682888067021
-[HTTP/2 200  451ms]
+https://pivot-jp.intl.att.com/ARAcallendar/Scripts/AppScripts/modals.js?v=638952688589535009
+[HTTP/2 200  439ms]
 
 Uncaught ReferenceError: $ is not defined
     <anonymous> https://pivot-jp.intl.att.com/ARAcallendar/:1410
