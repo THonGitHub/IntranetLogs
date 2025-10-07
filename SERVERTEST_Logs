@@ -1,4 +1,40 @@
-<%@ WebHandler Language="VB" Class="GetExistingDataHandler" %>
+2025-10-07 08:02:08 [SERVERTEST] INFO: AUTH TIMING: Username resolved to 'th3882' in 0ms
+2025-10-07 08:02:08 [SERVERTEST] INFO: WHITELIST: Checking database first for user th3882
+2025-10-07 08:02:11 [SERVERTEST] INFO: DEBUG: Returned from CheckUserForWhitelist, result = FOUND
+2025-10-07 08:02:11 [SERVERTEST] INFO: WHITELIST HIT: User th3882 found in database, skipping LDAP check
+2025-10-07 08:02:11 [SERVERTEST] INFO: AUTH TIMING: Company user validation took 2390.6491ms
+2025-10-07 08:02:11 [SERVERTEST] INFO: AUTH TIMING: GetCurrentUser() COMPLETE in 2386ms
+2025-10-07 08:02:11 [SERVERTEST] INFO: AUTH SUCCESS: User th3882, Rights: 1, Team: ps163h
+2025-10-07 08:02:13 [SERVERTEST] INFO: [DB-SIZE] AWSusers_new: 171 active users
+2025-10-07 08:02:13 [SERVERTEST] INFO: [DB-SIZE] AWSusers_new: 15 active managers
+2025-10-07 08:02:13 [SERVERTEST] INFO: [DB-SIZE] AWSshiftSchedule_new: 23 total records
+2025-10-07 08:02:13 [SERVERTEST] INFO: [DB-SIZE] AWSaraSchedule_new: 30 total records
+2025-10-07 08:02:13 [SERVERTEST] INFO: [DB-SIZE] AWSmanpower_new: 144 total records
+2025-10-07 08:02:14 [SERVERTEST] INFO: [DB-SIZE] AWSshiftSchedule_new date range: 2025-10-01 to 2025-10-31
+2025-10-07 08:02:14 [SERVERTEST] INFO: [DB-SIZE] AWSaraSchedule_new date range: 2025-10-01 to 2025-10-31
+2025-10-07 08:02:14 [SERVERTEST] INFO: [DB-SIZE] AWSmanpower_new date range: 2025-10-01 to 2025-10-31
+2025-10-07 08:02:14 [SERVERTEST] INFO: [PERF] Page_Load COMPLETE in 5880ms at 08:02:14.871
+2025-10-07 08:02:20 [SERVERTEST] INFO: [PERF] Page_Load COMPLETE in 381ms at 08:02:20.137
+2025-10-07 08:02:35 [SERVERTEST] INFO: [PERF] Page_Load COMPLETE in 400ms at 08:02:35.084
+2025-10-07 08:16:01 [SERVERTEST] INFO: [PERF] Page_Load COMPLETE in 360ms at 08:16:01.682
+2025-10-07 08:17:08 [SERVERTEST] INFO: [PERF] Page_Load COMPLETE in 375ms at 08:17:08.122
+2025-10-07 08:17:09 [SERVERTEST] INFO: [PERF-DELETE] START for userId=th3882, modalType=ara, range=2025-09-01 to 2025-10-31
+2025-10-07 08:17:09 [SERVERTEST] INFO: [PERF-DELETE] Parsing completed, deleteDays count=7
+2025-10-07 08:17:25 [SERVERTEST] INFO: [PERF-DELETE] Delete operation completed in 16508ms, success=True
+2025-10-07 08:17:25 [SERVERTEST] INFO: [CACHE-INVALIDATE] Starting for team 'SEPELA, Pavol', dateRange '2025-09-01_2025-10-31'
+2025-10-07 08:17:25 [SERVERTEST] INFO: [CACHE-INVALIDATE] Recalculating manpower for team 'SEPELA, Pavol' from 2025-09-01 to 2025-10-31
+2025-10-07 08:17:27 [SERVERTEST] INFO: [PERF-MANPOWER] Starting for team 'SEPELA, Pavol', 63 days (2025-08-31 to 2025-11-01)
+2025-10-07 08:17:27 [SERVERTEST] INFO: [PERF-MANPOWER] ARA query: 23 records in 255ms
+2025-10-07 08:17:27 [SERVERTEST] INFO: [PERF-MANPOWER] Delete: 142 records in 130ms
+2025-10-07 08:17:27 [SERVERTEST] INFO: [PERF-MANPOWER] Calculation: 138 records in 16ms (63 days × 24 hours = 1512 iterations)
+2025-10-07 08:17:27 [SERVERTEST] INFO: [PERF-MANPOWER] COMPLETED in 1775ms total (Conn: 1225ms, Query: 255ms, Delete: 130ms, Calc: 16ms, Insert: 146ms)
+2025-10-07 08:17:27 [SERVERTEST] INFO: [CACHE-INVALIDATE] Completed manpower recalculation in 1796.8152ms for team 'SEPELA, Pavol'
+2025-10-07 08:17:27 [SERVERTEST] INFO: [PERF-DELETE] Cache clear completed in 1796ms
+2025-10-07 08:17:28 [SERVERTEST] INFO: [PERF-DELETE] Member view refresh completed in 873ms
+2025-10-07 08:17:28 [SERVERTEST] INFO: [PERF-DELETE] TOTAL COMPLETED in 19178ms
+2025-10-07 08:17:28 [SERVERTEST] INFO: [DEBUG-DELETE] Table contents after delete (0 records):
+
+<%@ WebHandler Language="VB" Class="CheckDataExistsHandler" %>
 
 Imports System.Web
 Imports System.Web.Script.Serialization
@@ -7,7 +43,7 @@ Imports System.Data
 Imports System.Globalization
 Imports ARAworkloadScheduler
 
-Public Class GetExistingDataHandler
+Public Class CheckDataExistsHandler
     Implements IHttpHandler
 
     Public Sub ProcessRequest(ByVal context As HttpContext) Implements IHttpHandler.ProcessRequest
@@ -22,65 +58,80 @@ Public Class GetExistingDataHandler
             Dim userId As String = data("userId")
             Dim startDate As String = data("startDate")
             Dim endDate As String = data("endDate")
+            Dim modalType As String = data("modalType") ' "shift" or "ara"
+            Dim selectedDaysJson As String = data("selectedDays") ' JSON array of day numbers
 
             ' Initialize logger and data access
             Dim detector As New EnvironmentDetector()
-            Dim logger As New SchedulerLogger(detector.GetEnvironment(), detector.GetLogPath(), "Handler")
-            logger.LogInfo($"GetExistingDataHandler called: userId={userId}, startDate={startDate}, endDate={endDate}")
+            Dim logger As New SchedulerLogger(detector.GetEnvironment(), detector.GetLogPath(), userId)
+            logger.LogInfo($"CheckDataExistsHandler called: userId={userId}, startDate={startDate}, endDate={endDate}, modalType={modalType}")
 
-            Dim dataAccess As New DataAccess("Handler")
+            Dim dataAccess As New DataAccess("CheckHandler")
 
             ' Parse dates (format: dd/mm/yyyy)
             Dim parsedStartDate As DateTime = DateTime.ParseExact(startDate, "dd/MM/yyyy", CultureInfo.InvariantCulture)
             Dim parsedEndDate As DateTime = DateTime.ParseExact(endDate, "dd/MM/yyyy", CultureInfo.InvariantCulture)
 
-            logger.LogInfo($"Parsed dates: {parsedStartDate:yyyy-MM-dd} to {parsedEndDate:yyyy-MM-dd}")
-
-            ' Get Shift Hours data
-            Dim shiftHoursList As New List(Of Object)
-            Dim shData = dataAccess.GetShiftHoursByUserAndDateRange(userId, parsedStartDate, parsedEndDate)
-            logger.LogInfo($"Found {shData.Rows.Count} shift hours records")
-
-            For Each row As DataRow In shData.Rows
-                shiftHoursList.Add(New With {
-                    .date = CDate(row("date")).ToString("dd/MM/yyyy"),
-                    .startTime = row("startTime").ToString(),
-                    .endTime = row("endTime").ToString()
-                })
+            ' Parse selected days (array of integers: 0=Sunday, 1=Monday, etc.)
+            Dim selectedDayNumbers As Integer() = serializer.Deserialize(Of Integer())(selectedDaysJson)
+            Dim selectedDays As New List(Of DayOfWeek)
+            For Each dayNum In selectedDayNumbers
+                selectedDays.Add(CType(dayNum, DayOfWeek))
             Next
 
-            ' Get ARA Availability data
-            Dim araAvailabilityList As New List(Of Object)
-            Dim araData = dataAccess.GetARAAvailabilityByUserAndDateRange(userId, parsedStartDate, parsedEndDate)
-            logger.LogInfo($"Found {araData.Rows.Count} ARA availability records")
+            logger.LogInfo($"Parsed dates: {parsedStartDate:yyyy-MM-dd} to {parsedEndDate:yyyy-MM-dd}, Days: {String.Join(",", selectedDays)}")
 
-            For Each row As DataRow In araData.Rows
-                araAvailabilityList.Add(New With {
-                    .date = CDate(row("date")).ToString("dd/MM/yyyy"),
-                    .startTime = row("startTime").ToString(),
-                    .endTime = row("endTime").ToString()
-                })
-            Next
+            ' Check if data exists for selected days in the range
+            Dim existingCount As Integer = 0
+            Dim currentDate As DateTime = parsedStartDate
 
-            logger.LogInfo($"Returning {shiftHoursList.Count} SH + {araAvailabilityList.Count} AA records")
+            While currentDate <= parsedEndDate
+                If selectedDays.Contains(currentDate.DayOfWeek) Then
+                    ' Check this specific date
+                    Dim dayData As DataTable
+                    If modalType = "shift" Then
+                        dayData = dataAccess.GetShiftHoursByUserAndDateRange(userId, currentDate, currentDate)
+                    Else
+                        dayData = dataAccess.GetARAAvailabilityByUserAndDateRange(userId, currentDate, currentDate)
+                    End If
 
-            ' Return JSON response
+                    If dayData.Rows.Count > 0 Then
+                        existingCount += dayData.Rows.Count
+                    End If
+                End If
+                currentDate = currentDate.AddDays(1)
+            End While
+
+            logger.LogInfo($"Found {existingCount} existing records")
+
+            ' Return result
             Dim result = New With {
-                .shiftHours = shiftHoursList,
-                .araAvailability = araAvailabilityList
+                .exists = (existingCount > 0),
+                .count = existingCount
             }
 
             context.Response.Write(serializer.Serialize(result))
 
         Catch ex As Exception
+            ' Try to get userId from request if available, otherwise use "UNKNOWN"
+            Dim userId As String = "UNKNOWN"
+            Try
+                Dim requestBody As String = New StreamReader(context.Request.InputStream).ReadToEnd()
+                Dim serializer As New JavaScriptSerializer()
+                Dim data As Dictionary(Of String, String) = serializer.Deserialize(Of Dictionary(Of String, String))(requestBody)
+                userId = data("userId")
+            Catch
+                ' Ignore - use "UNKNOWN"
+            End Try
+
             Dim detector As New EnvironmentDetector()
-            Dim logger As New SchedulerLogger(detector.GetEnvironment(), detector.GetLogPath(), "Handler")
-            logger.LogError($"GetExistingDataHandler error: {ex.Message}")
+            Dim logger As New SchedulerLogger(detector.GetEnvironment(), detector.GetLogPath(), userId)
+            logger.LogError($"CheckDataExistsHandler error: {ex.Message}")
             logger.LogError($"Stack trace: {ex.StackTrace}")
 
             Dim errorResult = New With {
                 .error = True,
-                .message = "Error loading data: " & ex.Message
+                .message = "Error checking data: " & ex.Message
             }
 
             Dim serializer As New JavaScriptSerializer()
