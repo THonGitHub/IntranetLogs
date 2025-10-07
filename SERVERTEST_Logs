@@ -1,31 +1,35 @@
-=== NEW SESSION STARTED 2025-10-06 07:59:45 ===
-DEBUG: _currentUser='', _environment='SERVERTEST'
-2025-10-06 07:59:45 [SERVERTEST] INFO: AUTH TIMING: Username resolved to 'th3882' in 0ms
-2025-10-06 07:59:45 [SERVERTEST] INFO: WHITELIST: Checking database first for user th3882
-2025-10-06 07:59:52 [SERVERTEST] INFO: DEBUG: Returned from CheckUserForWhitelist, result = FOUND
-2025-10-06 07:59:52 [SERVERTEST] INFO: WHITELIST HIT: User th3882 found in database, skipping LDAP check
-2025-10-06 07:59:52 [SERVERTEST] INFO: AUTH TIMING: Company user validation took 6697.171ms
-2025-10-06 07:59:52 [SERVERTEST] INFO: AUTH TIMING: GetCurrentUser() COMPLETE in 6697ms
-2025-10-06 07:59:52 [SERVERTEST] INFO: AUTH SUCCESS: User th3882, Rights: 1, Team: ps163h
-2025-10-06 07:59:54 [SERVERTEST] INFO: [DB-SIZE] AWSusers_new: 171 active users
-2025-10-06 07:59:54 [SERVERTEST] INFO: [DB-SIZE] AWSusers_new: 15 active managers
-2025-10-06 07:59:54 [SERVERTEST] INFO: [DB-SIZE] AWSshiftSchedule_new: 1086 total records
-2025-10-06 07:59:54 [SERVERTEST] INFO: [DB-SIZE] AWSaraSchedule_new: 1410 total records
-2025-10-06 07:59:55 [SERVERTEST] INFO: [DB-SIZE] AWSmanpower_new: 10071 total records
-2025-10-06 07:59:55 [SERVERTEST] INFO: [DB-SIZE] AWSshiftSchedule_new date range: 2025-10-01 to 2026-10-30
-2025-10-06 07:59:55 [SERVERTEST] INFO: [DB-SIZE] AWSaraSchedule_new date range: 2025-09-30 to 2026-10-30
-2025-10-06 07:59:55 [SERVERTEST] INFO: [DB-SIZE] AWSmanpower_new date range: 2025-09-30 to 2030-09-30
-2025-10-06 07:59:58 [SERVERTEST] INFO: [PERF] Page_Load COMPLETE in 12670ms at 07:59:58.299
-2025-10-06 08:00:13 [SERVERTEST] INFO: AUTH: Using cached session result
-2025-10-06 08:00:15 [SERVERTEST] INFO: [DB-SIZE] AWSusers_new: 171 active users
-2025-10-06 08:00:15 [SERVERTEST] INFO: [DB-SIZE] AWSusers_new: 15 active managers
-2025-10-06 08:00:15 [SERVERTEST] INFO: [DB-SIZE] AWSshiftSchedule_new: 1086 total records
-2025-10-06 08:00:15 [SERVERTEST] INFO: [DB-SIZE] AWSaraSchedule_new: 1410 total records
-2025-10-06 08:00:15 [SERVERTEST] INFO: [DB-SIZE] AWSmanpower_new: 10071 total records
-2025-10-06 08:00:16 [SERVERTEST] INFO: [DB-SIZE] AWSshiftSchedule_new date range: 2025-10-01 to 2026-10-30
-2025-10-06 08:00:16 [SERVERTEST] INFO: [DB-SIZE] AWSaraSchedule_new date range: 2025-09-30 to 2026-10-30
-2025-10-06 08:00:16 [SERVERTEST] INFO: [DB-SIZE] AWSmanpower_new date range: 2025-09-30 to 2030-09-30
-2025-10-06 08:00:17 [SERVERTEST] INFO: [PERF] Page_Load COMPLETE in 3826ms at 08:00:17.079
-2025-10-06 08:00:21 [SERVERTEST] INFO: [PERF] Page_Load COMPLETE in 719ms at 08:00:21.386
-
-Error getting data range: Unexpected token '<', "
+=== NEW SESSION STARTED 2025-10-07 02:12:52 ===
+DEBUG: _currentUser='th3882', _environment='SERVERTEST'
+DEBUG: _currentUser='th3882', _environment='SERVERTEST'
+DEBUG: _currentUser='th3882', _environment='SERVERTEST'
+DEBUG: _currentUser='th3882', _environment='SERVERTEST'
+DEBUG: _currentUser='th3882', _environment='SERVERTEST'
+DEBUG: _currentUser='th3882', _environment='SERVERTEST'
+DEBUG: _currentUser='th3882', _environment='SERVERTEST'
+DEBUG: _currentUser='th3882', _environment='SERVERTEST'
+DEBUG: _currentUser='th3882', _environment='SERVERTEST'
+DEBUG: _currentUser='th3882', _environment='SERVERTEST'
+DEBUG: _currentUser='th3882', _environment='SERVERTEST'
+DEBUG: _currentUser='th3882', _environment='SERVERTEST'
+DEBUG: _currentUser='th3882', _environment='SERVERTEST'
+DEBUG: _currentUser='th3882', _environment='SERVERTEST'
+DEBUG: _currentUser='th3882', _environment='SERVERTEST'
+DEBUG: _currentUser='th3882', _environment='SERVERTEST'
+DEBUG: _currentUser='th3882', _environment='SERVERTEST'
+DEBUG: _currentUser='th3882', _environment='SERVERTEST'
+DEBUG: _currentUser='th3882', _environment='SERVERTEST'
+DEBUG: _currentUser='th3882', _environment='SERVERTEST'
+DEBUG: _currentUser='th3882', _environment='SERVERTEST'
+DEBUG: _currentUser='th3882', _environment='SERVERTEST'
+DEBUG: _currentUser='th3882', _environment='SERVERTEST'
+DEBUG: _currentUser='th3882', _environment='SERVERTEST'
+DEBUG: _currentUser='th3882', _environment='SERVERTEST'
+DEBUG: _currentUser='th3882', _environment='SERVERTEST'
+DEBUG: _currentUser='th3882', _environment='SERVERTEST'
+DEBUG: _currentUser='th3882', _environment='SERVERTEST'
+DEBUG: _currentUser='th3882', _environment='SERVERTEST'
+DEBUG: _currentUser='th3882', _environment='SERVERTEST'
+DEBUG: _currentUser='th3882', _environment='SERVERTEST'
+DEBUG: _currentUser='th3882', _environment='SERVERTEST'
+DEBUG: _currentUser='th3882', _environment='SERVERTEST'
+DEBUG: _currentUser='th3882', _environment='SERVERTEST'
