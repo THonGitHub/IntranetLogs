@@ -1,35 +1,99 @@
-=== NEW SESSION STARTED 2025-10-07 02:12:52 ===
-DEBUG: _currentUser='th3882', _environment='SERVERTEST'
-DEBUG: _currentUser='th3882', _environment='SERVERTEST'
-DEBUG: _currentUser='th3882', _environment='SERVERTEST'
-DEBUG: _currentUser='th3882', _environment='SERVERTEST'
-DEBUG: _currentUser='th3882', _environment='SERVERTEST'
-DEBUG: _currentUser='th3882', _environment='SERVERTEST'
-DEBUG: _currentUser='th3882', _environment='SERVERTEST'
-DEBUG: _currentUser='th3882', _environment='SERVERTEST'
-DEBUG: _currentUser='th3882', _environment='SERVERTEST'
-DEBUG: _currentUser='th3882', _environment='SERVERTEST'
-DEBUG: _currentUser='th3882', _environment='SERVERTEST'
-DEBUG: _currentUser='th3882', _environment='SERVERTEST'
-DEBUG: _currentUser='th3882', _environment='SERVERTEST'
-DEBUG: _currentUser='th3882', _environment='SERVERTEST'
-DEBUG: _currentUser='th3882', _environment='SERVERTEST'
-DEBUG: _currentUser='th3882', _environment='SERVERTEST'
-DEBUG: _currentUser='th3882', _environment='SERVERTEST'
-DEBUG: _currentUser='th3882', _environment='SERVERTEST'
-DEBUG: _currentUser='th3882', _environment='SERVERTEST'
-DEBUG: _currentUser='th3882', _environment='SERVERTEST'
-DEBUG: _currentUser='th3882', _environment='SERVERTEST'
-DEBUG: _currentUser='th3882', _environment='SERVERTEST'
-DEBUG: _currentUser='th3882', _environment='SERVERTEST'
-DEBUG: _currentUser='th3882', _environment='SERVERTEST'
-DEBUG: _currentUser='th3882', _environment='SERVERTEST'
-DEBUG: _currentUser='th3882', _environment='SERVERTEST'
-DEBUG: _currentUser='th3882', _environment='SERVERTEST'
-DEBUG: _currentUser='th3882', _environment='SERVERTEST'
-DEBUG: _currentUser='th3882', _environment='SERVERTEST'
-DEBUG: _currentUser='th3882', _environment='SERVERTEST'
-DEBUG: _currentUser='th3882', _environment='SERVERTEST'
-DEBUG: _currentUser='th3882', _environment='SERVERTEST'
-DEBUG: _currentUser='th3882', _environment='SERVERTEST'
-DEBUG: _currentUser='th3882', _environment='SERVERTEST'
+=== NEW SESSION STARTED 2025-10-07 03:02:36 ===
+2025-10-07 03:02:36 [SERVERTEST] INFO: AUTH TIMING: Username resolved to 'th3882' in 0ms
+2025-10-07 03:02:36 [SERVERTEST] INFO: WHITELIST: Checking database first for user th3882
+2025-10-07 03:02:43 [SERVERTEST] INFO: DEBUG: Returned from CheckUserForWhitelist, result = FOUND
+2025-10-07 03:02:43 [SERVERTEST] INFO: WHITELIST HIT: User th3882 found in database, skipping LDAP check
+2025-10-07 03:02:43 [SERVERTEST] INFO: AUTH TIMING: Company user validation took 6536.1947ms
+2025-10-07 03:02:43 [SERVERTEST] INFO: AUTH TIMING: GetCurrentUser() COMPLETE in 6533ms
+2025-10-07 03:02:43 [SERVERTEST] INFO: AUTH SUCCESS: User th3882, Rights: 1, Team: ps163h
+2025-10-07 03:02:45 [SERVERTEST] INFO: [DB-SIZE] AWSusers_new: 171 active users
+2025-10-07 03:02:45 [SERVERTEST] INFO: [DB-SIZE] AWSusers_new: 15 active managers
+2025-10-07 03:02:45 [SERVERTEST] INFO: [DB-SIZE] AWSshiftSchedule_new: 46 total records
+2025-10-07 03:02:45 [SERVERTEST] INFO: [DB-SIZE] AWSaraSchedule_new: 49 total records
+2025-10-07 03:02:45 [SERVERTEST] INFO: [DB-SIZE] AWSmanpower_new: 140 total records
+2025-10-07 03:02:45 [SERVERTEST] INFO: [DB-SIZE] AWSshiftSchedule_new date range: 2025-10-01 to 2025-10-31
+2025-10-07 03:02:45 [SERVERTEST] INFO: [DB-SIZE] AWSaraSchedule_new date range: 2025-10-01 to 2025-10-31
+2025-10-07 03:02:45 [SERVERTEST] INFO: [DB-SIZE] AWSmanpower_new date range: 2025-10-01 to 2025-10-31
+2025-10-07 03:02:48 [SERVERTEST] INFO: [PERF] Page_Load COMPLETE in 12051ms at 03:02:48.525
+Tu som urobil data lookup:
+2025-10-07 03:03:09 [SERVERTEST] INFO: [PERF] Page_Load COMPLETE in 405ms at 03:03:09.205
+Tu som urobil SH delete - indikator sa zobrazil ihned po stlaceni delete:
+2025-10-07 03:04:21 [SERVERTEST] INFO: [PERF] Page_Load COMPLETE in 397ms at 03:04:21.218
+2025-10-07 03:04:34 [SERVERTEST] INFO: [PERF] Page_Load COMPLETE in 400ms at 03:04:34.035
+2025-10-07 03:04:35 [SERVERTEST] INFO: [PERF-DELETE] START for userId=th3882, modalType=shift, range=2025-10-01 to 2025-10-31
+2025-10-07 03:04:35 [SERVERTEST] INFO: [PERF-DELETE] Parsing completed, deleteDays count=5
+2025-10-07 03:04:35 [SERVERTEST] INFO: DeleteShiftHoursByDays called: userId=th3882, startDate=2025-10-01, endDate=2025-10-31, days=Monday,Tuesday,Wednesday,Thursday,Friday
+2025-10-07 03:04:36 [SERVERTEST] INFO: Deleted 1 rows for userId=th3882, date=2025-10-01
+2025-10-07 03:04:36 [SERVERTEST] INFO: Deleted 1 rows for userId=th3882, date=2025-10-02
+2025-10-07 03:04:36 [SERVERTEST] INFO: Deleted 1 rows for userId=th3882, date=2025-10-03
+2025-10-07 03:04:36 [SERVERTEST] INFO: Deleted 1 rows for userId=th3882, date=2025-10-06
+2025-10-07 03:04:36 [SERVERTEST] INFO: Deleted 1 rows for userId=th3882, date=2025-10-07
+2025-10-07 03:04:37 [SERVERTEST] INFO: Deleted 1 rows for userId=th3882, date=2025-10-08
+2025-10-07 03:04:37 [SERVERTEST] INFO: Deleted 1 rows for userId=th3882, date=2025-10-09
+2025-10-07 03:04:37 [SERVERTEST] INFO: Deleted 1 rows for userId=th3882, date=2025-10-10
+2025-10-07 03:04:37 [SERVERTEST] INFO: Deleted 1 rows for userId=th3882, date=2025-10-13
+2025-10-07 03:04:37 [SERVERTEST] INFO: Deleted 1 rows for userId=th3882, date=2025-10-14
+2025-10-07 03:04:37 [SERVERTEST] INFO: Deleted 1 rows for userId=th3882, date=2025-10-15
+2025-10-07 03:04:37 [SERVERTEST] INFO: Deleted 1 rows for userId=th3882, date=2025-10-16
+2025-10-07 03:04:37 [SERVERTEST] INFO: Deleted 1 rows for userId=th3882, date=2025-10-17
+2025-10-07 03:04:38 [SERVERTEST] INFO: Deleted 1 rows for userId=th3882, date=2025-10-20
+2025-10-07 03:04:38 [SERVERTEST] INFO: Deleted 1 rows for userId=th3882, date=2025-10-21
+2025-10-07 03:04:38 [SERVERTEST] INFO: Deleted 1 rows for userId=th3882, date=2025-10-22
+2025-10-07 03:04:38 [SERVERTEST] INFO: Deleted 1 rows for userId=th3882, date=2025-10-23
+2025-10-07 03:04:38 [SERVERTEST] INFO: Deleted 1 rows for userId=th3882, date=2025-10-24
+2025-10-07 03:04:38 [SERVERTEST] INFO: Deleted 1 rows for userId=th3882, date=2025-10-27
+2025-10-07 03:04:38 [SERVERTEST] INFO: Deleted 1 rows for userId=th3882, date=2025-10-28
+2025-10-07 03:04:39 [SERVERTEST] INFO: Deleted 1 rows for userId=th3882, date=2025-10-29
+2025-10-07 03:04:39 [SERVERTEST] INFO: Deleted 1 rows for userId=th3882, date=2025-10-30
+2025-10-07 03:04:39 [SERVERTEST] INFO: Deleted 1 rows for userId=th3882, date=2025-10-31
+2025-10-07 03:04:39 [SERVERTEST] INFO: DeleteShiftHoursByDays completed: Total deleted = 23
+2025-10-07 03:04:39 [SERVERTEST] INFO: [PERF-DELETE] Delete operation completed in 4024ms, success=True
+2025-10-07 03:04:39 [SERVERTEST] INFO: [PERF-DELETE] Cache clear completed in 6ms
+2025-10-07 03:04:40 [SERVERTEST] INFO: [PERF-DELETE] Member view refresh completed in 912ms
+2025-10-07 03:04:40 [SERVERTEST] INFO: [PERF-DELETE] TOTAL COMPLETED in 4944ms
+2025-10-07 03:04:40 [SERVERTEST] INFO: [DEBUG-DELETE] Table contents after delete (0 records):
+Tu som urobil AA Save - indikator sa zobrazil 15+ sek. po stlaceni Save (robilo sa aj vymazanie existujucich AA dat:
+2025-10-07 03:06:09 [SERVERTEST] INFO: [PERF] Page_Load COMPLETE in 374ms at 03:06:09.332
+2025-10-07 03:07:01 [SERVERTEST] INFO: [PERF] Page_Load COMPLETE in 377ms at 03:07:01.490
+2025-10-07 03:07:02 [SERVERTEST] INFO: [PERF-SAVE] START for userId=th3882, modalType=ara, range=2025-10-01 to 2025-10-31
+2025-10-07 03:07:02 [SERVERTEST] INFO: [PERF-SAVE] Parsing completed in 0ms
+2025-10-07 03:07:02 [SERVERTEST] INFO: Overwrite confirmed - deleting existing ara data for userId=th3882
+2025-10-07 03:07:09 [SERVERTEST] INFO: [PERF-SAVE] Delete completed in 6909ms
+2025-10-07 03:07:09 [SERVERTEST] INFO: [PERF-SAVE] Record generation completed in 1ms (23 records)
+2025-10-07 03:07:10 [SERVERTEST] INFO: [PERF-AA] Saved 23 input records (23 DB records) in 1192ms
+2025-10-07 03:07:10 [SERVERTEST] INFO: [PERF-SAVE] Database save completed in 1198ms
+2025-10-07 03:07:10 [SERVERTEST] INFO: [CACHE-INVALIDATE] Starting for team 'SEPELA, Pavol', dateRange '2025-10-01_2025-10-31'
+2025-10-07 03:07:10 [SERVERTEST] INFO: [CACHE-INVALIDATE] Recalculating manpower for team 'SEPELA, Pavol' from 2025-10-01 to 2025-10-31
+2025-10-07 03:07:12 [SERVERTEST] INFO: [PERF-MANPOWER] Starting for team 'SEPELA, Pavol', 33 days (2025-09-30 to 2025-11-01)
+2025-10-07 03:07:12 [SERVERTEST] INFO: [PERF-MANPOWER] ARA query: 46 records in 257ms
+2025-10-07 03:07:12 [SERVERTEST] INFO: [PERF-MANPOWER] Delete: 138 records in 132ms
+2025-10-07 03:07:12 [SERVERTEST] INFO: [PERF-MANPOWER] Calculation: 161 records in 18ms (33 days × 24 hours = 792 iterations)
+2025-10-07 03:07:12 [SERVERTEST] INFO: [PERF-MANPOWER] COMPLETED in 1610ms total (Conn: 1053ms, Query: 257ms, Delete: 132ms, Calc: 18ms, Insert: 148ms)
+2025-10-07 03:07:12 [SERVERTEST] INFO: [CACHE-INVALIDATE] Completed manpower recalculation in 1625.0905ms for team 'SEPELA, Pavol'
+2025-10-07 03:07:12 [SERVERTEST] INFO: [PERF-SAVE] Cache clear/recalc completed in 1631ms
+2025-10-07 03:07:13 [SERVERTEST] INFO: [PERF-SAVE] Member view refresh completed in 907ms
+2025-10-07 03:07:13 [SERVERTEST] INFO: [PERF-SAVE] TOTAL COMPLETED in 10654ms
+2025-10-07 03:07:13 [SERVERTEST] INFO: [DEBUG-SAVE] Table contents after save (23 records):
+2025-10-07 03:07:13 [SERVERTEST] INFO:   th3882 | 9/30/2025 12:00:00 AM | 22:00:00 - 23:00:00
+2025-10-07 03:07:13 [SERVERTEST] INFO:   th3882 | 10/1/2025 12:00:00 AM | 22:00:00 - 23:00:00
+2025-10-07 03:07:13 [SERVERTEST] INFO:   th3882 | 10/2/2025 12:00:00 AM | 22:00:00 - 23:00:00
+2025-10-07 03:07:13 [SERVERTEST] INFO:   th3882 | 10/5/2025 12:00:00 AM | 22:00:00 - 23:00:00
+2025-10-07 03:07:13 [SERVERTEST] INFO:   th3882 | 10/6/2025 12:00:00 AM | 22:00:00 - 23:00:00
+2025-10-07 03:07:13 [SERVERTEST] INFO:   th3882 | 10/7/2025 12:00:00 AM | 22:00:00 - 23:00:00
+2025-10-07 03:07:13 [SERVERTEST] INFO:   th3882 | 10/8/2025 12:00:00 AM | 22:00:00 - 23:00:00
+2025-10-07 03:07:13 [SERVERTEST] INFO:   th3882 | 10/9/2025 12:00:00 AM | 22:00:00 - 23:00:00
+2025-10-07 03:07:13 [SERVERTEST] INFO:   th3882 | 10/12/2025 12:00:00 AM | 22:00:00 - 23:00:00
+2025-10-07 03:07:13 [SERVERTEST] INFO:   th3882 | 10/13/2025 12:00:00 AM | 22:00:00 - 23:00:00
+2025-10-07 03:07:13 [SERVERTEST] INFO:   th3882 | 10/14/2025 12:00:00 AM | 22:00:00 - 23:00:00
+2025-10-07 03:07:13 [SERVERTEST] INFO:   th3882 | 10/15/2025 12:00:00 AM | 22:00:00 - 23:00:00
+2025-10-07 03:07:13 [SERVERTEST] INFO:   th3882 | 10/16/2025 12:00:00 AM | 22:00:00 - 23:00:00
+2025-10-07 03:07:13 [SERVERTEST] INFO:   th3882 | 10/19/2025 12:00:00 AM | 22:00:00 - 23:00:00
+2025-10-07 03:07:13 [SERVERTEST] INFO:   th3882 | 10/20/2025 12:00:00 AM | 22:00:00 - 23:00:00
+2025-10-07 03:07:13 [SERVERTEST] INFO:   th3882 | 10/21/2025 12:00:00 AM | 22:00:00 - 23:00:00
+2025-10-07 03:07:13 [SERVERTEST] INFO:   th3882 | 10/22/2025 12:00:00 AM | 22:00:00 - 23:00:00
+2025-10-07 03:07:13 [SERVERTEST] INFO:   th3882 | 10/23/2025 12:00:00 AM | 22:00:00 - 23:00:00
+2025-10-07 03:07:13 [SERVERTEST] INFO:   th3882 | 10/26/2025 12:00:00 AM | 22:00:00 - 23:00:00
+2025-10-07 03:07:13 [SERVERTEST] INFO:   th3882 | 10/27/2025 12:00:00 AM | 22:00:00 - 23:00:00
+2025-10-07 03:07:13 [SERVERTEST] INFO:   th3882 | 10/28/2025 12:00:00 AM | 22:00:00 - 23:00:00
+2025-10-07 03:07:13 [SERVERTEST] INFO:   th3882 | 10/29/2025 12:00:00 AM | 22:00:00 - 23:00:00
+2025-10-07 03:07:13 [SERVERTEST] INFO:   th3882 | 10/30/2025 12:00:00 AM | 22:00:00 - 23:00:00
