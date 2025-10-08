@@ -16,3 +16,5 @@
 2025-10-08 16:29:37 [LOCALTEST] INFO: [DB-SIZE] AWSaraSchedule_new date range: 2025-10-06 to 2025-10-10
 2025-10-08 16:29:37 [LOCALTEST] INFO: [DB-SIZE] AWSmanpower_new date range: 2025-10-01 to 2025-10-31
 2025-10-08 16:29:38 [LOCALTEST] INFO: [PERF] Page_Load COMPLETE in 3050ms at 16:29:38.425
+2025-10-08 17:58:05 [LOCALTEST] ERROR: GetTeams failed after 517ms: Fatal error encountered during command execution
+2025-10-08 17:58:05 [LOCALTEST] INFO: [PERF] Page_Load COMPLETE in 519ms at 17:58:05.463

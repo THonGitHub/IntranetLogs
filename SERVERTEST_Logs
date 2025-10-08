@@ -1,2 +1,6 @@
-2025-10-08 14:29:40 UTC [USER: th3882] [HOST: 135.76.149.245 / 135.76.149.245] ACTION: Application opened
-2025-10-08 14:31:37 UTC [USER: pb199k] [HOST: 135.76.151.186 / 135.76.151.186] ACTION: Application opened
+
+The page isn’t redirecting properly
+
+Firefox has detected that the server is redirecting the request for this address in a way that will never complete.
+
+    This problem can sometimes be caused by disabling or refusing to accept cookies.
