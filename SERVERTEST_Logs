@@ -39,3 +39,16 @@
 2025-10-15 08:31:11 [SERVERTEST] INFO: [CALLS] Total calls for September: 789
 2025-10-15 08:31:12 [SERVERTEST] INFO: [CALLS] Retrieved 137 average values
 2025-10-15 08:31:12 [SERVERTEST] INFO: [CALLS] Calls row populated successfully
+2025-10-15 08:43:41 [SERVERTEST] INFO: [PERF] Skipping BindTeams in Page_Load - Calendar event will handle it
+2025-10-15 08:43:41 [SERVERTEST] INFO: [CALENDAR] Month changed to 2025-08
+2025-10-15 08:43:41 [SERVERTEST] INFO: [CALLS] Populating Calls row for September 2025
+2025-10-15 08:43:42 [SERVERTEST] INFO: [CALLS] Data already exists for September 2025
+2025-10-15 08:43:43 [SERVERTEST] INFO: [CALLS] Total calls for September: 789
+2025-10-15 08:43:44 [SERVERTEST] INFO: [CALLS] Retrieved 137 average values
+2025-10-15 08:43:44 [SERVERTEST] INFO: [CALLS] Calls row populated successfully
+2025-10-15 08:43:49 [SERVERTEST] INFO: [PERF] Skipping BindTeams in Page_Load - Calendar event will handle it
+2025-10-15 08:43:49 [SERVERTEST] INFO: [CALLS] Populating Calls row for September 2025
+2025-10-15 08:43:50 [SERVERTEST] INFO: [CALLS] Data already exists for September 2025
+2025-10-15 08:43:52 [SERVERTEST] INFO: [CALLS] Total calls for September: 789
+2025-10-15 08:43:53 [SERVERTEST] INFO: [CALLS] Retrieved 137 average values
+2025-10-15 08:43:53 [SERVERTEST] INFO: [CALLS] Calls row populated successfully
