@@ -1,13 +1,144 @@
-=== NEW SESSION STARTED 2025-10-15 10:45:05 ===
-2025-10-15 10:45:12 [SERVERTEST] INFO: AUTH TIMING: Username resolved to 'th3882' in 0ms
-2025-10-15 10:45:12 [SERVERTEST] INFO: WHITELIST: Checking database first for user th3882
-2025-10-15 10:45:14 [SERVERTEST] INFO: DEBUG: Returned from CheckUserForWhitelist, result = FOUND
-2025-10-15 10:45:14 [SERVERTEST] INFO: WHITELIST HIT: User th3882 found in database, skipping LDAP check
-2025-10-15 10:45:14 [SERVERTEST] INFO: AUTH TIMING: Company user validation took 2156.4461ms
-2025-10-15 10:45:14 [SERVERTEST] INFO: AUTH TIMING: GetCurrentUser() COMPLETE in 2162ms
-2025-10-15 10:49:34 [SERVERTEST] INFO: [PERF] Skipping BindTeams in Page_Load - Calendar event will handle it
-2025-10-15 10:49:35 [SERVERTEST] INFO: [CALLS] Populating Calls row for September 2025 (calendar showing October 2025)
-2025-10-15 10:49:36 [SERVERTEST] INFO: [CALLS] Data already exists for September 2025
-2025-10-15 10:49:37 [SERVERTEST] INFO: [CALLS] Total calls for September: 789
-2025-10-15 10:49:38 [SERVERTEST] INFO: [CALLS] Retrieved 137 average values
-2025-10-15 10:49:38 [SERVERTEST] INFO: [CALLS] Calls row populated successfully
+-- =====================================================
+-- ARA SCHEDULER - NEW DATABASE TABLES
+-- Vytvorenie všetkých tabuliek s "_new" sufixom
+-- =====================================================
+
+-- 1. HLAVNÁ TABUĽKA: AWSusers_new (zjednodušená štruktúra)
+-- Create table with Role as nullable
+CREATE TABLE AWSusers_new (
+  UserId varchar(10) NOT NULL PRIMARY KEY,
+  Name varchar(50) NOT NULL,
+  LastName varchar(50) NOT NULL,
+  Rights int NOT NULL DEFAULT 2,
+  Role varchar(10) NULL,  -- NULL allowed for disabled users
+  Team varchar(10) NULL,
+  IsUserDisabled tinyint(1) DEFAULT 0,
+  CreationDate datetime DEFAULT CURRENT_TIMESTAMP,
+  LastUpdate datetime DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  LastChangeMadeBy varchar(10) NOT NULL,
+
+  INDEX idx_role_new (Role),
+  INDEX idx_team_new (Team),
+  INDEX idx_active_users_new (IsUserDisabled),
+  INDEX idx_managers_new (Role, IsUserDisabled),
+
+  CONSTRAINT chk_role_values_new CHECK (Role IS NULL OR Role IN ('manager', 'member')),
+  CONSTRAINT chk_rights_values_new CHECK (Rights IN (0, 1, 2, 21, 22, 23)),
+  CONSTRAINT fk_team_manager_new FOREIGN KEY (Team) REFERENCES AWSusers_new (UserId) ON DELETE SET NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+-- 2. SHIFT SCHEDULE TABUĽKA: AWSshiftSchedule_new (nezmenená štruktúra)
+CREATE TABLE AWSshiftSchedule_new (
+  id int NOT NULL AUTO_INCREMENT,
+  userId varchar(10) NOT NULL,
+  date date NOT NULL,
+  startTime time NOT NULL,
+  endTime time NOT NULL,
+  createdBy varchar(10) NOT NULL,
+  createdDate datetime NOT NULL,
+  lastUpdated datetime NOT NULL,
+  PRIMARY KEY (id),
+  INDEX idx_user_date_range_new (userId, date, startTime, endTime),
+  INDEX idx_date_range_new (date, startTime, endTime),
+  CONSTRAINT fk_shift_user_new FOREIGN KEY (userId) REFERENCES AWSusers_new (UserId) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+-- 3. ARA SCHEDULE TABUĽKA: AWSaraSchedule_new (nezmenená štruktúra)
+CREATE TABLE AWSaraSchedule_new (
+  id int NOT NULL AUTO_INCREMENT,
+  userId varchar(10) NOT NULL,
+  date date NOT NULL,
+  startTime time NOT NULL,
+  endTime time NOT NULL,
+  createdBy varchar(10) NOT NULL,
+  createdDate datetime NOT NULL,
+  lastUpdated datetime NOT NULL,
+  PRIMARY KEY (id),
+  INDEX idx_user_date_range_ara_new (userId, date, startTime, endTime),
+  INDEX idx_date_range_ara_new (date, startTime, endTime),
+  CONSTRAINT fk_ara_user_new FOREIGN KEY (userId) REFERENCES AWSusers_new (UserId) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+-- 4. MANPOWER TABUĽKA: AWSmanpower_new (upravená: teamName → managerId)
+CREATE TABLE AWSmanpower_new (
+  id int NOT NULL AUTO_INCREMENT,
+  managerId varchar(10) NOT NULL,
+  date date NOT NULL,
+  hour int NOT NULL,
+  manpowerCount int NOT NULL DEFAULT 0,
+  lastUpdated datetime NOT NULL,
+  PRIMARY KEY (id),
+  UNIQUE KEY uk_manager_date_hour_new (managerId, date, hour),
+  INDEX idx_manager_date_range_new (managerId, date),
+  INDEX idx_date_hour_new (date, hour),
+  CONSTRAINT fk_manpower_manager_new FOREIGN KEY (managerId) REFERENCES AWSusers_new (UserId) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+-- 5. UCCE TABUĽKA: AWSucceData_new (Purpose: Store UCCE call data for historical reporting)
+CREATE TABLE AWSucceData_new (
+    RecordID INT PRIMARY KEY AUTO_INCREMENT,
+    DateTime DATETIME NOT NULL,
+    DayOfWeek INT NOT NULL COMMENT '1=Sunday, 2=Monday, ..., 7=Saturday (MySQL DAYOFWEEK)',
+    HourOfDay INT NOT NULL COMMENT '0-23',
+    CallsOffered INT DEFAULT 0 COMMENT 'Total calls offered from UCCE',
+    CallsHandled INT DEFAULT 0 COMMENT 'Total calls handled (for future use)',
+    CallsAnswered INT DEFAULT 0 COMMENT 'Total calls answered (for future use)',
+    CallsAbandoned INT DEFAULT 0 COMMENT 'Total calls abandoned (for future use)',
+    Month INT NOT NULL COMMENT '1-12',
+    Year INT NOT NULL COMMENT 'e.g., 2025',
+    CreatedDate DATETIME DEFAULT NOW(),
+
+    -- Unique constraint to prevent duplicate data
+    CONSTRAINT UQ_UCCEData UNIQUE (DateTime, HourOfDay)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='Stores UCCE historical call data downloaded monthly for reporting in ARA CALLendar';
+
+-- Create indexes for performance
+CREATE INDEX IX_UCCEData_DayHour ON AWSucceData_new(Year, Month, DayOfWeek, HourOfDay);
+CREATE INDEX IX_UCCEData_DateTime ON AWSucceData_new(DateTime);
+CREATE INDEX IX_UCCEData_MonthYear ON AWSucceData_new(Year, Month);
+
+-- 6. TICKETS TABUĽKA (table for ARA Tickets data
+CREATE TABLE AWStickets_new (
+    RecordID INT PRIMARY KEY AUTO_INCREMENT,
+    DateTime DATETIME NOT NULL,
+    DayOfWeek INT NOT NULL COMMENT '1=Sunday, 2=Monday, ..., 7=Saturday',
+    HourOfDay INT NOT NULL COMMENT '0-23',
+    TicketCount INT DEFAULT 0,
+    Month INT NOT NULL,
+    Year INT NOT NULL,
+    CreatedDate DATETIME DEFAULT NOW(),
+    CONSTRAINT UQ_TicketsData UNIQUE (DateTime, HourOfDay)
+) ENGINE=InnoDB;
+
+-- Indexes for query performance
+CREATE INDEX IX_TicketsData_DayHour ON AWStickets_new(Year, Month, DayOfWeek, HourOfDay);
+CREATE INDEX IX_TicketsData_DateTime ON AWStickets_new(DateTime);
+CREATE INDEX IX_TicketsData_MonthYear ON AWStickets_new(Year, Month);
+
+-- =====================================================
+-- VERIFIKAČNÉ QUERIES (voliteľné)
+-- =====================================================
+
+-- Kontrola vytvorenia tabuliek
+SELECT TABLE_NAME, TABLE_ROWS, CREATE_TIME 
+FROM information_schema.TABLES 
+WHERE TABLE_SCHEMA = DATABASE() 
+AND TABLE_NAME LIKE '%_new';
+
+-- Kontrola foreign key constraints
+SELECT TABLE_NAME, CONSTRAINT_NAME, REFERENCED_TABLE_NAME, REFERENCED_COLUMN_NAME
+FROM information_schema.KEY_COLUMN_USAGE 
+WHERE TABLE_SCHEMA = DATABASE() 
+AND TABLE_NAME LIKE '%_new' 
+AND REFERENCED_TABLE_NAME IS NOT NULL;
+
+-- Pre kompletnosť - pridanie manažéra ps163h (ak neexistuje)
+INSERT INTO AWSusers_new 
+(UserId, Name, LastName, Rights, Role, Team, IsUserDisabled, CreationDate, LastUpdate, LastChangeMadeBy)
+VALUES 
+('ps163h', 'Pavol', 'SEPELA', 1, 'manager', 'ps163h', 0, NOW(), NOW(), 'system');
+-- Pridanie teba ako admin member do AWSusers_new
+INSERT INTO AWSusers_new 
+(UserId, Name, LastName, Rights, Role, Team, IsUserDisabled, CreationDate, LastUpdate, LastChangeMadeBy)
+VALUES 
+('th3882', 'Tomas', 'HORNAK', 0, 'member', 'ps163h', 0, NOW(), NOW(), 'system');
