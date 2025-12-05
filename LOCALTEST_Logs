@@ -90,3 +90,4 @@
 2025-10-24 17:49:13.717 UTC [LOCALTEST] DEBUG [BLANK-ISSUE] USER:th3882 - ShowMemberView() - MembersRepeater.DataBind() completed
 2025-10-24 17:49:14.914 UTC [LOCALTEST] DEBUG [PHANTOM-ARA] USER:th3882 - ShowMemberView() completed - grid should be refreshed
 2025-10-24 17:49:14.914 UTC [LOCALTEST] DEBUG [PHANTOM-ARA] USER:th3882 - DELETE operation SUCCESS - User should see: 'Shift hours and ARA availability deleted successfully.'
+@@@ APPLICATION_START called at 2025-10-26 22:43:01.578 @@@
