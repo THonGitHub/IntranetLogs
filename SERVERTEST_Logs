@@ -12,3 +12,16 @@
 2025-12-11 22:01:32 UTC [SERVERTEST] INFO: [FIX-DEBUG] PopulateRequiredData - Cell 0: Formula=((2+0)/3)*0.8+0.5=1.03333333333333, Rounded=1
 2025-12-11 22:01:32 UTC [SERVERTEST] INFO: [FIX-DEBUG] PopulateRequiredData - END Successfully
 2025-12-11 22:01:32 UTC [SERVERTEST] INFO: [FIX-DEBUG] BindTeams - PopulateRequiredData completed, RequiredCells.Controls.Count: 168
+2025-12-11 22:08:51 UTC [SERVERTEST] INFO: [FIX-DEBUG] BindTeams - Environment: SERVERTEST, showCallsRow: True
+2025-12-11 22:08:51 UTC [SERVERTEST] INFO: [FIX-DEBUG] BindTeams - Calling PopulateCallsData() ALWAYS (not LOCALDEV)
+2025-12-11 22:08:55 UTC [SERVERTEST] INFO: [FIX-DEBUG] BindTeams - PopulateCallsData completed, CallsCells.Controls.Count: 168
+2025-12-11 22:08:55 UTC [SERVERTEST] INFO: [FIX-DEBUG] BindTeams - Calling PopulateTicketsData() ALWAYS
+2025-12-11 22:08:59 UTC [SERVERTEST] ERROR: [TICKETS] Failed to download data for November 2025
+2025-12-11 22:09:01 UTC [SERVERTEST] INFO: [FIX-DEBUG] BindTeams - PopulateTicketsData completed, TicketsCells.Controls.Count: 168
+2025-12-11 22:09:01 UTC [SERVERTEST] INFO: [FIX-DEBUG] BindTeams - showRequiredRow: True
+2025-12-11 22:09:01 UTC [SERVERTEST] INFO: [FIX-DEBUG] BindTeams - Calling PopulateRequiredData()
+2025-12-11 22:09:01 UTC [SERVERTEST] INFO: [FIX-DEBUG] PopulateRequiredData - START
+2025-12-11 22:09:01 UTC [SERVERTEST] INFO: [FIX-DEBUG] PopulateRequiredData - Cell 0: CallsCells.Count=168, TicketsCells.Count=168, AIC=2, Tickets=0, useTickets=True
+2025-12-11 22:09:01 UTC [SERVERTEST] INFO: [FIX-DEBUG] PopulateRequiredData - Cell 0: Formula=((2+0)/3)*0.8+0.5=1.03333333333333, Rounded=1
+2025-12-11 22:09:01 UTC [SERVERTEST] INFO: [FIX-DEBUG] PopulateRequiredData - END Successfully
+2025-12-11 22:09:01 UTC [SERVERTEST] INFO: [FIX-DEBUG] BindTeams - PopulateRequiredData completed, RequiredCells.Controls.Count: 168
