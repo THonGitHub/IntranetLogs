@@ -1,57 +1,44 @@
-=== NEW SESSION STARTED 2025-12-12 14:25:51 ===
-2025-12-12 22:35:31 UTC [SERVERTEST] INFO: CheckDataExistsHandler called: userId=th3882, startDate=01/12/2025, endDate=31/12/2025, modalType=ara
-2025-12-12 22:35:31 UTC [SERVERTEST] INFO: [PERF-TEST] CheckDataExists START - modalType:ara
-2025-12-12 22:35:31 UTC [SERVERTEST] INFO: Parsed dates: 2025-12-01 to 2025-12-31, Days: Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday
-2025-12-12 22:35:31 UTC [SERVERTEST] INFO: CheckDataExistsHandler called: userId=th3882, startDate=01/12/2025, endDate=31/12/2025, modalType=shift
-2025-12-12 22:35:31 UTC [SERVERTEST] INFO: [PERF-TEST] CheckDataExists START - modalType:shift
-2025-12-12 22:35:31 UTC [SERVERTEST] INFO: Parsed dates: 2025-12-01 to 2025-12-31, Days: Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday
-2025-12-12 22:35:32 UTC [SERVERTEST] INFO: Found 10 existing records (out of 10 total in range)
-2025-12-12 22:35:32 UTC [SERVERTEST] INFO: [PERF-TEST] CheckDataExists END - modalType:ara, found:10, totalTime:1228ms
-2025-12-12 22:35:33 UTC [SERVERTEST] INFO: Found 46 existing records (out of 46 total in range)
-2025-12-12 22:35:33 UTC [SERVERTEST] INFO: [PERF-TEST] CheckDataExists END - modalType:shift, found:46, totalTime:1930ms
-2025-12-12 22:35:44 UTC [SERVERTEST] INFO: [PERF-TEST] Delete START - modalType:shift, range:2025-12-01 to 2025-12-31
-2025-12-12 22:35:45 UTC [SERVERTEST] INFO: DeleteShiftHoursByDays called: userId=th3882, startDate=2025-12-01, endDate=2025-12-31, days=Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday
-2025-12-12 22:35:47 UTC [SERVERTEST] INFO: DeleteShiftHoursByDays completed: Total deleted = 46 (bulk DELETE)
-2025-12-12 22:35:48 UTC [SERVERTEST] INFO: DeleteARAAvailabilityByDays: Deleted 0 pre-month cross-day records
-2025-12-12 22:35:48 UTC [SERVERTEST] INFO: DeleteARAAvailabilityByDays: Deleted 0 cross-day records from 30 dates
-2025-12-12 22:35:48 UTC [SERVERTEST] INFO: DeleteARAAvailabilityByDays: Deleted 10 main records (bulk DELETE)
-2025-12-12 22:35:48 UTC [SERVERTEST] INFO: DeleteARAAvailabilityByDays completed: Total deleted = 10
-2025-12-12 22:35:48 UTC [SERVERTEST] INFO: [PERF-TEST] Delete BOTH completed - time:2713ms, shift:True, ara:True
-2025-12-12 22:35:48 UTC [SERVERTEST] INFO: [PERF-TEST] Delete operation completed - modalType:shift, time:2714ms, success:True
-2025-12-12 22:35:50 UTC [SERVERTEST] INFO: [PERF-TEST] Delete cache operations completed - time:1494ms
-2025-12-12 22:35:59 UTC [SERVERTEST] INFO: [PERF-TEST] Delete member view refresh completed - time:9346ms
-2025-12-12 22:35:59 UTC [SERVERTEST] INFO: [PERF-TEST] Delete TOTAL COMPLETED - modalType:shift, totalTime:14767ms
-2025-12-12 22:39:37 UTC [SERVERTEST] INFO: [PERF-TEST] Save START - modalType:shift, range:2025-12-15 to 2025-12-14
-2025-12-12 22:39:37 UTC [SERVERTEST] INFO: [PERF-TEST] Save parsing completed - time:0ms, intervals:1, days:1
-2025-12-12 22:39:37 UTC [SERVERTEST] INFO: DeleteShiftHoursByDays called: userId=th3882, startDate=2025-12-15, endDate=2025-12-14, days=Monday
-2025-12-12 22:39:38 UTC [SERVERTEST] INFO: DeleteShiftHoursByDays completed: Total deleted = 0 (bulk DELETE)
-2025-12-12 22:39:38 UTC [SERVERTEST] INFO: [PERF-TEST] Save overwrite delete completed - time:1213ms
-2025-12-12 22:39:38 UTC [SERVERTEST] INFO: [PERF-TEST] Save record generation completed - time:0ms, records:0
-2025-12-12 22:39:39 UTC [SERVERTEST] ERROR: [PERF-SH] FAILED after 1214ms: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
-2025-12-12 22:39:39 UTC [SERVERTEST] INFO: [PERF-TEST] Save database write completed - modalType:shift, time:1218ms, success:False
-2025-12-12 22:40:42 UTC [SERVERTEST] INFO: CheckDataExistsHandler called: userId=th3882, startDate=15/12/2025, endDate=15/12/2025, modalType=shift
-2025-12-12 22:40:42 UTC [SERVERTEST] INFO: [PERF-TEST] CheckDataExists START - modalType:shift
-2025-12-12 22:40:42 UTC [SERVERTEST] INFO: Parsed dates: 2025-12-15 to 2025-12-15, Days: Monday
-2025-12-12 22:40:43 UTC [SERVERTEST] INFO: Found 0 existing records (out of 0 total in range)
-2025-12-12 22:40:43 UTC [SERVERTEST] INFO: [PERF-TEST] CheckDataExists END - modalType:shift, found:0, totalTime:1214ms
-2025-12-12 22:40:54 UTC [SERVERTEST] INFO: [PERF-TEST] Save START - modalType:shift, range:2025-12-15 to 2025-12-15
-2025-12-12 22:40:54 UTC [SERVERTEST] INFO: [PERF-TEST] Save parsing completed - time:1ms, intervals:1, days:1
-2025-12-12 22:40:54 UTC [SERVERTEST] INFO: Overwrite NOT confirmed (flag value: false)
-2025-12-12 22:40:54 UTC [SERVERTEST] INFO: [PERF-TEST] Save record generation completed - time:1ms, records:1
-2025-12-12 22:40:55 UTC [SERVERTEST] INFO: [PERF-TEST] Save database write completed - modalType:shift, time:1221ms, success:True
-2025-12-12 22:40:55 UTC [SERVERTEST] INFO: [PERF-TEST] Save cache operations completed - time:0ms
-2025-12-12 22:41:04 UTC [SERVERTEST] INFO: [PERF-TEST] Save member view refresh completed - time:9345ms
-2025-12-12 22:41:04 UTC [SERVERTEST] INFO: [PERF-TEST] Save TOTAL COMPLETED - modalType:shift, totalTime:10585ms
-2025-12-12 22:42:17 UTC [SERVERTEST] INFO: CheckDataExistsHandler called: userId=th3882, startDate=15/12/2025, endDate=21/12/2025, modalType=ara
-2025-12-12 22:42:17 UTC [SERVERTEST] INFO: [PERF-TEST] CheckDataExists START - modalType:ara
-2025-12-12 22:42:17 UTC [SERVERTEST] INFO: Parsed dates: 2025-12-15 to 2025-12-21, Days: Monday,Thursday,Friday,Saturday,Sunday
-2025-12-12 22:42:18 UTC [SERVERTEST] INFO: Found 0 existing records (out of 0 total in range)
-2025-12-12 22:42:18 UTC [SERVERTEST] INFO: [PERF-TEST] CheckDataExists END - modalType:ara, found:0, totalTime:1219ms
-2025-12-12 22:42:29 UTC [SERVERTEST] INFO: [PERF-TEST] Save START - modalType:ara, range:2025-12-15 to 2025-12-21
-2025-12-12 22:42:29 UTC [SERVERTEST] INFO: [PERF-TEST] Save parsing completed - time:1ms, intervals:1, days:5
-2025-12-12 22:42:29 UTC [SERVERTEST] INFO: Overwrite NOT confirmed (flag value: false)
-2025-12-12 22:42:29 UTC [SERVERTEST] INFO: [PERF-TEST] Save record generation completed - time:1ms, records:5
-2025-12-12 22:42:30 UTC [SERVERTEST] INFO: [PERF-TEST] Save database write completed - modalType:ara, time:1227ms, success:True
-2025-12-12 22:42:32 UTC [SERVERTEST] INFO: [PERF-TEST] Save cache operations completed - time:1609ms
-2025-12-12 22:42:41 UTC [SERVERTEST] INFO: [PERF-TEST] Save member view refresh completed - time:9426ms
-2025-12-12 22:42:41 UTC [SERVERTEST] INFO: [PERF-TEST] Save TOTAL COMPLETED - modalType:ara, totalTime:12264ms
+=== NEW SESSION STARTED 2025-12-13 08:39:46 ===
+2025-12-13 16:40:00.215 UTC [SERVERTEST] PERF: BindTeams START
+2025-12-13 16:40:03.637 UTC [SERVERTEST] PERF: Bulk utilization calculation for 15 teams: 140.6036ms
+2025-12-13 16:40:03.699 UTC [SERVERTEST] PERF: GetCachedManpowerData: 0ms, loaded 5 records
+2025-12-13 16:40:03.699 UTC [SERVERTEST] PERF: BindScrollableHeaders: 0ms
+2025-12-13 16:40:03.715 UTC [SERVERTEST] PERF: PopulateManpowerCells: 15.6239ms
+2025-12-13 16:40:11.778 UTC [SERVERTEST] PERF: BindTeams COMPLETE: 11562.6315ms
+2025-12-13 16:40:11.778 UTC [SERVERTEST] PERF: Page_Load COMPLETE in 24827ms
+2025-12-13 16:44:46.263 UTC [SERVERTEST] PERF: BindTeams START
+2025-12-13 16:44:46.380 UTC [SERVERTEST] PERF: Bulk utilization calculation for 15 teams: 0ms
+2025-12-13 16:44:46.958 UTC [SERVERTEST] PERF: GetCachedManpowerData: 0ms, loaded 65 records
+2025-12-13 16:44:46.958 UTC [SERVERTEST] PERF: BindScrollableHeaders: 0ms
+2025-12-13 16:44:47.021 UTC [SERVERTEST] PERF: PopulateManpowerCells: 62.501ms
+2025-12-13 16:44:53.888 UTC [SERVERTEST] PERF: BindTeams COMPLETE: 7624.9939ms
+2025-12-13 16:45:07.715 UTC [SERVERTEST] PERF: BindTeams START
+2025-12-13 16:45:07.840 UTC [SERVERTEST] PERF: Bulk utilization calculation for 15 teams: 0ms
+2025-12-13 16:45:08.340 UTC [SERVERTEST] PERF: GetCachedManpowerData: 0ms, loaded 65 records
+2025-12-13 16:45:08.340 UTC [SERVERTEST] PERF: BindScrollableHeaders: 0ms
+2025-12-13 16:45:08.403 UTC [SERVERTEST] PERF: PopulateManpowerCells: 62.5037ms
+2025-12-13 16:45:15.278 UTC [SERVERTEST] PERF: BindTeams COMPLETE: 7562.5605ms
+2025-12-13 16:45:15.278 UTC [SERVERTEST] PERF: Page_Load COMPLETE in 8709ms
+2025-12-13 16:45:15.278 UTC [SERVERTEST] PERF: ShowMemberView START: team='SEPELA, Pavol'
+2025-12-13 16:45:23.059 UTC [SERVERTEST] PERF: ShowMemberView COMPLETE: 7781.3142ms
+2025-12-13 16:45:46.306 UTC [SERVERTEST] PERF: ShowMemberView START: team='SEPELA, Pavol'
+2025-12-13 16:45:53.592 UTC [SERVERTEST] PERF: ShowMemberView COMPLETE: 7286.3647ms
+2025-12-13 16:45:53.592 UTC [SERVERTEST] PERF: Page_Load COMPLETE in 8420ms
+2025-12-13 16:46:20 UTC [SERVERTEST] INFO: CheckDataExistsHandler called: userId=th3882, startDate=31/12/2025, endDate=31/12/2025, modalType=shift
+2025-12-13 16:46:20 UTC [SERVERTEST] INFO: [PERF-TEST] CheckDataExists START - modalType:shift
+2025-12-13 16:46:20 UTC [SERVERTEST] INFO: Parsed dates: 2025-12-31 to 2025-12-31, Days: Wednesday
+2025-12-13 16:46:22 UTC [SERVERTEST] INFO: Found 0 existing records (out of 0 total in range)
+2025-12-13 16:46:22 UTC [SERVERTEST] INFO: [PERF-TEST] CheckDataExists END - modalType:shift, found:0, totalTime:1160ms
+2025-12-13 16:46:23.966 UTC [SERVERTEST] PERF: ShowMemberView START: team='SEPELA, Pavol'
+2025-12-13 16:46:31.227 UTC [SERVERTEST] PERF: ShowMemberView COMPLETE: 7260.5022ms
+2025-12-13 16:46:31.227 UTC [SERVERTEST] PERF: Page_Load COMPLETE in 8397ms
+2025-12-13 16:46:32 UTC [SERVERTEST] INFO: [PERF-TEST] Save START - modalType:shift, range:2025-12-31 to 2025-12-31
+2025-12-13 16:46:32 UTC [SERVERTEST] INFO: [PERF-TEST] Save parsing completed - time:0ms, intervals:1, days:1
+2025-12-13 16:46:32 UTC [SERVERTEST] INFO: Overwrite NOT confirmed (flag value: false)
+2025-12-13 16:46:32 UTC [SERVERTEST] INFO: [PERF-TEST] Save record generation completed - time:3ms, records:1
+2025-12-13 16:46:33 UTC [SERVERTEST] INFO: [PERF-TEST] Save database write completed - modalType:shift, time:1145ms, success:True
+2025-12-13 16:46:33 UTC [SERVERTEST] INFO: [PERF-TEST] Save cache operations completed - time:7ms
+2025-12-13 16:46:33.548 UTC [SERVERTEST] PERF: ShowMemberView START: team='SEPELA, Pavol'
+2025-12-13 16:46:41.978 UTC [SERVERTEST] PERF: ShowMemberView COMPLETE: 8429.3276ms
+2025-12-13 16:46:41 UTC [SERVERTEST] INFO: [PERF-TEST] Save member view refresh completed - time:8433ms
+2025-12-13 16:46:41 UTC [SERVERTEST] INFO: [PERF-TEST] Save TOTAL COMPLETED - modalType:shift, totalTime:9600ms
