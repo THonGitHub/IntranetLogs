@@ -1,0 +1,44 @@
+GET
+https://pivot-jp.intl.att.com/ARAcallendar/%3C%=%22~/Content/site.css?v=%22%20&%20DateTime.Now.Ticks.ToString()%20%%3E
+[HTTP/2 400  775ms]
+
+GET
+https://pivot-jp.intl.att.com/ARAcallendar/Scripts/jquery-3.7.1.min.js
+[HTTP/2 200  1053ms]
+
+GET
+https://pivot-jp.intl.att.com/ARAcallendar/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZK6nOHnClbCEfQRuodZ9IqoiZXAjsn2caEDMxF_M33NIr_Oy1ag-ZhKIgRWkQWtLJA2&t=638901284248157332
+[HTTP/1.1 200 OK 323ms]
+
+GET
+https://pivot-jp.intl.att.com/ARAcallendar/Scripts/WebForms/MsAjax/MicrosoftAjax.js
+[HTTP/2 200  1342ms]
+
+GET
+https://pivot-jp.intl.att.com/ARAcallendar/Scripts/WebForms/MsAjax/MicrosoftAjaxWebForms.js
+[HTTP/2 200  1636ms]
+
+GET
+https://pivot-jp.intl.att.com/ARAcallendar/
+
+GET
+https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.css
+[HTTP/1.1 200 OK 522ms]
+
+GET
+https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.js
+[HTTP/1.1 200 OK 597ms]
+
+GET
+https://pivot-jp.intl.att.com/ARAcallendar/Scripts/AppScripts/shift-hours.js?v=639012726871456827
+[HTTP/2 200  586ms]
+
+GET
+https://pivot-jp.intl.att.com/ARAcallendar/Scripts/AppScripts/modals.js?v=639012726871456827
+[HTTP/2 200  1030ms]
+
+Unknown pseudo-class or pseudo-element ‘-ms-clear’.  Ruleset ignored due to bad selector. flatpickr.min.css:13:660
+GET
+https://pivot-jp.intl.att.com/favicon.ico
+[HTTP/2 200  146ms]
+
