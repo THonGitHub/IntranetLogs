@@ -1,43 +1,42 @@
-=== NEW SESSION STARTED 2025-12-15 11:52:05 ===
-2025-12-15 19:52:05.698 UTC [SERVERTEST] PERF: Page_Load START
-2025-12-15 19:52:05.698 UTC [SERVERTEST] PERF: After all postback handlers
-2025-12-15 19:52:05.698 UTC [SERVERTEST] PERF: After clearTeam check
-2025-12-15 19:52:05.698 UTC [SERVERTEST] PERF: Before authentication
-2025-12-15 19:52:13.970 UTC [SERVERTEST] PERF: After authentication
-2025-12-15 19:52:13.970 UTC [SERVERTEST] PERF: After authorization check
-2025-12-15 19:52:13.970 UTC [SERVERTEST] PERF: Before BindTeams
-2025-12-15 19:52:13.986 UTC [SERVERTEST] PERF: BindTeams START
-2025-12-15 19:52:18.103 UTC [SERVERTEST] PERF: Bulk utilization calculation for 15 teams: 146.1709ms
-2025-12-15 19:52:18.900 UTC [SERVERTEST] PERF: GetCachedManpowerData: 0ms, loaded 79 records
-2025-12-15 19:52:18.900 UTC [SERVERTEST] PERF: BindScrollableHeaders: 0ms
-2025-12-15 19:52:18.978 UTC [SERVERTEST] PERF: PopulateManpowerCells: 78.1238ms
-2025-12-15 19:52:20.971 UTC [SERVERTEST] PERF: PopulateCallsData START
-2025-12-15 19:52:20.971 UTC [SERVERTEST] PERF: PopulateRequiredData START
-2025-12-15 19:52:20.987 UTC [SERVERTEST] PERF: PopulateTicketsData START
-2025-12-15 19:52:24.900 UTC [SERVERTEST] PERF: Parallel data population completed: 3923.0044ms (tasks: 3)
-2025-12-15 19:52:24.900 UTC [SERVERTEST] PERF: ApplyManpowerCellColors START
-2025-12-15 19:52:24.900 UTC [SERVERTEST] PERF: ApplyManpowerCellColors COMPLETE: 0ms
-2025-12-15 19:52:24.900 UTC [SERVERTEST] PERF: BindTeams COMPLETE: 10913.9365ms
-2025-12-15 19:52:24.900 UTC [SERVERTEST] PERF: Page_Load COMPLETE in 19198ms
-2025-12-15 19:52:24.900 UTC [SERVERTEST] PERF: RESPONSE SEND START - ViewState Serialization failed: Method1=Error serializing value 'System.Web.UI.StateBag' o, Method2=Error serializing value 'System.Web.UI.StateBag' o
-2025-12-15 19:54:04.278 UTC [SERVERTEST] PERF: Page_Load START
-2025-12-15 19:54:04.278 UTC [SERVERTEST] PERF: After all postback handlers
-2025-12-15 19:54:04.278 UTC [SERVERTEST] PERF: After clearTeam check
-2025-12-15 19:54:04.278 UTC [SERVERTEST] PERF: Before authentication
-2025-12-15 19:54:05.418 UTC [SERVERTEST] PERF: After authentication
-2025-12-15 19:54:05.418 UTC [SERVERTEST] PERF: After authorization check
-2025-12-15 19:54:05.418 UTC [SERVERTEST] PERF: Before BindTeams
-2025-12-15 19:54:05.418 UTC [SERVERTEST] PERF: BindTeams START
-2025-12-15 19:54:06.793 UTC [SERVERTEST] PERF: Bulk utilization calculation for 15 teams: 125.0084ms
-2025-12-15 19:54:07.402 UTC [SERVERTEST] PERF: GetCachedManpowerData: 0ms, loaded 79 records
-2025-12-15 19:54:07.402 UTC [SERVERTEST] PERF: BindScrollableHeaders: 0ms
-2025-12-15 19:54:07.496 UTC [SERVERTEST] PERF: PopulateManpowerCells: 93.7995ms
-2025-12-15 19:54:07.496 UTC [SERVERTEST] PERF: PopulateRequiredData START
-2025-12-15 19:54:07.496 UTC [SERVERTEST] PERF: PopulateCallsData START
-2025-12-15 19:54:07.496 UTC [SERVERTEST] PERF: PopulateTicketsData START
-2025-12-15 19:54:10.454 UTC [SERVERTEST] PERF: Parallel data population completed: 2954.8402ms (tasks: 3)
-2025-12-15 19:54:10.454 UTC [SERVERTEST] PERF: ApplyManpowerCellColors START
-2025-12-15 19:54:10.454 UTC [SERVERTEST] PERF: ApplyManpowerCellColors COMPLETE: 0ms
-2025-12-15 19:54:10.454 UTC [SERVERTEST] PERF: BindTeams COMPLETE: 5036.3848ms
-2025-12-15 19:54:10.454 UTC [SERVERTEST] PERF: Page_Load COMPLETE in 6165ms
-2025-12-15 19:54:10.454 UTC [SERVERTEST] PERF: RESPONSE SEND START - ViewState Serialization failed: Method1=Error serializing value 'System.Web.UI.StateBag' o, Method2=Error serializing value 'System.Web.UI.StateBag' o
+=== NEW SESSION STARTED 2025-12-15 12:44:12 ===
+2025-12-15 20:44:12.827 UTC [SERVERTEST] PERF: Page_Load START
+2025-12-15 20:44:12.827 UTC [SERVERTEST] PERF: After all postback handlers
+2025-12-15 20:44:12.827 UTC [SERVERTEST] PERF: After clearTeam check
+2025-12-15 20:44:12.827 UTC [SERVERTEST] PERF: Before authentication
+2025-12-15 20:44:21.204 UTC [SERVERTEST] PERF: After authentication
+2025-12-15 20:44:21.204 UTC [SERVERTEST] PERF: After authorization check
+2025-12-15 20:44:21.204 UTC [SERVERTEST] PERF: Before BindTeams
+2025-12-15 20:44:21.220 UTC [SERVERTEST] PERF: BindTeams START
+2025-12-15 20:44:25.348 UTC [SERVERTEST] PERF: Bulk utilization calculation for 15 teams: 140.559ms
+2025-12-15 20:44:26.051 UTC [SERVERTEST] PERF: GetCachedManpowerData: 0ms, loaded 79 records
+2025-12-15 20:44:26.051 UTC [SERVERTEST] PERF: BindScrollableHeaders: 0ms
+2025-12-15 20:44:26.130 UTC [SERVERTEST] PERF: PopulateManpowerCells: 78.1293ms
+2025-12-15 20:44:28.120 UTC [SERVERTEST] PERF: PopulateRequiredData START
+2025-12-15 20:44:28.120 UTC [SERVERTEST] PERF: PopulateCallsData START
+2025-12-15 20:44:28.120 UTC [SERVERTEST] PERF: PopulateTicketsData START
+2025-12-15 20:44:32.552 UTC [SERVERTEST] PERF: Parallel data population completed: 4442.7293ms (tasks: 3)
+2025-12-15 20:44:32.552 UTC [SERVERTEST] PERF: ApplyManpowerCellColors START
+2025-12-15 20:44:32.568 UTC [SERVERTEST] PERF: ApplyManpowerCellColors COMPLETE: 15.6615ms
+2025-12-15 20:44:32.568 UTC [SERVERTEST] PERF: BindTeams COMPLETE: 11347.4859ms
+2025-12-15 20:44:32.568 UTC [SERVERTEST] PERF: Page_Load COMPLETE in 19727ms
+2025-12-15 20:44:32.568 UTC [SERVERTEST] PERF: RESPONSE SEND START - ViewState Serialization failed: Method1=Error serializing value 'System.Web.UI.StateBag' of type 'System.Web.UI.StateBag.', Method2=Error serializing value 'System.Web.UI.StateBag' of type 'System.Web.UI.StateBag.'
+2025-12-15 20:46:02.994 UTC [SERVERTEST] PERF: Page_Load START
+2025-12-15 20:46:02.994 UTC [SERVERTEST] PERF: After all postback handlers
+2025-12-15 20:46:02.994 UTC [SERVERTEST] PERF: After clearTeam check
+2025-12-15 20:46:02.994 UTC [SERVERTEST] PERF: Before authentication
+2025-12-15 20:46:04.134 UTC [SERVERTEST] PERF: After authentication
+2025-12-15 20:46:04.134 UTC [SERVERTEST] PERF: After authorization check
+2025-12-15 20:46:04.134 UTC [SERVERTEST] PERF: Before BindTeams
+2025-12-15 20:46:04.134 UTC [SERVERTEST] PERF: BindTeams START
+2025-12-15 20:46:05.512 UTC [SERVERTEST] PERF: Bulk utilization calculation for 15 teams: 124.9446ms
+2025-12-15 20:46:06.090 UTC [SERVERTEST] PERF: GetCachedManpowerData: 0ms, loaded 79 records
+2025-12-15 20:46:06.090 UTC [SERVERTEST] PERF: BindScrollableHeaders: 0ms
+2025-12-15 20:46:06.153 UTC [SERVERTEST] PERF: PopulateManpowerCells: 62.5024ms
+2025-12-15 20:46:06.153 UTC [SERVERTEST] PERF: PopulateCallsData START
+2025-12-15 20:46:06.153 UTC [SERVERTEST] PERF: PopulateRequiredData START
+2025-12-15 20:46:50.024 UTC [SERVERTEST] PERF: Parallel data population completed: 43865.4356ms (tasks: 3)
+2025-12-15 20:46:50.024 UTC [SERVERTEST] PERF: ApplyManpowerCellColors START
+2025-12-15 20:46:50.024 UTC [SERVERTEST] PERF: ApplyManpowerCellColors COMPLETE: 0ms
+2025-12-15 20:46:50.024 UTC [SERVERTEST] PERF: BindTeams COMPLETE: 45889.4043ms
+2025-12-15 20:46:50.024 UTC [SERVERTEST] PERF: Page_Load COMPLETE in 47030ms
+2025-12-15 20:46:50.024 UTC [SERVERTEST] PERF: RESPONSE SEND START - ViewState Serialization failed: Method1=Error serializing value 'System.Web.UI.StateBag' of type 'System.Web.UI.StateBag.', Method2=Error serializing value 'System.Web.UI.StateBag' of type 'System.Web.UI.StateBag.'
