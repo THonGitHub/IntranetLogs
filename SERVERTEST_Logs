@@ -1,57 +1,43 @@
-=== NEW SESSION STARTED 2025-12-15 11:27:04 ===
-2025-12-15 19:27:05.713 UTC [SERVERTEST] PERF: Page_Load START
-2025-12-15 19:27:05.713 UTC [SERVERTEST] PERF: After all postback handlers
-2025-12-15 19:27:05.713 UTC [SERVERTEST] PERF: After clearTeam check
-2025-12-15 19:27:05.713 UTC [SERVERTEST] PERF: Before authentication
-2025-12-15 19:27:13.940 UTC [SERVERTEST] PERF: After authentication
-2025-12-15 19:27:13.940 UTC [SERVERTEST] PERF: After authorization check
-2025-12-15 19:27:13.940 UTC [SERVERTEST] PERF: Before BindTeams
-2025-12-15 19:27:13.956 UTC [SERVERTEST] PERF: BindTeams START
-2025-12-15 19:27:18.077 UTC [SERVERTEST] PERF: Bulk utilization calculation for 15 teams: 140.6169ms
-2025-12-15 19:27:18.718 UTC [SERVERTEST] PERF: GetCachedManpowerData: 0ms, loaded 79 records
-2025-12-15 19:27:18.718 UTC [SERVERTEST] PERF: BindScrollableHeaders: 0ms
-2025-12-15 19:27:18.812 UTC [SERVERTEST] PERF: PopulateManpowerCells: 93.7529ms
-2025-12-15 19:27:20.813 UTC [SERVERTEST] PERF: PopulateCallsData START
-2025-12-15 19:27:20.813 UTC [SERVERTEST] PERF: PopulateTicketsData START
-2025-12-15 19:27:20.813 UTC [SERVERTEST] PERF: PopulateRequiredData START
-2025-12-15 19:27:23 UTC [SERVERTEST] ERROR: [TICKETS] Error getting total for 2025-11: Unable to connect to any of the specified MySQL hosts
-2025-12-15 19:27:24.225 UTC [SERVERTEST] PERF: Parallel data population completed: 3421.7515ms (tasks: 3)
-2025-12-15 19:27:24.225 UTC [SERVERTEST] PERF: ApplyManpowerCellColors START
-2025-12-15 19:27:24.225 UTC [SERVERTEST] PERF: ApplyManpowerCellColors COMPLETE: 0ms
-2025-12-15 19:27:24.225 UTC [SERVERTEST] PERF: BindTeams COMPLETE: 10269.4443ms
-2025-12-15 19:27:24.225 UTC [SERVERTEST] PERF: Page_Load COMPLETE in 18525ms
-2025-12-15 19:27:24.241 UTC [SERVERTEST] PERF: RESPONSE SEND START - ViewState size: 0 bytes (0KB)
-2025-12-15 19:29:03.953 UTC [SERVERTEST] PERF: Page_Load START
-2025-12-15 19:29:03.953 UTC [SERVERTEST] PERF: After all postback handlers
-2025-12-15 19:29:03.953 UTC [SERVERTEST] PERF: After clearTeam check
-2025-12-15 19:29:03.953 UTC [SERVERTEST] PERF: Before authentication
-2025-12-15 19:29:05.084 UTC [SERVERTEST] PERF: After authentication
-2025-12-15 19:29:05.084 UTC [SERVERTEST] PERF: After authorization check
-2025-12-15 19:29:05.084 UTC [SERVERTEST] PERF: Before BindTeams
-2025-12-15 19:29:05.084 UTC [SERVERTEST] PERF: BindTeams START
-2025-12-15 19:29:06.459 UTC [SERVERTEST] PERF: Bulk utilization calculation for 15 teams: 109.4206ms
-2025-12-15 19:29:07.021 UTC [SERVERTEST] PERF: GetCachedManpowerData: 0ms, loaded 79 records
-2025-12-15 19:29:07.021 UTC [SERVERTEST] PERF: BindScrollableHeaders: 0ms
-2025-12-15 19:29:07.099 UTC [SERVERTEST] PERF: PopulateManpowerCells: 78.1127ms
-2025-12-15 19:29:07.099 UTC [SERVERTEST] PERF: PopulateCallsData START
-2025-12-15 19:29:07.099 UTC [SERVERTEST] PERF: PopulateTicketsData START
-2025-12-15 19:29:07 UTC [SERVERTEST] ERROR: [TICKETS] Error checking data existence for 2025-11: Unable to connect to any of the specified MySQL hosts
-2025-12-15 19:29:07 UTC [SERVERTEST] ERROR: [TICKETS-DOWNLOAD] Error: Unable to connect to any of the specified MySQL hosts
-2025-12-15 19:29:07 UTC [SERVERTEST] ERROR: [TICKETS-DOWNLOAD] StackTrace:    at MySql.Data.Failover.FailoverManager.<AttemptConnectionAsync>d__7.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at MySql.Data.MySqlClient.MySqlConnection.<OpenAsync>d__94.MoveNext()
---- End of stack trace from previous location where exception was thrown ---
-   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
-   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
-   at MySql.Data.MySqlClient.MySqlConnection.Open()
-   at ARAworkloadScheduler.DataAccessTickets.DownloadTicketsForMonth(Int32 year, Int32 month) in C:\Users\th3882\OneDrive - AT&T Services, Inc\Documents\Programing\VisualBasic\ATT\Dev\ARAworkloadScheduler\Utils\DataAccessTickets.vb:line 119
-2025-12-15 19:29:07 UTC [SERVERTEST] ERROR: [TICKETS] Failed to download data for November 2025
-2025-12-15 19:29:07 UTC [SERVERTEST] ERROR: [TICKETS] Error getting total for 2025-11: Unable to connect to any of the specified MySQL hosts
-2025-12-15 19:29:09.391 UTC [SERVERTEST] PERF: Parallel data population completed: 2277.0963ms (tasks: 3)
-2025-12-15 19:29:09.391 UTC [SERVERTEST] PERF: ApplyManpowerCellColors START
-2025-12-15 19:29:09.391 UTC [SERVERTEST] PERF: ApplyManpowerCellColors COMPLETE: 0ms
-2025-12-15 19:29:09.391 UTC [SERVERTEST] PERF: BindTeams COMPLETE: 4307.1878ms
-2025-12-15 19:29:09.391 UTC [SERVERTEST] PERF: Page_Load COMPLETE in 5434ms
-2025-12-15 19:29:09.391 UTC [SERVERTEST] PERF: RESPONSE SEND START - ViewState size: 0 bytes (0KB)
+=== NEW SESSION STARTED 2025-12-15 11:52:05 ===
+2025-12-15 19:52:05.698 UTC [SERVERTEST] PERF: Page_Load START
+2025-12-15 19:52:05.698 UTC [SERVERTEST] PERF: After all postback handlers
+2025-12-15 19:52:05.698 UTC [SERVERTEST] PERF: After clearTeam check
+2025-12-15 19:52:05.698 UTC [SERVERTEST] PERF: Before authentication
+2025-12-15 19:52:13.970 UTC [SERVERTEST] PERF: After authentication
+2025-12-15 19:52:13.970 UTC [SERVERTEST] PERF: After authorization check
+2025-12-15 19:52:13.970 UTC [SERVERTEST] PERF: Before BindTeams
+2025-12-15 19:52:13.986 UTC [SERVERTEST] PERF: BindTeams START
+2025-12-15 19:52:18.103 UTC [SERVERTEST] PERF: Bulk utilization calculation for 15 teams: 146.1709ms
+2025-12-15 19:52:18.900 UTC [SERVERTEST] PERF: GetCachedManpowerData: 0ms, loaded 79 records
+2025-12-15 19:52:18.900 UTC [SERVERTEST] PERF: BindScrollableHeaders: 0ms
+2025-12-15 19:52:18.978 UTC [SERVERTEST] PERF: PopulateManpowerCells: 78.1238ms
+2025-12-15 19:52:20.971 UTC [SERVERTEST] PERF: PopulateCallsData START
+2025-12-15 19:52:20.971 UTC [SERVERTEST] PERF: PopulateRequiredData START
+2025-12-15 19:52:20.987 UTC [SERVERTEST] PERF: PopulateTicketsData START
+2025-12-15 19:52:24.900 UTC [SERVERTEST] PERF: Parallel data population completed: 3923.0044ms (tasks: 3)
+2025-12-15 19:52:24.900 UTC [SERVERTEST] PERF: ApplyManpowerCellColors START
+2025-12-15 19:52:24.900 UTC [SERVERTEST] PERF: ApplyManpowerCellColors COMPLETE: 0ms
+2025-12-15 19:52:24.900 UTC [SERVERTEST] PERF: BindTeams COMPLETE: 10913.9365ms
+2025-12-15 19:52:24.900 UTC [SERVERTEST] PERF: Page_Load COMPLETE in 19198ms
+2025-12-15 19:52:24.900 UTC [SERVERTEST] PERF: RESPONSE SEND START - ViewState Serialization failed: Method1=Error serializing value 'System.Web.UI.StateBag' o, Method2=Error serializing value 'System.Web.UI.StateBag' o
+2025-12-15 19:54:04.278 UTC [SERVERTEST] PERF: Page_Load START
+2025-12-15 19:54:04.278 UTC [SERVERTEST] PERF: After all postback handlers
+2025-12-15 19:54:04.278 UTC [SERVERTEST] PERF: After clearTeam check
+2025-12-15 19:54:04.278 UTC [SERVERTEST] PERF: Before authentication
+2025-12-15 19:54:05.418 UTC [SERVERTEST] PERF: After authentication
+2025-12-15 19:54:05.418 UTC [SERVERTEST] PERF: After authorization check
+2025-12-15 19:54:05.418 UTC [SERVERTEST] PERF: Before BindTeams
+2025-12-15 19:54:05.418 UTC [SERVERTEST] PERF: BindTeams START
+2025-12-15 19:54:06.793 UTC [SERVERTEST] PERF: Bulk utilization calculation for 15 teams: 125.0084ms
+2025-12-15 19:54:07.402 UTC [SERVERTEST] PERF: GetCachedManpowerData: 0ms, loaded 79 records
+2025-12-15 19:54:07.402 UTC [SERVERTEST] PERF: BindScrollableHeaders: 0ms
+2025-12-15 19:54:07.496 UTC [SERVERTEST] PERF: PopulateManpowerCells: 93.7995ms
+2025-12-15 19:54:07.496 UTC [SERVERTEST] PERF: PopulateRequiredData START
+2025-12-15 19:54:07.496 UTC [SERVERTEST] PERF: PopulateCallsData START
+2025-12-15 19:54:07.496 UTC [SERVERTEST] PERF: PopulateTicketsData START
+2025-12-15 19:54:10.454 UTC [SERVERTEST] PERF: Parallel data population completed: 2954.8402ms (tasks: 3)
+2025-12-15 19:54:10.454 UTC [SERVERTEST] PERF: ApplyManpowerCellColors START
+2025-12-15 19:54:10.454 UTC [SERVERTEST] PERF: ApplyManpowerCellColors COMPLETE: 0ms
+2025-12-15 19:54:10.454 UTC [SERVERTEST] PERF: BindTeams COMPLETE: 5036.3848ms
+2025-12-15 19:54:10.454 UTC [SERVERTEST] PERF: Page_Load COMPLETE in 6165ms
+2025-12-15 19:54:10.454 UTC [SERVERTEST] PERF: RESPONSE SEND START - ViewState Serialization failed: Method1=Error serializing value 'System.Web.UI.StateBag' o, Method2=Error serializing value 'System.Web.UI.StateBag' o
