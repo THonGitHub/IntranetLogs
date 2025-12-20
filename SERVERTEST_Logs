@@ -17,3 +17,4 @@
 2025-12-20 22:08:15.570 UTC [SERVERTEST] PERF: Before authentication
 2025-12-20 22:08:18.538 UTC [SERVERTEST] PERF: After authentication
 2025-12-20 22:08:18.538 UTC [SERVERTEST] PERF: RESPONSE SEND START - ViewState Serialization failed: Method1=Error serializing value 'System.Web.UI.StateBag' of type 'System.Web.UI.StateBag.', Method2=Error serializing value 'System.Web.UI.StateBag' of type 'System.Web.UI.StateBag.'
+@@@ APPLICATION_START called at 2025-12-20 14:29:51.205 @@@
