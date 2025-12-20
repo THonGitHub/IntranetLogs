@@ -1,17 +1,2 @@
- git status
-On branch master
-Your branch and 'origin/master' have diverged,
-and have 1 and 2 different commits each, respectively.
-  (use "git pull" if you want to integrate the remote branch with yours)
-
-You have unmerged paths.
-  (fix conflicts and run "git commit")
-  (use "git merge --abort" to abort the merge)
-
-Changes to be committed:
-        modified:   ARAworkloadScheduler.API/ARAworkloadScheduler.API.vbproj
-        modified:   ARAworkloadScheduler.API/packages.config
-
-Unmerged paths:
-  (use "git add <file>..." to mark resolution)
-        both modified:   api/Web.config
+git checkout --theirs api/web.config
+error: pathspec 'api/web.config' did not match any file(s) known to git
