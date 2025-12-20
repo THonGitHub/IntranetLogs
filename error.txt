@@ -1,15 +1,15 @@
 
 Server Error in '/ARAcallendar/api' Application.
-Could not load file or assembly 'Microsoft.AspNet.TelemetryCorrelation' or one of its dependencies. The system cannot find the file specified.
+Could not load file or assembly 'Microsoft.AI.Web' or one of its dependencies. The system cannot find the file specified.
 Description: An unhandled exception occurred during the execution of the current web request. Please review the stack trace for more information about the error and where it originated in the code.
 
-Exception Details: System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.AspNet.TelemetryCorrelation' or one of its dependencies. The system cannot find the file specified.
+Exception Details: System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.AI.Web' or one of its dependencies. The system cannot find the file specified.
 
 Source Error:
 
 An unhandled exception was generated during the execution of the current web request. Information regarding the origin and location of the exception can be identified using the exception stack trace below.
 
-Assembly Load Trace: The following information can be helpful to determine why the assembly 'Microsoft.AspNet.TelemetryCorrelation' could not be loaded.
+Assembly Load Trace: The following information can be helpful to determine why the assembly 'Microsoft.AI.Web' could not be loaded.
 
 
 WRN: Assembly binding logging is turned OFF.
@@ -21,14 +21,14 @@ To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fus
 Stack Trace:
 
 
-[FileNotFoundException: Could not load file or assembly 'Microsoft.AspNet.TelemetryCorrelation' or one of its dependencies. The system cannot find the file specified.]
+[FileNotFoundException: Could not load file or assembly 'Microsoft.AI.Web' or one of its dependencies. The system cannot find the file specified.]
    System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type) +0
    System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName) +96
    System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase) +65
    System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase) +62
    System.Web.Configuration.ConfigUtil.GetType(String typeName, String propertyName, ConfigurationElement configElement, XmlNode node, Boolean checkAptcaBit, Boolean ignoreCase) +50
 
-[ConfigurationErrorsException: Could not load file or assembly 'Microsoft.AspNet.TelemetryCorrelation' or one of its dependencies. The system cannot find the file specified.]
+[ConfigurationErrorsException: Could not load file or assembly 'Microsoft.AI.Web' or one of its dependencies. The system cannot find the file specified.]
    System.Web.Configuration.ConfigUtil.GetType(String typeName, String propertyName, ConfigurationElement configElement, XmlNode node, Boolean checkAptcaBit, Boolean ignoreCase) +572
    System.Web.Configuration.ConfigUtil.GetType(String typeName, String propertyName, ConfigurationElement configElement, Boolean checkAptcaBit) +31
    System.Web.Configuration.Common.ModulesEntry.SecureGetType(String typeName, String propertyName, ConfigurationElement configElement) +59
@@ -40,7 +40,7 @@ Stack Trace:
    System.Web.HttpApplicationFactory.GetSpecialApplicationInstance(IntPtr appContext, HttpContext context) +255
    System.Web.Hosting.PipelineRuntime.InitializeApplication(IntPtr appContext) +347
 
-[HttpException (0x80004005): Could not load file or assembly 'Microsoft.AspNet.TelemetryCorrelation' or one of its dependencies. The system cannot find the file specified.]
+[HttpException (0x80004005): Could not load file or assembly 'Microsoft.AI.Web' or one of its dependencies. The system cannot find the file specified.]
    System.Web.HttpRuntime.FirstRequestInit(HttpContext context) +552
    System.Web.HttpRuntime.EnsureFirstRequestInit(HttpContext context) +122
    System.Web.HttpRuntime.ProcessRequestNotificationPrivate(IIS7WorkerRequest wr, HttpContext context) +737

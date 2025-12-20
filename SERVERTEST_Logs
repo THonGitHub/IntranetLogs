@@ -1,8 +1,13 @@
-=== NEW SESSION STARTED 2025-12-20 09:21:49 ===
-2025-12-20 17:21:49.741 UTC [SERVERTEST] PERF: Page_Load START
-2025-12-20 17:21:49.741 UTC [SERVERTEST] PERF: After all postback handlers
-2025-12-20 17:21:49.741 UTC [SERVERTEST] PERF: After clearTeam check
-2025-12-20 17:21:49.741 UTC [SERVERTEST] PERF: Before authentication
-2025-12-20 17:22:04.768 UTC [SERVERTEST] PERF: After authentication
-2025-12-20 17:22:04.784 UTC [SERVERTEST] PERF: RESPONSE SEND START - ViewState Serialization failed: Method1=Error serializing value 'System.Web.UI.StateBag' of type 'System.Web.UI.StateBag.', Method2=Error serializing value 'System.Web.UI.StateBag' of type 'System.Web.UI.StateBag.'
-@@@ APPLICATION_START called at 2025-12-20 10:07:27.479 @@@
+=== NEW SESSION STARTED 2025-12-20 12:06:50 ===
+2025-12-20 20:06:50.100 UTC [SERVERTEST] PERF: Page_Load START
+2025-12-20 20:06:50.100 UTC [SERVERTEST] PERF: After all postback handlers
+2025-12-20 20:06:50.100 UTC [SERVERTEST] PERF: After clearTeam check
+2025-12-20 20:06:50.100 UTC [SERVERTEST] PERF: Before authentication
+2025-12-20 20:07:04.241 UTC [SERVERTEST] PERF: After authentication
+2025-12-20 20:07:04.241 UTC [SERVERTEST] PERF: RESPONSE SEND START - ViewState Serialization failed: Method1=Error serializing value 'System.Web.UI.StateBag' of type 'System.Web.UI.StateBag.', Method2=Error serializing value 'System.Web.UI.StateBag' of type 'System.Web.UI.StateBag.'
+2025-12-20 20:07:05.503 UTC [SERVERTEST] PERF: Page_Load START
+2025-12-20 20:07:05.503 UTC [SERVERTEST] PERF: After all postback handlers
+2025-12-20 20:07:05.503 UTC [SERVERTEST] PERF: After clearTeam check
+2025-12-20 20:07:05.503 UTC [SERVERTEST] PERF: Before authentication
+2025-12-20 20:07:05.503 UTC [SERVERTEST] PERF: After authentication
+2025-12-20 20:07:05.503 UTC [SERVERTEST] PERF: RESPONSE SEND START - ViewState Serialization failed: Method1=Error serializing value 'System.Web.UI.StateBag' of type 'System.Web.UI.StateBag.', Method2=Error serializing value 'System.Web.UI.StateBag' of type 'System.Web.UI.StateBag.'
