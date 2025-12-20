@@ -1,10 +1,49 @@
- Configuration Error
-Description: An error occurred during the processing of a configuration file required to service this request. Please review the specific error details below and modify your configuration file appropriately.
 
-Parser Error Message: The 'targetFramework' attribute in the <compilation> element of the Web.config file is used only to target version 4.0 and later of the .NET Framework (for example, '<compilation targetFramework="4.0">'). The 'targetFramework' attribute currently references a version that is later than the installed version of the .NET Framework. Specify a valid target version of the .NET Framework, or install the required version of the .NET Framework.
+Server Error in '/ARAcallendar/api' Application.
+Could not load file or assembly 'Microsoft.AspNet.TelemetryCorrelation' or one of its dependencies. The system cannot find the file specified.
+Description: An unhandled exception occurred during the execution of the current web request. Please review the stack trace for more information about the error and where it originated in the code.
+
+Exception Details: System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.AspNet.TelemetryCorrelation' or one of its dependencies. The system cannot find the file specified.
 
 Source Error:
 
-An application error occurred on the server. The current custom error settings for this application prevent the details of the application error from being viewed remotely (for security reasons). It could, however, be viewed by browsers running on the local server machine.
+An unhandled exception was generated during the execution of the current web request. Information regarding the origin and location of the exception can be identified using the exception stack trace below.
 
-Source File: D:\websites\ARAcallendar\api\web.config    Line: 14  
+Assembly Load Trace: The following information can be helpful to determine why the assembly 'Microsoft.AspNet.TelemetryCorrelation' could not be loaded.
+
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+
+Stack Trace:
+
+
+[FileNotFoundException: Could not load file or assembly 'Microsoft.AspNet.TelemetryCorrelation' or one of its dependencies. The system cannot find the file specified.]
+   System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type) +0
+   System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName) +96
+   System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase) +65
+   System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase) +62
+   System.Web.Configuration.ConfigUtil.GetType(String typeName, String propertyName, ConfigurationElement configElement, XmlNode node, Boolean checkAptcaBit, Boolean ignoreCase) +50
+
+[ConfigurationErrorsException: Could not load file or assembly 'Microsoft.AspNet.TelemetryCorrelation' or one of its dependencies. The system cannot find the file specified.]
+   System.Web.Configuration.ConfigUtil.GetType(String typeName, String propertyName, ConfigurationElement configElement, XmlNode node, Boolean checkAptcaBit, Boolean ignoreCase) +572
+   System.Web.Configuration.ConfigUtil.GetType(String typeName, String propertyName, ConfigurationElement configElement, Boolean checkAptcaBit) +31
+   System.Web.Configuration.Common.ModulesEntry.SecureGetType(String typeName, String propertyName, ConfigurationElement configElement) +59
+   System.Web.Configuration.Common.ModulesEntry..ctor(String name, String typeName, String propertyName, ConfigurationElement configElement) +59
+   System.Web.HttpApplication.BuildIntegratedModuleCollection(List`1 moduleList) +221
+   System.Web.HttpApplication.GetModuleCollection(IntPtr appContext) +1103
+   System.Web.HttpApplication.RegisterEventSubscriptionsWithIIS(IntPtr appContext, HttpContext context, MethodInfo[] handlers) +122
+   System.Web.HttpApplication.InitSpecial(HttpApplicationState state, MethodInfo[] handlers, IntPtr appContext, HttpContext context) +173
+   System.Web.HttpApplicationFactory.GetSpecialApplicationInstance(IntPtr appContext, HttpContext context) +255
+   System.Web.Hosting.PipelineRuntime.InitializeApplication(IntPtr appContext) +347
+
+[HttpException (0x80004005): Could not load file or assembly 'Microsoft.AspNet.TelemetryCorrelation' or one of its dependencies. The system cannot find the file specified.]
+   System.Web.HttpRuntime.FirstRequestInit(HttpContext context) +552
+   System.Web.HttpRuntime.EnsureFirstRequestInit(HttpContext context) +122
+   System.Web.HttpRuntime.ProcessRequestNotificationPrivate(IIS7WorkerRequest wr, HttpContext context) +737
+
+
+Version Information: Microsoft .NET Framework Version:4.0.30319; ASP.NET Version:4.8.4797.0 

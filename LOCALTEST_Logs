@@ -1,0 +1,9 @@
+=== NEW SESSION STARTED 2025-12-20 19:07:25 ===
+2025-12-20 18:07:26.100 UTC [LOCALTEST] PERF: Page_Load START
+2025-12-20 18:07:26.101 UTC [LOCALTEST] PERF: After all postback handlers
+2025-12-20 18:07:26.101 UTC [LOCALTEST] PERF: After clearTeam check
+2025-12-20 18:07:26.101 UTC [LOCALTEST] PERF: Before authentication
+2025-12-20 18:07:26 UTC [LOCALTEST] INFO: Application loaded in LOCALTEST environment
+2025-12-20 18:07:28 UTC [LOCALTEST] ERROR: CheckUserForWhitelist error: Unable to connect to any of the specified MySQL hosts
+2025-12-20 18:07:30.220 UTC [LOCALTEST] PERF: After authentication
+2025-12-20 18:07:30.589 UTC [LOCALTEST] PERF: RESPONSE SEND START - ViewState Serialization failed: Method1=Error serializing value 'System.Web.UI.StateBag' of type 'System.Web.UI.StateBag.', Method2=Error serializing value 'System.Web.UI.StateBag' of type 'System.Web.UI.StateBag.'
