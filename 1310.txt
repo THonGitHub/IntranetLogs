@@ -1,0 +1,70 @@
+Event code: 3008 
+Event message: A configuration error has occurred. 
+Event time: 12/20/2025 12:07:16 PM 
+Event time (UTC): 12/20/2025 8:07:16 PM 
+Event ID: e29853b1622543d09a91ef1d6676fc47 
+Event sequence: 1 
+Event occurrence: 1 
+Event detail code: 0 
+ 
+Application information: 
+    Application domain: /LM/W3SVC/3/ROOT/ARAcallendar/api-2-134107348359785367 
+    Trust level: Full 
+    Application Virtual Path: /ARAcallendar/api 
+    Application Path: D:\websites\ARAcallendar\api\ 
+    Machine name: INHYDPIVOT01 
+ 
+Process information: 
+    Process ID: 5356 
+    Process name: w3wp.exe 
+    Account name: INTL\th3882 
+ 
+Exception information: 
+    Exception type: ConfigurationErrorsException 
+    Exception message: Could not load file or assembly 'Microsoft.AI.Web' or one of its dependencies. The system cannot find the file specified.
+   at System.Web.Configuration.ConfigUtil.GetType(String typeName, String propertyName, ConfigurationElement configElement, XmlNode node, Boolean checkAptcaBit, Boolean ignoreCase)
+   at System.Web.Configuration.ConfigUtil.GetType(String typeName, String propertyName, ConfigurationElement configElement, Boolean checkAptcaBit)
+   at System.Web.Configuration.Common.ModulesEntry.SecureGetType(String typeName, String propertyName, ConfigurationElement configElement)
+   at System.Web.Configuration.Common.ModulesEntry..ctor(String name, String typeName, String propertyName, ConfigurationElement configElement)
+   at System.Web.HttpApplication.BuildIntegratedModuleCollection(List`1 moduleList)
+   at System.Web.HttpApplication.GetModuleCollection(IntPtr appContext)
+   at System.Web.HttpApplication.RegisterEventSubscriptionsWithIIS(IntPtr appContext, HttpContext context, MethodInfo[] handlers)
+   at System.Web.HttpApplication.InitSpecial(HttpApplicationState state, MethodInfo[] handlers, IntPtr appContext, HttpContext context)
+   at System.Web.HttpApplicationFactory.GetSpecialApplicationInstance(IntPtr appContext, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.InitializeApplication(IntPtr appContext)
+
+Could not load file or assembly 'Microsoft.AI.Web' or one of its dependencies. The system cannot find the file specified.
+   at System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   at System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   at System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   at System.Web.Compilation.BuildManager.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   at System.Web.Configuration.ConfigUtil.GetType(String typeName, String propertyName, ConfigurationElement configElement, XmlNode node, Boolean checkAptcaBit, Boolean ignoreCase)
+
+ 
+ 
+Request information: 
+    Request URL: https://pivot-jp.intl.att.com:443/ARAcallendar/api/teams 
+    Request path: /ARAcallendar/api/teams 
+    User host address: 135.52.122.148 
+    User:  
+    Is authenticated: False 
+    Authentication Type:  
+    Thread account name: INTL\th3882 
+ 
+Thread information: 
+    Thread ID: 8 
+    Thread account name: INTL\th3882 
+    Is impersonating: False 
+    Stack trace:    at System.Web.Configuration.ConfigUtil.GetType(String typeName, String propertyName, ConfigurationElement configElement, XmlNode node, Boolean checkAptcaBit, Boolean ignoreCase)
+   at System.Web.Configuration.ConfigUtil.GetType(String typeName, String propertyName, ConfigurationElement configElement, Boolean checkAptcaBit)
+   at System.Web.Configuration.Common.ModulesEntry.SecureGetType(String typeName, String propertyName, ConfigurationElement configElement)
+   at System.Web.Configuration.Common.ModulesEntry..ctor(String name, String typeName, String propertyName, ConfigurationElement configElement)
+   at System.Web.HttpApplication.BuildIntegratedModuleCollection(List`1 moduleList)
+   at System.Web.HttpApplication.GetModuleCollection(IntPtr appContext)
+   at System.Web.HttpApplication.RegisterEventSubscriptionsWithIIS(IntPtr appContext, HttpContext context, MethodInfo[] handlers)
+   at System.Web.HttpApplication.InitSpecial(HttpApplicationState state, MethodInfo[] handlers, IntPtr appContext, HttpContext context)
+   at System.Web.HttpApplicationFactory.GetSpecialApplicationInstance(IntPtr appContext, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.InitializeApplication(IntPtr appContext)
+ 
+ 
+Custom event details: 
