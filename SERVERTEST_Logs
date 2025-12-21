@@ -1,13 +1,7 @@
-=== NEW SESSION STARTED 2025-12-21 14:32:54 ===
-2025-12-21 22:32:54.303 UTC [SERVERTEST] PERF: Page_Load START
-2025-12-21 22:32:54.303 UTC [SERVERTEST] PERF: After all postback handlers
-2025-12-21 22:32:54.303 UTC [SERVERTEST] PERF: After clearTeam check
-2025-12-21 22:32:54.303 UTC [SERVERTEST] PERF: Before authentication
-2025-12-21 22:32:59.304 UTC [SERVERTEST] PERF: Page_Load START
-2025-12-21 22:32:59.304 UTC [SERVERTEST] PERF: After all postback handlers
-2025-12-21 22:32:59.304 UTC [SERVERTEST] PERF: After clearTeam check
-2025-12-21 22:32:59.304 UTC [SERVERTEST] PERF: Before authentication
-2025-12-21 22:33:08.498 UTC [SERVERTEST] PERF: After authentication
-2025-12-21 22:33:08.498 UTC [SERVERTEST] PERF: RESPONSE SEND START - ViewState Serialization failed: Method1=Error serializing value 'System.Web.UI.StateBag' of type 'System.Web.UI.StateBag.', Method2=Error serializing value 'System.Web.UI.StateBag' of type 'System.Web.UI.StateBag.'
-2025-12-21 22:33:08.716 UTC [SERVERTEST] PERF: After authentication
-2025-12-21 22:33:08.716 UTC [SERVERTEST] PERF: RESPONSE SEND START - ViewState Serialization failed: Method1=Error serializing value 'System.Web.UI.StateBag' of type 'System.Web.UI.StateBag.', Method2=Error serializing value 'System.Web.UI.StateBag' of type 'System.Web.UI.StateBag.'
+=== NEW SESSION STARTED 2025-12-21 14:46:02 ===
+2025-12-21 22:46:03.201 UTC [SERVERTEST] PERF: Page_Load START
+2025-12-21 22:46:03.201 UTC [SERVERTEST] PERF: After all postback handlers
+2025-12-21 22:46:03.201 UTC [SERVERTEST] PERF: After clearTeam check
+2025-12-21 22:46:03.201 UTC [SERVERTEST] PERF: Before authentication
+2025-12-21 22:46:16.566 UTC [SERVERTEST] PERF: After authentication
+2025-12-21 22:46:16.566 UTC [SERVERTEST] PERF: RESPONSE SEND START - ViewState Serialization failed: Method1=Error serializing value 'System.Web.UI.StateBag' of type 'System.Web.UI.StateBag.', Method2=Error serializing value 'System.Web.UI.StateBag' of type 'System.Web.UI.StateBag.'

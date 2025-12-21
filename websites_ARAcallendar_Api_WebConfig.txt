@@ -21,6 +21,9 @@
 		</httpModules>
 	</system.web>
 	<system.webServer>
+		<modules>
+			<clear />
+		</modules>
 		<httpProtocol>
 			<customHeaders>
 				<add name="Access-Control-Allow-Origin" value="*" />
