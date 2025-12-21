@@ -22,7 +22,8 @@
 	</system.web>
 	<system.webServer>
 		<modules>
-			<clear />
+			<remove name="TelemetryCorrelationHttpModule" />
+			<remove name="ApplicationInsightsWebTracking" />
 		</modules>
 		<httpProtocol>
 			<customHeaders>

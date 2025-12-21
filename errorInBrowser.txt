@@ -1,9 +1,9 @@
 
 Looks like there’s a problem with this site
 
-https://pivot-jp.intl.att.com/ARAcallendar/api/teams might have a temporary problem or it could have moved.
+https://pivot-jp.intl.att.com/ARAcallendar/api/teams sent back an error.
 
-Error code: 500 Internal Server Error
+Error code: 404 Not Found
 
-    The site could be temporarily unavailable or too busy. Try again in a few moments.
+    Check to make sure you’ve typed the website address correctly.
 
