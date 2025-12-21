@@ -86,6 +86,7 @@
   <location path="." inheritInChildApplications="false">
 	  <system.webServer>
 		<validation validateIntegratedModeConfiguration="false" />
+		<httpErrors errorMode="Detailed" />
 		<modules>
 		  <remove name="TelemetryCorrelationHttpModule" />
 		  <add name="TelemetryCorrelationHttpModule" type="Microsoft.AspNet.TelemetryCorrelation.TelemetryCorrelationHttpModule, Microsoft.AspNet.TelemetryCorrelation" preCondition="managedHandler" />
@@ -98,8 +99,5 @@
       <compiler language="vb;vbs;visualbasic;vbscript" extension=".vb" warningLevel="4" compilerOptions="/langversion:default /nowarn:41008,40000,40008 /define:_MYTYPE=\&quot;Web\&quot; /optionInfer+" type="Microsoft.CodeDom.Providers.DotNetCompilerPlatform.VBCodeProvider, Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=4.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
     </compilers>
   </system.codedom>
-    <system.webServer>
-        <httpErrors errorMode="Detailed" />
-    </system.webServer>
 </configuration>
 <!--ProjectGuid: CD8E53D2-B177-494B-AE08-1CEEF98E43D7-->
