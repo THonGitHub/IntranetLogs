@@ -1,2 +1,0 @@
-git checkout --theirs api/web.config
-error: pathspec 'api/web.config' did not match any file(s) known to git
