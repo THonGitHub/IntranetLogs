@@ -3,3 +3,5 @@
 2025-12-21 15:09:24.991 UTC [SERVERTEST] PERF: After all postback handlers
 2025-12-21 15:09:24.991 UTC [SERVERTEST] PERF: After clearTeam check
 2025-12-21 15:09:24.991 UTC [SERVERTEST] PERF: Before authentication
+2025-12-21 15:09:38.310 UTC [SERVERTEST] PERF: After authentication
+2025-12-21 15:09:38.310 UTC [SERVERTEST] PERF: RESPONSE SEND START - ViewState Serialization failed: Method1=Error serializing value 'System.Web.UI.StateBag' of type 'System.Web.UI.StateBag.', Method2=Error serializing value 'System.Web.UI.StateBag' of type 'System.Web.UI.StateBag.'
