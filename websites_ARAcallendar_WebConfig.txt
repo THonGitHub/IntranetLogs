@@ -5,10 +5,10 @@
   -->
 <configuration>
   <connectionStrings>
-		<add name="ProdDatabase" connectionString="Server=server1.intl.att.com,3306;Database=xxx;UID=xxx;pwd=xxx;Allow User Variables=True;" />
-		<add name="TestDatabase" connectionString="Server=server2.intl.att.com,3306;Database=xxx;UID=xxx;pwd=xxx;charset=utf8;pooling=true;min pool size=5;max pool size=50;connection timeout=30" />
-		<add name="UCCEConnection" connectionString="Data Source=server3.intl.att.com;Failover Partner=server31.intl.att.com;Database=xxx;Integrated Security=True;Connect Timeout=30;" providerName="System.Data.SqlClient"/>
-		<add name="TicketsConnection" connectionString="Server=server4.intl.att.com,3306;Database=xxx;Uid=xxx;Pwd=xxx;" providerName="MySql.Data.SqlClient"/>
+    <add name="ProdDatabase" connectionString="Server=deframydbp02.intl.att.com,3306;Database=TSI_ASSET_AUTOMATION;UID=TSI_ASSET_AUTOMATION;pwd=!TSI_Asset_Auto-02;Allow User Variables=True;" />
+    <add name="TestDatabase" connectionString="Server=deframydbd01.intl.att.com,3306;Database=TSI_ASSET_AUTOMATION;UID=TSI_ASSET_AUTOMATION;pwd=!TSI_Asset_Auto-01;charset=utf8;pooling=true;min pool size=5;max pool size=50;connection timeout=30" />
+    <add name="UCCEConnection" connectionString="Data Source=USALPHDSDDS02.intl.att.com;Failover Partner=USALPHDSDDS05.intl.att.com;Database=tsi_awdb;Integrated Security=True;Connect Timeout=30;" providerName="System.Data.SqlClient" />
+    <add name="TicketsConnection" connectionString="Server=defradkt01.intl.att.com,3306;Database=qcadmin;Uid=aracallendar;Pwd=P0rtalT!ck3t@ccess;" providerName="MySql.Data.SqlClient" />
   </connectionStrings>
   <appSettings>
     <add key="sgNameToCheckTsiAuthorization" value="TSI ALL" />
