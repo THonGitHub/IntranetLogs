@@ -17,7 +17,6 @@ To enable assembly bind failure logging, set the registry value [HKLM\Software\M
 Note: There is some performance penalty associated with assembly bind failure logging.
 To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
 
-
 Stack Trace:
 
 
