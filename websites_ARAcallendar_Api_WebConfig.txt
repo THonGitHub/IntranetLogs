@@ -8,7 +8,7 @@
 		<add name="TestDatabase" connectionString="Server=server2.intl.att.com,3306;Database=xxx;UID=xxx;pwd=xxx;charset=utf8;pooling=true;min pool size=5;max pool size=50;connection timeout=30" />
 		<add name="UCCEConnection" connectionString="Data Source=server3.intl.att.com;Failover Partner=server31.intl.att.com;Database=xxx;Integrated Security=True;Connect Timeout=30;" providerName="System.Data.SqlClient"/>
 		<add name="TicketsConnection" connectionString="Server=server4.intl.att.com,3306;Database=xxx;Uid=xxx;Pwd=xxx;" providerName="MySql.Data.SqlClient"/>
-	</connectionStrings>
+  </connectionStrings>
 	<appSettings>
 	</appSettings>
 	<system.web>
