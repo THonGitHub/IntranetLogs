@@ -1,8 +1,9 @@
 
-Server Error in '/ARAcallendar/api' Application.
-The resource cannot be found.
-Description: HTTP 404. The resource you are looking for (or one of its dependencies) could have been removed, had its name changed, or is temporarily unavailable.  Please review the following URL and make sure that it is spelled correctly.
+Looks like there’s a problem with this site
 
-Requested URL: /ARAcallendar/api/teams
+https://pivot-jp.intl.att.com/ARAcallendar/api/teams sent back an error.
 
-Version Information: Microsoft .NET Framework Version:4.0.30319; ASP.NET Version:4.8.4797.0 
+Error code: 404 Not Found
+
+    Check to make sure you’ve typed the website address correctly.
+
